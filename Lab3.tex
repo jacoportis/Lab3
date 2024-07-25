@@ -1,0 +1,102 @@
+\documentclass[openany,12pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{wrapfig}
+\usepackage[psdextra, colorlinks=true, allcolors=black]{hyperref}
+\usepackage[italian]{babel}
+\usepackage{afterpage}
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \newpage}
+\usepackage{import}
+\usepackage{physics}
+\usepackage{mhchem}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{physics}
+\newcommand{\notimplies}{%
+  \mathrel{{\ooalign{\hidewidth$\not\phantom{=}$\hidewidth\cr$\implies$}}}}
+  \newcommand{\notimpliedby}{%
+  \mathrel{{\ooalign{\hidewidth$\not\phantom{=}$\hidewidth\cr$\impliedby$}}}}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{ambienti}
+\usepackage[open]{bookmark}
+\ProvidesFile{puenc-greek.def}
+\usepackage{textgreek}
+\usepackage{float}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+\setlength\parindent{0pt}%e si gode, toglie lo spostmento a destra di una nuova riga
+\usepackage{caption}
+\usepackage{subcaption}
+\newcommand{\comment}[1]{}
+
+%simboli
+\usepackage{halloweenmath}
+\usepackage{pifont}
+\newcommand{\E}{È 
+\hspace{0.1mm}}
+
+\newcommand{\A}{Å 
+\hspace{0.1mm}}
+
+\begin{document}
+
+\thispagestyle{empty}
+\begin{center}
+
+\begin{minipage}[c]{0.45\textwidth}
+\begin{flushleft}
+\includegraphics[width=0.8\textwidth]{logo-unict-orizzontale-grigio.png}
+\end{flushleft}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.45\textwidth}
+\begin{flushright}
+\includegraphics[width=\textwidth]{logo_dfa_orizzontale}
+\end{flushright}
+\end{minipage}\\
+\medskip
+\hbox to \textwidth{\hrulefill}
+
+\vfill
+\vfill
+
+
+\uppercase{\sc{ \Large{\textbf{Laboratorio di fisica III}}}}\\
+
+\vfill
+\large{A cura di Peppino Salumieri}
+
+\vfill
+\vfill
+\hbox to \textwidth{\hrulefill}
+{\sc anno accademico 2021-2022}
+\end{center}
+
+\afterpage{\blankpage}
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\chapter{Arduino}
+%\import{./Chapter/1-Sections/}{1-primo}
+
+\textit{Carusi non ho tempo poi la faccio sta parte.}
+
+\chapter{Sorgenti di radiazione}
+\import{./Capitoli}{sorgenti_radiazione}
+%\import{./Chapter/2-Sections/}{1-primo}
+
+\chapter{Perdita di energia-particelle cariche}
+\import{./Capitoli}{perdita_energia_particelle_cariche}
+%\import{./Chapter/3-Sections/}{1-primo}
+
+\end{document}

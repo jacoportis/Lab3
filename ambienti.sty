@@ -1,0 +1,34 @@
+\usepackage[framemethod=tikz]{mdframed}
+\usepackage{tikz}
+\usepackage{graphicx}
+%AMBIENTE ESERCIZIO
+
+\mdfdefinestyle{esercizio}{ 
+  linewidth=0pt,
+  linecolor=black,
+  %backgroundcolor=gray!30,
+  outerlinecolor=black,
+  bottomline=false,rightline=false,topline=false,
+  outerlinewidth=3pt,
+  roundcorner=0pt,
+  innertopmargin=2pt,
+  innerbottommargin=5pt,
+  skipabove=\topsep,
+  skipbelow=\topsep,
+  nobreak=true,
+  frametitlefont=\bfseries\sffamily
+  %frametitlealignment=\centering,
+}
+
+\newcounter{esercizio}[chapter]
+\renewcommand{\theesercizio}{\thechapter.\arabic{esercizio}}
+
+\newenvironment{esercizio}[1][]{%
+  \refstepcounter{esercizio}% Incrementa il contatore e permette il riferimento
+  \ifstrempty{#1}
+    {\mdfsetup{frametitle={Esercizio \theesercizio}}}
+    {\mdfsetup{frametitle={Esercizio \theesercizio: #1}}}
+  \begin{mdframed}[style=esercizio]
+}{%
+  \end{mdframed}
+}
