@@ -15,7 +15,7 @@
   innerbottommargin=5pt,
   skipabove=\topsep,
   skipbelow=\topsep,
-  nobreak=true,
+  nobreak=false,
   frametitlefont=\bfseries\sffamily
   %frametitlealignment=\centering,
 }
@@ -29,6 +29,38 @@
     {\mdfsetup{frametitle={Esercizio \theesercizio}}}
     {\mdfsetup{frametitle={Esercizio \theesercizio: #1}}}
   \begin{mdframed}[style=esercizio]
+}{%
+  \end{mdframed}
+}
+
+%AMBIENTE APPROFONDIMENTO
+
+\mdfdefinestyle{approfondimento}{ 
+  linewidth=0pt,
+  linecolor=black,
+  %backgroundcolor=orange!30!gray,
+  outerlinecolor=teal,
+  bottomline=false,rightline=false,topline=false,
+  outerlinewidth=3pt,
+  roundcorner=0pt,
+  innertopmargin=2pt,
+  innerbottommargin=5pt,
+  skipabove=\topsep,
+  skipbelow=\topsep,
+  nobreak=false,
+  frametitlefont=\bfseries\sffamily
+  %frametitlealignment=\centering,
+}
+
+\newcounter{approfondimento}[chapter]
+\renewcommand{\theapprofondimento}{\thechapter.\arabic{approfondimento}}
+
+\newenvironment{approfondimento}[1][]{%
+  \refstepcounter{approfondimento}% Incrementa il contatore e permette il riferimento
+  \ifstrempty{#1}
+    {\mdfsetup{frametitle={Approfondimento \theapprofondimento}}}
+    {\mdfsetup{frametitle={Approfondimento \theapprofondimento: #1}}}
+  \begin{mdframed}[style=approfondimento]
 }{%
   \end{mdframed}
 }

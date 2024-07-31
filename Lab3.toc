@@ -1,37 +1,47 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
-\contentsline {chapter}{\numberline {1}Arduino}{4}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Sorgenti di radiazione}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Tipi di radiazione}{5}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Radiazioni ionizzanti}{5}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Sorgenti di radiazioni naturali}{6}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Sorgenti di radiazioni artificiali}{6}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Radiazioni cariche}{6}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}Radiazioni neutre}{6}{subsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.1.6}Radiazione cosmica secondaria}{7}{subsection.2.1.6}%
-\contentsline {section}{\numberline {2.2}Energia e potere penetrante}{7}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Range energia di interesse}{7}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Capacità penetrazione radiazioni}{7}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Nuclei instabili}{8}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Legge del decadimento radioattivo}{9}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Excursus: la datazione al carbonio $\rm ^{14}C$}{11}{subsection.2.4.1}%
-\contentsline {section}{\numberline {2.5}Isotopi radioattivi $\beta $}{11}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Esempio: decadimento doppio \ce {^{90}Sr / ^{90}Y}}{13}{subsection.2.5.1}%
-\contentsline {section}{\numberline {2.6}Isotopi radioattivi $\alpha $}{14}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Isotopi radioattivi $\gamma $}{15}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Sorgenti di fissione}{17}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Radiazione cosmica}{17}{section.2.9}%
-\contentsline {section}{\numberline {2.10}Unità di misura e nomenclatura}{18}{section.2.10}%
-\contentsline {subsection}{\numberline {2.10.1}Attività di una sorgente}{18}{subsection.2.10.1}%
-\contentsline {subsection}{\numberline {2.10.2}Concetto di dose}{19}{subsection.2.10.2}%
-\contentsline {subsection}{\numberline {2.10.3}Concetto di dose equivalente}{19}{subsection.2.10.3}%
-\contentsline {subsection}{\numberline {2.10.4}Dosi tipiche}{19}{subsection.2.10.4}%
-\contentsline {subsubsection}{Sorgenti naturali}{19}{section*.21}%
-\contentsline {subsubsection}{Sorgenti artificiali}{20}{section*.22}%
-\contentsline {subsubsection}{Trivia: il caso della banana}{20}{section*.23}%
-\contentsline {chapter}{\numberline {3}Perdita di energia-particelle cariche}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Principali meccanismi}{21}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Interazione coulombiana (inelastica) con gli elettroni atomici}{21}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Interazione (elastica) con i nuclei}{22}{subsection.3.1.2}%
-\contentsline {subsubsection}{Altri meccanismi}{22}{section*.24}%
-\contentsline {section}{\numberline {3.2}Relazione di Bethe-Bloch}{23}{section.3.2}%
+\contentsline {chapter}{\numberline {1}Arduino}{5}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Sorgenti di radiazione}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Tipi di radiazione}{6}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Radiazioni ionizzanti}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Sorgenti di radiazioni naturali}{7}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Sorgenti di radiazioni artificiali}{7}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Radiazioni cariche}{7}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Radiazioni neutre}{7}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Radiazione cosmica secondaria}{8}{subsection.2.1.6}%
+\contentsline {section}{\numberline {2.2}Energia e potere penetrante}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Range energia di interesse}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Capacità penetrazione radiazioni}{8}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Nuclei instabili}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Legge del decadimento radioattivo}{10}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Excursus: la datazione al carbonio $\rm ^{14}C$}{12}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}Isotopi radioattivi $\beta $}{12}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Esempio: decadimento doppio \ce {^{90}Sr / ^{90}Y}}{14}{subsection.2.5.1}%
+\contentsline {section}{\numberline {2.6}Isotopi radioattivi $\alpha $}{15}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Isotopi radioattivi $\gamma $}{16}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Sorgenti di fissione}{18}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Radiazione cosmica}{18}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Unità di misura e nomenclatura}{19}{section.2.10}%
+\contentsline {subsection}{\numberline {2.10.1}Attività di una sorgente}{19}{subsection.2.10.1}%
+\contentsline {subsection}{\numberline {2.10.2}Concetto di dose}{20}{subsection.2.10.2}%
+\contentsline {subsection}{\numberline {2.10.3}Concetto di dose equivalente}{20}{subsection.2.10.3}%
+\contentsline {subsection}{\numberline {2.10.4}Dosi tipiche}{20}{subsection.2.10.4}%
+\contentsline {subsubsection}{Sorgenti naturali}{20}{section*.21}%
+\contentsline {subsubsection}{Sorgenti artificiali}{21}{section*.22}%
+\contentsline {subsubsection}{Trivia: il caso della banana}{21}{section*.23}%
+\contentsline {chapter}{\numberline {3}Perdita di energia-particelle cariche}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Principali meccanismi}{22}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Interazione coulombiana (inelastica) con gli elettroni atomici}{22}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Interazione (elastica) con i nuclei}{23}{subsection.3.1.2}%
+\contentsline {subsubsection}{Altri meccanismi}{23}{section*.24}%
+\contentsline {section}{\numberline {3.2}Relazione di Bethe-Bloch}{24}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Perdita di energia per composti}{27}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Picco di Bragg}{28}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Fluttuazioni statistiche nella perdita di energia}{29}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Range di una particella}{29}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Il channeling}{33}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Come calcolare il range di una particella}{33}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Radiazione Cherenkov}{33}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Possibili esercizi}{35}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Il potenziale di ionizzazione medio}{36}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Come tenere conto di uno spessore finito}{36}{subsection.3.5.2}%

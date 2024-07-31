@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.20)  25 JUL 2024 11:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.20)  31 JUL 2024 14:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -549,120 +549,11 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@expandcount=\count332
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (ambienti.sty (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
-Package: mdframed 2013/07/01 1.9b: mdframed
- (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
-Package: zref-abspage 2023-09-14 v2.35 Module abspage for zref (HO)
- (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
-Package: zref-base 2023-09-14 v2.35 Module base for zref (HO)
- (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-Package zref Info: New property list: main on input line 767.
-Package zref Info: New property: default on input line 768.
-Package zref Info: New property: page on input line 769.
-)
-\c@abspage=\count333
-Package zref Info: New property: abspage on input line 67.
-) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
-Package: needspace 2010/09/12 v1.3d reserve vertical space
-)
-\mdf@templength=\skip71
-\c@mdf@globalstyle@cnt=\count334
-\mdf@skipabove@length=\skip72
-\mdf@skipbelow@length=\skip73
-\mdf@leftmargin@length=\skip74
-\mdf@rightmargin@length=\skip75
-\mdf@innerleftmargin@length=\skip76
-\mdf@innerrightmargin@length=\skip77
-\mdf@innertopmargin@length=\skip78
-\mdf@innerbottommargin@length=\skip79
-\mdf@splittopskip@length=\skip80
-\mdf@splitbottomskip@length=\skip81
-\mdf@outermargin@length=\skip82
-\mdf@innermargin@length=\skip83
-\mdf@linewidth@length=\skip84
-\mdf@innerlinewidth@length=\skip85
-\mdf@middlelinewidth@length=\skip86
-\mdf@outerlinewidth@length=\skip87
-\mdf@roundcorner@length=\skip88
-\mdf@footenotedistance@length=\skip89
-\mdf@userdefinedwidth@length=\skip90
-\mdf@needspace@length=\skip91
-\mdf@frametitleaboveskip@length=\skip92
-\mdf@frametitlebelowskip@length=\skip93
-\mdf@frametitlerulewidth@length=\skip94
-\mdf@frametitleleftmargin@length=\skip95
-\mdf@frametitlerightmargin@length=\skip96
-\mdf@shadowsize@length=\skip97
-\mdf@extratopheight@length=\skip98
-\mdf@subtitleabovelinewidth@length=\skip99
-\mdf@subtitlebelowlinewidth@length=\skip100
-\mdf@subtitleaboveskip@length=\skip101
-\mdf@subtitlebelowskip@length=\skip102
-\mdf@subtitleinneraboveskip@length=\skip103
-\mdf@subtitleinnerbelowskip@length=\skip104
-\mdf@subsubtitleabovelinewidth@length=\skip105
-\mdf@subsubtitlebelowlinewidth@length=\skip106
-\mdf@subsubtitleaboveskip@length=\skip107
-\mdf@subsubtitlebelowskip@length=\skip108
-\mdf@subsubtitleinneraboveskip@length=\skip109
-\mdf@subsubtitleinnerbelowskip@length=\skip110
- (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-1.mdf
-File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
-)
-\mdf@frametitlebox=\box72
-\mdf@footnotebox=\box73
-\mdf@splitbox@one=\box74
-\mdf@splitbox@two=\box75
-\mdf@splitbox@save=\box76
-\mdfsplitboxwidth=\skip111
-\mdfsplitboxtotalwidth=\skip112
-\mdfsplitboxheight=\skip113
-\mdfsplitboxdepth=\skip114
-\mdfsplitboxtotalheight=\skip115
-\mdfframetitleboxwidth=\skip116
-\mdfframetitleboxtotalwidth=\skip117
-\mdfframetitleboxheight=\skip118
-\mdfframetitleboxdepth=\skip119
-\mdfframetitleboxtotalheight=\skip120
-\mdffootnoteboxwidth=\skip121
-\mdffootnoteboxtotalwidth=\skip122
-\mdffootnoteboxheight=\skip123
-\mdffootnoteboxdepth=\skip124
-\mdffootnoteboxtotalheight=\skip125
-\mdftotallinewidth=\skip126
-\mdfboundingboxwidth=\skip127
-\mdfboundingboxtotalwidth=\skip128
-\mdfboundingboxheight=\skip129
-\mdfboundingboxdepth=\skip130
-\mdfboundingboxtotalheight=\skip131
-\mdf@freevspace@length=\skip132
-\mdf@horizontalwidthofbox@length=\skip133
-\mdf@verticalmarginwhole@length=\skip134
-\mdf@horizontalspaceofbox=\skip135
-\mdfsubtitleheight=\skip136
-\mdfsubsubtitleheight=\skip137
-\c@mdfcountframes=\count335
-
-****** mdframed patching \endmdf@trivlist
-
-****** -- success******
-
-\mdf@envdepth=\count336
-\c@mdf@env@i=\count337
-\c@mdf@env@ii=\count338
-\c@mdf@zref@counter=\count339
-Package zref Info: New property: mdf@pagevalue on input line 895.
-)
-\c@esercizio=\count340
-) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+))) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count341
+\BKM@id=\count333
 ))
 File: puenc-greek.def 
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/textgreek\textgreek.sty
@@ -1029,11 +920,11 @@ File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
 Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/*}. on input line 69.
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count342
+\c@float@type=\count334
 \float@exts=\toks42
-\float@box=\box77
+\float@box=\box72
 \@float@everytoks=\toks43
-\@floatcapt=\box78
+\@floatcapt=\box73
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
@@ -1048,76 +939,154 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen290
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count343
-\c@continuedfloat=\count344
+\c@caption@flags=\count335
+\c@continuedfloat=\count336
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count345
+\c@subfigure=\count337
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count346
-) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/halloweenmath\halloweenmath.sty
-Package: halloweenmath 2019/11/01 v0.11 (development)
- (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\pict2e.sty
-Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
- (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\pict2e.cfg
-File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+\c@subtable=\count338
+) (ambienti.sty (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+ (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2023-09-14 v2.35 Module abspage for zref (HO)
+ (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2023-09-14 v2.35 Module base for zref (HO)
+ (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-Package pict2e Info: Driver file: pdftex.def on input line 112.
-Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
- (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\p2e-pdftex.def
-File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
 )
-\pIIe@GRAPH=\toks44
-\@arclen=\dimen291
-\@arcrad=\dimen292
-\pIIe@tempdima=\dimen293
-\pIIe@tempdimb=\dimen294
-\pIIe@tempdimc=\dimen295
-\pIIe@tempdimd=\dimen296
-\pIIe@tempdime=\dimen297
-\pIIe@tempdimf=\dimen298
+\c@abspage=\count339
+Package zref Info: New property: abspage on input line 67.
+) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\@HwM@arrowfill@skip=\skip138
-) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
-Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
-LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
- (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
-File: upzd.fd 2001/06/04 font definitions for U/pzd.
+\mdf@templength=\skip71
+\c@mdf@globalstyle@cnt=\count340
+\mdf@skipabove@length=\skip72
+\mdf@skipbelow@length=\skip73
+\mdf@leftmargin@length=\skip74
+\mdf@rightmargin@length=\skip75
+\mdf@innerleftmargin@length=\skip76
+\mdf@innerrightmargin@length=\skip77
+\mdf@innertopmargin@length=\skip78
+\mdf@innerbottommargin@length=\skip79
+\mdf@splittopskip@length=\skip80
+\mdf@splitbottomskip@length=\skip81
+\mdf@outermargin@length=\skip82
+\mdf@innermargin@length=\skip83
+\mdf@linewidth@length=\skip84
+\mdf@innerlinewidth@length=\skip85
+\mdf@middlelinewidth@length=\skip86
+\mdf@outerlinewidth@length=\skip87
+\mdf@roundcorner@length=\skip88
+\mdf@footenotedistance@length=\skip89
+\mdf@userdefinedwidth@length=\skip90
+\mdf@needspace@length=\skip91
+\mdf@frametitleaboveskip@length=\skip92
+\mdf@frametitlebelowskip@length=\skip93
+\mdf@frametitlerulewidth@length=\skip94
+\mdf@frametitleleftmargin@length=\skip95
+\mdf@frametitlerightmargin@length=\skip96
+\mdf@shadowsize@length=\skip97
+\mdf@extratopheight@length=\skip98
+\mdf@subtitleabovelinewidth@length=\skip99
+\mdf@subtitlebelowlinewidth@length=\skip100
+\mdf@subtitleaboveskip@length=\skip101
+\mdf@subtitlebelowskip@length=\skip102
+\mdf@subtitleinneraboveskip@length=\skip103
+\mdf@subtitleinnerbelowskip@length=\skip104
+\mdf@subsubtitleabovelinewidth@length=\skip105
+\mdf@subsubtitlebelowlinewidth@length=\skip106
+\mdf@subsubtitleaboveskip@length=\skip107
+\mdf@subsubtitlebelowskip@length=\skip108
+\mdf@subsubtitleinneraboveskip@length=\skip109
+\mdf@subsubtitleinnerbelowskip@length=\skip110
+ (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-1.mdf
+File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 )
-LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
- (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
-File: upsy.fd 2001/06/04 font definitions for U/psy.
-)) (Lab3.aux)
+\mdf@frametitlebox=\box74
+\mdf@footnotebox=\box75
+\mdf@splitbox@one=\box76
+\mdf@splitbox@two=\box77
+\mdf@splitbox@save=\box78
+\mdfsplitboxwidth=\skip111
+\mdfsplitboxtotalwidth=\skip112
+\mdfsplitboxheight=\skip113
+\mdfsplitboxdepth=\skip114
+\mdfsplitboxtotalheight=\skip115
+\mdfframetitleboxwidth=\skip116
+\mdfframetitleboxtotalwidth=\skip117
+\mdfframetitleboxheight=\skip118
+\mdfframetitleboxdepth=\skip119
+\mdfframetitleboxtotalheight=\skip120
+\mdffootnoteboxwidth=\skip121
+\mdffootnoteboxtotalwidth=\skip122
+\mdffootnoteboxheight=\skip123
+\mdffootnoteboxdepth=\skip124
+\mdffootnoteboxtotalheight=\skip125
+\mdftotallinewidth=\skip126
+\mdfboundingboxwidth=\skip127
+\mdfboundingboxtotalwidth=\skip128
+\mdfboundingboxheight=\skip129
+\mdfboundingboxdepth=\skip130
+\mdfboundingboxtotalheight=\skip131
+\mdf@freevspace@length=\skip132
+\mdf@horizontalwidthofbox@length=\skip133
+\mdf@verticalmarginwhole@length=\skip134
+\mdf@horizontalspaceofbox=\skip135
+\mdfsubtitleheight=\skip136
+\mdfsubsubtitleheight=\skip137
+\c@mdfcountframes=\count341
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count342
+\c@mdf@env@i=\count343
+\c@mdf@env@ii=\count344
+\c@mdf@zref@counter=\count345
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+\c@esercizio=\count346
+\c@approfondimento=\count347
+) (Lab3.aux)
 \openout1 = `Lab3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 48.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 49.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 49.
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    ... okay on input line 49.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1153,33 +1122,33 @@ LaTeX Font Info:    ... okay on input line 48.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 48.
-LaTeX Info: Redefining \it@ocap on input line 48.
-LaTeX Info: Redefining \it@ccap on input line 48.
+Package hyperref Info: Link coloring ON on input line 49.
+LaTeX Info: Redefining \it@ocap on input line 49.
+LaTeX Info: Redefining \it@ccap on input line 49.
 
 File italian.ldf warning: 
 italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting
-italian.ldf    on input line 48.
+italian.ldf    on input line 49.
 
 
-Package chemgreek Info: Activating mapping `textgreek' on line 48.
+Package chemgreek Info: Activating mapping `textgreek' on line 49.
 
 (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count347
-\scratchdimen=\dimen299
+\scratchcounter=\count348
+\scratchdimen=\dimen291
 \scratchbox=\box79
-\nofMPsegments=\count348
-\nofMParguments=\count349
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count350
-\MPscratchDim=\dimen300
-\MPnumerator=\count351
-\makeMPintoPDFobject=\count352
-\everyMPtoPDFconversion=\toks46
+\nofMPsegments=\count349
+\nofMParguments=\count350
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count351
+\MPscratchDim=\dimen292
+\MPnumerator=\count352
+\makeMPintoPDFobject=\count353
+\everyMPtoPDFconversion=\toks45
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1191,25 +1160,25 @@ Package caption Info: End \AtBeginDocument code.
 <logo-unict-orizzontale-grigio.png, id=6, 643.40375pt x 278.03876pt>
 File: logo-unict-orizzontale-grigio.png Graphic file (type png)
 <use logo-unict-orizzontale-grigio.png>
-Package pdftex.def Info: logo-unict-orizzontale-grigio.png  used on input line 55.
+Package pdftex.def Info: logo-unict-orizzontale-grigio.png  used on input line 56.
 (pdftex.def)             Requested size: 159.68776pt x 69.00465pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <logo_dfa_orizzontale.jpg, id=8, 314.21739pt x 115.53532pt>
 File: logo_dfa_orizzontale.jpg Graphic file (type jpg)
 <use logo_dfa_orizzontale.jpg>
-Package pdftex.def Info: logo_dfa_orizzontale.jpg  used on input line 61.
+Package pdftex.def Info: logo_dfa_orizzontale.jpg  used on input line 62.
 (pdftex.def)             Requested size: 199.60895pt x 73.39758pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 71.
+(Font)              using `OT1/cmr/bx/n' instead on input line 72.
 
 
 
@@ -1217,50 +1186,52 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 
 {C:/Users/santo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo-unict-orizzontale-grigio.png> <./logo_dfa_orizzontale.jpg>]
 
-[2] (Lab3.toc)
+[2] (Lab3.toc
+
+[3
+
+])
 \tf@toc=\write4
 \openout4 = `Lab3.toc'.
 
 
 
-[3
-
-]
+[4]
 Capitolo 1.
+(Capitoli/arduino.tex)
 
-
-[4
+[5
 
 ]
 Capitolo 2.
 (Capitoli/sorgenti_radiazione.tex
 
-[5
+[6
 
 ]
 
-[6]
-
 [7]
-<immagini/carta_di_segre.png, id=113, 304.13625pt x 453.19313pt>
+
+[8]
+<immagini/carta_di_segre.png, id=137, 304.13625pt x 453.19313pt>
 File: immagini/carta_di_segre.png Graphic file (type png)
 <use immagini/carta_di_segre.png>
 Package pdftex.def Info: immagini/carta_di_segre.png  used on input line 89.
 (pdftex.def)             Requested size: 256.0748pt x 381.58551pt.
 
 
-[8 <./immagini/carta_di_segre.png>]
+[9 <./immagini/carta_di_segre.png>]
 
-[9]
-<immagini/legge_decadimento_radioattivo_2.png, id=125, 210.7875pt x 129.98563pt>
+[10]
+<immagini/legge_decadimento_radioattivo_2.png, id=149, 210.7875pt x 129.98563pt>
 File: immagini/legge_decadimento_radioattivo_2.png Graphic file (type png)
 <use immagini/legge_decadimento_radioattivo_2.png>
 Package pdftex.def Info: immagini/legge_decadimento_radioattivo_2.png  used on input line 196.
 (pdftex.def)             Requested size: 312.9803pt x 193.00839pt.
 
 
-[10 <./immagini/legge_decadimento_radioattivo_2.png>]
-<immagini/decadimento_beta.png, id=137, 240.9pt x 163.61125pt>
+[11 <./immagini/legge_decadimento_radioattivo_2.png>]
+<immagini/decadimento_beta.png, id=161, 240.9pt x 163.61125pt>
 File: immagini/decadimento_beta.png Graphic file (type png)
 <use immagini/decadimento_beta.png>
 Package pdftex.def Info: immagini/decadimento_beta.png  used on input line 245.
@@ -1272,8 +1243,8 @@ Overfull \hbox (0.39778pt too wide) in paragraph at lines 242--256
 
 
 
-[11 <./immagini/decadimento_beta.png>]
-<immagini/Isotopi_beta.png, id=145, 141.02687pt x 100.375pt>
+[12 <./immagini/decadimento_beta.png>]
+<immagini/Isotopi_beta.png, id=169, 141.02687pt x 100.375pt>
 File: immagini/Isotopi_beta.png Graphic file (type png)
 <use immagini/Isotopi_beta.png>
 Package pdftex.def Info: immagini/Isotopi_beta.png  used on input line 268.
@@ -1283,7 +1254,7 @@ Overfull \hbox (0.391pt too wide) in paragraph at lines 265--276
 []$[]$ $[]$ 
  []
 
-<immagini/spettro_decadimento_beta_1.png, id=146, 411.5375pt x 312.16624pt>
+<immagini/spettro_decadimento_beta_1.png, id=170, 411.5375pt x 312.16624pt>
 File: immagini/spettro_decadimento_beta_1.png Graphic file (type png)
 <use immagini/spettro_decadimento_beta_1.png>
 Package pdftex.def Info: immagini/spettro_decadimento_beta_1.png  used on input line 308.
@@ -1293,7 +1264,7 @@ Overfull \hbox (12.86714pt too wide) in paragraph at lines 308--309
 [][] 
  []
 
-<immagini/spettro_decadimento_beta_2.png, id=147, 495.35063pt x 322.70563pt>
+<immagini/spettro_decadimento_beta_2.png, id=171, 495.35063pt x 322.70563pt>
 File: immagini/spettro_decadimento_beta_2.png Graphic file (type png)
 <use immagini/spettro_decadimento_beta_2.png>
 Package pdftex.def Info: immagini/spettro_decadimento_beta_2.png  used on input line 313.
@@ -1308,8 +1279,8 @@ Underfull \vbox (badness 1320) has occurred while \output is active []
 
 
 
-[12 <./immagini/Isotopi_beta.png>]
-<immagini/decadimento_beta_doppio.png, id=154, 395.4775pt x 268.50313pt>
+[13 <./immagini/Isotopi_beta.png>]
+<immagini/decadimento_beta_doppio.png, id=179, 395.4775pt x 268.50313pt>
 File: immagini/decadimento_beta_doppio.png Graphic file (type png)
 <use immagini/decadimento_beta_doppio.png>
 Package pdftex.def Info: immagini/decadimento_beta_doppio.png  used on input line 331.
@@ -1319,41 +1290,41 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 328--348
 []$[]$ $[]$ 
  []
 
-<immagini/decadimento_alfa.png, id=155, 196.735pt x 124.96687pt>
+<immagini/decadimento_alfa.png, id=180, 196.735pt x 124.96687pt>
 File: immagini/decadimento_alfa.png Graphic file (type png)
 <use immagini/decadimento_alfa.png>
 Package pdftex.def Info: immagini/decadimento_alfa.png  used on input line 360.
 (pdftex.def)             Requested size: 227.62204pt x 144.58603pt.
 
 
-[13 <./immagini/spettro_decadimento_beta_1.png> <./immagini/spettro_decadimento_beta_2.png> <./immagini/decadimento_beta_doppio.png>]
-<immagini/schema_decadimento_alfa.png, id=166, 280.54813pt x 203.25937pt>
+[14 <./immagini/spettro_decadimento_beta_1.png> <./immagini/spettro_decadimento_beta_2.png> <./immagini/decadimento_beta_doppio.png>]
+<immagini/schema_decadimento_alfa.png, id=190, 280.54813pt x 203.25937pt>
 File: immagini/schema_decadimento_alfa.png Graphic file (type png)
 <use immagini/schema_decadimento_alfa.png>
 Package pdftex.def Info: immagini/schema_decadimento_alfa.png  used on input line 367.
 (pdftex.def)             Requested size: 312.9803pt x 226.76811pt.
-<immagini/spettro_decadimento_alpha.png, id=167, 491.33563pt x 300.12125pt>
+<immagini/spettro_decadimento_alpha.png, id=191, 491.33563pt x 300.12125pt>
 File: immagini/spettro_decadimento_alpha.png Graphic file (type png)
 <use immagini/spettro_decadimento_alpha.png>
 Package pdftex.def Info: immagini/spettro_decadimento_alpha.png  used on input line 378.
 (pdftex.def)             Requested size: 312.9803pt x 191.18394pt.
 
 
-[14 <./immagini/decadimento_alfa.png> <./immagini/schema_decadimento_alfa.png>]
-<immagini/decadimento_gamma.png, id=175, 208.78pt x 121.45375pt>
+[15 <./immagini/decadimento_alfa.png> <./immagini/schema_decadimento_alfa.png>]
+<immagini/decadimento_gamma.png, id=199, 208.78pt x 121.45375pt>
 File: immagini/decadimento_gamma.png Graphic file (type png)
 <use immagini/decadimento_gamma.png>
 Package pdftex.def Info: immagini/decadimento_gamma.png  used on input line 409.
 (pdftex.def)             Requested size: 227.62204pt x 132.4227pt.
 
 
-[15 <./immagini/spettro_decadimento_alpha.png> <./immagini/decadimento_gamma.png>]
-<immagini/spettro_decadimento_gamma_1.png, id=182, 347.2975pt x 304.63812pt>
+[16 <./immagini/spettro_decadimento_alpha.png> <./immagini/decadimento_gamma.png>]
+<immagini/spettro_decadimento_gamma_1.png, id=206, 347.2975pt x 304.63812pt>
 File: immagini/spettro_decadimento_gamma_1.png Graphic file (type png)
 <use immagini/spettro_decadimento_gamma_1.png>
 Package pdftex.def Info: immagini/spettro_decadimento_gamma_1.png  used on input line 423.
 (pdftex.def)             Requested size: 199.16928pt x 174.71pt.
-<immagini/spettro_decadimento_gamma_2.png, id=183, 156.585pt x 114.92938pt>
+<immagini/spettro_decadimento_gamma_2.png, id=207, 156.585pt x 114.92938pt>
 File: immagini/spettro_decadimento_gamma_2.png Graphic file (type png)
 <use immagini/spettro_decadimento_gamma_2.png>
 Package pdftex.def Info: immagini/spettro_decadimento_gamma_2.png  used on input line 429.
@@ -1368,7 +1339,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 420--432
 []$[]$ $[]$ 
  []
 
-<immagini/spettro_gamma.png, id=184, 307.1475pt x 198.24063pt>
+<immagini/spettro_gamma.png, id=208, 307.1475pt x 198.24063pt>
 File: immagini/spettro_gamma.png Graphic file (type png)
 <use immagini/spettro_gamma.png>
 Package pdftex.def Info: immagini/spettro_gamma.png  used on input line 441.
@@ -1383,13 +1354,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[16 <./immagini/spettro_decadimento_gamma_1.png> <./immagini/spettro_decadimento_gamma_2.png> <./immagini/spettro_gamma.png>]
-<immagini/Sorgenti_di_fissione_1.png, id=193, 510.90875pt x 421.07312pt>
+[17 <./immagini/spettro_decadimento_gamma_1.png> <./immagini/spettro_decadimento_gamma_2.png> <./immagini/spettro_gamma.png>]
+<immagini/Sorgenti_di_fissione_1.png, id=217, 510.90875pt x 421.07312pt>
 File: immagini/Sorgenti_di_fissione_1.png Graphic file (type png)
 <use immagini/Sorgenti_di_fissione_1.png>
 Package pdftex.def Info: immagini/Sorgenti_di_fissione_1.png  used on input line 460.
 (pdftex.def)             Requested size: 256.0748pt x 211.04362pt.
-<immagini/Sorgenti_di_fissione_2.png, id=194, 252.945pt x 399.4925pt>
+<immagini/Sorgenti_di_fissione_2.png, id=218, 252.945pt x 399.4925pt>
 File: immagini/Sorgenti_di_fissione_2.png Graphic file (type png)
 <use immagini/Sorgenti_di_fissione_2.png>
 Package pdftex.def Info: immagini/Sorgenti_di_fissione_2.png  used on input line 465.
@@ -1401,13 +1372,13 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 458--468
 
 
 
-[17 <./immagini/Sorgenti_di_fissione_1.png> <./immagini/Sorgenti_di_fissione_2.png>]
-<immagini/radiazione_cosmica.png, id=202, 176.66pt x 248.42813pt>
+[18 <./immagini/Sorgenti_di_fissione_1.png> <./immagini/Sorgenti_di_fissione_2.png>]
+<immagini/radiazione_cosmica.png, id=226, 176.66pt x 248.42813pt>
 File: immagini/radiazione_cosmica.png Graphic file (type png)
 <use immagini/radiazione_cosmica.png>
 Package pdftex.def Info: immagini/radiazione_cosmica.png  used on input line 480.
 (pdftex.def)             Requested size: 199.16928pt x 280.08368pt.
-<immagini/energia_radiazione_cosmica.png, id=203, 350.81062pt x 421.07312pt>
+<immagini/energia_radiazione_cosmica.png, id=227, 350.81062pt x 421.07312pt>
 File: immagini/energia_radiazione_cosmica.png Graphic file (type png)
 <use immagini/energia_radiazione_cosmica.png>
 Package pdftex.def Info: immagini/energia_radiazione_cosmica.png  used on input line 486.
@@ -1424,11 +1395,11 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 477--489
 
 
 
-[18 <./immagini/radiazione_cosmica.png> <./immagini/energia_radiazione_cosmica.png>]
+[19 <./immagini/radiazione_cosmica.png> <./immagini/energia_radiazione_cosmica.png>]
 
-[19])
+[20])
 
-[20]
+[21]
 Capitolo 3.
 (Capitoli/perdita_energia_particelle_cariche.tex
 Overfull \hbox (1.98592pt too wide) in paragraph at lines 11--11
@@ -1437,22 +1408,140 @@ Overfull \hbox (1.98592pt too wide) in paragraph at lines 11--11
 
 
 
-[21
+[22
 
 ]
 
-[22]
-Overfull \hbox (0.391pt too wide) in paragraph at lines 63--76
+[23]
+Overfull \hbox (0.391pt too wide) in paragraph at lines 65--78
 []$[]$ $[]$ 
  []
 
 
 
-[23])
-
 [24]
 
-[25] (Lab3.aux)
+[25]
+Overfull \hbox (0.15181pt too wide) in paragraph at lines 116--117
+[]\OT1/cmr/m/n/12 Se espri-mia-mo il $[]$ in unit^^Ra di den-sit^^Ra su-per-fi-cia-le, il $[]$ si espri-mer^^Ra in $MeV cm[]\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 g$: 
+ []
+
+<immagini/grafico_bethe_bloch.png, id=280, 703.12688pt x 754.31813pt>
+File: immagini/grafico_bethe_bloch.png Graphic file (type png)
+<use immagini/grafico_bethe_bloch.png>
+Package pdftex.def Info: immagini/grafico_bethe_bloch.png  used on input line 125.
+(pdftex.def)             Requested size: 284.52756pt x 305.23244pt.
+
+
+[26 <./immagini/grafico_bethe_bloch.png>]
+<immagini/correzioni_shell_densita.png, id=290, 485.815pt x 340.77313pt>
+File: immagini/correzioni_shell_densita.png Graphic file (type png)
+<use immagini/correzioni_shell_densita.png>
+Package pdftex.def Info: immagini/correzioni_shell_densita.png  used on input line 140.
+(pdftex.def)             Requested size: 199.16928pt x 139.70229pt.
+
+Overfull \hbox (0.391pt too wide) in paragraph at lines 137--148
+[]$[]$ $[]$ 
+ []
+
+
+
+[27 <./immagini/correzioni_shell_densita.png>]
+<immagini/picco_di_Bragg.png, id=297, 361.85187pt x 251.43938pt>
+File: immagini/picco_di_Bragg.png Graphic file (type png)
+<use immagini/picco_di_Bragg.png>
+Package pdftex.def Info: immagini/picco_di_Bragg.png  used on input line 180.
+(pdftex.def)             Requested size: 199.16928pt x 138.39566pt.
+
+Overfull \hbox (0.391pt too wide) in paragraph at lines 177--188
+[]$[]$ $[]$ 
+ []
+
+
+
+[28 <./immagini/picco_di_Bragg.png>]
+<immagini/energy_loss_distribuzione_gauss.png, id=308, 361.85187pt x 257.96375pt>
+File: immagini/energy_loss_distribuzione_gauss.png Graphic file (type png)
+<use immagini/energy_loss_distribuzione_gauss.png>
+Package pdftex.def Info: immagini/energy_loss_distribuzione_gauss.png  used on input line 204.
+(pdftex.def)             Requested size: 184.9429pt x 131.8471pt.
+<immagini/energy_loss_distribuzione_vavilov.png, id=309, 233.87375pt x 244.915pt>
+File: immagini/energy_loss_distribuzione_vavilov.png Graphic file (type png)
+<use immagini/energy_loss_distribuzione_vavilov.png>
+Package pdftex.def Info: immagini/energy_loss_distribuzione_vavilov.png  used on input line 212.
+(pdftex.def)             Requested size: 170.71652pt x 178.78644pt.
+
+Overfull \hbox (0.391pt too wide) in paragraph at lines 201--221
+[]$[]$ $[]$ 
+ []
+
+
+
+[29 <./immagini/energy_loss_distribuzione_gauss.png> <./immagini/energy_loss_distribuzione_vavilov.png>]
+Overfull \hbox (0.391pt too wide) in paragraph at lines 320--334
+[]$[]$ $[]$ 
+ []
+
+
+
+[30]
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 355--379
+[]$[]$ $[]$ 
+ []
+
+<immagini/straggling.png, id=326, 1105.12875pt x 878.53218pt>
+File: immagini/straggling.png Graphic file (type png)
+<use immagini/straggling.png>
+Package pdftex.def Info: immagini/straggling.png  used on input line 388.
+(pdftex.def)             Requested size: 227.62204pt x 180.9448pt.
+
+
+[31 <./immagini/straggling.png>]
+<immagini/straggling_energie.png, id=337, 628.3475pt x 252.945pt>
+File: immagini/straggling_energie.png Graphic file (type png)
+<use immagini/straggling_energie.png>
+Package pdftex.def Info: immagini/straggling_energie.png  used on input line 405.
+(pdftex.def)             Requested size: 341.43306pt x 137.4451pt.
+
+
+[32 <./immagini/straggling_energie.png>]
+<immagini/channeling.png, id=344, 291.33844pt x 301.125pt>
+File: immagini/channeling.png Graphic file (type png)
+<use immagini/channeling.png>
+Package pdftex.def Info: immagini/channeling.png  used on input line 427.
+(pdftex.def)             Requested size: 170.71652pt x 176.45377pt.
+
+Overfull \hbox (0.39778pt too wide) in paragraph at lines 424--433
+[]$[]$ $[]$ 
+ []
+
+
+
+[33 <./immagini/channeling.png>]
+<immagini/Effetto_Cherenkov.png, id=351, 702.37407pt x 528.47438pt>
+File: immagini/Effetto_Cherenkov.png Graphic file (type png)
+<use immagini/Effetto_Cherenkov.png>
+Package pdftex.def Info: immagini/Effetto_Cherenkov.png  used on input line 465.
+(pdftex.def)             Requested size: 142.26378pt x 107.03966pt.
+
+Overfull \hbox (0.39778pt too wide) in paragraph at lines 462--475
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \vbox (badness 2951) has occurred while \output is active []
+
+
+
+[34 <./immagini/Effetto_Cherenkov.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 489.
+Package mdframed Info: mdframed works in twoside mode on input line 507.
+Package mdframed Info: mdframed works in twoside mode on input line 518.
+
+
+[35])
+
+[36] (Lab3.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
@@ -1463,17 +1552,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 29608 strings out of 473920
- 546922 string characters out of 5726974
+ 29514 strings out of 473920
+ 547847 string characters out of 5726974
  1942908 words of memory out of 5000000
- 51847 multiletter control sequences out of 15000+600000
- 575854 words of font info for 101 fonts, out of 8000000 for 9000
+ 51720 multiletter control sequences out of 15000+600000
+ 576135 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,20n,93p,13188b,2150s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\santo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Lab3.pdf (25 pages, 1398383 bytes).
+ 91i,20n,93p,1756b,2227s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\santo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Lab3.pdf (36 pages, 2010191 bytes).
 PDF statistics:
- 465 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 361 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 619 PDF objects out of 1000 (max. 8388607)
+ 130 named destinations out of 1000 (max. 500000)
+ 486 words of extra memory for PDF output out of 10000 (max. 10000000)
 
