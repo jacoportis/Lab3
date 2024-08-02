@@ -1,13 +1,47 @@
 \usepackage[framemethod=tikz]{mdframed}
 \usepackage{tikz}
 \usepackage{graphicx}
+
+%AMBIENTE ESEMPIO
+
+\mdfdefinestyle{esempio}{ 
+  linewidth=0pt,
+  linecolor=black,
+  %backgroundcolor=gray!30,
+  outerlinecolor=black,
+  bottomline=false,rightline=false,topline=false,
+  outerlinewidth=3pt,
+  roundcorner=0pt,
+  innertopmargin=2pt,
+  innerbottommargin=5pt,
+  skipabove=\topsep,
+  skipbelow=\topsep,
+  nobreak=false,
+  frametitlefont=\bfseries\sffamily
+  %frametitlealignment=\centering,
+}
+
+\newcounter{esempio}[chapter]
+\renewcommand{\theesempio}{\thechapter.\arabic{esempio}}
+
+\newenvironment{esempio}[1][]{%
+  \refstepcounter{esempio}% Incrementa il contatore e permette il riferimento
+  \ifstrempty{#1}
+    {\mdfsetup{frametitle={Esempio \theesempio}}}
+    {\mdfsetup{frametitle={Esempio \theesempio: #1}}}
+  \begin{mdframed}[style=esempio]
+}{%
+  \end{mdframed}
+}
+
+
 %AMBIENTE ESERCIZIO
 
 \mdfdefinestyle{esercizio}{ 
   linewidth=0pt,
   linecolor=black,
   %backgroundcolor=gray!30,
-  outerlinecolor=black,
+  outerlinecolor=blue!80!cyan,
   bottomline=false,rightline=false,topline=false,
   outerlinewidth=3pt,
   roundcorner=0pt,

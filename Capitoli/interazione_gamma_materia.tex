@@ -1,285 +1,3 @@
-In base al tipo di radiazione può cambiare il meccanismo di interazione con la materia. Vedremo quindi i diversi meccanismi con cui le radiazioni interagiscono con la materia, con conseguente perdita di energia. Cercheremo dunque di stimare anche la perdita di energia delle particelle nella materia, cioè di trovare espressioni quantitative che ci permettano di capire quali sono i parametri che influenzano la perdita di energia.
-
-Tale argomento ci interessa perché lo studio dei diversi rivelatori di particelle si basa sui meccanismi di interazione, che usano per misurare le particelle.
-
-Concentriamoci innanzitutto sulle particelle cariche pesanti, cioè dal protone in su. In realtà in questa categoria rientrano anche le particelle di massa intermedia (muoni, pioni), aventi massa minore di quella del protone ma non così piccola come quella dell'elettrone, per cui hanno un comportamento maggiormente simile a quello delle particelle pesanti.
-
-\section{Principali meccanismi}
-
-\textbf{continua a 11:00 circa}
-
-\section{Relazione di Bethe-Bloch}
-
-$$\left\langle\frac{dE}{dx}\right\rangle
-=Kz^2\frac{Z}{A} \frac{1}{\beta^2}\left[\frac{1}{2}\ln{\frac{2m_e c^2 \beta^2 \gamma^2 W_{max}}{I^2}} - \beta^2 - \frac{\delta(\beta \gamma)}{2}\right]$$
-
-\subsection{Perdita di energia per composti}
-
-Se il materiale su cui incide la particella non è formato da un solo elemento ma bensì è un composto, cioè costituito da atomi di diversi elementi, il fattore Z/A diventa una sorta di media pesata, data da
-
-$$\frac{1}{\rho} \frac{dE}{dx}
-=\sum_i \left(\frac{n_i A_i}{\rho_i A}\right)\left(\frac{dE}{dx}\right)_i$$
-
-\textbf{continua}
-
-\subsection{Picco di Bragg}
-
-Il picco di Bragg è rappresentato da tale grafico, in cui la perdita di energia specifica è raffigurata in funzione dello spessore attraversato. In particolare il grafico è ottenuto da particelle $\alpha$ che attraversano l'aria, avendo una energia di 5.49 $MeV$. La perdita di energia si calcolerà tramite Bethe-Bloch, in cui i valori di $\beta$ e $\gamma$ si ricavano da questo valore di energia iniziale. 
-
-Man mano che la particella attraversa il materiale avvengono multiple collisioni con gli elettroni atomici e l'energia diminuisce. Di conseguenza $\dv*{E}{x}$ aumenta, come osserviamo anche nel grafico, fino a raggiungere un valore massimo per poi diminuire bruscamente. Attenzione! Questa rapida discesa non è evidenziata nei grafici precedenti, in cui manca una parte ad energie ancora più masse, dove la curva da che sale poi torna a zero. La parte finale di questo grafico è quindi dovuta al fatto che la particella si sta arrestando, avendo velocità e impulsi quasi nulli, per cui la perdita di energia va a zero.
-
-Il grafico a picco di Bragg è diretta conseguenza del grafico precedente ed è alla base dell'utilizzo delle radiazioni per la cura dei tumori, perché ci dice che ad esempio un protone che attraversa un determinato spessore di materiale biologico non rilascia la sua energia in maniera costante lungo il percorso, bensì deposita la maggior parte della sua energia in corrispondenza del picco, prima di arrestarsi. Ciò costituisce un vantaggio perché può essere usato per fare un rilascio mirato di energia in alcune zone del corpo. Il limite di questa tecnica sta nella profondità che si può raggiungere, perché per arrivare più in profondità serve maggiore energia e quindi acceleratori più potenti, che non sempre sono disponibili.
-
-Analizziamo ora le fluttuazioni statistiche.
-
-Se infatti inviamo sul materiale particelle identiche (stessa massa, stessa energia e stesso angolo di incidenza), esse non perderanno la stessa energia, in quanto ogni particella seguirà un percorso diverso, subendo un numero di collisioni diverso e perdendo di conseguenza un'energia diversa.
-
-Le fluttuazioni statistiche che si presentano nella perdita di energia possono avere distribuzioni diverse. In particolare due:
-
-\begin{itemize}
-    \item La distribuzione gaussiana se consideriamo spessore grandi, perché ci si aspetta che il numero di collisioni sia elevato. Ciò fa sì che la distribuzione della perdita di energia in uno spessore grande abbia un andamento simmetrico che segue la distribuzione di Gauss;
-    \item Se invece consideriamo spessori piccoli, il numero di collisioni è minore, e la perdita di energia segue una distribuzione che può essere descritta dalla teoria di Landau-Vavilov. È una distribuzione asimmetrica che presenta un picco e poi una lunga coda a valore elevati. Essa ci dice che, quando una particella attraversa uno spessore sottile, in media perde un certo quantitativo di energia, ma ci sono dei casi in cui può perdere anche valori notevoli di energia, magari perché la particella segue altre percorsi.
-\end{itemize}
-
-Per valutare se uno spessore è grande o piccolo esiste un parametro che dipende da quanto è l'energia massima che si può perdere per singolo urto, il quale permette di individuare il regime in cui ci troviamo.
-
-\subsection{Range di una particella}
-
-\textbf{rileggi e riascolta la lezione}Per range di una particella si intende il percorso effettuato da questa all'interno di un mezzo prima di arrestarsi.
-
-Idealmente, se non ci fossero fluttuazioni statistiche, cosa ci aspetteremmo?
-
-Se proviamo a realizzare un grafico detto \textit{di trasmissione} in cui sulle ascisse riportiamo lo spessore attraversato (che può essere espresso sia in cm che in unità superficial) e in ordinate il \textit{coefficiente di trasmissione}. \textbf{questa è la parte incriminata}
-
-Per capire cos'è quest'ultimo immaginiamo di inviare le particelle con una data energia iniziale $E$ su uno spessore di materiale $\Delta x$. Immaginiamo poi di andare a misurare il flusso di particelle incidente e trovare un valore $I_0$ (particelle per unità di superficie al secondo). Vogliamo calcolare in uscita $I$, che corrisponde a quante particelle sopravvivono all'attraversamento del materiale. In base allo spessore verrà persa una certa quantità di energia $\Delta E$, per cui le particelle che riescono a fuoriuscire avranno energia $E - \Delta E$.
-
-\textbf{continua}
-
-\section{Radiazione Čerenkov}
-
-È uno dei possibili meccanismi di perdita di energia. L'emissione di tale radiazione avviene quando la velocità della particella nel mezzo supera la velocità della luce nello stesso mezzo. La condizione è
-
-$$v_{\rm part} > \frac{c}{n}
-\quad;\quad
-\beta c=v=\frac{c}{n}$$
-
-che dipende quindi dall'indice di rifrazione $n$ del mezzo. \E un po' lo stesso effetto che avviene per il suono con il cosiddetto "cono di Mach", che si presenta quando si supera la velocità del suono in quel mezzo.
-
-Tale radiazione è direzionata: viene messa all'interno di un cono con una certa apertura, la quale dipende da $n$ e dalla velocità della particella: maggiore è la velocità, minore sarà l'apertura del cono
-
-$$\vartheta_C=\arccos{\left(\frac{1}{\beta n}\right)}$$
-
-La radiazione emessa ha uno spettro continuo, nel senso che non ci sono dei valori di frequenza preferiti;; però, in particolare nel visibile, questo spettro è proporzionale alla frequenza, per cui si ha una maggiore emissione nel blu.
-
-\E una luce polarizzata linearmente e la perdita di energia $\dv*{E}{x}$ dovuta a questo effetto (che è già inclusa nella formula di Bethe-Bloch) è un contributo piccolo, che vale $10^{-3}$ $\rm MeV \, cm^2/g$ per i solidi e $10^{-1}$-$10^{-2}$ $\rm MeV \, cm^2/g$ per i gas, mentre nei grafici precedenti il MIP si trova a 1-2 $\rm MeV \, cm^2/g$. Tuttavia essa è da menzionare per l'uso che se ne fa in fisica. Ad esempio viene adoperata per rivelare particelle: un esempio si ha in astronomia, dove TeV di radiazioni gamma incidono sulla atmosfera, producendo coppie elettrone-positrone e queste particelle producono radiazione Čerenkov nell'atmosfera. Se abbiamo un rivelatore in grado di misurare tale radiazione (telescopio Čerenkov), possiamo andare effettuare misure dei gamma di partenza, ed essendo una luce direzionata possiamo anche ricostruire la direzione di arrivo dei gamma.
-
-Un'applicazione simile si ha nella fisica dei neutrini, i quali interagiscono pochissimo con la materia, per cui per rivelarli sono necessari rivelatori di grandi volumi in modo da aumentare la probabilità di interazione. Negli ultimi anni si è pensato che anziché usare oggetti creati dall'uomo si possono usare risorse naturali come acqua e ghiaccio, ponendo in essi dei rivelatori e usandoli come materiale attivo di rivelazione. L'idea è che ad esempio un neutrino attraversi km di acqua, interagisca e produca un muone, il quale produce effetto Čerenkov. Se siamo in grado di misurare tale luce, abbiamo indirettamente misurato l'arrivo di un neutrino (esempio Km3net: torri di rivelatori di luce (fotomoltiplicatori) calate in mare per andare a misurare la radiazione Čerenkov Con lo scopo di misurare i neutrini).
-
-Nel campo della fisica delle particelle e della fisica nucleare esistono i rivelatori Čerenkov, i quali servono a identificare le particelle, perché attraverso la rivelazione del cono Čerenkov cioè di questa luce abbiamo informazioni sulle particelle: dalla velocità possiamo ricavare l'impulso e quindi la massa, la quale ci permette di identificare le particelle. Esistono poi i contatori Čerenkov, che permettono di misurare particelle davanti velocità al di sopra di una certa soglia.
-
-Tale radiazione viene usata nei reattori a fissione per andare a misurare l'attività presente, in quanto nei processi di fissione si generano sempre particelle cariche che producono radiazione Čerenkov.
-
-\section{Calcolo del range di una particella}
-
-Esso è dato da
-
-$$R=\int (dE/dx)^{-1}\;dE$$
-
-con estremi da $E=E_{inc}$ (l'energia con cui incide) a $E=0$.
-
-\section{Il potenziale di ionizzazione medio}
-
-Alcuni termini della forma di Bethe-Bloch possono essere definiti in diverso modo. Ne è un esempio il \textbf{MIP}, che si indica con $I$ e può essere definito come:
-
-\begin{itemize}
-    \item Un valore proporzionale a $Z$;
-    \item Un valore costante valido per tutti gli atomi, sebbene in realtà esso vari in base al numero atomico: varia molto negli elementi leggeri, per poi stabilizzarsi per elementi pesanti. Si può allora pensare di farne un valor medio;
-    \item Una formula per parametrizzare se siamo in regime di nuclei leggeri o pesanti;
-    \item Un valore preso da tabelle.
-\end{itemize}
-
-\section{Come tenere conto di uno spessore finito}
-
-\section{Perdita di energia-elettroni}
-
-\textbf{rileggi}Gli elettroni all'interno della materia seguono percorsi molto più irregolari di quelli delle particelle pesanti. Cioè dovuto al fatto che la loro massa è più leggera punto E, ne segue che il percorso non può più essere considerato pressoché rettilineo, bensì l'elettrone può cambiare direzione ad ogni interazione importante.
-
-Mentre per le particelle cariche pesanti il contributo principale è dato alle interazioni con gli elettroni atomici e gli altri termini si possono trascurare, per gli elettroni intervengono diversi meccanismi non sempre trascurabili, pertanto la perdita di energia degli elettroni in un mezzo è complessa da calcolare (di solito si stima con programmi/codici, ad esempio GEANT).
-
-I meccanismi attraverso cui gli elettroni perdono energia sono:
-
-\begin{itemize}
-    \item Collisioni con elettroni anatomici;
-    \item Radiazione di frenamento (\textit{bremsstrahlung}): una radiazione elettromagnetica della regione dei raggi X che viene emessa a seguito di un accelerazione della particella nel campo elettrico nucleare.
-\end{itemize}
-
-\subsection{Interazione degli elettroni con la materia}
-
-\textbf{Rileggi}
-Per particelle incidenti eventi e basse energie prevale il processo collezionale, similmente alle particelle cariche pesanti parentesi Nel senso che l'andamento della perdita di energia è lo stesso, ma in quelle dalle termiche prevale sempre parentesi.
-
-Ad alta energia invece prevale il processo radiativo, cioè di bremsstrahlung (viene detto radiativo perché viene emessa radiazione), quindi l'energia viene persa attraverso l'emissione di fotoni X.
-
-Nel grafico è riportata la perdita di energia specifiche in funzione dell'energia della particella, in blu è riportato l'andamento della perdita di energia per processo collisionale (da notare che ci sono due curve: una per gli elettroni e una per i positroni, che si differenziano leggermente a bassa energia ma poi si unificano), il quale diminuisce rapidamente con l'energia stessa. La scala è logaritmica rispetto alle scisse lineare rispetto alle ordinate. Inoltre la perdita di energia specifiche diviso per l'energia ed è espressa in unità di lunghezza di radiazione, che è una grandezza che esprime una quantità proporzionale alla perdita di energia per un dato processo; in rosso è riportato l'andamento dovuto al processo radiativo, il quale va a crescere con l'energia.
-
-I due andamenti si incontrano in un punto, in corrispondenza del quale andiamo a valutare la cosiddetta energia critica che l'energia in corrispondenza della quale i due processi hanno lo stesso contributo, cioè provocano la stessa perdita di energia per unità di percorso.. questo grafico è inerente al piombo come materiale su cui incidere punto per tale gas si trova che l'energia critica vale poco meno di 10 MEB ma questo valore dipende dal materiale adoperato. Ne riusciamo infine che se vogliamo calcolare la perdita di energia di un elettrone in un dato spessore di materiale dobbiamo considerare l'energia dell'elettrone se è più incisivo il contributo commissionale (basse energie), quello radiativo (alte energie) o se sono confrontabili (intorno al punto critico). Ci potremmo poi chiedere cosa succede quando, per alta energia, vengono emessi fotoni x, cioè A cosa danno luogo questi nel materiale punto e, oppure si abbassa energia intervengono altri fenomeni. Si può innanzitutto dire che la perdita di energia specifica per unità di percorso è data dalla somma del contributo collisionale più quello radiativo:
-
-$$\left(\frac{dE}{dx}\right)_{\rm tot}
-=\left(\frac{dE}{dx}\right)_{\rm coll} + \left(\frac{dE}{dx}\right)_{\rm rad}$$
-
-Il contributo di collisione è dato da
-
-$$\eval{-\frac{dE}{dx}}_{c}
-=2 \pi N_a r_e^2 c^2 \rho \frac{Z}{A} \frac{1}{\beta^2} \left[\ln{\left(\frac{\tau^2 (\tau + 2)}{2(I^2/m_e c^2)} + F(\tau) - \delta - 2 \frac{C}{Z}\right)}\right]$$
-
-$$\tau=\frac{E_{k_e}}{m_e c^2}=\gamma - 1$$
-
-$$\frac{d \sigma}{d E} \propto \frac{Z^2}{m_i^2} \frac{\ln{E}}{E}$$
-
-$$-\frac{d E}{d x}
-=4 Z^2 r^2 \alpha \left[\ln{(183Z^{-\frac{1}{3}})} + \frac{1}{18} - f(Z)\right]NE$$
-
-Riassumendo:
-
-\begin{center}
-    \begin{tabular}{p{6.7cm}p{0.8cm}p{6.7cm}}
-        \hspace{2cm}Ionizzazione & & \hspace{2cm}Bremsstrahlung\\[0.5cm]
-        $\bullet$ $\displaystyle \frac{d E}{d x}$ varia linearmente con Z\footnotemark; & & $\bullet$ $\displaystyle \frac{d E}{d x}$ varia quadraticamente con Z;\\[0.5cm]
-        $\bullet$ Domina a energie minori di quella & & $\bullet$ Domina a energie maggiori di quella\\
-        \hspace{0.36cm}critica; & & \hspace{0.32cm}critica;\\[0.2cm]
-        $\bullet$ L'energia è ceduta al materiale as- & & $\bullet$ L'energia è ceduta ai fotoni;\\
-        \hspace{0.36cm}sorbente (agli elettroni atomici); & &\\[0.2cm]
-        $\bullet$ Avvengono molte collisioni, quindi & & $\bullet$ Pochi fotoni emessi.\\
-        \hspace{0.36cm}la perdita di energia è graduale. & &
-    \end{tabular}
-\end{center}
-
-\footnotetext{Tale dipendenza ci dice che la scelta del materiale è più incisiva sul contributo radiativo.}
-
-\subsection{Range degli elettroni}
-
-\subsection{Assorbimento degli elettroni}
-Quello che poi andiamo a misurare in laboratorio è un andamento più simile a un esponenziale decrescente. I fattori che determinano tale andamento sono lo spettro continuo dei beta e lo straggling; quest'ultimo rende la curva smussata.
-
-Una presentazione semi-empirica dell'assorbimento degli elettroni si ha tramite la legge
-
-$$I=I_0 e^{-\mu x}
-\implies
-T=\frac{I}{I_0}=e^{-\mu x}$$
-
-dove $x$ è lo spessore attraversato e $\mu$ è il \textit{coefficiente di assorbimento degli elettroni}, un parametro che dipende dal tipo di materiale e che rappresenta la pendenza della curva in figura, che ha la forma di un relazione lineare perché le ordinate sono riportare in scala logaritmica. Esso rappresenta quindi la capacità di assorbimento di un dato materiale: tanto più è grande, tanto più il materiale riesce ad assorbire gli elettroni. Si esprime in $\rm cm^{-1}$ o in $\rm c^2/g$ (perché deve dare un numero puro).
-
-In particolare il termine $1/\mu$ rappresenta lo spessore necessario a ridurre il flusso iniziale di un fattore $1/e$:
-
-$$x=\frac{1}{\mu}
-\implies
-I=I_0 e^{-\frac{\mu}{\mu}}
-=\frac{I_0}{e}
-$$
-
-Lo scopo dell'esperienza è quindi di trovare i vari punti e realizzare un best-fit lineare per valutare $\mu$. I vari punti corrispondono a diversi spessori in corrispondenza dei quali calcoliamo $I/I_0$. Per linearizzare la formula si fa un passaggio ai logaritmi
-
-$$\log{\frac{I}{I_0}}
-=\log{e^{-\mu x}}
-=-\mu x$$
-
-\subsection{Backscattering}
-
-\textbf{rileggi}Nella materia gli elettroni, durante il loro percorso, variano di molto la loro direzione. Tale effetto è tanto più evidente quanto più bassa è l'energia dell'elettrone; nel caso di elettroni a bassissima energia si può anche verificare il fenomeno del \textit{back scattering}, cioè scattering all'indietro: gli elettroni, a seguito di diverse collisioni, ritornano indietro. Sperimentalmente esso rappresenta un rischio perché potremmo perdere segnale in quanto tali elettroni non vengono rivelati né depositano tutta la loro energia. Tale fenomeno dipende anche dal numero atomico Z del materiale. Il backscattering si quantifica tramite il \textbf{coefficiente di backscattering}, che rappresenta la percentuale di elettronica che vengono back scatterati rispetto al numero di elettroni incidenti iniziali. Talvolta viene chiamato anche \textit{albedo}. Chiaramente per come è definito può valere al massimo 1 o 100\%.
-
-$$\textbf{mi sa che c'è un'immagine}$$
-
-Il grafico riporta i valori del coefficiente in funzione dell'energia dell'elettrone. Come detto prima è elevato ad energie basse e diminuisce all'aumentare dell'energia in modo drastico, per cui ad alte energia è un effetto trascurabile. Il fatto he ci siano curve diverse per materiali diversi ci dice che c'è una dipendenza anche dal tipo di materiale. In particolare il back scattering è meno evidente per materiali più leggeri, per cui il coefficiente è più piccolo. Addirittura nei materiali più pesanti questo effetto prevale ancora (sta parole non mi piace trovane un'altra) per energie dell'ordine del MeV e non si può trascurare.
-
-\section{Scattering multiplo}
-
-\textbf{rileggi}
-Il percorso seguito da una particella può essere più o meno frastagliato, cioè con più o meno deviazioni. Studiamo ora nel dettaglio i motivi per cui si devia dal percorso rettilineo.
-
-Il maggiore contributo al processo di deflessione e dato dai processi coulombiani (in misura minore anche dalla interazione nucleare). Ciò che si fa è distinguere tre casi principali:
-
-\begin{enumerate}
-    \item Se lo spessore adoperato è particolarmente sottile siamo nel caso in cui con buona probabilità si verifica un singolo scattering all'interno dello spessore. Esso può essere affrontato con lo scattering Rutherford, in cui la sezione d'urto è funzione dell'angolo di scattering;
-    \item Se lo spessore adoperato è considerevole il numero di scattering è elevato (\textit{multiple scattering}), come avviene nella maggior parte dei casi reali. La particella quindi, nell'attraversare il materiale, subisce delle deflessioni dovute a diverse collisioni. Essendo il numero di queste elevato, tale processo si studia da un punt di vista statistico;
-    \item Il caso intermedio è quello del \textit{plural scattering}, ed è il caso in cui il numero di collisioni è minore di 20. Poiché tale numero non è levato, il fenomeno non può essere studiato dal punto di vista statistico ed è difficile farne una trattazione.
-\end{enumerate}
-
-Concentriamoci sul secondo caso. La teoria statistica che ci permette di studiare l'angolo di fuoriuscita di una particella dopo aver attraversato un dato spessore è la teoria di Moliere.
-
-Immaginiamo di avere un percorso all'interno di un materiale di lunghezza $x$:
-
-\vspace{-0.2cm}
-
-\hspace{-0.2cm}\begin{minipage}{0.495\textwidth}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=8cm]{immagini/scattering_multiplo_1.png}
-    \end{figure}
-\end{minipage}
-\hspace{0.2cm}\begin{minipage}{0.5\textwidth}
-    \vspace{0.6cm}Una volta che la particella entra nello spessore subisce una serie di scattering multipli che fanno deviare continuamente la particella del suo percorso rettilineo. Se quindi andiamo a vedere la fuoriuscita dal materiale, la particella potrebbe essere spostata rispetto all'altezza in ingresso e potrebbe aver cambiato direzione incidente, formando un angolo $\vartheta$ rispetto a quello di partenza.
-\end{minipage}
-
-\vspace{0.2cm}L'effetto dello scattering multiplo può essere studiato attraverso questa deviazione, cioè possiamo fare delle considerazioni statistiche sull'angolo di uscita. In particolare la distribuzione dell'angolo di scattering è di tipo gaussiano per piccoli angoli, mentre per grandi angoli ha una coda a valori più alti di quelli previsti da una gaussiana. Ciò vuol dire che in media, se inviamo delle particelle e studiamo l'angolo di deflessione in uscita, ci aspettiamo che nella maggior parte dei casi si mantenga la direzione di partenza e via via diventa sempre più improbabile che l'angolo di deflessione sia elevato.
-
-\E da notare che la figura di sopra affronta il problema nel caso planare ma in realtà si tratta di un problema tridimensionale, cioè dovremmo studiare l'angolo tra due direzioni nello spazio; è tuttavia equivalente considerare la proiezione su un piano.
-
-Una prima conclusione è quindi che la deviazione media nel piano è zero (la media dei vari angoli di uscita). Maggiormente però ci interessa la larghezza della distribuzione, cioè di quanto varia, da evento a evento, l'angolo di deviazione, ossia la dispersione di questi angoli. Se indichiamo con $\vartheta_0$ la larghezza della distribuzione, essa può essere definita andando a valutare lo scarto quadratico medio dei vari $\vartheta_{\rm plane}$ (rms\footnote{chatgpt dice che sta per "radial mean square", ma sec me bisognerebbe chiedere}). La relazione tra rms del piano e quello dello spazio è
-
-$$\vartheta_0=\vartheta_{\rm plane}^{\rm rms}
-=\frac{1}{\sqrt{2}} \vartheta_{\rm space}^{\rm rms}$$
-
-Maggiore è il valore di rms, più si evidenziano effetti di scattering multiplo. L'rms dipenderà da:
-
-\begin{itemize}
-    \item Il tipo di particelle incidente;
-    \item L'energia o l'impulso della particella incidente;
-    \item Le proprietà del materiale.
-\end{itemize}
-
-Dalla teoria di Moliere si ricava che, assumendo una distribuzione Gaussiana per l'angolo di scattering nel piano, la sua larghezza è data da:
-
-$$\vartheta_0=\frac{13.6 \; \text{MeV}}{\beta c p} z \sqrt{x/X_0} \big[ 1 + 0.038 \ln(x/X_0) \big]$$
-
-dove $p$ è l'impulso particella, $x$ lo spessore del materiale, $z$ il numero atomico della particella e $X_0$ la lunghezza di radiazione del materiale.
-
-\subsection{Lunghezza di radiazione}
-
-\E un parametro caratteristico del materiale. \E legato all'interazione degli elettroni o dei fotoni di alta energia, ma utilizzato in diversi contesti.
-
-Si può definire in due modi:
-
-\begin{itemize}
-    \item come la distanza media entro cui un elettrone ad alta energia riduce la sua energia ad $1/e$ del valore iniziale mediante processi di radiazione (bremsstrahlung);
-    \item come $7/9$ del libero cammino medio per produzione di coppie da parte di un fotone di alta energia.
-\end{itemize}
-
-Dalla prima definizione capiamo che più il materiale assorbe l'energia dell'elettrone, più la lunghezza di radiazione è piccola. Ricordiamo inoltre che i fotoni interagiscono con la materia attraverso tre meccanismi principali: effetto fotoelettrico, effetto Compton e la produzione di coppie elettrone-positrone.
-
-\textbf{continua}
-
-$$L_r=\frac{716.4 \; A}{Z(Z+1)\ln(287/\sqrt{z})}
-\quad \rm \qty[g/cm^2]$$
-
-\subsection{Distribuzione angolare di scattering}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=8cm]{immagini/distribuzione_angolare_di_scattering.png}
-\end{figure}
-
-$$\frac{1}{2 \pi \vartheta_0^2}e^{\left(-\frac{\vartheta_{\rm space}^2}{2\vartheta_0^2}\right)}d \Omega$$
-
-\section{Conseguenze dello scattering multiplo}
-
-\textbf{rileggi}In generale lo scattering multiplo comporta una deviazione rispetto alla direzione di partenza. In alcuni casi è importante dover stimare tale scattering (\textbf{o deviazione boh vai a vedere la lez}), ad esempio nel caso in cui vogliamo tracciare una particella: immaginiamo di avere una collisione tra nuclei o protoni da cui emergono tantissime particelle (è quello che viene negli acceleratori LHC) e vogliamo non solo capire che tipo di particelle vengono emesse, ma anche il percorso. Per fare ciò si usano dei \textit{rivelatori di tracciamento} che vanno a individuare, attraverso dei punti, il percorso che seguono. Essendo fatto di materia, ogni volta che una particella colpisce un rivelatore subisce scattering multiplo, quindi tutto ciò che misurano i rivelatori e successivi risentirà dello scattering multiplo provocato dai rivelatori precedenti. Ne segue che quando ricostruire la traccia di una particella (ad esempio rettilinea), non ci aspetteremo dei punti allineati, bensì dovremo considerare dei margini che tengono conto del fatto che la particella non segue un percorso rettilineo, ma nell'attraversare un materiale ha subito una leggera deviazione (scattering multiplo) per questa ragione, dato che i rivelatori non devono fermare la particella e devono deviare la sua traiettoria il meno possibile, parte dello sviluppo di un rivelatore consiste nel cercare di ridurre il "material budget", cioè la quantità di materia che si introduce attraverso l'inserimento di un rivelatore (nel caso ideale tale budget è nullo).
-
-Un altro caso in cui è importante stimarlo è per misurare la direzione di arrivo dei raggi cosmici, i quali vengono deviati attraversando l'aria.
-
-Va ricordato che questo effetto è importante per particelle di basso impulso e per materiali ad alto Z.
-
-\section{Interazione dei \texorpdfstring{$\gamma$}{\textgamma} con la materia}
-
 A differenza dei casi precedenti qui i meccanismi sono totalmente differenti. Ciò perché i gamma, essendo fotoni, sono privi di carica, per cui interagiscono con la materia in maniera diversa.
 
 Nello spettro delle onde elettromagnetiche i gamma sono le radiazioni più energetiche (da qualche centinaio di Kev in su). Poiché nello spettro non c'è una vera e propria distinzione tra la zona dei gamma e le altre, oltre ai valori di energia bisogna ricordarsi che i fotoni gamma sono associati a processi legati al nucleo (ad esempio decadimenti $\gamma$ che riguardano le transizioni dei livelli nucleari, mentre le transizioni tra livelli atomici comportano le emissioni di radiazioni ricadenti nel campo dei raggi X). Va ricordato e quanto diciamo riguardo l'interazione dei gamma è riconducibile anche a quella dei raggi X.
@@ -335,7 +53,7 @@ Trivia: la luce visibile può produrre effetto fotoelettrico su alcuni materiali
 
 La dipendenza della sezione d'urto dal materiale è della radiazione dal $\gamma$ incidente è
 
-$$\sigma \approx \frac{\text{Z}^5}{E_{\gamma}^{7/2}}$$
+$$\sigma \approx \frac{Z^5}{E_{\gamma}^{7/2}}$$
 
 \textbf{continua}
 
@@ -351,14 +69,18 @@ A seguito dello scattering nello stato finale avremo un fotone diffuso, con ener
 
 Indicando con $\vartheta$ l'angolo di diffusione del fotone uscente, applicando la conservazione dell'energia e dell'impulso è possibile individuare una relazione che lega l'energia del fotone diffuso con l'angolo:
 
-$$h\nu'=\frac{h\nu}{\big[1 + \gamma (1 - \cos{\vartheta})\big]}
-\quad\text{dove }
-\gamma=\frac{h\nu}{m_ec^2}$$
+\begin{equation*}
+    h\nu'=\frac{h\nu}{\big[1 + \gamma (1 - \cos{\vartheta})\big]}
+    \qqtext{dove}
+    \gamma=\frac{h\nu}{m_ec^2}
+\end{equation*}
 
 Quindi in base al valore di $\vartheta$, che varia da evento a evento, le energie che si distribuiscono l'elettrone e il fotone diffuso possono essere differenti.
 Per la conservazione dell'energia, l'energia dell'elettrone sarà data da
 
-$$T_e=h\nu - h\nu'$$
+\begin{equation*}
+    T_e=h\nu - h\nu'
+\end{equation*}
 
 
 
@@ -372,13 +94,15 @@ Questo terzo corpo tipicamente è il nucleo atomico, ma alcune volte tale proces
 
 La coppia prodotta deve rispettare la conservazione dell'energia, per cui l'energia cinetica delle due particelle uscenti corrisponde all'energia del fotone incidente meno due volte la massa a riposo dell'elettrone:
 
-$$T(e^+) + T(e^-)=h\nu - 2mc^2$$
+\begin{equation*}
+    T(e^+) + T(e^-)=h\nu - 2mc^2
+\end{equation*}
 
 Ciò ha senso, perché parte dell'energia del fotone deve essere usata per la produzione delle due masse.
 
 Da Tale relazione segue che ci sia una soglia di produzione al di sotto della quale è impossibile che si verifichi il processo di produzione di coppie. Quindi, se il fotone incidente non ha un'energia sufficiente almeno a creare questa coppia (cioè almeno $2mc^2=1.022$ MeV), non avviene nessun processo; se ha un'energia superiore alla soglia, quella in eccesso viene poi suddivisa tra i prodotti, cioè tra elettrone e positrone.
 
-La sezione d'urto è proporzionale a $\rm Z^2$ e cresce con l'energia, infatti è il processo che domina ha energie elevate.
+La sezione d'urto è proporzionale a $Z^2$ e cresce con l'energia, infatti è il processo che domina ha energie elevate.
 
 \subsection{Sommario}
 

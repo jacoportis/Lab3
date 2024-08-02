@@ -11,7 +11,7 @@
     \newpage} %serve a lasciare una pagina vuota
 \usepackage{import}
 \usepackage{physics}
-\usepackage{mhchem}
+\usepackage[version=4]{mhchem}
 \usepackage{amsfonts}
 \usepackage{graphicx}
 \usepackage{amssymb}
@@ -34,6 +34,7 @@
 \setlength\parindent{0pt}%e si gode, toglie lo spostmento a destra di una nuova riga
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{fancyhdr}
 
 \newcommand{\comment}[1]{}
 
@@ -87,6 +88,16 @@
 
 \newpage
 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\nouppercase{\textbf{\thepage}\hfill\rightmark}}
+\fancyhead[RO]{\nouppercase{\leftmark\hfill\textbf{\thepage}}}
+\fancypagestyle{plain}{%
+\fancyhf{} % cancella tutti i campi di intestazione e pi\‘e di pagina
+%\fancyfoot[C]{\bfseries \thepage} % tranne il centro
+\renewcommand{\headrulewidth}{0pt}
+}
+
 \chapter{Arduino}
 \import{./Capitoli}{arduino}
 %\import{./Chapter/1-Sections/}{1-primo}
@@ -99,7 +110,11 @@
 \import{./Capitoli}{perdita_energia_particelle_cariche}
 %\import{./Chapter/3-Sections/}{1-primo}
 
-%\chapter{Perdita di energia-elettroni}
-%\import{./Capitoli}{perdita_energia_elettroni}
+\chapter{Perdita di energia-elettroni}
+\import{./Capitoli}{perdita_energia_elettroni}
+
+%\chapter[Interazione dei \texorpdfstring{$\gamma$}{\textgamma} con la materia]
+%{Interazione dei $\boldsymbol{\gamma}$ con la materia}
+%\import{./Capitoli}{interazione_gamma_materia}
 
 \end{document}
