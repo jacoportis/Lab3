@@ -29,11 +29,10 @@
 \contentsline {subsubsection}{Sorgenti naturali}{20}{section*.21}%
 \contentsline {subsubsection}{Sorgenti artificiali}{21}{section*.22}%
 \contentsline {subsubsection}{Trivia: il caso della banana}{21}{section*.23}%
-\contentsline {chapter}{\numberline {3}Perdita di energia-particelle cariche}{22}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Perdita di energia per particelle cariche pesanti}{22}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Principali meccanismi}{22}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Interazione coulombiana (inelastica) con gli elettroni atomici}{22}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Interazione (elastica) con i nuclei}{23}{subsection.3.1.2}%
-\contentsline {subsubsection}{Altri meccanismi}{23}{section*.24}%
 \contentsline {section}{\numberline {3.2}Relazione di Bethe-Bloch}{24}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Perdita di energia per composti}{27}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Picco di Bragg}{28}{subsection.3.2.2}%
@@ -43,7 +42,7 @@
 \contentsline {subsection}{\numberline {3.3.3}Come calcolare il range di una particella}{33}{subsection.3.3.3}%
 \contentsline {section}{\numberline {3.4}Radiazione Cherenkov}{33}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Possibili esercizi}{35}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Perdita di energia-elettroni}{37}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Perdita di energia per elettroni}{37}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Interazione degli elettroni con la materia}{37}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Contributo collisionale}{39}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Contributo radiativo}{39}{subsection.4.1.2}%
@@ -52,3 +51,8 @@
 \contentsline {section}{\numberline {4.2}Range degli elettroni}{42}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Assorbimento degli elettroni}{43}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Backscattering}{44}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Scattering multiplo}{46}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Lunghezza di radiazione}{49}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Distribuzione angolare di scattering}{50}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Conseguenze dello scattering multiplo}{50}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Tomografia muonica}{51}{subsection.4.5.4}%

@@ -289,47 +289,69 @@ Il backscattering si quantifica tramite il \textit{coefficiente di backscatterin
 
 I grafici riportano i valori del coefficiente di backscattering in funzione dell'energia dell'elettrone. Come detto prima è elevato ad energie basse e diminuisce all'aumentare dell'energia in modo drastico (da notare che le scale adoperate sono logaritmiche), per cui ad alte energie è un effetto trascurabile. Il fatto che ci siano curve diverse per materiali diversi ci dice che c'è una dipendenza anche dal tipo di materiale. In particolare il backscattering è meno evidente per materiali più leggeri, per cui il coefficiente è più piccolo. Nei materiali più pesanti (grafico a destra) invece questo effetto prevale anche per energie dell'ordine del MeV e non si può trascurare.
 
-\comment{
-\textbf{continua a 1:05:10 circa}
-
 \section{Scattering multiplo}
 
 Il percorso seguito da una particella può essere più o meno frastagliato, cioè con più o meno deviazioni. Studiamo ora nel dettaglio i motivi per cui si devia dal percorso rettilineo.
 
-Il maggiore contributo al processo di deflessione e dato dai processi coulombiani (in misura minore anche dalla interazione nucleare). Ciò che si fa è distinguere tre casi principali:
+Il maggiore contributo al processo di deflessione è dato dai processi coulombiani di scattering elastico (in misura minore anche dalla interazione nucleare). Ciò che si fa è distinguere tre casi principali:
 
 \begin{enumerate}
-    \item Se lo spessore adoperato è particolarmente sottile siamo nel caso in cui con buona probabilità si verifica un singolo scattering all'interno dello spessore. Esso può essere affrontato con lo scattering Rutherford, in cui la sezione d'urto è funzione dell'angolo di scattering;
-    \item Se lo spessore adoperato è considerevole il numero di scattering è elevato (\textit{multiple scattering}), come avviene nella maggior parte dei casi reali. La particella quindi, nell'attraversare il materiale, subisce delle deflessioni dovute a diverse collisioni. Essendo il numero di queste elevato, tale processo si studia da un punt di vista statistico;
+    \item Se lo spessore adoperato è particolarmente sottile siamo nel caso in cui è molto probabile che si verifichi un singolo scattering all'interno dello spessore (\textit{single scattering}). Esso può essere affrontato con lo scattering Rutherford, in cui la sezione d'urto è funzione dell'angolo di scattering
+    \begin{equation*}
+        \dv{\sigma}{\Omega}=z_2^2 z_1^2 r_e^2 \frac{(m_ec/\beta p)^2}{4 \sin^4{(\vartheta/2)}}
+    \end{equation*}
+    \item Se lo spessore adoperato è considerevole il numero di scattering è elevato (\textit{multiple scattering}), come avviene nella maggior parte dei casi reali. La particella quindi, nell'attraversare il materiale, subisce delle deflessioni dovute a diverse collisioni. Essendo il numero di queste elevato, tale processo si studia da un punto di vista statistico;
     \item Il caso intermedio è quello del \textit{plural scattering}, ed è il caso in cui il numero di collisioni è minore di 20. Poiché tale numero non è levato, il fenomeno non può essere studiato dal punto di vista statistico ed è difficile farne una trattazione.
 \end{enumerate}
 
 Concentriamoci sul secondo caso. La teoria statistica che ci permette di studiare l'angolo di fuoriuscita di una particella dopo aver attraversato un dato spessore è la teoria di Moliere.
 
-Immaginiamo di avere un percorso all'interno di un materiale di lunghezza $x$:
+Immaginiamo di avere un percorso all'interno di un materiale di lunghezza $x$ e una particella che incide perpendicolarmente alla superficie:
 
-\vspace{-0.2cm}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=11cm]{immagini/scattering_multiplo_1.png}
+\end{figure}
 
-\hspace{-0.2cm}\begin{minipage}{0.495\textwidth}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=8cm]{immagini/scattering_multiplo_1.png}
-    \end{figure}
-\end{minipage}
-\hspace{0.2cm}\begin{minipage}{0.5\textwidth}
-    \vspace{0.6cm}Una volta che la particella entra nello spessore subisce una serie di scattering multipli che fanno deviare continuamente la particella del suo percorso rettilineo. Se quindi andiamo a vedere la fuoriuscita dal materiale, la particella potrebbe essere spostata rispetto all'altezza in ingresso e potrebbe aver cambiato direzione incidente, formando un angolo $\vartheta$ rispetto a quello di partenza.
-\end{minipage}
+Una volta che la particella entra nello spessore subisce una serie di scattering multipli che fanno deviare continuamente la particella dal suo percorso rettilineo. Se quindi andiamo a vedere la fuoriuscita dal materiale, la particella potrebbe essere spostata rispetto all'altezza in ingresso e potrebbe aver cambiato direzione incidente, formando un angolo $\vartheta_{\rm plane}$ rispetto a quello di partenza.
 
-\vspace{0.2cm}L'effetto dello scattering multiplo può essere studiato attraverso questa deviazione, cioè possiamo fare delle considerazioni statistiche sull'angolo di uscita. In particolare la distribuzione dell'angolo di scattering è di tipo gaussiano per piccoli angoli, mentre per grandi angoli ha una coda a valori più alti di quelli previsti da una gaussiana. Ciò vuol dire che in media, se inviamo delle particelle e studiamo l'angolo di deflessione in uscita, ci aspettiamo che nella maggior parte dei casi si mantenga la direzione di partenza e via via diventa sempre più improbabile che l'angolo di deflessione sia elevato.
+\vspace{0.2cm}L'effetto dello scattering multiplo può essere studiato attraverso questa deviazione, cioè possiamo fare delle considerazioni statistiche sull'angolo di uscita. In particolare la distribuzione dell'angolo di scattering è di tipo gaussiano per piccoli angoli, mentre per grandi angoli ha una coda a valori più alti di quelli previsti da una gaussiana. Ciò vuol dire che in media, se inviamo delle particelle su un materiale e studiamo l'angolo di deflessione in uscita, ci aspettiamo che nella maggior parte dei casi si mantenga la direzione di partenza e via via diventi sempre più improbabile che l'angolo di deflessione sia elevato.
 
-\E da notare che la figura di sopra affronta il problema nel caso planare ma in realtà si tratta di un problema tridimensionale, cioè dovremmo studiare l'angolo tra due direzioni nello spazio; è tuttavia equivalente considerare la proiezione su un piano.
+\E da notare che la figura di sopra affronta il problema nel caso planare, ma in realtà si tratta di un problema tridimensionale, cioè dovremmo studiare l'angolo tra direzione di entrata e quella di uscita nello spazio; spesso infatti la trattazione di Moliere viene riportata sia in termini di angolo nello spazio che in termini di angolo nel piano (si va a considerare la proiezione su un piano).
 
-Una prima conclusione è quindi che la deviazione media nel piano è zero (la media dei vari angoli di uscita). Maggiormente però ci interessa la larghezza della distribuzione, cioè di quanto varia, da evento a evento, l'angolo di deviazione, ossia la dispersione di questi angoli. Se indichiamo con $\vartheta_0$ la larghezza della distribuzione, essa può essere definita andando a valutare lo scarto quadratico medio dei vari $\vartheta_{\rm plane}$ (rms\footnote{chatgpt dice che sta per "radial mean square", ma sec me bisognerebbe chiedere}). La relazione tra rms del piano e quello dello spazio è
+Una prima conclusione è quindi che la deviazione media nel piano è zero\footnote{Ciò è ovvio: se consideriamo una serie di particelle inviate tutte con la stessa direzione di incidenza, in uscita avremo tanti angoli di deviazione sia verso l'alto che verso il basso ed in media si trova un valore nullo.}, ma ciò che maggiormente ci interessa è la larghezza della distribuzione, cioè di quanto varia da evento a evento l'angolo di deviazione, ossia la dispersione di questi angoli di deviazione. Se indichiamo con $\vartheta_0$ la larghezza della distribuzione, essa può essere definita andando a valutare lo scarto quadratico medio dei vari $\vartheta_{\rm plane}$. Inoltre, tramite considerazioni geometriche si mostra che c'è una relazione tra lo scarto quadratico medio nel piano e quello nello spazio:
 
-$$\vartheta_0=\vartheta_{\rm plane}^{\rm rms}
-=\frac{1}{\sqrt{2}} \vartheta_{\rm space}^{\rm rms}$$
+\begin{equation*}
+    \vartheta_0=\vartheta_{\rm plane}^{\rm rms}
+    =\frac{1}{\sqrt{2}} \vartheta_{\rm space}^{\rm rms}
+\end{equation*}
 
-Maggiore è il valore di rms, più si evidenziano effetti di scattering multiplo. L'rms dipenderà da:
+\begin{approfondimento}[Ma che signfica rms?]
+    \footnotesize
+    Questo approfondimento sarebbe più appropriato come nota a margine, ma vista la lunghezza ho preferito procedere così.
+
+    \vspace{0.2cm}Nella teoria dello scattering multiplo, la sigla "rms" sta per \textit{root mean square} (radice quadrata della media dei quadrati). Questo termine è usato per descrivere una misura statistica della dispersione o della variabilità di una serie di valori.
+
+    Nello specifico, in contesti di scattering multiplo, l'rms può essere riferito a diversi parametri, come ad esempio l'rms della deviazione angolare, il quale misura la dispersione delle angolazioni dei raggi dopo lo scattering multiplo.
+    
+    L'uso del valore rms è comune perché fornisce una misura della "magnitudine media" della variabile in questione, indipendentemente dal segno. Nel caso delle fluttuazioni o delle deviazioni, questo aiuta a comprendere l'entità delle variazioni rispetto al valore medio, contribuendo a caratterizzare meglio il comportamento del sistema di scattering.
+    
+    Il valore rms di un insieme di $N$ valori $x_i$ (dove $i$ va da $1$ a $N$) è dato dalla loro media quadratica:
+    \begin{equation*}
+        \textstyle \text{rms}
+        =\sqrt{\frac{1}{N}\sum_{i=1}^{N} x_i^2}
+    \end{equation*}
+    Nel contesto dello scattering multiplo, se il valore medio $\mu$ delle deviazioni è zero, il root mean square (rms) coincide effettivamente con lo scarto quadratico medio (standard deviation, $\sigma$). Questo avviene perché lo scarto quadratico medio è definito come la radice quadrata della media dei quadrati delle deviazioni dalla media:
+    \begin{equation*}
+        \textstyle \sigma
+        =\sqrt{\frac{1}{N}\sum_{i=1}^{N} (x_i - \mu)^2}
+    \end{equation*}
+    da cui si vede subito che se $\mu=0$ tale espressione coincide con quella dell'rms.
+    
+    Nello scattering multiplo è comune che la distribuzione delle deviazioni angolari o delle altre grandezze rilevanti (come la posizione o il cammino ottico) abbia una media nulla, specialmente se si considerano grandi quantità di eventi di scattering in cui le deviazioni in direzioni opposte si bilanciano. In tali casi, il valore rms rappresenta direttamente la dispersione delle deviazioni senza la necessità di distinguere tra rms e scarto quadratico medio.
+\end{approfondimento}
+
+Maggiore è l'rms, più si evidenziano effetti di scattering multiplo. L'rms dipenderà da:
 
 \begin{itemize}
     \item Il tipo di particelle incidente;
@@ -341,40 +363,94 @@ Dalla teoria di Moliere si ricava che, assumendo una distribuzione Gaussiana per
 
 $$\vartheta_0=\frac{13.6 \; \text{MeV}}{\beta c p} z \sqrt{x/X_0} \big[ 1 + 0.038 \ln(x/X_0) \big]$$
 
-dove $p$ è l'impulso particella, $x$ lo spessore del materiale, $z$ il numero atomico della particella e $X_0$ la lunghezza di radiazione del materiale.
+dove $x$ è lo spessore di materiale attraversato (più grande è lo spessore più gli effetti di scattering sono evidenti), $p$ l'impulso particella (più grande è l'impulso meno gli effetti di scattering sono evidenti), $z$ il numero atomico della particella e $X_0$ la lunghezza di radiazione del materiale. Concentriamoci un attimo su quest'ultima grandezza
 
 \subsection{Lunghezza di radiazione}
 
-\E un parametro caratteristico del materiale. \E legato all'interazione degli elettroni o dei fotoni di alta energia, ma utilizzato in diversi contesti.
+\E un parametro caratteristico del materiale, legato all'interazione degli elettroni o dei fotoni di alta energia, ma utilizzato in diversi contesti.
 
-Si può definire in due modi:
+La lunghezza di radiazione di un materiale si può definire come:
 
 \begin{itemize}
-    \item come la distanza media entro cui un elettrone ad alta energia riduce la sua energia ad $1/e$ del valore iniziale mediante processi di radiazione (bremsstrahlung);
-    \item come $7/9$ del libero cammino medio per produzione di coppie da parte di un fotone di alta energia.
+    \item la distanza media entro cui un elettrone ad alta energia riduce la sua energia ad $1/e$ del valore iniziale mediante processi di radiazione (bremsstrahlung). Da tale definizione capiamo che più il materiale assorbe l'energia dell'elettrone, più la lunghezza di radiazione è piccola;
+    \item $7/9$ del libero cammino medio per produzione di coppie da parte di un fotone di alta energia. Ricordiamo che i fotoni interagiscono con la materia attraverso tre meccanismi principali: effetto fotoelettrico, effetto Compton e la produzione di coppie elettrone-positrone. In particolare quest'ultimo effetto avviene ad alte energie.
 \end{itemize}
 
-Dalla prima definizione capiamo che più il materiale assorbe l'energia dell'elettrone, più la lunghezza di radiazione è piccola. Ricordiamo inoltre che i fotoni interagiscono con la materia attraverso tre meccanismi principali: effetto fotoelettrico, effetto Compton e la produzione di coppie elettrone-positrone.
+Tale grandezza esprime quindi quali sono le capacità di elettroni e fotoni ad alta energia di interagire con la materia. Essa è particolarmente importante per lo studio dei processi elettromagnetici in un materiale
 
-\textbf{continua}
+Essa si può valutare con formule semi empiriche che dipendono da $A$ e $Z$ del materiale:
 
-$$L_r=\frac{716.4 \; A}{Z(Z+1)\ln(287/\sqrt{z})}
-\quad \rm \qty[g/cm^2]$$
+\begin{equation*}
+    L_r=\frac{716.4 \; A}{Z(Z+1)\ln \bigl( 287/\sqrt{Z} \bigr)}
+\end{equation*}
+
+Essendo una lunghezza, si esprimerà in metri o, in termini di unità di densità superficiale, come $\rm g/cm^2$.
+
+Vediamo dei valori tipici per alcuni materiali:
+
+\begin{center}
+    \begin{tabular}{|l|c|c|c|}
+      \hline
+      Materiale & Energia critica & Lunghezza di & Densità $\times$ lunghezza di\\
+      & $E_c$ (MeV) & radiazione $L_r$ (m) & radiazione $\rho L_r$ $(\rm kg \cdot m^{-2})$\\
+      \hline
+      Aria & 102 & 300 & 362\\
+      \hline
+      Acqua & 92 & 0.36 & 361\\
+      \hline
+      Alluminio & 51 & 0.089 & 240\\
+      \hline
+      Ferro & 27 & 0.018 & 140\\
+      \hline
+      Piombo & 9.5 & 0.0056 & 64\\
+      \hline
+    \end{tabular}
+  \end{center}
+
+Notiamo come nel caso di materiali molto pesanti la lunghezza di radiazione è particolarmente piccola perché questi frenano parecchio sia elettroni che fotoni, quindi secondo le definizioni appena viste un fotone percorrerà pochissimo spazio prima di interagire e produrre una coppia oppure un elettrone percorrerà pochissimo spazio prima di ridurre la sua energia di un fattore $1/e$. I valori di $L_r$ variano drasticamente quando passiamo da un mezzo solido/liquido ad uno gassoso, ad esempio nel piombo vale 5 mm mentre nell'aria vale 300 m.
+
+Tale lunghezza di radiazione in particolare fu fondamentale quando furono scoperti i raggi cosmici: infatti ciò che si osservava era che elettroscopi carichi si scaricavano da soli entro un certo; ciò indicava il fatto che evidentemente c'era una radiazione ionizzante che ionizzava l'aria ed in conseguenza faceva scaricare l'elettroscopio nel tempo. Bisognava quindi capire l'origine di questa radiazione. Inizialmente si pensò alla radioattività ambientale, per cui si pensò di effettuare misure allontanandosi dal suolo per evitare il contributo della radiazione emessa dal suolo: per fare ciò si portò un elettroscopio sulla cima della Torre Eiffel (a 300 m)\footnote{Non era tanto una questione di altitudine, il problema era distanziarsi dal suolo.}. Ciò che si misurò fu di fatto una diminuzione della radiazione, ma questa non era consistente con quanto atteso dall'emissione del suolo. Si cercò quindi di capire tramite dei calcoli, conoscendo la lunghezza di radiazione dei gamma in aria (perché certamente elettroni o alpha messi dal suolo non riescono ad arrivare a 300 m di altezza), se si fosse interamente schermati. Poiché i calcoli diedero conferma di ciò, si capì che c'era un ulteriore contributo, proveniente dallo spazio, che erano i raggi cosmici. In seguito con palloni aerostatici si arrivò ad altezze superiori in cui il contributo del suolo era trascurabile e si osservò un aumento di radiazioni nella componente cosmica.
 
 \subsection{Distribuzione angolare di scattering}
+La distribuzione degli angoli in uscita può essere approssimata con una distribuzione gaussiana centrata in zero e con una larghezza $\vartheta_0$ che dipende dalle caratteristiche del materiale.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=8cm]{immagini/distribuzione_angolare_di_scattering.png}
-\end{figure}
-
-$$\frac{1}{2 \pi \vartheta_0^2}e^{\left(-\frac{\vartheta_{\rm space}^2}{2\vartheta_0^2}\right)}d \Omega$$
+\begin{minipage}{0.595\textwidth}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=8cm]{immagini/distribuzione_angolare_di_scattering.png}
+    \end{figure}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+    \vspace{0.4cm}Nello spazio la distribuzione è
+    \begin{equation*}
+        \frac{1}{2 \pi \vartheta_0^2}\exp \left(-\frac{\vartheta_{\rm space}^2}{2\vartheta_0^2}\right) \dd{\Omega}
+    \end{equation*}
+    mentre nel piano
+    \begin{equation*}
+        \frac{1}{\sqrt{2 \pi} \vartheta_0^2}\exp \left(-\frac{\vartheta_{\rm plane}^2}{2\vartheta_0^2}\right) \dd{\vartheta_{\rm plane}}
+    \end{equation*}
+\end{minipage}
 
 \subsection{Conseguenze dello scattering multiplo}
 
-\textbf{rileggi}In generale lo scattering multiplo comporta una deviazione rispetto alla direzione di partenza. In alcuni casi è importante dover stimare tale scattering (\textbf{o deviazione boh vai a vedere la lez}), ad esempio nel caso in cui vogliamo tracciare una particella: immaginiamo di avere una collisione tra nuclei o protoni da cui emergono tantissime particelle (è quello che viene negli acceleratori LHC) e vogliamo non solo capire che tipo di particelle vengono emesse, ma anche il percorso. Per fare ciò si usano dei \textit{rivelatori di tracciamento} che vanno a individuare, attraverso dei punti, il percorso che seguono. Essendo fatto di materia, ogni volta che una particella colpisce un rivelatore subisce scattering multiplo, quindi tutto ciò che misurano i rivelatori e successivi risentirà dello scattering multiplo provocato dai rivelatori precedenti. Ne segue che quando ricostruire la traccia di una particella (ad esempio rettilinea), non ci aspetteremo dei punti allineati, bensì dovremo considerare dei margini che tengono conto del fatto che la particella non segue un percorso rettilineo, ma nell'attraversare un materiale ha subito una leggera deviazione (scattering multiplo) per questa ragione, dato che i rivelatori non devono fermare la particella e devono deviare la sua traiettoria il meno possibile, parte dello sviluppo di un rivelatore consiste nel cercare di ridurre il "material budget", cioè la quantità di materia che si introduce attraverso l'inserimento di un rivelatore (nel caso ideale tale budget è nullo).
+In generale lo scattering multiplo comporta una deviazione rispetto alla direzione di partenza. Da un punto di vista sperimentale, in alcuni casi è importante dover stimare tale scattering, ad esempio nel caso in cui vogliamo tracciare una particella: immaginiamo di avere una collisione tra nuclei o protoni da cui emergono tantissime particelle (è quello che viene negli acceleratori LHC) e vogliamo non solo capire che tipo di particelle vengono emesse, ma anche il percorso. Per fare ciò si usano dei \textit{rivelatori di tracciamento} che vanno a individuare, attraverso dei punti, il percorso seguito da una particella. Essendo fatto di materia, ogni volta che una particella colpisce un rivelatore subisce scattering multiplo, quindi tutto ciò che misurano i rivelatori successivi risentirà dello scattering multiplo provocato dai rivelatori precedenti. Ne segue che quando si va a ricostruire la traccia di una particella (ad esempio rettilinea), non ci aspetteremo dei punti allineati, bensì dovremo considerare dei margini che tengano conto del fatto che la particella non segue un percorso rettilineo, ma nell'attraversare un materiale ha subito una leggera deviazione (scattering multiplo). Per questa ragione, dato che i rivelatori non devono fermare la particella e devono deviare la sua traiettoria il meno possibile, parte dello sviluppo di un rivelatore consiste nel cercare di ridurre il "material budget", cioè la quantità di materia che si introduce attraverso l'inserimento di un rivelatore (nel caso ideale tale budget è nullo e si parla di rivelatore trasparente).
 
 Un altro caso in cui è importante stimarlo è per misurare la direzione di arrivo dei raggi cosmici, i quali vengono deviati attraversando l'aria.
 
 Va ricordato che questo effetto è importante per particelle di basso impulso e per materiali ad alto $Z$.
-}
+
+\subsection{Tomografia muonica}
+
+Talvolta lo scattering multiplo è utile per valutare le caratteristiche del materiale attraversato. Ne è un esempio la tomografia muonica, la quale consiste nello sfruttare i raggi cosmici (in particolare i muoni), per andare a realizzare una tomografia, cioè un'immagine tridimensionale, del contenuto di un container per, ad esempio, la ricerca di materiale fissile di contrabbando, che normalmente ha uno $Z$ elevato.
+
+\begin{minipage}{0.395\textwidth}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=6cm]{immagini/tomografia_muonica.png}
+    \end{figure}
+\end{minipage}
+\begin{minipage}{0.6\textwidth}
+    \vspace{0.5cm}Se è presente provocherà sui muoni uno scattering multiplo considerevole, mentre dove non è presente le tracce passano quasi in deflesse. Andando quindi a ricostruire le direzioni in arrivo e quelle in uscita possiamo realizzare la tomografia. Si usano degli scintillatori per realizzare dei piani di tracciamento, in modo da ricostruire il punto di passaggio dei muoni così da trovare la direzione incidente e quella uscente (saranno date dalle rette passanti dai due punti) e quindi l'angolo di scattering. Le dimensioni sono considerevoli: per un container di $3 \times 6$ m l'altezza è di 7 m.
+\end{minipage}
+
+\vspace{0.4cm}Il limite di questa tecnica è il tempo, perché tale metodo usa solo il flusso naturale dei muoni e l'efficienza dei rivelatori non è il 100\% (non sempre riesce a misurare il passaggio di una particella), per cui serve più tempo di acquisizione.
