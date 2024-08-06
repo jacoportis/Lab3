@@ -16,7 +16,6 @@
 \contentsline {section}{\numberline {2.4}Legge del decadimento radioattivo}{10}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Excursus: la datazione al carbonio $\rm ^{14}C$}{12}{subsection.2.4.1}%
 \contentsline {section}{\numberline {2.5}Isotopi radioattivi $\beta $}{12}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Esempio: decadimento doppio \ce {^{90}Sr / ^{90}Y}}{14}{subsection.2.5.1}%
 \contentsline {section}{\numberline {2.6}Isotopi radioattivi $\alpha $}{15}{section.2.6}%
 \contentsline {section}{\numberline {2.7}Isotopi radioattivi $\gamma $}{16}{section.2.7}%
 \contentsline {section}{\numberline {2.8}Sorgenti di fissione}{18}{section.2.8}%
@@ -40,7 +39,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Range di una particella}{29}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Il channeling}{33}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Come calcolare il range di una particella}{33}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Radiazione Cherenkov}{33}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Radiazione Cherenkov}{34}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Possibili esercizi}{35}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Perdita di energia per elettroni}{37}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Interazione degli elettroni con la materia}{37}{section.4.1}%
@@ -56,3 +55,11 @@
 \contentsline {subsection}{\numberline {4.5.2}Distribuzione angolare di scattering}{50}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}Conseguenze dello scattering multiplo}{50}{subsection.4.5.3}%
 \contentsline {subsection}{\numberline {4.5.4}Tomografia muonica}{51}{subsection.4.5.4}%
+\contentsline {chapter}{\numberline {5}Interazione dei $\gamma $ con la materia}{52}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Meccanismi di interazione dei fotoni}{52}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Sezione d'urto di interazione}{54}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Coefficiente di assorbimento}{55}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Effetto fotoelettrico}{57}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Effetto Compton}{58}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Creazione di coppie}{60}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}Sommario}{61}{subsection.5.1.6}%

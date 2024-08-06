@@ -111,7 +111,7 @@ Tale termine dipende dall'energia della particella: maggiore è l'energia, maggi
 
 Di solito compare anche un altro termine correttivo, detto \textit{correzione di shell} e indicato con $C$, il quale interviene a basse energie. Si introduce perché, a basse energie della particella incidente, viene a mancare una ipotesi del modello di Bohr secondo cui gli elettroni atomici sono praticamente stazionari, fermi rispetto alla particella incidente: se invece questa ha energia bassa, la sua velocità è paragonabile a quella degli elettroni orbitali e di conseguenza è necessario apportare una modifica correttiva alla relazione di Bethe-Bloch tramite tale fattore.
 
-\vspace{0.2cm}Oltre che come Mev/cm, il $\dv*{E}{x}$ può essere espresso in un altro modo: gli spessori infatti possono essere espressi anche \textit{in unità di densità superficiale}. Ciò si fa perché, fissato lo spessore di materiale attraversato, l'effetto della radiazione cambia al variare della densità; per liberarci quindi della dipendenza dalla densità del materiale, si moltiplica lo spessore attraversato espresso in centimetri per la densità\footnote{Il Leo chiama questa grandezza \textit{surface density} o \textit{mass thickness} e la definisce come $\varepsilon=\rho \cdot t$ dove $\rho$ è la densità e $t$ lo spessore.}: lo spessore allora si esprimerà in $\rm g/cm^2$. In questo modo ci rendiamo indipendenti dalla densità e diventa più facile fare un confronto tra materiali.
+\vspace{0.2cm}Oltre che come MeV/cm, il $\dv*{E}{x}$ può essere espresso in un altro modo: gli spessori infatti possono essere espressi anche \textit{in unità di densità superficiale}. Ciò si fa perché, fissato lo spessore di materiale attraversato, l'effetto della radiazione cambia al variare della densità; per liberarci quindi della dipendenza dalla densità del materiale, si moltiplica lo spessore attraversato espresso in centimetri per la densità\footnote{Il Leo chiama questa grandezza \textit{surface density} o \textit{mass thickness} e la definisce come $\varepsilon=\rho \cdot t$ dove $\rho$ è la densità e $t$ lo spessore.}: lo spessore allora si esprimerà in $\rm g/cm^2$. In questo modo ci rendiamo indipendenti dalla densità e diventa più facile fare un confronto tra materiali.
 
 Se esprimiamo il $\dd{x}$ in unità di densità superficiale, il $\dv*{E}{x}$ si esprimerà in $\rm MeV \, cm^2/g$:
 \begin{equation*}
@@ -443,6 +443,11 @@ Da un punto di vista teorico, il range medio di una particella che incide su un 
 
 il quale può essere valutato mediante integrazione numerica.
 
+\begin{approfondimento}[C'è range... e range!]
+    \footnotesize
+    Il calcolo del range mediante la formula appena vista fornisce una stima della lunghezza del percorso effettuato dalle particelle nel materiale. Tuttavia essa ignora gli effetti dello scattering multiplo dovuto alle interazioni Coulombiane, che porta la particella a compiere un percorso a zigzag attraverso il materiale. Ne segue che il range, definito come un percorso in linea retta dentro l'assorbitore, sarà in generale più piccolo del percorso reale. Nei fatti però, per le particelle pesanti gli effetti dello scattering multiplo sono piccoli, per cui la traiettoria percorsa risulta essere molto simile ad un percorso lineare e quindi le due definizioni di range coincidono; nel caso degli elettroni ciò non sarà più vero.
+\end{approfondimento}
+
 \section{Radiazione Cherenkov}
 
 È uno dei possibili meccanismi di perdita di energia. L'emissione di tale radiazione avviene quando la velocità della particella nel mezzo supera la velocità della luce nello stesso mezzo. Quest'ultima è data da
@@ -486,7 +491,7 @@ Tale radiazione viene usata nei reattori a fissione per andare a misurare l'atti
 \section{Possibili esercizi}
 
 \begin{esercizio}
-    Valutare la perdita di energia di particelle $\alpha$ da 5 Mev in un foglio di carta alluminio da cucina. Dati:
+    Valutare la perdita di energia di particelle $\alpha$ da 5 MeV in un foglio di carta alluminio da cucina. Dati:
 
     \begin{itemize}
         \item Spessore fogli della carta da cucina: $0.016$ mm;
