@@ -63,3 +63,10 @@
 \contentsline {subsection}{\numberline {5.1.4}Effetto Compton}{58}{subsection.5.1.4}%
 \contentsline {subsection}{\numberline {5.1.5}Creazione di coppie}{60}{subsection.5.1.5}%
 \contentsline {subsection}{\numberline {5.1.6}Sommario}{61}{subsection.5.1.6}%
+\contentsline {section}{\numberline {5.2}Sciami elettromagnetici}{61}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Struttura di uno sciame elettromagnetico (toy model)}{62}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Profondità di uno sciame e.m.}{63}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Numero di particelle in uno sciame e.m.}{65}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Sviluppo longitudinale di uno sciame e.m.}{66}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Sviluppo laterale di uno sciame e.m.}{67}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Simulazioni di sciami e.m.}{69}{subsection.5.2.6}%
