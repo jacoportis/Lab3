@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.20)  16 AUG 2024 14:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.20)  20 AUG 2024 10:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1254,34 +1254,27 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 [3
 
 
-])
+]
+
+[4])
 \tf@toc=\write4
 \openout4 = `Lab3.toc'.
 
 
 
-[4]
+[5]
 Capitolo 1.
 (Capitoli/arduino.tex)
 
-[5
+[6
 
 ]
 Capitolo 2.
 (Capitoli/sorgenti_radiazione.tex
 
-[6
+[7
 
 ]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1291,7 +1284,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<immagini/carta_di_segre.png, id=200, 304.13625pt x 453.19313pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+<immagini/carta_di_segre.png, id=226, 304.13625pt x 453.19313pt>
 File: immagini/carta_di_segre.png Graphic file (type png)
 <use immagini/carta_di_segre.png>
 Package pdftex.def Info: immagini/carta_di_segre.png  used on input line 89.
@@ -1305,7 +1307,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9 <./immagini/carta_di_segre.png>]
+[10 <./immagini/carta_di_segre.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1314,8 +1316,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10]
-<immagini/legge_decadimento_radioattivo_2.png, id=212, 210.7875pt x 129.98563pt>
+[11]
+<immagini/legge_decadimento_radioattivo_2.png, id=238, 210.7875pt x 129.98563pt>
 File: immagini/legge_decadimento_radioattivo_2.png Graphic file (type png)
 <use immagini/legge_decadimento_radioattivo_2.png>
 Package pdftex.def Info: immagini/legge_decadimento_radioattivo_2.png  used on input line 196.
@@ -1329,8 +1331,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11 <./immagini/legge_decadimento_radioattivo_2.png>]
-<immagini/decadimento_beta.png, id=224, 240.9pt x 163.61125pt>
+[12 <./immagini/legge_decadimento_radioattivo_2.png>]
+<immagini/decadimento_beta.png, id=250, 240.9pt x 163.61125pt>
 File: immagini/decadimento_beta.png Graphic file (type png)
 <use immagini/decadimento_beta.png>
 Package pdftex.def Info: immagini/decadimento_beta.png  used on input line 245.
@@ -1349,8 +1351,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12 <./immagini/decadimento_beta.png>]
-<immagini/Isotopi_beta.png, id=232, 141.02687pt x 100.375pt>
+[13 <./immagini/decadimento_beta.png>]
+<immagini/Isotopi_beta.png, id=259, 141.02687pt x 100.375pt>
 File: immagini/Isotopi_beta.png Graphic file (type png)
 <use immagini/Isotopi_beta.png>
 Package pdftex.def Info: immagini/Isotopi_beta.png  used on input line 268.
@@ -1360,7 +1362,7 @@ Overfull \hbox (0.391pt too wide) in paragraph at lines 265--276
 []$[]$ $[]$ 
  []
 
-<immagini/spettro_decadimento_beta_1.png, id=233, 411.5375pt x 312.16624pt>
+<immagini/spettro_decadimento_beta_1.png, id=260, 411.5375pt x 312.16624pt>
 File: immagini/spettro_decadimento_beta_1.png Graphic file (type png)
 <use immagini/spettro_decadimento_beta_1.png>
 Package pdftex.def Info: immagini/spettro_decadimento_beta_1.png  used on input line 308.
@@ -1370,7 +1372,7 @@ Overfull \hbox (12.86714pt too wide) in paragraph at lines 308--309
 [][] 
  []
 
-<immagini/spettro_decadimento_beta_2.png, id=234, 495.35063pt x 322.70563pt>
+<immagini/spettro_decadimento_beta_2.png, id=261, 495.35063pt x 322.70563pt>
 File: immagini/spettro_decadimento_beta_2.png Graphic file (type png)
 <use immagini/spettro_decadimento_beta_2.png>
 Package pdftex.def Info: immagini/spettro_decadimento_beta_2.png  used on input line 313.
@@ -1392,9 +1394,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13 <./immagini/Isotopi_beta.png>]
+[14 <./immagini/Isotopi_beta.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 323.
-<immagini/decadimento_beta_doppio.png, id=242, 395.4775pt x 268.50313pt>
+<immagini/decadimento_beta_doppio.png, id=268, 395.4775pt x 268.50313pt>
 File: immagini/decadimento_beta_doppio.png Graphic file (type png)
 <use immagini/decadimento_beta_doppio.png>
 Package pdftex.def Info: immagini/decadimento_beta_doppio.png  used on input line 329.
@@ -1404,7 +1406,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 326--346
 []$[]$ $[]$ 
  []
 
-<immagini/decadimento_alfa.png, id=243, 196.735pt x 124.96687pt>
+<immagini/decadimento_alfa.png, id=269, 196.735pt x 124.96687pt>
 File: immagini/decadimento_alfa.png Graphic file (type png)
 <use immagini/decadimento_alfa.png>
 Package pdftex.def Info: immagini/decadimento_alfa.png  used on input line 359.
@@ -1418,13 +1420,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14 <./immagini/spettro_decadimento_beta_1.png> <./immagini/spettro_decadimento_beta_2.png> <./immagini/decadimento_beta_doppio.png>]
-<immagini/schema_decadimento_alfa.png, id=255, 280.54813pt x 203.25937pt>
+[15 <./immagini/spettro_decadimento_beta_1.png> <./immagini/spettro_decadimento_beta_2.png> <./immagini/decadimento_beta_doppio.png>]
+<immagini/schema_decadimento_alfa.png, id=281, 280.54813pt x 203.25937pt>
 File: immagini/schema_decadimento_alfa.png Graphic file (type png)
 <use immagini/schema_decadimento_alfa.png>
 Package pdftex.def Info: immagini/schema_decadimento_alfa.png  used on input line 366.
 (pdftex.def)             Requested size: 312.9803pt x 226.76811pt.
-<immagini/spettro_decadimento_alpha.png, id=256, 491.33563pt x 300.12125pt>
+<immagini/spettro_decadimento_alpha.png, id=282, 491.33563pt x 300.12125pt>
 File: immagini/spettro_decadimento_alpha.png Graphic file (type png)
 <use immagini/spettro_decadimento_alpha.png>
 Package pdftex.def Info: immagini/spettro_decadimento_alpha.png  used on input line 377.
@@ -1438,8 +1440,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15 <./immagini/decadimento_alfa.png> <./immagini/schema_decadimento_alfa.png>]
-<immagini/decadimento_gamma.png, id=264, 208.78pt x 121.45375pt>
+[16 <./immagini/decadimento_alfa.png> <./immagini/schema_decadimento_alfa.png>]
+<immagini/decadimento_gamma.png, id=290, 208.78pt x 121.45375pt>
 File: immagini/decadimento_gamma.png Graphic file (type png)
 <use immagini/decadimento_gamma.png>
 Package pdftex.def Info: immagini/decadimento_gamma.png  used on input line 408.
@@ -1453,13 +1455,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16 <./immagini/spettro_decadimento_alpha.png> <./immagini/decadimento_gamma.png>]
-<immagini/spettro_decadimento_gamma_1.png, id=271, 347.2975pt x 304.63812pt>
+[17 <./immagini/spettro_decadimento_alpha.png> <./immagini/decadimento_gamma.png>]
+<immagini/spettro_decadimento_gamma_1.png, id=297, 347.2975pt x 304.63812pt>
 File: immagini/spettro_decadimento_gamma_1.png Graphic file (type png)
 <use immagini/spettro_decadimento_gamma_1.png>
 Package pdftex.def Info: immagini/spettro_decadimento_gamma_1.png  used on input line 422.
 (pdftex.def)             Requested size: 199.16928pt x 174.71pt.
-<immagini/spettro_decadimento_gamma_2.png, id=272, 156.585pt x 114.92938pt>
+<immagini/spettro_decadimento_gamma_2.png, id=298, 156.585pt x 114.92938pt>
 File: immagini/spettro_decadimento_gamma_2.png Graphic file (type png)
 <use immagini/spettro_decadimento_gamma_2.png>
 Package pdftex.def Info: immagini/spettro_decadimento_gamma_2.png  used on input line 428.
@@ -1474,7 +1476,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 419--431
 []$[]$ $[]$ 
  []
 
-<immagini/spettro_gamma.png, id=273, 307.1475pt x 198.24063pt>
+<immagini/spettro_gamma.png, id=299, 307.1475pt x 198.24063pt>
 File: immagini/spettro_gamma.png Graphic file (type png)
 <use immagini/spettro_gamma.png>
 Package pdftex.def Info: immagini/spettro_gamma.png  used on input line 440.
@@ -1496,13 +1498,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17 <./immagini/spettro_decadimento_gamma_1.png> <./immagini/spettro_decadimento_gamma_2.png> <./immagini/spettro_gamma.png>]
-<immagini/Sorgenti_di_fissione_1.png, id=282, 510.90875pt x 421.07312pt>
+[18 <./immagini/spettro_decadimento_gamma_1.png> <./immagini/spettro_decadimento_gamma_2.png> <./immagini/spettro_gamma.png>]
+<immagini/Sorgenti_di_fissione_1.png, id=308, 510.90875pt x 421.07312pt>
 File: immagini/Sorgenti_di_fissione_1.png Graphic file (type png)
 <use immagini/Sorgenti_di_fissione_1.png>
 Package pdftex.def Info: immagini/Sorgenti_di_fissione_1.png  used on input line 459.
 (pdftex.def)             Requested size: 256.0748pt x 211.04362pt.
-<immagini/Sorgenti_di_fissione_2.png, id=283, 252.945pt x 399.4925pt>
+<immagini/Sorgenti_di_fissione_2.png, id=309, 252.945pt x 399.4925pt>
 File: immagini/Sorgenti_di_fissione_2.png Graphic file (type png)
 <use immagini/Sorgenti_di_fissione_2.png>
 Package pdftex.def Info: immagini/Sorgenti_di_fissione_2.png  used on input line 464.
@@ -1521,13 +1523,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18 <./immagini/Sorgenti_di_fissione_1.png> <./immagini/Sorgenti_di_fissione_2.png>]
-<immagini/radiazione_cosmica.png, id=291, 176.66pt x 248.42813pt>
+[19 <./immagini/Sorgenti_di_fissione_1.png> <./immagini/Sorgenti_di_fissione_2.png>]
+<immagini/radiazione_cosmica.png, id=318, 176.66pt x 248.42813pt>
 File: immagini/radiazione_cosmica.png Graphic file (type png)
 <use immagini/radiazione_cosmica.png>
 Package pdftex.def Info: immagini/radiazione_cosmica.png  used on input line 479.
 (pdftex.def)             Requested size: 199.16928pt x 280.08368pt.
-<immagini/energia_radiazione_cosmica.png, id=292, 350.81062pt x 421.07312pt>
+<immagini/energia_radiazione_cosmica.png, id=319, 350.81062pt x 421.07312pt>
 File: immagini/energia_radiazione_cosmica.png Graphic file (type png)
 <use immagini/energia_radiazione_cosmica.png>
 Package pdftex.def Info: immagini/energia_radiazione_cosmica.png  used on input line 485.
@@ -1551,7 +1553,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19 <./immagini/radiazione_cosmica.png> <./immagini/energia_radiazione_cosmica.png>]
+[20 <./immagini/radiazione_cosmica.png> <./immagini/energia_radiazione_cosmica.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1560,7 +1562,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20])
+[21])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1569,7 +1571,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21]
+[22]
 Capitolo 3.
 (Capitoli/perdita_energia_particelle_cariche.tex
 Overfull \hbox (1.98592pt too wide) in paragraph at lines 11--11
@@ -1578,7 +1580,7 @@ Overfull \hbox (1.98592pt too wide) in paragraph at lines 11--11
 
 
 
-[22
+[23
 
 ]
 
@@ -1589,7 +1591,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23]
+[24]
 Overfull \hbox (0.391pt too wide) in paragraph at lines 65--78
 []$[]$ $[]$ 
  []
@@ -1603,7 +1605,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24]
+[25]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1612,12 +1614,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
+[26]
 Overfull \hbox (0.15181pt too wide) in paragraph at lines 116--117
 []\OT1/cmr/m/n/12 Se espri-mia-mo il $[]$ in unit^^Ra di den-sit^^Ra su-per-fi-cia-le, il $[]$ si espri-mer^^Ra in $MeV cm[]\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 g$: 
  []
 
-<immagini/grafico_bethe_bloch.png, id=344, 703.12688pt x 754.31813pt>
+<immagini/grafico_bethe_bloch.png, id=370, 703.12688pt x 754.31813pt>
 File: immagini/grafico_bethe_bloch.png Graphic file (type png)
 <use immagini/grafico_bethe_bloch.png>
 Package pdftex.def Info: immagini/grafico_bethe_bloch.png  used on input line 125.
@@ -1631,8 +1633,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26 <./immagini/grafico_bethe_bloch.png>]
-<immagini/correzioni_shell_densita.png, id=354, 485.815pt x 340.77313pt>
+[27 <./immagini/grafico_bethe_bloch.png>]
+<immagini/correzioni_shell_densita.png, id=380, 485.815pt x 340.77313pt>
 File: immagini/correzioni_shell_densita.png Graphic file (type png)
 <use immagini/correzioni_shell_densita.png>
 Package pdftex.def Info: immagini/correzioni_shell_densita.png  used on input line 140.
@@ -1651,8 +1653,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27 <./immagini/correzioni_shell_densita.png>]
-<immagini/picco_di_Bragg.png, id=361, 361.85187pt x 251.43938pt>
+[28 <./immagini/correzioni_shell_densita.png>]
+<immagini/picco_di_Bragg.png, id=387, 361.85187pt x 251.43938pt>
 File: immagini/picco_di_Bragg.png Graphic file (type png)
 <use immagini/picco_di_Bragg.png>
 Package pdftex.def Info: immagini/picco_di_Bragg.png  used on input line 180.
@@ -1671,13 +1673,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28 <./immagini/picco_di_Bragg.png>]
-<immagini/energy_loss_distribuzione_gauss.png, id=372, 361.85187pt x 257.96375pt>
+[29 <./immagini/picco_di_Bragg.png>]
+<immagini/energy_loss_distribuzione_gauss.png, id=398, 361.85187pt x 257.96375pt>
 File: immagini/energy_loss_distribuzione_gauss.png Graphic file (type png)
 <use immagini/energy_loss_distribuzione_gauss.png>
 Package pdftex.def Info: immagini/energy_loss_distribuzione_gauss.png  used on input line 204.
 (pdftex.def)             Requested size: 184.9429pt x 131.8471pt.
-<immagini/energy_loss_distribuzione_vavilov.png, id=373, 233.87375pt x 244.915pt>
+<immagini/energy_loss_distribuzione_vavilov.png, id=399, 233.87375pt x 244.915pt>
 File: immagini/energy_loss_distribuzione_vavilov.png Graphic file (type png)
 <use immagini/energy_loss_distribuzione_vavilov.png>
 Package pdftex.def Info: immagini/energy_loss_distribuzione_vavilov.png  used on input line 212.
@@ -1696,7 +1698,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29 <./immagini/energy_loss_distribuzione_gauss.png> <./immagini/energy_loss_distribuzione_vavilov.png>]
+[30 <./immagini/energy_loss_distribuzione_gauss.png> <./immagini/energy_loss_distribuzione_vavilov.png>]
 Overfull \hbox (0.391pt too wide) in paragraph at lines 320--334
 []$[]$ $[]$ 
  []
@@ -1710,12 +1712,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[30]
+[31]
 Overfull \hbox (2.61107pt too wide) in paragraph at lines 355--379
 []$[]$ $[]$ 
  []
 
-<immagini/straggling.png, id=390, 1105.12875pt x 878.53218pt>
+<immagini/straggling.png, id=417, 1105.12875pt x 878.53218pt>
 File: immagini/straggling.png Graphic file (type png)
 <use immagini/straggling.png>
 Package pdftex.def Info: immagini/straggling.png  used on input line 388.
@@ -1729,8 +1731,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[31 <./immagini/straggling.png>]
-<immagini/straggling_energie.png, id=401, 628.3475pt x 252.945pt>
+[32 <./immagini/straggling.png>]
+<immagini/straggling_energie.png, id=427, 628.3475pt x 252.945pt>
 File: immagini/straggling_energie.png Graphic file (type png)
 <use immagini/straggling_energie.png>
 Package pdftex.def Info: immagini/straggling_energie.png  used on input line 405.
@@ -1744,8 +1746,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32 <./immagini/straggling_energie.png>]
-<immagini/channeling.png, id=408, 291.33844pt x 301.125pt>
+[33 <./immagini/straggling_energie.png>]
+<immagini/channeling.png, id=434, 291.33844pt x 301.125pt>
 File: immagini/channeling.png Graphic file (type png)
 <use immagini/channeling.png>
 Package pdftex.def Info: immagini/channeling.png  used on input line 427.
@@ -1765,8 +1767,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[33 <./immagini/channeling.png>]
-<immagini/Effetto_Cherenkov.png, id=416, 702.37407pt x 528.47438pt>
+[34 <./immagini/channeling.png>]
+<immagini/Effetto_Cherenkov.png, id=442, 702.37407pt x 528.47438pt>
 File: immagini/Effetto_Cherenkov.png Graphic file (type png)
 <use immagini/Effetto_Cherenkov.png>
 Package pdftex.def Info: immagini/Effetto_Cherenkov.png  used on input line 470.
@@ -1785,7 +1787,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[34 <./immagini/Effetto_Cherenkov.png>]
+[35 <./immagini/Effetto_Cherenkov.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 494.
 Package mdframed Info: mdframed works in twoside mode on input line 512.
 Package mdframed Info: Box was splittet wrong
@@ -1800,7 +1802,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[35]
+[36]
 Package mdframed Info: mdframed works in twoside mode on input line 523.
 )
 
@@ -1811,14 +1813,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36]
+[37]
 Capitolo 4.
 (Capitoli/perdita_energia_elettroni.tex
 
-[37
+[38
 
 ]
-<immagini/perdita_energia_elettroni.png, id=443, 934.24031pt x 615.0478pt>
+<immagini/perdita_energia_elettroni.png, id=469, 934.24031pt x 615.0478pt>
 File: immagini/perdita_energia_elettroni.png Graphic file (type png)
 <use immagini/perdita_energia_elettroni.png>
 Package pdftex.def Info: immagini/perdita_energia_elettroni.png  used on input line 26.
@@ -1832,7 +1834,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38 <./immagini/perdita_energia_elettroni.png>]
+[39 <./immagini/perdita_energia_elettroni.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1841,8 +1843,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39]
-<immagini/energia_critica.png, id=455, 258.9675pt x 185.19188pt>
+[40]
+<immagini/energia_critica.png, id=481, 258.9675pt x 185.19188pt>
 File: immagini/energia_critica.png Graphic file (type png)
 <use immagini/energia_critica.png>
 Package pdftex.def Info: immagini/energia_critica.png  used on input line 110.
@@ -1858,7 +1860,7 @@ Overfull \hbox (0.391pt too wide) in paragraph at lines 107--118
  []
 
 Package mdframed Info: mdframed works in twoside mode on input line 124.
-<immagini/esempi_energy_loss_elettroni.png, id=456, 644.90938pt x 330.23375pt>
+<immagini/esempi_energy_loss_elettroni.png, id=482, 644.90938pt x 330.23375pt>
 File: immagini/esempi_energy_loss_elettroni.png Graphic file (type png)
 <use immagini/esempi_energy_loss_elettroni.png>
 Package pdftex.def Info: immagini/esempi_energy_loss_elettroni.png  used on input line 129.
@@ -1872,9 +1874,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40 <./immagini/energia_critica.png>]
+[41 <./immagini/energia_critica.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 135.
-<immagini/energy_loss_elettroni_cemento.png, id=465, 348.30125pt x 258.9675pt>
+<immagini/energy_loss_elettroni_cemento.png, id=491, 348.30125pt x 258.9675pt>
 File: immagini/energy_loss_elettroni_cemento.png Graphic file (type png)
 <use immagini/energy_loss_elettroni_cemento.png>
 Package pdftex.def Info: immagini/energy_loss_elettroni_cemento.png  used on input line 138.
@@ -1888,8 +1890,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41 <./immagini/esempi_energy_loss_elettroni.png> <./immagini/energy_loss_elettroni_cemento.png>]
-<immagini/range_elettroni.png, id=476, 762.59906pt x 409.53pt>
+[42 <./immagini/esempi_energy_loss_elettroni.png> <./immagini/energy_loss_elettroni_cemento.png>]
+<immagini/range_elettroni.png, id=502, 762.59906pt x 409.53pt>
 File: immagini/range_elettroni.png Graphic file (type png)
 <use immagini/range_elettroni.png>
 Package pdftex.def Info: immagini/range_elettroni.png  used on input line 174.
@@ -1903,7 +1905,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42 <./immagini/range_elettroni.png>]
+[43 <./immagini/range_elettroni.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1912,8 +1914,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43]
-<immagini/assorbimento_elettroni.png, id=493, 653.44125pt x 730.22812pt>
+[44]
+<immagini/assorbimento_elettroni.png, id=519, 653.44125pt x 730.22812pt>
 File: immagini/assorbimento_elettroni.png Graphic file (type png)
 <use immagini/assorbimento_elettroni.png>
 Package pdftex.def Info: immagini/assorbimento_elettroni.png  used on input line 205.
@@ -1937,7 +1939,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44 <./immagini/assorbimento_elettroni.png>]
+[45 <./immagini/assorbimento_elettroni.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 249.
 
 
@@ -1948,8 +1950,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45]
-<immagini/esempi_backscattering.png, id=511, 615.80063pt x 220.32312pt>
+[46]
+<immagini/esempi_backscattering.png, id=537, 615.80063pt x 220.32312pt>
 File: immagini/esempi_backscattering.png Graphic file (type png)
 <use immagini/esempi_backscattering.png>
 Package pdftex.def Info: immagini/esempi_backscattering.png  used on input line 285.
@@ -1963,8 +1965,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46 <./immagini/esempi_backscattering.png>]
-<immagini/scattering_multiplo_1.png, id=520, 475.7775pt x 219.82124pt>
+[47 <./immagini/esempi_backscattering.png>]
+<immagini/scattering_multiplo_1.png, id=546, 475.7775pt x 219.82124pt>
 File: immagini/scattering_multiplo_1.png Graphic file (type png)
 <use immagini/scattering_multiplo_1.png>
 Package pdftex.def Info: immagini/scattering_multiplo_1.png  used on input line 311.
@@ -1978,7 +1980,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47 <./immagini/scattering_multiplo_1.png>]
+[48 <./immagini/scattering_multiplo_1.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 327.
 
 
@@ -1989,7 +1991,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[48]
+[49]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1998,8 +2000,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49]
-<immagini/distribuzione_angolare_di_scattering.png, id=543, 483.8075pt x 261.47687pt>
+[50]
+<immagini/distribuzione_angolare_di_scattering.png, id=569, 483.8075pt x 261.47687pt>
 File: immagini/distribuzione_angolare_di_scattering.png Graphic file (type png)
 <use immagini/distribuzione_angolare_di_scattering.png>
 Package pdftex.def Info: immagini/distribuzione_angolare_di_scattering.png  used on input line 418.
@@ -2018,8 +2020,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50 <./immagini/distribuzione_angolare_di_scattering.png>]
-<immagini/tomografia_muonica.png, id=550, 472.76625pt x 479.7925pt>
+[51 <./immagini/distribuzione_angolare_di_scattering.png>]
+<immagini/tomografia_muonica.png, id=576, 472.76625pt x 479.7925pt>
 File: immagini/tomografia_muonica.png Graphic file (type png)
 <use immagini/tomografia_muonica.png>
 Package pdftex.def Info: immagini/tomografia_muonica.png  used on input line 447.
@@ -2038,11 +2040,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[51 <./immagini/tomografia_muonica.png>]
+[52 <./immagini/tomografia_muonica.png>]
 Capitolo 5.
 (Capitoli/interazione_gamma_materia.tex
 
-[52
+[53
 
 ]
 
@@ -2053,9 +2055,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[53]
+[54]
 Package mdframed Info: mdframed works in twoside mode on input line 66.
-<immagini/sezione_durto_interazione.png, id=566, 822.07124pt x 443.6575pt>
+<immagini/sezione_durto_interazione.png, id=592, 822.07124pt x 443.6575pt>
 File: immagini/sezione_durto_interazione.png Graphic file (type png)
 <use immagini/sezione_durto_interazione.png>
 Package pdftex.def Info: immagini/sezione_durto_interazione.png  used on input line 70.
@@ -2072,9 +2074,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54 <./immagini/sezione_durto_interazione.png>]
+[55 <./immagini/sezione_durto_interazione.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 87.
-<immagini/coefficiente_assorbimento_gamma_rame.png, id=575, 334.24875pt x 260.975pt>
+<immagini/coefficiente_assorbimento_gamma_rame.png, id=602, 334.24875pt x 260.975pt>
 File: immagini/coefficiente_assorbimento_gamma_rame.png Graphic file (type png)
 <use immagini/coefficiente_assorbimento_gamma_rame.png>
 Package pdftex.def Info: immagini/coefficiente_assorbimento_gamma_rame.png  used on input line 90.
@@ -2088,9 +2090,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[55 <./immagini/coefficiente_assorbimento_gamma_rame.png>]
+[56 <./immagini/coefficiente_assorbimento_gamma_rame.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 97.
-<immagini/coefficiente_assorbimento_vs_attenuazione.png, id=585, 968.11688pt x 681.29532pt>
+<immagini/coefficiente_assorbimento_vs_attenuazione.png, id=611, 968.11688pt x 681.29532pt>
 File: immagini/coefficiente_assorbimento_vs_attenuazione.png Graphic file (type png)
 <use immagini/coefficiente_assorbimento_vs_attenuazione.png>
 Package pdftex.def Info: immagini/coefficiente_assorbimento_vs_attenuazione.png  used on input line 124.
@@ -2109,7 +2111,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[56]
+[57]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2118,8 +2120,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[57 <./immagini/coefficiente_assorbimento_vs_attenuazione.png>]
-<immagini/sezione_durto_effetto_fotoelettrico.png, id=600, 472.01344pt x 523.9575pt>
+[58 <./immagini/coefficiente_assorbimento_vs_attenuazione.png>]
+<immagini/sezione_durto_effetto_fotoelettrico.png, id=626, 472.01344pt x 523.9575pt>
 File: immagini/sezione_durto_effetto_fotoelettrico.png Graphic file (type png)
 <use immagini/sezione_durto_effetto_fotoelettrico.png>
 Package pdftex.def Info: immagini/sezione_durto_effetto_fotoelettrico.png  used on input line 178.
@@ -2138,8 +2140,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[58 <./immagini/sezione_durto_effetto_fotoelettrico.png>]
-<immagini/sezione_durto_effetto_Compton.png, id=613, 581.92406pt x 559.33969pt>
+[59 <./immagini/sezione_durto_effetto_fotoelettrico.png>]
+<immagini/sezione_durto_effetto_Compton.png, id=639, 581.92406pt x 559.33969pt>
 File: immagini/sezione_durto_effetto_Compton.png Graphic file (type png)
 <use immagini/sezione_durto_effetto_Compton.png>
 Package pdftex.def Info: immagini/sezione_durto_effetto_Compton.png  used on input line 244.
@@ -2158,8 +2160,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[59 <./immagini/sezione_durto_effetto_Compton.png>]
-<immagini/sezione_durto_produzione_coppie.png, id=621, 447.92343pt x 624.08156pt>
+[60 <./immagini/sezione_durto_effetto_Compton.png>]
+<immagini/sezione_durto_produzione_coppie.png, id=647, 447.92343pt x 624.08156pt>
 File: immagini/sezione_durto_produzione_coppie.png Graphic file (type png)
 <use immagini/sezione_durto_produzione_coppie.png>
 Package pdftex.def Info: immagini/sezione_durto_produzione_coppie.png  used on input line 285.
@@ -2178,8 +2180,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[60 <./immagini/sezione_durto_produzione_coppie.png>]
-<immagini/sciame_elettromagnetico.png, id=629, 425.59pt x 237.38687pt>
+[61 <./immagini/sezione_durto_produzione_coppie.png>]
+<immagini/sciame_elettromagnetico.png, id=656, 425.59pt x 237.38687pt>
 File: immagini/sciame_elettromagnetico.png Graphic file (type png)
 <use immagini/sciame_elettromagnetico.png>
 Package pdftex.def Info: immagini/sciame_elettromagnetico.png  used on input line 311.
@@ -2193,16 +2195,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[61 <./immagini/sciame_elettromagnetico.png>]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[62]
+[62 <./immagini/sciame_elettromagnetico.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2212,6 +2205,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [63]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[64]
 Package mdframed Info: mdframed works in twoside mode on input line 407.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
@@ -2225,8 +2227,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[64]
-<immagini/numero_particelle_sciame_elettromagnetico.png, id=656, 560.0925pt x 396.48125pt>
+[65]
+<immagini/numero_particelle_sciame_elettromagnetico.png, id=682, 560.0925pt x 396.48125pt>
 File: immagini/numero_particelle_sciame_elettromagnetico.png Graphic file (type png)
 <use immagini/numero_particelle_sciame_elettromagnetico.png>
 Package pdftex.def Info: immagini/numero_particelle_sciame_elettromagnetico.png  used on input line 435.
@@ -2240,8 +2242,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[65 <./immagini/numero_particelle_sciame_elettromagnetico.png>]
-<immagini/grafico_longitudinale.png, id=664, 320.19624pt x 163.10938pt>
+[66 <./immagini/numero_particelle_sciame_elettromagnetico.png>]
+<immagini/grafico_longitudinale.png, id=690, 320.19624pt x 163.10938pt>
 File: immagini/grafico_longitudinale.png Graphic file (type png)
 <use immagini/grafico_longitudinale.png>
 Package pdftex.def Info: immagini/grafico_longitudinale.png  used on input line 450.
@@ -2255,8 +2257,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[66 <./immagini/grafico_longitudinale.png>]
-<immagini/raggio_di_Moliere_1.png, id=672, 365.365pt x 355.82938pt>
+[67 <./immagini/grafico_longitudinale.png>]
+<immagini/raggio_di_Moliere_1.png, id=699, 365.365pt x 355.82938pt>
 File: immagini/raggio_di_Moliere_1.png Graphic file (type png)
 <use immagini/raggio_di_Moliere_1.png>
 Package pdftex.def Info: immagini/raggio_di_Moliere_1.png  used on input line 470.
@@ -2270,8 +2272,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[67 <./immagini/raggio_di_Moliere_1.png>]
-<immagini/raggio_di_Moliere_2.png, id=680, 297.11pt x 403.00563pt>
+[68 <./immagini/raggio_di_Moliere_1.png>]
+<immagini/raggio_di_Moliere_2.png, id=706, 297.11pt x 403.00563pt>
 File: immagini/raggio_di_Moliere_2.png Graphic file (type png)
 <use immagini/raggio_di_Moliere_2.png>
 Package pdftex.def Info: immagini/raggio_di_Moliere_2.png  used on input line 479.
@@ -2285,7 +2287,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[68 <./immagini/raggio_di_Moliere_2.png>])
+[69 <./immagini/raggio_di_Moliere_2.png>])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2294,11 +2296,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[69]
+[70]
 Capitolo 6.
 (Capitoli/caratteristiche_rivelatori.tex
 
-[70
+[71
 
 ]
 
@@ -2309,8 +2311,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[71]
-<immagini/segnali_rivelatori.png, id=706, 401.5pt x 301.125pt>
+[72]
+<immagini/segnali_rivelatori.png, id=732, 401.5pt x 301.125pt>
 File: immagini/segnali_rivelatori.png Graphic file (type png)
 <use immagini/segnali_rivelatori.png>
 Package pdftex.def Info: immagini/segnali_rivelatori.png  used on input line 45.
@@ -2324,7 +2326,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[72 <./immagini/segnali_rivelatori.png>]
+[73 <./immagini/segnali_rivelatori.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2333,9 +2335,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[73]
+[74]
 Package mdframed Info: mdframed works in twoside mode on input line 80.
-<immagini/distribuzione_differenziale_ampiezze.png, id=718, 721.19438pt x 434.37282pt>
+<immagini/distribuzione_differenziale_ampiezze.png, id=744, 721.19438pt x 434.37282pt>
 File: immagini/distribuzione_differenziale_ampiezze.png Graphic file (type png)
 <use immagini/distribuzione_differenziale_ampiezze.png>
 Package pdftex.def Info: immagini/distribuzione_differenziale_ampiezze.png  used on input line 89.
@@ -2349,9 +2351,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[74]
+[75]
 Package mdframed Info: mdframed works in twoside mode on input line 109.
-<immagini/distribuzione_ampiezze_impulsi_es_1.png, id=724, 432.11438pt x 245.91875pt>
+<immagini/distribuzione_ampiezze_impulsi_es_1.png, id=750, 432.11438pt x 245.91875pt>
 File: immagini/distribuzione_ampiezze_impulsi_es_1.png Graphic file (type png)
 <use immagini/distribuzione_ampiezze_impulsi_es_1.png>
 Package pdftex.def Info: immagini/distribuzione_ampiezze_impulsi_es_1.png  used on input line 114.
@@ -2365,7 +2367,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[75 <./immagini/distribuzione_differenziale_ampiezze.png> <./immagini/distribuzione_ampiezze_impulsi_es_1.png>]
+[76 <./immagini/distribuzione_differenziale_ampiezze.png> <./immagini/distribuzione_ampiezze_impulsi_es_1.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2374,21 +2376,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[76
-pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.29}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.133    \item P
-                otremmo essere interessati a sapere quanti segnali sono arri...]
-<immagini/sorgenti_calibrazione.png, id=743, 815.045pt x 231.86626pt>
+[77]
+<immagini/sorgenti_calibrazione.png, id=769, 815.045pt x 231.86626pt>
 File: immagini/sorgenti_calibrazione.png Graphic file (type png)
 <use immagini/sorgenti_calibrazione.png>
-Package pdftex.def Info: immagini/sorgenti_calibrazione.png  used on input line 145.
+Package pdftex.def Info: immagini/sorgenti_calibrazione.png  used on input line 146.
 (pdftex.def)             Requested size: 443.57848pt x 126.18947pt.
-<immagini/retta_calibrazione_cesio_cobalto.png, id=744, 465.74pt x 246.42062pt>
+<immagini/retta_calibrazione_cesio_cobalto.png, id=770, 465.74pt x 246.42062pt>
 File: immagini/retta_calibrazione_cesio_cobalto.png Graphic file (type png)
 <use immagini/retta_calibrazione_cesio_cobalto.png>
-Package pdftex.def Info: immagini/retta_calibrazione_cesio_cobalto.png  used on input line 150.
+Package pdftex.def Info: immagini/retta_calibrazione_cesio_cobalto.png  used on input line 151.
 (pdftex.def)             Requested size: 266.14978pt x 140.82216pt.
 
 
@@ -2399,7 +2396,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[77 <./immagini/sorgenti_calibrazione.png>])
+[78 <./immagini/sorgenti_calibrazione.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 160.
+<immagini/esempio_calibrazione_spettro.png, id=777, 426.09187pt x 197.23688pt>
+File: immagini/esempio_calibrazione_spettro.png Graphic file (type png)
+<use immagini/esempio_calibrazione_spettro.png>
+Package pdftex.def Info: immagini/esempio_calibrazione_spettro.png  used on input line 163.
+(pdftex.def)             Requested size: 295.10364pt x 136.61122pt.
+<immagini/esempio_calibrazione_retta.png, id=778, 420.06938pt x 223.33438pt>
+File: immagini/esempio_calibrazione_retta.png Graphic file (type png)
+<use immagini/esempio_calibrazione_retta.png>
+Package pdftex.def Info: immagini/esempio_calibrazione_retta.png  used on input line 168.
+(pdftex.def)             Requested size: 295.10364pt x 156.89528pt.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 170.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2408,7 +2420,212 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[78 <./immagini/retta_calibrazione_cesio_cobalto.png>] (Lab3.aux)
+[79 <./immagini/retta_calibrazione_cesio_cobalto.png> <./immagini/esempio_calibrazione_spettro.png>]
+<immagini/risoluzione_in_energia.png, id=789, 1171.37625pt x 360.84813pt>
+File: immagini/risoluzione_in_energia.png Graphic file (type png)
+<use immagini/risoluzione_in_energia.png>
+Package pdftex.def Info: immagini/risoluzione_in_energia.png  used on input line 179.
+(pdftex.def)             Requested size: 443.57848pt x 136.64468pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[80 <./immagini/esempio_calibrazione_retta.png> <./immagini/risoluzione_in_energia.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[81]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[82]
+Package mdframed Info: mdframed works in twoside mode on input line 244.
+<immagini/spettro_alpha_riv_silicio.png, id=812, 344.28625pt x 385.44pt>
+File: immagini/spettro_alpha_riv_silicio.png Graphic file (type png)
+<use immagini/spettro_alpha_riv_silicio.png>
+Package pdftex.def Info: immagini/spettro_alpha_riv_silicio.png  used on input line 247.
+(pdftex.def)             Requested size: 149.87175pt x 167.78267pt.
+
+Overfull \hbox (0.50755pt too wide) in paragraph at lines 244--262
+[]$[]$ $[]$ 
+ []
+
+<immagini/spettro_alpha_riv_silicio_fit_gaussiano.png, id=813, 349.305pt x 236.885pt>
+File: immagini/spettro_alpha_riv_silicio_fit_gaussiano.png Graphic file (type png)
+<use immagini/spettro_alpha_riv_silicio_fit_gaussiano.png>
+Package pdftex.def Info: immagini/spettro_alpha_riv_silicio_fit_gaussiano.png  used on input line 270.
+(pdftex.def)             Requested size: 189.70901pt x 128.65335pt.
+
+Overfull \hbox (10.25381pt too wide) in paragraph at lines 275--286
+ [][] 
+ []
+
+
+Overfull \hbox (0.50111pt too wide) in paragraph at lines 267--287
+[]$[]$ $[]$ 
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 290.
+<immagini/spettro_alpha_riv_spettrometro.png, id=814, 475.7775pt x 220.825pt>
+File: immagini/spettro_alpha_riv_spettrometro.png Graphic file (type png)
+<use immagini/spettro_alpha_riv_spettrometro.png>
+Package pdftex.def Info: immagini/spettro_alpha_riv_spettrometro.png  used on input line 295.
+(pdftex.def)             Requested size: 295.10364pt x 136.97409pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[83 <./immagini/spettro_alpha_riv_silicio.png> <./immagini/spettro_alpha_riv_silicio_fit_gaussiano.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[84 <./immagini/spettro_alpha_riv_spettrometro.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 332.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[85]
+Package mdframed Info: mdframed works in twoside mode on input line 362.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 382.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[86]
+Package mdframed Info: mdframed works in twoside mode on input line 384.
+Package mdframed Info: mdframed works in twoside mode on input line 411.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[87]
+Package mdframed Info: mdframed works in twoside mode on input line 432.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 452.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[88]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[89]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[90]
+Package mdframed Info: mdframed works in twoside mode on input line 525.
+Package mdframed Info: mdframed works in twoside mode on input line 543.
+<immagini/rate_vero_e_rate_misurato.png, id=869, 616.80438pt x 375.90437pt>
+File: immagini/rate_vero_e_rate_misurato.png Graphic file (type png)
+<use immagini/rate_vero_e_rate_misurato.png>
+Package pdftex.def Info: immagini/rate_vero_e_rate_misurato.png  used on input line 563.
+(pdftex.def)             Requested size: 310.50357pt x 189.23654pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[91]
+<immagini/rate_vero_e_rate_misurato_caso_non_paralizzabile.png, id=877, 168.12813pt x 135.50626pt>
+File: immagini/rate_vero_e_rate_misurato_caso_non_paralizzabile.png Graphic file (type png)
+<use immagini/rate_vero_e_rate_misurato_caso_non_paralizzabile.png>
+Package pdftex.def Info: immagini/rate_vero_e_rate_misurato_caso_non_paralizzabile.png  used on input line 571.
+(pdftex.def)             Requested size: 266.14978pt x 214.51103pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[92 <./immagini/rate_vero_e_rate_misurato.png> <./immagini/rate_vero_e_rate_misurato_caso_non_paralizzabile.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 580.
+)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[93]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[94] (Lab3.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
@@ -2419,20 +2636,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32895 strings out of 473920
- 648048 string characters out of 5726974
+ 33144 strings out of 473920
+ 654059 string characters out of 5726974
  1947908 words of memory out of 5000000
- 54851 multiletter control sequences out of 15000+600000
- 581032 words of font info for 120 fonts, out of 8000000 for 9000
+ 55024 multiletter control sequences out of 15000+600000
+ 584951 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,20n,93p,13184b,2241s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 91i,20n,93p,7832b,2241s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.29} has been referenced but does not exist, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{Hfootnote.28} has been referenced but does not exist, replaced by a fixed one
 
- <C:\Users\santo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\santo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Lab3.pdf (78 pages, 3728473 bytes).
+ <C:\Users\santo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\santo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1200.pfb>
+Output written on Lab3.pdf (94 pages, 4760197 bytes).
 PDF statistics:
- 1143 PDF objects out of 1200 (max. 8388607)
- 274 named destinations out of 1000 (max. 500000)
- 878 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1334 PDF objects out of 1440 (max. 8388607)
+ 333 named destinations out of 1000 (max. 500000)
+ 1006 words of extra memory for PDF output out of 10000 (max. 10000000)
 
