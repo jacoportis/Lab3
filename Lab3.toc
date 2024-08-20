@@ -87,3 +87,6 @@
 \contentsline {subsection}{\numberline {6.6.2}Correzioni per il tempo morto}{90}{subsection.6.6.2}%
 \contentsline {subsection}{\numberline {6.6.3}Come stimare il tempo morto?}{93}{subsection.6.6.3}%
 \contentsline {section}{\numberline {6.7}Funzioni di un rivelatore}{94}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Misura dell'energia}{94}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}Misura dell'impulso}{95}{subsection.6.7.2}%
+\contentsline {subsection}{\numberline {6.7.3}Misura della carica/massa}{95}{subsection.6.7.3}%
