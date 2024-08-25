@@ -100,4 +100,8 @@
 \contentsline {subsection}{\numberline {7.3.1}Diffusione}{103}{subsection.7.3.1}%
 \contentsline {subsection}{\numberline {7.3.2}Ricombinazione}{105}{subsection.7.3.2}%
 \contentsline {subsection}{\numberline {7.3.3}Migrazione}{106}{subsection.7.3.3}%
-\contentsline {section}{\numberline {7.4}Struttura base di un rivelatore a gas}{107}{section.7.4}%
+\contentsline {section}{\numberline {7.4}Struttura base di un rivelatore a gas}{108}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Formazione dell'impulso}{108}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Il problema della posizione}{111}{subsection.7.4.2}%
+\contentsline {section}{\numberline {7.5}La moltiplicazione}{116}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Moltiplicazione a valanga}{116}{subsection.7.5.1}%
