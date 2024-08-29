@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.20)  25 AUG 2024 15:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.20)  29 AUG 2024 18:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -325,35 +325,51 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
+ (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count310
+\l_MT_multwidth_dim=\dimen172
+\origjot=\skip68
+\l_MT_shortvdotswithinadjustabove_dim=\dimen173
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen174
+\l_MT_above_intertext_sep=\dimen175
+\l_MT_below_intertext_sep=\dimen176
+\l_MT_above_shortintertext_sep=\dimen177
+\l_MT_below_shortintertext_sep=\dimen178
+\xmathstrut@box=\box58
+\xmathstrut@dim=\dimen179
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen172
-\Gin@req@width=\dimen173
+\Gin@req@height=\dimen180
+\Gin@req@width=\dimen181
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip68
-\enit@outerparindent=\dimen174
+\labelindent=\skip69
+\enit@outerparindent=\dimen182
 \enit@toks=\toks28
-\enit@inbox=\box58
-\enit@count@id=\count310
-\enitdp@description=\count311
+\enit@inbox=\box59
+\enit@count@id=\count311
+\enitdp@description=\count312
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2024/05/23 v2.6c Tabular extension package (FMi)
-\col@sep=\dimen175
-\ar@mcellbox=\box59
-\extrarowheight=\dimen176
+\col@sep=\dimen183
+\ar@mcellbox=\box60
+\extrarowheight=\dimen184
 \NC@list=\toks29
-\extratabsurround=\skip69
-\backup@length=\skip70
-\ar@cellbox=\box60
+\extratabsurround=\skip70
+\backup@length=\skip71
+\ar@cellbox=\box61
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks30
-\pgfutil@tempdima=\dimen177
-\pgfutil@tempdimb=\dimen178
+\pgfutil@tempdima=\dimen185
+\pgfutil@tempdimb=\dimen186
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box61
+\pgfutil@abb=\box62
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
@@ -366,26 +382,26 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks33
 ))
-\pgf@x=\dimen179
-\pgf@y=\dimen180
-\pgf@xa=\dimen181
-\pgf@ya=\dimen182
-\pgf@xb=\dimen183
-\pgf@yb=\dimen184
-\pgf@xc=\dimen185
-\pgf@yc=\dimen186
-\pgf@xd=\dimen187
-\pgf@yd=\dimen188
+\pgf@x=\dimen187
+\pgf@y=\dimen188
+\pgf@xa=\dimen189
+\pgf@ya=\dimen190
+\pgf@xb=\dimen191
+\pgf@yb=\dimen192
+\pgf@xc=\dimen193
+\pgf@yc=\dimen194
+\pgf@xd=\dimen195
+\pgf@yd=\dimen196
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count312
-\c@pgf@countb=\count313
-\c@pgf@countc=\count314
-\c@pgf@countd=\count315
+\c@pgf@counta=\count313
+\c@pgf@countb=\count314
+\c@pgf@countc=\count315
+\c@pgf@countd=\count316
 \t@pgf@toka=\toks34
 \t@pgf@tokb=\toks35
 \t@pgf@tokc=\toks36
-\pgf@sys@id@count=\count316
+\pgf@sys@id@count=\count317
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -396,8 +412,8 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count317
-\pgfsyssoftpath@bigbuffer@items=\count318
+\pgfsyssoftpath@smallbuffer@items=\count318
+\pgfsyssoftpath@bigbuffer@items=\count319
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
@@ -419,52 +435,52 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen189
-\pgfmath@count=\count319
-\pgfmath@box=\box62
+\pgfmath@dimen=\dimen197
+\pgfmath@count=\count320
+\pgfmath@box=\box63
 \pgfmath@toks=\toks37
 \pgfmath@stack@operand=\toks38
 \pgfmath@stack@operation=\toks39
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count320
+\c@pgfmathroundto@lastzeros=\count321
 )) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen190
-\pgf@picmaxx=\dimen191
-\pgf@picminy=\dimen192
-\pgf@picmaxy=\dimen193
-\pgf@pathminx=\dimen194
-\pgf@pathmaxx=\dimen195
-\pgf@pathminy=\dimen196
-\pgf@pathmaxy=\dimen197
-\pgf@xx=\dimen198
-\pgf@xy=\dimen199
-\pgf@yx=\dimen256
-\pgf@yy=\dimen257
-\pgf@zx=\dimen258
-\pgf@zy=\dimen259
+\pgf@picminx=\dimen198
+\pgf@picmaxx=\dimen199
+\pgf@picminy=\dimen256
+\pgf@picmaxy=\dimen257
+\pgf@pathminx=\dimen258
+\pgf@pathmaxx=\dimen259
+\pgf@pathminy=\dimen260
+\pgf@pathmaxy=\dimen261
+\pgf@xx=\dimen262
+\pgf@xy=\dimen263
+\pgf@yx=\dimen264
+\pgf@yy=\dimen265
+\pgf@zx=\dimen266
+\pgf@zy=\dimen267
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen260
-\pgf@path@lasty=\dimen261
+\pgf@path@lastx=\dimen268
+\pgf@path@lasty=\dimen269
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen262
-\pgf@shorten@start@additional=\dimen263
+\pgf@shorten@end@additional=\dimen270
+\pgf@shorten@start@additional=\dimen271
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box63
-\pgf@hbox=\box64
-\pgf@layerbox@main=\box65
-\pgf@picture@serial@count=\count321
+\pgfpic=\box64
+\pgf@hbox=\box65
+\pgf@layerbox@main=\box66
+\pgf@picture@serial@count=\count322
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen264
+\pgflinewidth=\dimen272
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen265
-\pgf@pt@y=\dimen266
-\pgf@pt@temp=\dimen267
+\pgf@pt@x=\dimen273
+\pgf@pt@y=\dimen274
+\pgf@pt@temp=\dimen275
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -473,17 +489,17 @@ File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen268
+\pgfarrowsep=\dimen276
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen269
-\pgf@sys@shading@range@num=\count322
-\pgf@shadingcount=\count323
+\pgf@max=\dimen277
+\pgf@sys@shading@range@num=\count323
+\pgf@shadingcount=\count324
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box66
+\pgfexternal@startupbox=\box67
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
@@ -494,51 +510,51 @@ File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box67
+\pgfnodeparttextbox=\box68
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen270
-\pgf@nodesepend=\dimen271
+\pgf@nodesepstart=\dimen278
+\pgf@nodesepend=\dimen279
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen272
-\pgffor@skip=\dimen273
+\pgffor@iter=\dimen280
+\pgffor@skip=\dimen281
 \pgffor@stack=\toks40
 \pgffor@toks=\toks41
 )) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count324
-\pgfplotmarksize=\dimen274
+\pgf@plot@mark@count=\count325
+\pgfplotmarksize=\dimen282
 )
-\tikz@lastx=\dimen275
-\tikz@lasty=\dimen276
-\tikz@lastxsaved=\dimen277
-\tikz@lastysaved=\dimen278
-\tikz@lastmovetox=\dimen279
-\tikz@lastmovetoy=\dimen280
-\tikzleveldistance=\dimen281
-\tikzsiblingdistance=\dimen282
-\tikz@figbox=\box68
-\tikz@figbox@bg=\box69
-\tikz@tempbox=\box70
-\tikz@tempbox@bg=\box71
-\tikztreelevel=\count325
-\tikznumberofchildren=\count326
-\tikznumberofcurrentchild=\count327
-\tikz@fig@count=\count328
+\tikz@lastx=\dimen283
+\tikz@lasty=\dimen284
+\tikz@lastxsaved=\dimen285
+\tikz@lastysaved=\dimen286
+\tikz@lastmovetox=\dimen287
+\tikz@lastmovetoy=\dimen288
+\tikzleveldistance=\dimen289
+\tikzsiblingdistance=\dimen290
+\tikz@figbox=\box69
+\tikz@figbox@bg=\box70
+\tikz@tempbox=\box71
+\tikz@tempbox@bg=\box72
+\tikztreelevel=\count326
+\tikznumberofchildren=\count327
+\tikznumberofcurrentchild=\count328
+\tikz@fig@count=\count329
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count329
-\pgfmatrixcurrentcolumn=\count330
-\pgf@matrix@numberofcolumns=\count331
+\pgfmatrixcurrentrow=\count330
+\pgfmatrixcurrentcolumn=\count331
+\pgf@matrix@numberofcolumns=\count332
 )
-\tikz@expandcount=\count332
+\tikz@expandcount=\count333
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarysnakes.code.tex
@@ -548,16 +564,16 @@ File: tikzlibrarysnakes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 Package pgf Warning: Snakes have been superseded by decorations. Please use the decoration libraries instead of the snakes library on input line 14.
 
 (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen283
-\pgfdecoratedremainingdistance=\dimen284
-\pgfdecoratedinputsegmentcompleteddistance=\dimen285
-\pgfdecoratedinputsegmentremainingdistance=\dimen286
-\pgf@decorate@distancetomove=\dimen287
-\pgf@decorate@repeatstate=\count333
-\pgfdecorationsegmentamplitude=\dimen288
-\pgfdecorationsegmentlength=\dimen289
+\pgfdecoratedcompleteddistance=\dimen291
+\pgfdecoratedremainingdistance=\dimen292
+\pgfdecoratedinputsegmentcompleteddistance=\dimen293
+\pgfdecoratedinputsegmentremainingdistance=\dimen294
+\pgf@decorate@distancetomove=\dimen295
+\pgf@decorate@repeatstate=\count334
+\pgfdecorationsegmentamplitude=\dimen296
+\pgfdecorationsegmentlength=\dimen297
 )
-\tikz@lib@dec@box=\box72
+\tikz@lib@dec@box=\box73
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.shapes.code.tex (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.shapes.code.tex))) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
@@ -580,31 +596,31 @@ File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box73
-\pgfnodeparttwobox=\box74
-\pgfnodepartthreebox=\box75
-\pgfnodepartfourbox=\box76
-\pgfnodeparttwentybox=\box77
-\pgfnodepartnineteenbox=\box78
-\pgfnodeparteighteenbox=\box79
-\pgfnodepartseventeenbox=\box80
-\pgfnodepartsixteenbox=\box81
-\pgfnodepartfifteenbox=\box82
-\pgfnodepartfourteenbox=\box83
-\pgfnodepartthirteenbox=\box84
-\pgfnodeparttwelvebox=\box85
-\pgfnodepartelevenbox=\box86
-\pgfnodeparttenbox=\box87
-\pgfnodepartninebox=\box88
-\pgfnodeparteightbox=\box89
-\pgfnodepartsevenbox=\box90
-\pgfnodepartsixbox=\box91
-\pgfnodepartfivebox=\box92
+\pgfnodepartlowerbox=\box74
+\pgfnodeparttwobox=\box75
+\pgfnodepartthreebox=\box76
+\pgfnodepartfourbox=\box77
+\pgfnodeparttwentybox=\box78
+\pgfnodepartnineteenbox=\box79
+\pgfnodeparteighteenbox=\box80
+\pgfnodepartseventeenbox=\box81
+\pgfnodepartsixteenbox=\box82
+\pgfnodepartfifteenbox=\box83
+\pgfnodepartfourteenbox=\box84
+\pgfnodepartthirteenbox=\box85
+\pgfnodeparttwelvebox=\box86
+\pgfnodepartelevenbox=\box87
+\pgfnodeparttenbox=\box88
+\pgfnodepartninebox=\box89
+\pgfnodeparteightbox=\box90
+\pgfnodepartsevenbox=\box91
+\pgfnodepartsixbox=\box92
+\pgfnodepartfivebox=\box93
 ))) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count334
+\BKM@id=\count335
 ))
 File: puenc-greek.def 
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/textgreek\textgreek.sty
@@ -971,47 +987,47 @@ File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
 Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/*}. on input line 69.
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count335
+\c@float@type=\count336
 \float@exts=\toks42
-\float@box=\box93
+\float@box=\box94
 \@float@everytoks=\toks43
-\@floatcapt=\box94
+\@floatcapt=\box95
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen290
-\captionmargin=\dimen291
-\caption@leftmargin=\dimen292
-\caption@rightmargin=\dimen293
-\caption@width=\dimen294
-\caption@indent=\dimen295
-\caption@parindent=\dimen296
-\caption@hangindent=\dimen297
+\caption@tempdima=\dimen298
+\captionmargin=\dimen299
+\caption@leftmargin=\dimen300
+\caption@rightmargin=\dimen301
+\caption@width=\dimen302
+\caption@indent=\dimen303
+\caption@parindent=\dimen304
+\caption@hangindent=\dimen305
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count336
-\c@continuedfloat=\count337
+\c@caption@flags=\count337
+\c@continuedfloat=\count338
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count338
+\c@subfigure=\count339
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count339
+\c@subtable=\count340
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
-\f@nch@headwidth=\skip71
-\f@nch@O@elh=\skip72
-\f@nch@O@erh=\skip73
-\f@nch@O@olh=\skip74
-\f@nch@O@orh=\skip75
-\f@nch@O@elf=\skip76
-\f@nch@O@erf=\skip77
-\f@nch@O@olf=\skip78
-\f@nch@O@orf=\skip79
+\f@nch@headwidth=\skip72
+\f@nch@O@elh=\skip73
+\f@nch@O@erh=\skip74
+\f@nch@O@olh=\skip75
+\f@nch@O@orh=\skip76
+\f@nch@O@elf=\skip77
+\f@nch@O@erf=\skip78
+\f@nch@O@olf=\skip79
+\f@nch@O@orf=\skip80
 ) (ambienti.sty (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
@@ -1027,129 +1043,129 @@ Package zref Info: New property list: main on input line 767.
 Package zref Info: New property: default on input line 768.
 Package zref Info: New property: page on input line 769.
 )
-\c@abspage=\count340
+\c@abspage=\count341
 Package zref Info: New property: abspage on input line 67.
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip80
-\c@mdf@globalstyle@cnt=\count341
-\mdf@skipabove@length=\skip81
-\mdf@skipbelow@length=\skip82
-\mdf@leftmargin@length=\skip83
-\mdf@rightmargin@length=\skip84
-\mdf@innerleftmargin@length=\skip85
-\mdf@innerrightmargin@length=\skip86
-\mdf@innertopmargin@length=\skip87
-\mdf@innerbottommargin@length=\skip88
-\mdf@splittopskip@length=\skip89
-\mdf@splitbottomskip@length=\skip90
-\mdf@outermargin@length=\skip91
-\mdf@innermargin@length=\skip92
-\mdf@linewidth@length=\skip93
-\mdf@innerlinewidth@length=\skip94
-\mdf@middlelinewidth@length=\skip95
-\mdf@outerlinewidth@length=\skip96
-\mdf@roundcorner@length=\skip97
-\mdf@footenotedistance@length=\skip98
-\mdf@userdefinedwidth@length=\skip99
-\mdf@needspace@length=\skip100
-\mdf@frametitleaboveskip@length=\skip101
-\mdf@frametitlebelowskip@length=\skip102
-\mdf@frametitlerulewidth@length=\skip103
-\mdf@frametitleleftmargin@length=\skip104
-\mdf@frametitlerightmargin@length=\skip105
-\mdf@shadowsize@length=\skip106
-\mdf@extratopheight@length=\skip107
-\mdf@subtitleabovelinewidth@length=\skip108
-\mdf@subtitlebelowlinewidth@length=\skip109
-\mdf@subtitleaboveskip@length=\skip110
-\mdf@subtitlebelowskip@length=\skip111
-\mdf@subtitleinneraboveskip@length=\skip112
-\mdf@subtitleinnerbelowskip@length=\skip113
-\mdf@subsubtitleabovelinewidth@length=\skip114
-\mdf@subsubtitlebelowlinewidth@length=\skip115
-\mdf@subsubtitleaboveskip@length=\skip116
-\mdf@subsubtitlebelowskip@length=\skip117
-\mdf@subsubtitleinneraboveskip@length=\skip118
-\mdf@subsubtitleinnerbelowskip@length=\skip119
+\mdf@templength=\skip81
+\c@mdf@globalstyle@cnt=\count342
+\mdf@skipabove@length=\skip82
+\mdf@skipbelow@length=\skip83
+\mdf@leftmargin@length=\skip84
+\mdf@rightmargin@length=\skip85
+\mdf@innerleftmargin@length=\skip86
+\mdf@innerrightmargin@length=\skip87
+\mdf@innertopmargin@length=\skip88
+\mdf@innerbottommargin@length=\skip89
+\mdf@splittopskip@length=\skip90
+\mdf@splitbottomskip@length=\skip91
+\mdf@outermargin@length=\skip92
+\mdf@innermargin@length=\skip93
+\mdf@linewidth@length=\skip94
+\mdf@innerlinewidth@length=\skip95
+\mdf@middlelinewidth@length=\skip96
+\mdf@outerlinewidth@length=\skip97
+\mdf@roundcorner@length=\skip98
+\mdf@footenotedistance@length=\skip99
+\mdf@userdefinedwidth@length=\skip100
+\mdf@needspace@length=\skip101
+\mdf@frametitleaboveskip@length=\skip102
+\mdf@frametitlebelowskip@length=\skip103
+\mdf@frametitlerulewidth@length=\skip104
+\mdf@frametitleleftmargin@length=\skip105
+\mdf@frametitlerightmargin@length=\skip106
+\mdf@shadowsize@length=\skip107
+\mdf@extratopheight@length=\skip108
+\mdf@subtitleabovelinewidth@length=\skip109
+\mdf@subtitlebelowlinewidth@length=\skip110
+\mdf@subtitleaboveskip@length=\skip111
+\mdf@subtitlebelowskip@length=\skip112
+\mdf@subtitleinneraboveskip@length=\skip113
+\mdf@subtitleinnerbelowskip@length=\skip114
+\mdf@subsubtitleabovelinewidth@length=\skip115
+\mdf@subsubtitlebelowlinewidth@length=\skip116
+\mdf@subsubtitleaboveskip@length=\skip117
+\mdf@subsubtitlebelowskip@length=\skip118
+\mdf@subsubtitleinneraboveskip@length=\skip119
+\mdf@subsubtitleinnerbelowskip@length=\skip120
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-1.mdf
 File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 )
-\mdf@frametitlebox=\box95
-\mdf@footnotebox=\box96
-\mdf@splitbox@one=\box97
-\mdf@splitbox@two=\box98
-\mdf@splitbox@save=\box99
-\mdfsplitboxwidth=\skip120
-\mdfsplitboxtotalwidth=\skip121
-\mdfsplitboxheight=\skip122
-\mdfsplitboxdepth=\skip123
-\mdfsplitboxtotalheight=\skip124
-\mdfframetitleboxwidth=\skip125
-\mdfframetitleboxtotalwidth=\skip126
-\mdfframetitleboxheight=\skip127
-\mdfframetitleboxdepth=\skip128
-\mdfframetitleboxtotalheight=\skip129
-\mdffootnoteboxwidth=\skip130
-\mdffootnoteboxtotalwidth=\skip131
-\mdffootnoteboxheight=\skip132
-\mdffootnoteboxdepth=\skip133
-\mdffootnoteboxtotalheight=\skip134
-\mdftotallinewidth=\skip135
-\mdfboundingboxwidth=\skip136
-\mdfboundingboxtotalwidth=\skip137
-\mdfboundingboxheight=\skip138
-\mdfboundingboxdepth=\skip139
-\mdfboundingboxtotalheight=\skip140
-\mdf@freevspace@length=\skip141
-\mdf@horizontalwidthofbox@length=\skip142
-\mdf@verticalmarginwhole@length=\skip143
-\mdf@horizontalspaceofbox=\skip144
-\mdfsubtitleheight=\skip145
-\mdfsubsubtitleheight=\skip146
-\c@mdfcountframes=\count342
+\mdf@frametitlebox=\box96
+\mdf@footnotebox=\box97
+\mdf@splitbox@one=\box98
+\mdf@splitbox@two=\box99
+\mdf@splitbox@save=\box100
+\mdfsplitboxwidth=\skip121
+\mdfsplitboxtotalwidth=\skip122
+\mdfsplitboxheight=\skip123
+\mdfsplitboxdepth=\skip124
+\mdfsplitboxtotalheight=\skip125
+\mdfframetitleboxwidth=\skip126
+\mdfframetitleboxtotalwidth=\skip127
+\mdfframetitleboxheight=\skip128
+\mdfframetitleboxdepth=\skip129
+\mdfframetitleboxtotalheight=\skip130
+\mdffootnoteboxwidth=\skip131
+\mdffootnoteboxtotalwidth=\skip132
+\mdffootnoteboxheight=\skip133
+\mdffootnoteboxdepth=\skip134
+\mdffootnoteboxtotalheight=\skip135
+\mdftotallinewidth=\skip136
+\mdfboundingboxwidth=\skip137
+\mdfboundingboxtotalwidth=\skip138
+\mdfboundingboxheight=\skip139
+\mdfboundingboxdepth=\skip140
+\mdfboundingboxtotalheight=\skip141
+\mdf@freevspace@length=\skip142
+\mdf@horizontalwidthofbox@length=\skip143
+\mdf@verticalmarginwhole@length=\skip144
+\mdf@horizontalspaceofbox=\skip145
+\mdfsubtitleheight=\skip146
+\mdfsubsubtitleheight=\skip147
+\c@mdfcountframes=\count343
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count343
-\c@mdf@env@i=\count344
-\c@mdf@env@ii=\count345
-\c@mdf@zref@counter=\count346
+\mdf@envdepth=\count344
+\c@mdf@env@i=\count345
+\c@mdf@env@ii=\count346
+\c@mdf@zref@counter=\count347
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
-\c@esempio=\count347
-\c@esercizio=\count348
-\c@approfondimento=\count349
+\c@esempio=\count348
+\c@esercizio=\count349
+\c@approfondimento=\count350
 ) (Lab3.aux)
 \openout1 = `Lab3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 48.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 49.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 49.
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    ... okay on input line 49.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1185,32 +1201,32 @@ LaTeX Font Info:    ... okay on input line 48.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 48.
-LaTeX Info: Redefining \it@ocap on input line 48.
-LaTeX Info: Redefining \it@ccap on input line 48.
+Package hyperref Info: Link coloring ON on input line 49.
+LaTeX Info: Redefining \it@ocap on input line 49.
+LaTeX Info: Redefining \it@ccap on input line 49.
 
 File italian.ldf warning: 
 italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting
-italian.ldf    on input line 48.
+italian.ldf    on input line 49.
 
 
-Package chemgreek Info: Activating mapping `textgreek' on line 48.
+Package chemgreek Info: Activating mapping `textgreek' on line 49.
 
 (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count350
-\scratchdimen=\dimen298
-\scratchbox=\box100
-\nofMPsegments=\count351
-\nofMParguments=\count352
+\scratchcounter=\count351
+\scratchdimen=\dimen306
+\scratchbox=\box101
+\nofMPsegments=\count352
+\nofMParguments=\count353
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count353
-\MPscratchDim=\dimen299
-\MPnumerator=\count354
-\makeMPintoPDFobject=\count355
+\MPscratchCnt=\count354
+\MPscratchDim=\dimen307
+\MPnumerator=\count355
+\makeMPintoPDFobject=\count356
 \everyMPtoPDFconversion=\toks45
 ) (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1223,25 +1239,25 @@ Package caption Info: End \AtBeginDocument code.
 <logo-unict-orizzontale-grigio.png, id=6, 643.40375pt x 278.03876pt>
 File: logo-unict-orizzontale-grigio.png Graphic file (type png)
 <use logo-unict-orizzontale-grigio.png>
-Package pdftex.def Info: logo-unict-orizzontale-grigio.png  used on input line 55.
+Package pdftex.def Info: logo-unict-orizzontale-grigio.png  used on input line 56.
 (pdftex.def)             Requested size: 159.68776pt x 69.00465pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
  (C:\Users\santo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <logo_dfa_orizzontale.jpg, id=8, 314.21739pt x 115.53532pt>
 File: logo_dfa_orizzontale.jpg Graphic file (type jpg)
 <use logo_dfa_orizzontale.jpg>
-Package pdftex.def Info: logo_dfa_orizzontale.jpg  used on input line 61.
+Package pdftex.def Info: logo_dfa_orizzontale.jpg  used on input line 62.
 (pdftex.def)             Requested size: 199.60895pt x 73.39758pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 70.
+(Font)              using `OT1/cmr/bx/n' instead on input line 71.
 
 
 
@@ -1264,13 +1280,13 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 
 [5]
 Capitolo 1.
-(Capitoli/arduino.tex)
+(Capitoli/1.arduino.tex)
 
 [6
 
 ]
 Capitolo 2.
-(Capitoli/sorgenti_radiazione.tex
+(Capitoli/2.sorgenti_radiazione.tex
 
 [7
 
@@ -1293,7 +1309,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-<immagini/carta_di_segre.png, id=262, 304.13625pt x 453.19313pt>
+<immagini/carta_di_segre.png, id=284, 304.13625pt x 453.19313pt>
 File: immagini/carta_di_segre.png Graphic file (type png)
 <use immagini/carta_di_segre.png>
 Package pdftex.def Info: immagini/carta_di_segre.png  used on input line 89.
@@ -1317,7 +1333,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11]
-<immagini/legge_decadimento_radioattivo_2.png, id=274, 210.7875pt x 129.98563pt>
+<immagini/legge_decadimento_radioattivo_2.png, id=296, 210.7875pt x 129.98563pt>
 File: immagini/legge_decadimento_radioattivo_2.png Graphic file (type png)
 <use immagini/legge_decadimento_radioattivo_2.png>
 Package pdftex.def Info: immagini/legge_decadimento_radioattivo_2.png  used on input line 196.
@@ -1332,7 +1348,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12 <./immagini/legge_decadimento_radioattivo_2.png>]
-<immagini/decadimento_beta.png, id=286, 240.9pt x 163.61125pt>
+<immagini/decadimento_beta.png, id=308, 240.9pt x 163.61125pt>
 File: immagini/decadimento_beta.png Graphic file (type png)
 <use immagini/decadimento_beta.png>
 Package pdftex.def Info: immagini/decadimento_beta.png  used on input line 245.
@@ -1352,7 +1368,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13 <./immagini/decadimento_beta.png>]
-<immagini/Isotopi_beta.png, id=295, 141.02687pt x 100.375pt>
+<immagini/Isotopi_beta.png, id=317, 141.02687pt x 100.375pt>
 File: immagini/Isotopi_beta.png Graphic file (type png)
 <use immagini/Isotopi_beta.png>
 Package pdftex.def Info: immagini/Isotopi_beta.png  used on input line 268.
@@ -1362,7 +1378,7 @@ Overfull \hbox (0.391pt too wide) in paragraph at lines 265--276
 []$[]$ $[]$ 
  []
 
-<immagini/spettro_decadimento_beta_1.png, id=296, 411.5375pt x 312.16624pt>
+<immagini/spettro_decadimento_beta_1.png, id=318, 411.5375pt x 312.16624pt>
 File: immagini/spettro_decadimento_beta_1.png Graphic file (type png)
 <use immagini/spettro_decadimento_beta_1.png>
 Package pdftex.def Info: immagini/spettro_decadimento_beta_1.png  used on input line 308.
@@ -1372,7 +1388,7 @@ Overfull \hbox (12.86714pt too wide) in paragraph at lines 308--309
 [][] 
  []
 
-<immagini/spettro_decadimento_beta_2.png, id=297, 495.35063pt x 322.70563pt>
+<immagini/spettro_decadimento_beta_2.png, id=319, 495.35063pt x 322.70563pt>
 File: immagini/spettro_decadimento_beta_2.png Graphic file (type png)
 <use immagini/spettro_decadimento_beta_2.png>
 Package pdftex.def Info: immagini/spettro_decadimento_beta_2.png  used on input line 313.
@@ -1396,7 +1412,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [14 <./immagini/Isotopi_beta.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 323.
-<immagini/decadimento_beta_doppio.png, id=304, 395.4775pt x 268.50313pt>
+<immagini/decadimento_beta_doppio.png, id=326, 395.4775pt x 268.50313pt>
 File: immagini/decadimento_beta_doppio.png Graphic file (type png)
 <use immagini/decadimento_beta_doppio.png>
 Package pdftex.def Info: immagini/decadimento_beta_doppio.png  used on input line 329.
@@ -1406,7 +1422,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 326--346
 []$[]$ $[]$ 
  []
 
-<immagini/decadimento_alfa.png, id=305, 196.735pt x 124.96687pt>
+<immagini/decadimento_alfa.png, id=327, 196.735pt x 124.96687pt>
 File: immagini/decadimento_alfa.png Graphic file (type png)
 <use immagini/decadimento_alfa.png>
 Package pdftex.def Info: immagini/decadimento_alfa.png  used on input line 359.
@@ -1421,12 +1437,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15 <./immagini/spettro_decadimento_beta_1.png> <./immagini/spettro_decadimento_beta_2.png> <./immagini/decadimento_beta_doppio.png>]
-<immagini/schema_decadimento_alfa.png, id=317, 280.54813pt x 203.25937pt>
+<immagini/schema_decadimento_alfa.png, id=339, 280.54813pt x 203.25937pt>
 File: immagini/schema_decadimento_alfa.png Graphic file (type png)
 <use immagini/schema_decadimento_alfa.png>
 Package pdftex.def Info: immagini/schema_decadimento_alfa.png  used on input line 366.
 (pdftex.def)             Requested size: 312.9803pt x 226.76811pt.
-<immagini/spettro_decadimento_alpha.png, id=318, 491.33563pt x 300.12125pt>
+<immagini/spettro_decadimento_alpha.png, id=340, 491.33563pt x 300.12125pt>
 File: immagini/spettro_decadimento_alpha.png Graphic file (type png)
 <use immagini/spettro_decadimento_alpha.png>
 Package pdftex.def Info: immagini/spettro_decadimento_alpha.png  used on input line 377.
@@ -1441,7 +1457,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16 <./immagini/decadimento_alfa.png> <./immagini/schema_decadimento_alfa.png>]
-<immagini/decadimento_gamma.png, id=326, 208.78pt x 121.45375pt>
+<immagini/decadimento_gamma.png, id=348, 208.78pt x 121.45375pt>
 File: immagini/decadimento_gamma.png Graphic file (type png)
 <use immagini/decadimento_gamma.png>
 Package pdftex.def Info: immagini/decadimento_gamma.png  used on input line 408.
@@ -1456,12 +1472,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17 <./immagini/spettro_decadimento_alpha.png> <./immagini/decadimento_gamma.png>]
-<immagini/spettro_decadimento_gamma_1.png, id=333, 347.2975pt x 304.63812pt>
+<immagini/spettro_decadimento_gamma_1.png, id=355, 347.2975pt x 304.63812pt>
 File: immagini/spettro_decadimento_gamma_1.png Graphic file (type png)
 <use immagini/spettro_decadimento_gamma_1.png>
 Package pdftex.def Info: immagini/spettro_decadimento_gamma_1.png  used on input line 422.
 (pdftex.def)             Requested size: 199.16928pt x 174.71pt.
-<immagini/spettro_decadimento_gamma_2.png, id=334, 156.585pt x 114.92938pt>
+<immagini/spettro_decadimento_gamma_2.png, id=356, 156.585pt x 114.92938pt>
 File: immagini/spettro_decadimento_gamma_2.png Graphic file (type png)
 <use immagini/spettro_decadimento_gamma_2.png>
 Package pdftex.def Info: immagini/spettro_decadimento_gamma_2.png  used on input line 428.
@@ -1476,7 +1492,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 419--431
 []$[]$ $[]$ 
  []
 
-<immagini/spettro_gamma.png, id=335, 307.1475pt x 198.24063pt>
+<immagini/spettro_gamma.png, id=357, 307.1475pt x 198.24063pt>
 File: immagini/spettro_gamma.png Graphic file (type png)
 <use immagini/spettro_gamma.png>
 Package pdftex.def Info: immagini/spettro_gamma.png  used on input line 440.
@@ -1499,12 +1515,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [18 <./immagini/spettro_decadimento_gamma_1.png> <./immagini/spettro_decadimento_gamma_2.png> <./immagini/spettro_gamma.png>]
-<immagini/Sorgenti_di_fissione_1.png, id=344, 510.90875pt x 421.07312pt>
+<immagini/Sorgenti_di_fissione_1.png, id=366, 510.90875pt x 421.07312pt>
 File: immagini/Sorgenti_di_fissione_1.png Graphic file (type png)
 <use immagini/Sorgenti_di_fissione_1.png>
 Package pdftex.def Info: immagini/Sorgenti_di_fissione_1.png  used on input line 459.
 (pdftex.def)             Requested size: 256.0748pt x 211.04362pt.
-<immagini/Sorgenti_di_fissione_2.png, id=345, 252.945pt x 399.4925pt>
+<immagini/Sorgenti_di_fissione_2.png, id=367, 252.945pt x 399.4925pt>
 File: immagini/Sorgenti_di_fissione_2.png Graphic file (type png)
 <use immagini/Sorgenti_di_fissione_2.png>
 Package pdftex.def Info: immagini/Sorgenti_di_fissione_2.png  used on input line 464.
@@ -1524,12 +1540,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19 <./immagini/Sorgenti_di_fissione_1.png> <./immagini/Sorgenti_di_fissione_2.png>]
-<immagini/radiazione_cosmica.png, id=354, 176.66pt x 248.42813pt>
+<immagini/radiazione_cosmica.png, id=376, 176.66pt x 248.42813pt>
 File: immagini/radiazione_cosmica.png Graphic file (type png)
 <use immagini/radiazione_cosmica.png>
 Package pdftex.def Info: immagini/radiazione_cosmica.png  used on input line 479.
 (pdftex.def)             Requested size: 199.16928pt x 280.08368pt.
-<immagini/energia_radiazione_cosmica.png, id=355, 350.81062pt x 421.07312pt>
+<immagini/energia_radiazione_cosmica.png, id=377, 350.81062pt x 421.07312pt>
 File: immagini/energia_radiazione_cosmica.png Graphic file (type png)
 <use immagini/energia_radiazione_cosmica.png>
 Package pdftex.def Info: immagini/energia_radiazione_cosmica.png  used on input line 485.
@@ -1573,7 +1589,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [22]
 Capitolo 3.
-(Capitoli/perdita_energia_particelle_cariche.tex
+(Capitoli/3.perdita_energia_particelle_cariche.tex
 Overfull \hbox (1.98592pt too wide) in paragraph at lines 11--11
 []\OT1/cmr/bx/n/14.4 Interazione cou-lom-bia-na (ine-la-sti-ca) con gli elet-tro-ni ato-
  []
@@ -1619,7 +1635,7 @@ Overfull \hbox (0.15181pt too wide) in paragraph at lines 116--117
 []\OT1/cmr/m/n/12 Se espri-mia-mo il $[]$ in unit^^Ra di den-sit^^Ra su-per-fi-cia-le, il $[]$ si espri-mer^^Ra in $MeV cm[]\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 g$: 
  []
 
-<immagini/grafico_bethe_bloch.png, id=406, 703.12688pt x 754.31813pt>
+<immagini/grafico_bethe_bloch.png, id=428, 703.12688pt x 754.31813pt>
 File: immagini/grafico_bethe_bloch.png Graphic file (type png)
 <use immagini/grafico_bethe_bloch.png>
 Package pdftex.def Info: immagini/grafico_bethe_bloch.png  used on input line 125.
@@ -1634,7 +1650,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [27 <./immagini/grafico_bethe_bloch.png>]
-<immagini/correzioni_shell_densita.png, id=416, 485.815pt x 340.77313pt>
+<immagini/correzioni_shell_densita.png, id=438, 485.815pt x 340.77313pt>
 File: immagini/correzioni_shell_densita.png Graphic file (type png)
 <use immagini/correzioni_shell_densita.png>
 Package pdftex.def Info: immagini/correzioni_shell_densita.png  used on input line 140.
@@ -1654,7 +1670,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28 <./immagini/correzioni_shell_densita.png>]
-<immagini/picco_di_Bragg.png, id=423, 361.85187pt x 251.43938pt>
+<immagini/picco_di_Bragg.png, id=445, 361.85187pt x 251.43938pt>
 File: immagini/picco_di_Bragg.png Graphic file (type png)
 <use immagini/picco_di_Bragg.png>
 Package pdftex.def Info: immagini/picco_di_Bragg.png  used on input line 180.
@@ -1674,12 +1690,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29 <./immagini/picco_di_Bragg.png>]
-<immagini/energy_loss_distribuzione_gauss.png, id=434, 361.85187pt x 257.96375pt>
+<immagini/energy_loss_distribuzione_gauss.png, id=456, 361.85187pt x 257.96375pt>
 File: immagini/energy_loss_distribuzione_gauss.png Graphic file (type png)
 <use immagini/energy_loss_distribuzione_gauss.png>
 Package pdftex.def Info: immagini/energy_loss_distribuzione_gauss.png  used on input line 204.
 (pdftex.def)             Requested size: 184.9429pt x 131.8471pt.
-<immagini/energy_loss_distribuzione_vavilov.png, id=435, 233.87375pt x 244.915pt>
+<immagini/energy_loss_distribuzione_vavilov.png, id=457, 233.87375pt x 244.915pt>
 File: immagini/energy_loss_distribuzione_vavilov.png Graphic file (type png)
 <use immagini/energy_loss_distribuzione_vavilov.png>
 Package pdftex.def Info: immagini/energy_loss_distribuzione_vavilov.png  used on input line 212.
@@ -1717,7 +1733,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 355--379
 []$[]$ $[]$ 
  []
 
-<immagini/straggling.png, id=453, 1105.12875pt x 878.53218pt>
+<immagini/straggling.png, id=475, 1105.12875pt x 878.53218pt>
 File: immagini/straggling.png Graphic file (type png)
 <use immagini/straggling.png>
 Package pdftex.def Info: immagini/straggling.png  used on input line 388.
@@ -1732,10 +1748,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32 <./immagini/straggling.png>]
-<immagini/straggling_energie.png, id=463, 628.3475pt x 252.945pt>
+<immagini/straggling_energie.png, id=485, 628.3475pt x 252.945pt>
 File: immagini/straggling_energie.png Graphic file (type png)
 <use immagini/straggling_energie.png>
-Package pdftex.def Info: immagini/straggling_energie.png  used on input line 405.
+Package pdftex.def Info: immagini/straggling_energie.png  used on input line 407.
 (pdftex.def)             Requested size: 341.43306pt x 137.4451pt.
 
 
@@ -1747,17 +1763,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [33 <./immagini/straggling_energie.png>]
-<immagini/channeling.png, id=470, 291.33844pt x 301.125pt>
+<immagini/channeling.png, id=492, 291.33844pt x 301.125pt>
 File: immagini/channeling.png Graphic file (type png)
 <use immagini/channeling.png>
-Package pdftex.def Info: immagini/channeling.png  used on input line 427.
+Package pdftex.def Info: immagini/channeling.png  used on input line 429.
 (pdftex.def)             Requested size: 170.71652pt x 176.45377pt.
 
-Overfull \hbox (0.39778pt too wide) in paragraph at lines 424--433
+Overfull \hbox (0.39778pt too wide) in paragraph at lines 426--435
 []$[]$ $[]$ 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 446.
+Package mdframed Info: mdframed works in twoside mode on input line 448.
 
 
 
@@ -1768,13 +1784,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34 <./immagini/channeling.png>]
-<immagini/Effetto_Cherenkov.png, id=478, 702.37407pt x 528.47438pt>
+<immagini/Effetto_Cherenkov.png, id=500, 702.37407pt x 528.47438pt>
 File: immagini/Effetto_Cherenkov.png Graphic file (type png)
 <use immagini/Effetto_Cherenkov.png>
-Package pdftex.def Info: immagini/Effetto_Cherenkov.png  used on input line 470.
+Package pdftex.def Info: immagini/Effetto_Cherenkov.png  used on input line 472.
 (pdftex.def)             Requested size: 142.26378pt x 107.03966pt.
 
-Overfull \hbox (0.39778pt too wide) in paragraph at lines 467--480
+Overfull \hbox (0.39778pt too wide) in paragraph at lines 469--482
 []$[]$ $[]$ 
  []
 
@@ -1788,11 +1804,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [35 <./immagini/Effetto_Cherenkov.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 494.
-Package mdframed Info: mdframed works in twoside mode on input line 512.
+Package mdframed Info: mdframed works in twoside mode on input line 496.
+Package mdframed Info: mdframed works in twoside mode on input line 514.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 520.
+(mdframed)              on input line 522.
 
 
 
@@ -1803,7 +1819,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [36]
-Package mdframed Info: mdframed works in twoside mode on input line 523.
+Package mdframed Info: mdframed works in twoside mode on input line 525.
 )
 
 
@@ -1815,12 +1831,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [37]
 Capitolo 4.
-(Capitoli/perdita_energia_elettroni.tex
+(Capitoli/4.perdita_energia_elettroni.tex
 
 [38
 
 ]
-<immagini/perdita_energia_elettroni.png, id=505, 934.24031pt x 615.0478pt>
+<immagini/perdita_energia_elettroni.png, id=527, 934.24031pt x 615.0478pt>
 File: immagini/perdita_energia_elettroni.png Graphic file (type png)
 <use immagini/perdita_energia_elettroni.png>
 Package pdftex.def Info: immagini/perdita_energia_elettroni.png  used on input line 26.
@@ -1844,7 +1860,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [40]
-<immagini/energia_critica.png, id=517, 258.9675pt x 185.19188pt>
+<immagini/energia_critica.png, id=539, 258.9675pt x 185.19188pt>
 File: immagini/energia_critica.png Graphic file (type png)
 <use immagini/energia_critica.png>
 Package pdftex.def Info: immagini/energia_critica.png  used on input line 110.
@@ -1860,7 +1876,7 @@ Overfull \hbox (0.391pt too wide) in paragraph at lines 107--118
  []
 
 Package mdframed Info: mdframed works in twoside mode on input line 124.
-<immagini/esempi_energy_loss_elettroni.png, id=518, 644.90938pt x 330.23375pt>
+<immagini/esempi_energy_loss_elettroni.png, id=540, 644.90938pt x 330.23375pt>
 File: immagini/esempi_energy_loss_elettroni.png Graphic file (type png)
 <use immagini/esempi_energy_loss_elettroni.png>
 Package pdftex.def Info: immagini/esempi_energy_loss_elettroni.png  used on input line 129.
@@ -1876,7 +1892,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [41 <./immagini/energia_critica.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 135.
-<immagini/energy_loss_elettroni_cemento.png, id=527, 348.30125pt x 258.9675pt>
+<immagini/energy_loss_elettroni_cemento.png, id=549, 348.30125pt x 258.9675pt>
 File: immagini/energy_loss_elettroni_cemento.png Graphic file (type png)
 <use immagini/energy_loss_elettroni_cemento.png>
 Package pdftex.def Info: immagini/energy_loss_elettroni_cemento.png  used on input line 138.
@@ -1891,7 +1907,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [42 <./immagini/esempi_energy_loss_elettroni.png> <./immagini/energy_loss_elettroni_cemento.png>]
-<immagini/range_elettroni.png, id=538, 762.59906pt x 409.53pt>
+<immagini/range_elettroni.png, id=560, 762.59906pt x 409.53pt>
 File: immagini/range_elettroni.png Graphic file (type png)
 <use immagini/range_elettroni.png>
 Package pdftex.def Info: immagini/range_elettroni.png  used on input line 174.
@@ -1915,7 +1931,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [44]
-<immagini/assorbimento_elettroni.png, id=555, 653.44125pt x 730.22812pt>
+<immagini/assorbimento_elettroni.png, id=577, 653.44125pt x 730.22812pt>
 File: immagini/assorbimento_elettroni.png Graphic file (type png)
 <use immagini/assorbimento_elettroni.png>
 Package pdftex.def Info: immagini/assorbimento_elettroni.png  used on input line 205.
@@ -1951,7 +1967,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [46]
-<immagini/esempi_backscattering.png, id=573, 615.80063pt x 220.32312pt>
+<immagini/esempi_backscattering.png, id=595, 615.80063pt x 220.32312pt>
 File: immagini/esempi_backscattering.png Graphic file (type png)
 <use immagini/esempi_backscattering.png>
 Package pdftex.def Info: immagini/esempi_backscattering.png  used on input line 285.
@@ -1966,7 +1982,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [47 <./immagini/esempi_backscattering.png>]
-<immagini/scattering_multiplo_1.png, id=582, 475.7775pt x 219.82124pt>
+<immagini/scattering_multiplo_1.png, id=604, 475.7775pt x 219.82124pt>
 File: immagini/scattering_multiplo_1.png Graphic file (type png)
 <use immagini/scattering_multiplo_1.png>
 Package pdftex.def Info: immagini/scattering_multiplo_1.png  used on input line 311.
@@ -2001,7 +2017,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [50]
-<immagini/distribuzione_angolare_di_scattering.png, id=605, 483.8075pt x 261.47687pt>
+<immagini/distribuzione_angolare_di_scattering.png, id=627, 483.8075pt x 261.47687pt>
 File: immagini/distribuzione_angolare_di_scattering.png Graphic file (type png)
 <use immagini/distribuzione_angolare_di_scattering.png>
 Package pdftex.def Info: immagini/distribuzione_angolare_di_scattering.png  used on input line 418.
@@ -2021,7 +2037,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [51 <./immagini/distribuzione_angolare_di_scattering.png>]
-<immagini/tomografia_muonica.png, id=612, 472.76625pt x 479.7925pt>
+<immagini/tomografia_muonica.png, id=634, 472.76625pt x 479.7925pt>
 File: immagini/tomografia_muonica.png Graphic file (type png)
 <use immagini/tomografia_muonica.png>
 Package pdftex.def Info: immagini/tomografia_muonica.png  used on input line 447.
@@ -2042,7 +2058,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [52 <./immagini/tomografia_muonica.png>]
 Capitolo 5.
-(Capitoli/interazione_gamma_materia.tex
+(Capitoli/5.interazione_gamma_materia.tex
 
 [53
 
@@ -2057,7 +2073,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [54]
 Package mdframed Info: mdframed works in twoside mode on input line 66.
-<immagini/sezione_durto_interazione.png, id=628, 822.07124pt x 443.6575pt>
+<immagini/sezione_durto_interazione.png, id=650, 822.07124pt x 443.6575pt>
 File: immagini/sezione_durto_interazione.png Graphic file (type png)
 <use immagini/sezione_durto_interazione.png>
 Package pdftex.def Info: immagini/sezione_durto_interazione.png  used on input line 70.
@@ -2076,7 +2092,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [55 <./immagini/sezione_durto_interazione.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 87.
-<immagini/coefficiente_assorbimento_gamma_rame.png, id=638, 334.24875pt x 260.975pt>
+<immagini/coefficiente_assorbimento_gamma_rame.png, id=660, 334.24875pt x 260.975pt>
 File: immagini/coefficiente_assorbimento_gamma_rame.png Graphic file (type png)
 <use immagini/coefficiente_assorbimento_gamma_rame.png>
 Package pdftex.def Info: immagini/coefficiente_assorbimento_gamma_rame.png  used on input line 90.
@@ -2092,7 +2108,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [56 <./immagini/coefficiente_assorbimento_gamma_rame.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 97.
-<immagini/coefficiente_assorbimento_vs_attenuazione.png, id=647, 968.11688pt x 681.29532pt>
+<immagini/coefficiente_assorbimento_vs_attenuazione.png, id=669, 968.11688pt x 681.29532pt>
 File: immagini/coefficiente_assorbimento_vs_attenuazione.png Graphic file (type png)
 <use immagini/coefficiente_assorbimento_vs_attenuazione.png>
 Package pdftex.def Info: immagini/coefficiente_assorbimento_vs_attenuazione.png  used on input line 124.
@@ -2121,7 +2137,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [58 <./immagini/coefficiente_assorbimento_vs_attenuazione.png>]
-<immagini/sezione_durto_effetto_fotoelettrico.png, id=662, 472.01344pt x 523.9575pt>
+<immagini/sezione_durto_effetto_fotoelettrico.png, id=684, 472.01344pt x 523.9575pt>
 File: immagini/sezione_durto_effetto_fotoelettrico.png Graphic file (type png)
 <use immagini/sezione_durto_effetto_fotoelettrico.png>
 Package pdftex.def Info: immagini/sezione_durto_effetto_fotoelettrico.png  used on input line 178.
@@ -2141,7 +2157,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [59 <./immagini/sezione_durto_effetto_fotoelettrico.png>]
-<immagini/sezione_durto_effetto_Compton.png, id=675, 581.92406pt x 559.33969pt>
+<immagini/sezione_durto_effetto_Compton.png, id=697, 581.92406pt x 559.33969pt>
 File: immagini/sezione_durto_effetto_Compton.png Graphic file (type png)
 <use immagini/sezione_durto_effetto_Compton.png>
 Package pdftex.def Info: immagini/sezione_durto_effetto_Compton.png  used on input line 244.
@@ -2161,7 +2177,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [60 <./immagini/sezione_durto_effetto_Compton.png>]
-<immagini/sezione_durto_produzione_coppie.png, id=683, 447.92343pt x 624.08156pt>
+<immagini/sezione_durto_produzione_coppie.png, id=705, 447.92343pt x 624.08156pt>
 File: immagini/sezione_durto_produzione_coppie.png Graphic file (type png)
 <use immagini/sezione_durto_produzione_coppie.png>
 Package pdftex.def Info: immagini/sezione_durto_produzione_coppie.png  used on input line 285.
@@ -2181,7 +2197,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [61 <./immagini/sezione_durto_produzione_coppie.png>]
-<immagini/sciame_elettromagnetico.png, id=692, 425.59pt x 237.38687pt>
+<immagini/sciame_elettromagnetico.png, id=714, 425.59pt x 237.38687pt>
 File: immagini/sciame_elettromagnetico.png Graphic file (type png)
 <use immagini/sciame_elettromagnetico.png>
 Package pdftex.def Info: immagini/sciame_elettromagnetico.png  used on input line 311.
@@ -2228,7 +2244,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [65]
-<immagini/numero_particelle_sciame_elettromagnetico.png, id=718, 560.0925pt x 396.48125pt>
+<immagini/numero_particelle_sciame_elettromagnetico.png, id=740, 560.0925pt x 396.48125pt>
 File: immagini/numero_particelle_sciame_elettromagnetico.png Graphic file (type png)
 <use immagini/numero_particelle_sciame_elettromagnetico.png>
 Package pdftex.def Info: immagini/numero_particelle_sciame_elettromagnetico.png  used on input line 435.
@@ -2243,7 +2259,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [66 <./immagini/numero_particelle_sciame_elettromagnetico.png>]
-<immagini/grafico_longitudinale.png, id=726, 320.19624pt x 163.10938pt>
+<immagini/grafico_longitudinale.png, id=748, 320.19624pt x 163.10938pt>
 File: immagini/grafico_longitudinale.png Graphic file (type png)
 <use immagini/grafico_longitudinale.png>
 Package pdftex.def Info: immagini/grafico_longitudinale.png  used on input line 450.
@@ -2258,7 +2274,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [67 <./immagini/grafico_longitudinale.png>]
-<immagini/raggio_di_Moliere_1.png, id=735, 365.365pt x 355.82938pt>
+<immagini/raggio_di_Moliere_1.png, id=757, 365.365pt x 355.82938pt>
 File: immagini/raggio_di_Moliere_1.png Graphic file (type png)
 <use immagini/raggio_di_Moliere_1.png>
 Package pdftex.def Info: immagini/raggio_di_Moliere_1.png  used on input line 470.
@@ -2273,7 +2289,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [68 <./immagini/raggio_di_Moliere_1.png>]
-<immagini/raggio_di_Moliere_2.png, id=742, 297.11pt x 403.00563pt>
+<immagini/raggio_di_Moliere_2.png, id=764, 297.11pt x 403.00563pt>
 File: immagini/raggio_di_Moliere_2.png Graphic file (type png)
 <use immagini/raggio_di_Moliere_2.png>
 Package pdftex.def Info: immagini/raggio_di_Moliere_2.png  used on input line 479.
@@ -2298,7 +2314,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [70]
 Capitolo 6.
-(Capitoli/caratteristiche_rivelatori.tex
+(Capitoli/6.caratteristiche_rivelatori.tex
 
 [71
 
@@ -2312,7 +2328,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [72]
-<immagini/segnali_rivelatori.png, id=768, 401.5pt x 301.125pt>
+<immagini/segnali_rivelatori.png, id=790, 401.5pt x 301.125pt>
 File: immagini/segnali_rivelatori.png Graphic file (type png)
 <use immagini/segnali_rivelatori.png>
 Package pdftex.def Info: immagini/segnali_rivelatori.png  used on input line 45.
@@ -2337,7 +2353,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [74]
 Package mdframed Info: mdframed works in twoside mode on input line 80.
-<immagini/distribuzione_differenziale_ampiezze.png, id=780, 721.19438pt x 434.37282pt>
+<immagini/distribuzione_differenziale_ampiezze.png, id=802, 721.19438pt x 434.37282pt>
 File: immagini/distribuzione_differenziale_ampiezze.png Graphic file (type png)
 <use immagini/distribuzione_differenziale_ampiezze.png>
 Package pdftex.def Info: immagini/distribuzione_differenziale_ampiezze.png  used on input line 89.
@@ -2353,7 +2369,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [75]
 Package mdframed Info: mdframed works in twoside mode on input line 109.
-<immagini/distribuzione_ampiezze_impulsi_es_1.png, id=786, 432.11438pt x 245.91875pt>
+<immagini/distribuzione_ampiezze_impulsi_es_1.png, id=808, 432.11438pt x 245.91875pt>
 File: immagini/distribuzione_ampiezze_impulsi_es_1.png Graphic file (type png)
 <use immagini/distribuzione_ampiezze_impulsi_es_1.png>
 Package pdftex.def Info: immagini/distribuzione_ampiezze_impulsi_es_1.png  used on input line 114.
@@ -2377,12 +2393,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [77]
-<immagini/sorgenti_calibrazione.png, id=805, 815.045pt x 231.86626pt>
+<immagini/sorgenti_calibrazione.png, id=827, 815.045pt x 231.86626pt>
 File: immagini/sorgenti_calibrazione.png Graphic file (type png)
 <use immagini/sorgenti_calibrazione.png>
 Package pdftex.def Info: immagini/sorgenti_calibrazione.png  used on input line 146.
 (pdftex.def)             Requested size: 443.57848pt x 126.18947pt.
-<immagini/retta_calibrazione_cesio_cobalto.png, id=806, 465.74pt x 246.42062pt>
+<immagini/retta_calibrazione_cesio_cobalto.png, id=828, 465.74pt x 246.42062pt>
 File: immagini/retta_calibrazione_cesio_cobalto.png Graphic file (type png)
 <use immagini/retta_calibrazione_cesio_cobalto.png>
 Package pdftex.def Info: immagini/retta_calibrazione_cesio_cobalto.png  used on input line 151.
@@ -2397,20 +2413,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [78 <./immagini/sorgenti_calibrazione.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 160.
-<immagini/esempio_calibrazione_spettro.png, id=813, 426.09187pt x 197.23688pt>
+Package mdframed Info: mdframed works in twoside mode on input line 158.
+<immagini/esempio_calibrazione_spettro.png, id=835, 426.09187pt x 197.23688pt>
 File: immagini/esempio_calibrazione_spettro.png Graphic file (type png)
 <use immagini/esempio_calibrazione_spettro.png>
-Package pdftex.def Info: immagini/esempio_calibrazione_spettro.png  used on input line 163.
+Package pdftex.def Info: immagini/esempio_calibrazione_spettro.png  used on input line 161.
 (pdftex.def)             Requested size: 295.10364pt x 136.61122pt.
-<immagini/esempio_calibrazione_retta.png, id=814, 420.06938pt x 223.33438pt>
+<immagini/esempio_calibrazione_retta.png, id=836, 420.06938pt x 223.33438pt>
 File: immagini/esempio_calibrazione_retta.png Graphic file (type png)
 <use immagini/esempio_calibrazione_retta.png>
-Package pdftex.def Info: immagini/esempio_calibrazione_retta.png  used on input line 168.
+Package pdftex.def Info: immagini/esempio_calibrazione_retta.png  used on input line 166.
 (pdftex.def)             Requested size: 295.10364pt x 156.89528pt.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 170.
+(mdframed)              on input line 168.
 
 
 
@@ -2421,10 +2437,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [79 <./immagini/retta_calibrazione_cesio_cobalto.png> <./immagini/esempio_calibrazione_spettro.png>]
-<immagini/risoluzione_in_energia.png, id=825, 1171.37625pt x 360.84813pt>
+<immagini/risoluzione_in_energia.png, id=847, 1171.37625pt x 360.84813pt>
 File: immagini/risoluzione_in_energia.png Graphic file (type png)
 <use immagini/risoluzione_in_energia.png>
-Package pdftex.def Info: immagini/risoluzione_in_energia.png  used on input line 179.
+Package pdftex.def Info: immagini/risoluzione_in_energia.png  used on input line 177.
 (pdftex.def)             Requested size: 443.57848pt x 136.64468pt.
 
 
@@ -2455,7 +2471,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [82]
 Package mdframed Info: mdframed works in twoside mode on input line 244.
-<immagini/spettro_alpha_riv_silicio.png, id=848, 344.28625pt x 385.44pt>
+<immagini/spettro_alpha_riv_silicio.png, id=870, 344.28625pt x 385.44pt>
 File: immagini/spettro_alpha_riv_silicio.png Graphic file (type png)
 <use immagini/spettro_alpha_riv_silicio.png>
 Package pdftex.def Info: immagini/spettro_alpha_riv_silicio.png  used on input line 247.
@@ -2465,7 +2481,7 @@ Overfull \hbox (0.50755pt too wide) in paragraph at lines 244--262
 []$[]$ $[]$ 
  []
 
-<immagini/spettro_alpha_riv_silicio_fit_gaussiano.png, id=849, 349.305pt x 236.885pt>
+<immagini/spettro_alpha_riv_silicio_fit_gaussiano.png, id=871, 349.305pt x 236.885pt>
 File: immagini/spettro_alpha_riv_silicio_fit_gaussiano.png Graphic file (type png)
 <use immagini/spettro_alpha_riv_silicio_fit_gaussiano.png>
 Package pdftex.def Info: immagini/spettro_alpha_riv_silicio_fit_gaussiano.png  used on input line 270.
@@ -2481,7 +2497,7 @@ Overfull \hbox (0.50111pt too wide) in paragraph at lines 267--287
  []
 
 Package mdframed Info: mdframed works in twoside mode on input line 290.
-<immagini/spettro_alpha_riv_spettrometro.png, id=850, 475.7775pt x 220.825pt>
+<immagini/spettro_alpha_riv_spettrometro.png, id=872, 475.7775pt x 220.825pt>
 File: immagini/spettro_alpha_riv_spettrometro.png Graphic file (type png)
 <use immagini/spettro_alpha_riv_spettrometro.png>
 Package pdftex.def Info: immagini/spettro_alpha_riv_spettrometro.png  used on input line 295.
@@ -2505,7 +2521,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [84 <./immagini/spettro_alpha_riv_spettrometro.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 332.
+Package mdframed Info: mdframed works in twoside mode on input line 334.
 
 
 
@@ -2516,10 +2532,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [85]
-Package mdframed Info: mdframed works in twoside mode on input line 362.
+Package mdframed Info: mdframed works in twoside mode on input line 364.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 382.
+(mdframed)              on input line 384.
 
 
 
@@ -2530,8 +2546,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [86]
-Package mdframed Info: mdframed works in twoside mode on input line 384.
-Package mdframed Info: mdframed works in twoside mode on input line 411.
+Package mdframed Info: mdframed works in twoside mode on input line 386.
+Package mdframed Info: mdframed works in twoside mode on input line 413.
 
 
 
@@ -2542,10 +2558,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [87]
-Package mdframed Info: mdframed works in twoside mode on input line 432.
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 452.
+Package mdframed Info: mdframed works in twoside mode on input line 434.
 
 
 
@@ -2574,12 +2587,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [90]
-Package mdframed Info: mdframed works in twoside mode on input line 525.
-Package mdframed Info: mdframed works in twoside mode on input line 543.
-<immagini/rate_vero_e_rate_misurato.png, id=905, 616.80438pt x 375.90437pt>
+Package mdframed Info: mdframed works in twoside mode on input line 528.
+Package mdframed Info: mdframed works in twoside mode on input line 546.
+<immagini/rate_vero_e_rate_misurato.png, id=927, 616.80438pt x 375.90437pt>
 File: immagini/rate_vero_e_rate_misurato.png Graphic file (type png)
 <use immagini/rate_vero_e_rate_misurato.png>
-Package pdftex.def Info: immagini/rate_vero_e_rate_misurato.png  used on input line 563.
+Package pdftex.def Info: immagini/rate_vero_e_rate_misurato.png  used on input line 566.
 (pdftex.def)             Requested size: 310.50357pt x 189.23654pt.
 
 
@@ -2591,10 +2604,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [91]
-<immagini/rate_vero_e_rate_misurato_caso_non_paralizzabile.png, id=913, 168.12813pt x 135.50626pt>
+<immagini/rate_vero_e_rate_misurato_caso_non_paralizzabile.png, id=935, 168.12813pt x 135.50626pt>
 File: immagini/rate_vero_e_rate_misurato_caso_non_paralizzabile.png Graphic file (type png)
 <use immagini/rate_vero_e_rate_misurato_caso_non_paralizzabile.png>
-Package pdftex.def Info: immagini/rate_vero_e_rate_misurato_caso_non_paralizzabile.png  used on input line 571.
+Package pdftex.def Info: immagini/rate_vero_e_rate_misurato_caso_non_paralizzabile.png  used on input line 574.
 (pdftex.def)             Requested size: 266.14978pt x 214.51103pt.
 
 
@@ -2606,7 +2619,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [92 <./immagini/rate_vero_e_rate_misurato.png> <./immagini/rate_vero_e_rate_misurato_caso_non_paralizzabile.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 580.
+Package mdframed Info: mdframed works in twoside mode on input line 583.
 
 
 
@@ -2626,15 +2639,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [94]
-<immagini/dipolo_magnetico_impulso.png, id=935, 354.32375pt x 149.05687pt>
+<immagini/dipolo_magnetico_impulso.png, id=957, 354.32375pt x 149.05687pt>
 File: immagini/dipolo_magnetico_impulso.png Graphic file (type png)
 <use immagini/dipolo_magnetico_impulso.png>
-Package pdftex.def Info: immagini/dipolo_magnetico_impulso.png  used on input line 645.
+Package pdftex.def Info: immagini/dipolo_magnetico_impulso.png  used on input line 648.
 (pdftex.def)             Requested size: 266.14978pt x 111.96523pt.
-<immagini/magnete_misura_impulso.png, id=936, 313.17pt x 186.6975pt>
+<immagini/magnete_misura_impulso.png, id=958, 313.17pt x 186.6975pt>
 File: immagini/magnete_misura_impulso.png Graphic file (type png)
 <use immagini/magnete_misura_impulso.png>
-Package pdftex.def Info: immagini/magnete_misura_impulso.png  used on input line 652.
+Package pdftex.def Info: immagini/magnete_misura_impulso.png  used on input line 655.
 (pdftex.def)             Requested size: 266.14978pt x 158.67082pt.
 
 
@@ -2646,10 +2659,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [95 <./immagini/dipolo_magnetico_impulso.png> <./immagini/magnete_misura_impulso.png>]
-<immagini/grafici_perdita_energia.png, id=945, 317.185pt x 214.8025pt>
+<immagini/grafici_perdita_energia.png, id=967, 317.185pt x 214.8025pt>
 File: immagini/grafici_perdita_energia.png Graphic file (type png)
 <use immagini/grafici_perdita_energia.png>
-Package pdftex.def Info: immagini/grafici_perdita_energia.png  used on input line 663.
+Package pdftex.def Info: immagini/grafici_perdita_energia.png  used on input line 666.
 (pdftex.def)             Requested size: 266.14978pt x 180.25587pt.
 )
 
@@ -2662,7 +2675,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [96 <./immagini/grafici_perdita_energia.png>]
 Capitolo 7.
-(Capitoli/rivelatori_a_gas.tex
+(Capitoli/7.rivelatori_a_gas.tex
 Overfull \hbox (0.39778pt too wide) in paragraph at lines 44--70
 []$[]$ $[]$ 
  []
@@ -2692,7 +2705,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [99]
-<immagini/potenziali_ionizzazione.png, id=979, 383.4325pt x 195.22937pt>
+<immagini/potenziali_ionizzazione.png, id=1001, 383.4325pt x 195.22937pt>
 File: immagini/potenziali_ionizzazione.png Graphic file (type png)
 <use immagini/potenziali_ionizzazione.png>
 Package pdftex.def Info: immagini/potenziali_ionizzazione.png  used on input line 132.
@@ -2702,7 +2715,7 @@ Overfull \hbox (0.39102pt too wide) in paragraph at lines 139--165
 []$[]$ $[]$ 
  []
 
-<immagini/vallori_W_energia.png, id=980, 219.31938pt x 151.06438pt>
+<immagini/vallori_W_energia.png, id=1002, 219.31938pt x 151.06438pt>
 File: immagini/vallori_W_energia.png Graphic file (type png)
 <use immagini/vallori_W_energia.png>
 Package pdftex.def Info: immagini/vallori_W_energia.png  used on input line 172.
@@ -2718,6 +2731,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [100 <./immagini/potenziali_ionizzazione.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 179.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 211.
 
 
 
@@ -2766,7 +2782,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [105]
-<immagini/mobilita.png, id=1022, 313.17pt x 255.95625pt>
+<immagini/mobilita.png, id=1044, 313.17pt x 255.95625pt>
 File: immagini/mobilita.png Graphic file (type png)
 <use immagini/mobilita.png>
 Package pdftex.def Info: immagini/mobilita.png  used on input line 335.
@@ -2790,7 +2806,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [107]
-<immagini/modello_riv_gas_condensatore.png, id=1035, 439.14063pt x 295.1025pt>
+<immagini/modello_riv_gas_condensatore.png, id=1057, 439.14063pt x 295.1025pt>
 File: immagini/modello_riv_gas_condensatore.png Graphic file (type png)
 <use immagini/modello_riv_gas_condensatore.png>
 Package pdftex.def Info: immagini/modello_riv_gas_condensatore.png  used on input line 382.
@@ -2840,12 +2856,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [111]
 Package mdframed Info: mdframed works in twoside mode on input line 525.
-<immagini/circuito_forma_segnale.png, id=1065, 767.86874pt x 442.65375pt>
+<immagini/circuito_forma_segnale.png, id=1087, 767.86874pt x 442.65375pt>
 File: immagini/circuito_forma_segnale.png Graphic file (type png)
 <use immagini/circuito_forma_segnale.png>
 Package pdftex.def Info: immagini/circuito_forma_segnale.png  used on input line 538.
 (pdftex.def)             Requested size: 252.94965pt x 145.81276pt.
-<immagini/forma_segnale_rivelatore_a_gas.png, id=1066, 719.68875pt x 405.515pt>
+<immagini/forma_segnale_rivelatore_a_gas.png, id=1088, 719.68875pt x 405.515pt>
 File: immagini/forma_segnale_rivelatore_a_gas.png Graphic file (type png)
 <use immagini/forma_segnale_rivelatore_a_gas.png>
 Package pdftex.def Info: immagini/forma_segnale_rivelatore_a_gas.png  used on input line 586.
@@ -2874,11 +2890,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [113]
 Package mdframed Info: mdframed works in twoside mode on input line 600.
-<immagini/griglia_di_frisch_1.png, id=1079, 817.55438pt x 387.69844pt>
+<immagini/griglia_di_frisch_1.png, id=1101, 797.22844pt x 354.57469pt>
 File: immagini/griglia_di_frisch_1.png Graphic file (type png)
 <use immagini/griglia_di_frisch_1.png>
 Package pdftex.def Info: immagini/griglia_di_frisch_1.png  used on input line 605.
-(pdftex.def)             Requested size: 295.10364pt x 139.94402pt.
+(pdftex.def)             Requested size: 295.10364pt x 131.25009pt.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 644.
 
 
 
@@ -2897,7 +2916,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[115])
+[115]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2906,7 +2925,243 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[116] (Lab3.aux)
+[116]
+<immagini/forma_valanga_1.png, id=1123, 332.24126pt x 340.77313pt>
+File: immagini/forma_valanga_1.png Graphic file (type png)
+<use immagini/forma_valanga_1.png>
+Package pdftex.def Info: immagini/forma_valanga_1.png  used on input line 693.
+(pdftex.def)             Requested size: 199.60895pt x 204.73584pt.
+<immagini/forma_valanga_2.png, id=1124, 135.50626pt x 194.22563pt>
+File: immagini/forma_valanga_2.png Graphic file (type png)
+<use immagini/forma_valanga_2.png>
+Package pdftex.def Info: immagini/forma_valanga_2.png  used on input line 699.
+(pdftex.def)             Requested size: 144.16164pt x 206.63983pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 690--702
+[]$[]$ $[]$ 
+ []
+
+<immagini/regimi_rivelatori_a_gas.png, id=1125, 627.84563pt x 457.71pt>
+File: immagini/regimi_rivelatori_a_gas.png Graphic file (type png)
+<use immagini/regimi_rivelatori_a_gas.png>
+Package pdftex.def Info: immagini/regimi_rivelatori_a_gas.png  used on input line 709.
+(pdftex.def)             Requested size: 377.0444pt x 274.86559pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[117 <./immagini/forma_valanga_1.png> <./immagini/forma_valanga_2.png> <./immagini/regimi_rivelatori_a_gas.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[118]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[119]
+<immagini/geometria_cilindrica.png, id=1144, 572.1375pt x 211.79124pt>
+File: immagini/geometria_cilindrica.png Graphic file (type png)
+<use immagini/geometria_cilindrica.png>
+Package pdftex.def Info: immagini/geometria_cilindrica.png  used on input line 748.
+(pdftex.def)             Requested size: 332.68385pt x 123.15247pt.
+Package mdframed Info: mdframed works in twoside mode on input line 755.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[120 <./immagini/geometria_cilindrica.png>]
+<immagini/contatore_geiger_valanghe.png, id=1153, 240.9pt x 119.44624pt>
+File: immagini/contatore_geiger_valanghe.png Graphic file (type png)
+<use immagini/contatore_geiger_valanghe.png>
+Package pdftex.def Info: immagini/contatore_geiger_valanghe.png  used on input line 803.
+(pdftex.def)             Requested size: 310.50357pt x 153.97327pt.
+<immagini/Geiger_plateau.png, id=1154, 397.98688pt x 245.91875pt>
+File: immagini/Geiger_plateau.png Graphic file (type png)
+<use immagini/Geiger_plateau.png>
+Package pdftex.def Info: immagini/Geiger_plateau.png  used on input line 808.
+(pdftex.def)             Requested size: 310.50357pt x 191.86838pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[121 <./immagini/contatore_geiger_valanghe.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[122 <./immagini/Geiger_plateau.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[123]
+<immagini/MWPC_1.png, id=1174, 172.14313pt x 83.31125pt>
+File: immagini/MWPC_1.png Graphic file (type png)
+<use immagini/MWPC_1.png>
+Package pdftex.def Info: immagini/MWPC_1.png  used on input line 840.
+(pdftex.def)             Requested size: 217.35588pt x 105.19263pt.
+<immagini/MWPC_2.png, id=1175, 683.05188pt x 311.1625pt>
+File: immagini/MWPC_2.png Graphic file (type png)
+<use immagini/MWPC_2.png>
+Package pdftex.def Info: immagini/MWPC_2.png  used on input line 847.
+(pdftex.def)             Requested size: 217.35588pt x 99.01376pt.
+<immagini/campo_elettrico_MWPC.png, id=1176, 514.92375pt x 259.97125pt>
+File: immagini/campo_elettrico_MWPC.png Graphic file (type png)
+<use immagini/campo_elettrico_MWPC.png>
+Package pdftex.def Info: immagini/campo_elettrico_MWPC.png  used on input line 859.
+(pdftex.def)             Requested size: 354.86412pt x 179.16614pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[124 <./immagini/MWPC_1.png> <./immagini/MWPC_2.png> <./immagini/campo_elettrico_MWPC.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[125]
+
+Package amsmath Warning: Foreign command \atop;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 952.
+
+<immagini/numeri_casuali_rivelatore_segmentato.png, id=1195, 350.30875pt x 237.88875pt>
+File: immagini/numeri_casuali_rivelatore_segmentato.png Graphic file (type png)
+<use immagini/numeri_casuali_rivelatore_segmentato.png>
+Package pdftex.def Info: immagini/numeri_casuali_rivelatore_segmentato.png  used on input line 957.
+(pdftex.def)             Requested size: 306.07022pt x 207.86174pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[126 <./immagini/numeri_casuali_rivelatore_segmentato.png>]
+<immagini/drift_chambers.png, id=1204, 277.035pt x 209.28188pt>
+File: immagini/drift_chambers.png Graphic file (type png)
+<use immagini/drift_chambers.png>
+Package pdftex.def Info: immagini/drift_chambers.png  used on input line 982.
+(pdftex.def)             Requested size: 288.32329pt x 217.81085pt.
+
+
+LaTeX Warning: Reference `chap:elettronica' on page 127 undefined on input line 984.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[127 <./immagini/drift_chambers.png>]
+<immagini/TPC_1.png, id=1213, 605.76312pt x 379.91937pt>
+File: immagini/TPC_1.png Graphic file (type png)
+<use immagini/TPC_1.png>
+Package pdftex.def Info: immagini/TPC_1.png  used on input line 993.
+(pdftex.def)             Requested size: 266.14978pt x 166.92155pt.
+<immagini/TPC_2.png, id=1214, 349.80687pt x 235.37938pt>
+File: immagini/TPC_2.png Graphic file (type png)
+<use immagini/TPC_2.png>
+Package pdftex.def Info: immagini/TPC_2.png  used on input line 1005.
+(pdftex.def)             Requested size: 266.14978pt x 179.0985pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[128 <./immagini/TPC_1.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 1011.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[129 <./immagini/TPC_2.png>]
+<immagini/RPC.png, id=1230, 342.78062pt x 186.6975pt>
+File: immagini/RPC.png Graphic file (type png)
+<use immagini/RPC.png>
+Package pdftex.def Info: immagini/RPC.png  used on input line 1032.
+(pdftex.def)             Requested size: 310.50357pt x 169.13152pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[130 <./immagini/RPC.png>]
+<immagini/MRPC_1.png, id=1239, 393.97188pt x 159.09438pt>
+File: immagini/MRPC_1.png Graphic file (type png)
+<use immagini/MRPC_1.png>
+Package pdftex.def Info: immagini/MRPC_1.png  used on input line 1041.
+(pdftex.def)             Requested size: 377.0444pt x 152.25789pt.
+)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[131 <./immagini/MRPC_1.png>] (Lab3.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
@@ -2915,25 +3170,28 @@ L3 programming layer <2024-05-27>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 33578 strings out of 473920
- 663703 string characters out of 5726974
+ 34324 strings out of 473920
+ 678461 string characters out of 5726974
  1964908 words of memory out of 5000000
- 55365 multiletter control sequences out of 15000+600000
- 585867 words of font info for 132 fonts, out of 8000000 for 9000
+ 56023 multiletter control sequences out of 15000+600000
+ 586036 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,20n,93p,7371b,2241s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 91i,23n,93p,5462b,2242s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.29} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{Hfootnote.28} has been referenced but does not exist, replaced by a fixed one
 
- <C:\Users\santo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\santo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1200.pfb>
-Output written on Lab3.pdf (116 pages, 5738851 bytes).
+ <C:\Users\santo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\santo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/santo/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1200.pfb>
+Output written on Lab3.pdf (131 pages, 7790582 bytes).
 PDF statistics:
- 1612 PDF objects out of 1728 (max. 8388607)
- 410 named destinations out of 1000 (max. 500000)
- 1212 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1810 PDF objects out of 2073 (max. 8388607)
+ 460 named destinations out of 1000 (max. 500000)
+ 1375 words of extra memory for PDF output out of 10000 (max. 10000000)
 

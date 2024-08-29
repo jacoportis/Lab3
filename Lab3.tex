@@ -13,13 +13,14 @@
 \usepackage{physics}
 \usepackage[version=4]{mhchem}
 \usepackage{amsfonts}
+\usepackage{mathtools}
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{physics}
 \usepackage{enumitem}
 \usepackage{array}
-\usepackage{tikz}
+\usepackage{tikz,pgf}
 \usetikzlibrary{snakes}
 \usetikzlibrary{shapes}
 
@@ -109,50 +110,56 @@
 %\comment{
 
 \chapter{Arduino}
-\import{./Capitoli}{arduino}
+\import{./Capitoli}{1.arduino}
 
 \chapter{Sorgenti di radiazione}
-\import{./Capitoli}{sorgenti_radiazione}
+\import{./Capitoli}{2.sorgenti_radiazione}
 
 \chapter{Perdita di energia per particelle cariche pesanti}
-\import{./Capitoli}{perdita_energia_particelle_cariche}
+\import{./Capitoli}{3.perdita_energia_particelle_cariche}
 
 \chapter{Perdita di energia per elettroni}
-\import{./Capitoli}{perdita_energia_elettroni}
+\import{./Capitoli}{4.perdita_energia_elettroni}
 
 \chapter[Interazione dei \texorpdfstring{$\gamma$}{\textgamma} con la materia]
 {Interazione dei $\boldsymbol{\gamma}$ con la materia}
-\import{./Capitoli}{interazione_gamma_materia}
+\import{./Capitoli}{5.interazione_gamma_materia}
 
 \chapter{Proprietà generali dei rivelatori}\label{chap:caratteristiche_rivelatori}
-\import{./Capitoli}{caratteristiche_rivelatori}
-
-%}%fine commento
+\import{./Capitoli}{6.caratteristiche_rivelatori}
 
 \chapter{Rivelatori a gas}
-\import{./Capitoli}{rivelatori_a_gas}
+\import{./Capitoli}{7.rivelatori_a_gas}
+%}%fine commento
+
+%\chapter{Rivelatori basati su scintillatori}
+%\import{./Capitoli}{8.scintillatori}
 
 \comment{%inizio commento
 
-\chapter{Rivelatori basati su scintillatori}
-
 \chapter{Fotosensori}
+\import{./Capitoli}{9.fotosensori}
 
 \chapter{Rivelatori a semiconduttore}
+\import{./Capitoli}{10.rivelatori_a_semiconduttori}
 
 \chapter{La tecnologia del vuoto}
+\import{./Capitoli}{11.tecnologie_vuoto}
 
-\chapter{Elettronica}
+\chapter{Elettronica}\label{chap:elettronica}
+\import{./Capitoli}{12.elettronica}
 
 \chapter{Metodo Monte Carlo}
+
+\chapter{Esperienze di laboratorio}
 
 \appendix
 
 \chapter{Distribuzione di Poisson}
-\import{./Capitoli}{distribuzione_Poisson}
+\import{./Capitoli}{A.distribuzione_Poisson}
 
 \chapter{Multimetro digitale}
-\import{./Capitoli}{multimetro}
+\import{./Capitoli}{B.multimetro}
 
 }%fine commento
 

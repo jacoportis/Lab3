@@ -105,3 +105,14 @@
 \contentsline {subsection}{\numberline {7.4.2}Il problema della posizione}{111}{subsection.7.4.2}%
 \contentsline {section}{\numberline {7.5}La moltiplicazione}{116}{section.7.5}%
 \contentsline {subsection}{\numberline {7.5.1}Moltiplicazione a valanga}{116}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}Sviluppo della valanga}{117}{subsection.7.5.2}%
+\contentsline {section}{\numberline {7.6}Regimi di lavoro dei rivelatori a gas}{117}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Geometrie dei rivelatori a gas}{119}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}Geometria piana}{119}{subsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.7.2}La geometrica cilindrica}{120}{subsection.7.7.2}%
+\contentsline {subsection}{\numberline {7.7.3}Il contatore Geiger}{121}{subsection.7.7.3}%
+\contentsline {section}{\numberline {7.8}Rivelatori a gas moderni}{123}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}MWPC: Multiwire Proportional Chambers}{123}{subsection.7.8.1}%
+\contentsline {subsection}{\numberline {7.8.2}Drift Chambers}{127}{subsection.7.8.2}%
+\contentsline {subsection}{\numberline {7.8.3}TPC (Time Projection Chambers)}{128}{subsection.7.8.3}%
+\contentsline {subsection}{\numberline {7.8.4}MRPC (Multigap Resistive Plate Chambers)}{130}{subsection.7.8.4}%
