@@ -116,3 +116,16 @@
 \contentsline {subsection}{\numberline {7.8.2}Drift Chambers}{131}{subsection.7.8.2}%
 \contentsline {subsection}{\numberline {7.8.3}TPC (Time Projection Chambers)}{132}{subsection.7.8.3}%
 \contentsline {subsection}{\numberline {7.8.4}MRPC (Multigap Resistive Plate Chambers)}{134}{subsection.7.8.4}%
+\contentsline {chapter}{\numberline {8}Scintillatori}{137}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Caratteristiche di uno scintillatore}{137}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Proprietà ideali di uno scintillatore}{139}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Tipologie di scintillatori}{140}{subsection.8.1.2}%
+\contentsline {section}{\numberline {8.2}La luminescenza}{140}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Cause di luminescenza}{140}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Il processo di scintillazione}{141}{subsection.8.2.2}%
+\contentsline {section}{\numberline {8.3}Scintillatori organici}{142}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Processo di scintillazione negli scintillatori organici}{142}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Emissione e assorbimento}{144}{subsection.8.3.2}%
+\contentsline {section}{\numberline {8.4}Scintillatori inorganici}{145}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Meccanismo di scintillazione nei cristalli inorganici}{145}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}Spettro di emissione}{147}{subsection.8.4.2}%
