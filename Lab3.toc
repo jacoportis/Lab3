@@ -128,4 +128,17 @@
 \contentsline {subsection}{\numberline {8.3.2}Emissione e assorbimento}{144}{subsection.8.3.2}%
 \contentsline {section}{\numberline {8.4}Scintillatori inorganici}{145}{section.8.4}%
 \contentsline {subsection}{\numberline {8.4.1}Meccanismo di scintillazione nei cristalli inorganici}{145}{subsection.8.4.1}%
-\contentsline {subsection}{\numberline {8.4.2}Spettro di emissione}{147}{subsection.8.4.2}%
+\contentsline {subsection}{\numberline {8.4.2}Vantaggi degli scintillatori inorganici rispetto a quelli inorganici}{147}{subsection.8.4.2}%
+\contentsline {section}{\numberline {8.5}Risposta in luce}{149}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Relazione di Birks}{150}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}Risposta temporale}{151}{subsection.8.5.2}%
+\contentsline {section}{\numberline {8.6}La raccolta della luce}{151}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}Un esercizio di simulazione}{153}{subsection.8.6.1}%
+\contentsline {subsection}{\numberline {8.6.2}Guide di luce}{155}{subsection.8.6.2}%
+\contentsline {subsection}{\numberline {8.6.3}Fibre WLS}{156}{subsection.8.6.3}%
+\contentsline {section}{\numberline {8.7}Rivelatori basati su scintillatori}{158}{section.8.7}%
+\contentsline {subsection}{\numberline {8.7.1}Un esempio di applicazione: la PET}{158}{subsection.8.7.1}%
+\contentsline {chapter}{\numberline {9}Fotosensori}{161}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Fotomoltiplicatori}{161}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Schema di funzionamento}{161}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Fotocatodo}{162}{subsection.9.1.2}%
