@@ -142,3 +142,13 @@
 \contentsline {section}{\numberline {9.1}Fotomoltiplicatori}{161}{section.9.1}%
 \contentsline {subsection}{\numberline {9.1.1}Schema di funzionamento}{161}{subsection.9.1.1}%
 \contentsline {subsection}{\numberline {9.1.2}Fotocatodo}{162}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.3}Elettrodi di focalizzazione}{164}{subsection.9.1.3}%
+\contentsline {subsection}{\numberline {9.1.4}Emissione secondaria e processo di moltiplicazione}{165}{subsection.9.1.4}%
+\contentsline {subsection}{\numberline {9.1.5}Configurazione dinodi}{166}{subsection.9.1.5}%
+\contentsline {subsection}{\numberline {9.1.6}Alimentazione}{167}{subsection.9.1.6}%
+\contentsline {subsection}{\numberline {9.1.7}Guadagno VS tensione}{168}{subsection.9.1.7}%
+\contentsline {subsection}{\numberline {9.1.8}Risposta temporale}{169}{subsection.9.1.8}%
+\contentsline {subsection}{\numberline {9.1.9}Schermo magnetico}{169}{subsection.9.1.9}%
+\contentsline {subsection}{\numberline {9.1.10}Il rumore (noise)}{170}{subsection.9.1.10}%
+\contentsline {subsection}{\numberline {9.1.11}Forma e dimensioni}{171}{subsection.9.1.11}%
+\contentsline {section}{\numberline {9.2}Avalanche PhotoDiodes (APD)}{172}{section.9.2}%
