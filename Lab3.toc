@@ -1,33 +1,196 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
-\contentsline {chapter}{\numberline {1}Rivelatori a semiconduttore}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Semiconduttori puri}{5}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Vantaggi e svantaggi}{5}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Banda di valenza e banda di conduzione}{7}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Creazione di coppie}{8}{subsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.1.4}mobilità}{9}{subsection.1.1.4}%
-\contentsline {subsection}{\numberline {1.1.5}Ricombinazione e trapping}{10}{subsection.1.1.5}%
-\contentsline {section}{\numberline {1.2}Semiconduttori drogati}{11}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Semiconduttori di tipo n}{12}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Semiconduttori di tipo p}{12}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Concentrazione di elettroni e lacune}{13}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Semiconduttori di tipo $\rm p+$, $\rm p-$, i (compensati)}{14}{subsection.1.2.4}%
-\contentsline {subsection}{\numberline {1.2.5}Giunzioni n-p}{14}{subsection.1.2.5}%
-\contentsline {section}{\numberline {1.3}Rivelatori a semiconduttore}{18}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Rivelatori a diffusione}{19}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Rivelatori a barriera superficiale (SSB)}{19}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Ion-Implanted Diodes}{21}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Rivelatori a deriva di litio Si(Li)}{21}{subsection.1.3.4}%
-\contentsline {subsection}{\numberline {1.3.5}Realizzazione contatti}{22}{subsection.1.3.5}%
-\contentsline {section}{\numberline {1.4}Caratteristiche dei rivelatori a semiconduttore}{22}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Linearità}{22}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Risoluzione in energia}{23}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Sensibilità ed efficienza intrinseca}{25}{subsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.4.4}Densità}{25}{subsection.1.4.4}%
-\contentsline {subsection}{\numberline {1.4.5}Tempo di risposta}{26}{subsection.1.4.5}%
-\contentsline {subsection}{\numberline {1.4.6}Danneggiamento da radiazione}{26}{subsection.1.4.6}%
-\contentsline {section}{\numberline {1.5}Tipologie moderne di rivelatori al silicio}{27}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Rivelatori a strip}{27}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Rivelatori a drift}{29}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}CCD (Charged-Coupled-Device)}{29}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}Rivelatori a pixel}{30}{subsection.1.5.4}%
+\contentsline {chapter}{\numberline {1}Arduino}{9}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Sorgenti di radiazione}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Tipi di radiazione}{11}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Radiazioni ionizzanti}{11}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Sorgenti di radiazioni naturali}{12}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Sorgenti di radiazioni artificiali}{12}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Radiazioni cariche}{12}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Radiazioni neutre}{12}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Radiazione cosmica secondaria}{13}{subsection.2.1.6}%
+\contentsline {section}{\numberline {2.2}Energia e potere penetrante}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Range energia di interesse}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Capacità penetrazione radiazioni}{13}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Nuclei instabili}{14}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Legge del decadimento radioattivo}{15}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Excursus: la datazione al carbonio $\rm ^{14}C$}{17}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}Isotopi radioattivi $\beta $}{17}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Isotopi radioattivi $\alpha $}{20}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Isotopi radioattivi $\gamma $}{21}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Sorgenti di fissione}{23}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Radiazione cosmica}{23}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Unità di misura e nomenclatura}{24}{section.2.10}%
+\contentsline {subsection}{\numberline {2.10.1}Attività di una sorgente}{24}{subsection.2.10.1}%
+\contentsline {subsection}{\numberline {2.10.2}Concetto di dose}{25}{subsection.2.10.2}%
+\contentsline {subsection}{\numberline {2.10.3}Concetto di dose equivalente}{25}{subsection.2.10.3}%
+\contentsline {subsection}{\numberline {2.10.4}Dosi tipiche}{25}{subsection.2.10.4}%
+\contentsline {subsubsection}{Sorgenti naturali}{25}{section*.21}%
+\contentsline {subsubsection}{Sorgenti artificiali}{26}{section*.22}%
+\contentsline {subsubsection}{Trivia: il caso della banana}{26}{section*.23}%
+\contentsline {chapter}{\numberline {3}Perdita di energia per particelle cariche pesanti}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Principali meccanismi}{27}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Interazione coulombiana (inelastica) con gli elettroni atomici}{27}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Interazione (elastica) con i nuclei}{28}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Relazione di Bethe-Bloch}{29}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Perdita di energia per composti}{32}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Picco di Bragg}{33}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Fluttuazioni statistiche nella perdita di energia}{34}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Range di una particella}{34}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Il channeling}{38}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Come calcolare il range di una particella}{38}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Radiazione Cherenkov}{39}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Possibili esercizi}{40}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Perdita di energia per elettroni}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Interazione degli elettroni con la materia}{43}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Contributo collisionale}{45}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Contributo radiativo}{45}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Energia critica}{46}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Riepilogo}{48}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Range degli elettroni}{48}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Assorbimento degli elettroni}{49}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Backscattering}{50}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Scattering multiplo}{52}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Lunghezza di radiazione}{55}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Distribuzione angolare di scattering}{56}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Conseguenze dello scattering multiplo}{56}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Tomografia muonica}{57}{subsection.4.5.4}%
+\contentsline {chapter}{\numberline {5}Interazione dei $\gamma $ con la materia}{59}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Meccanismi di interazione dei fotoni}{59}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Sezione d'urto di interazione}{61}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Coefficiente di assorbimento}{62}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Effetto fotoelettrico}{64}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Effetto Compton}{65}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Creazione di coppie}{67}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}Sommario}{68}{subsection.5.1.6}%
+\contentsline {section}{\numberline {5.2}Sciami elettromagnetici}{68}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Struttura di uno sciame elettromagnetico (toy model)}{69}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Profondità di uno sciame e.m.}{70}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Numero di particelle in uno sciame e.m.}{72}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Sviluppo longitudinale di uno sciame e.m.}{73}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Sviluppo laterale di uno sciame e.m.}{74}{subsection.5.2.5}%
+\contentsline {chapter}{\numberline {6}Proprietà generali dei rivelatori}{77}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Che cos'è un rivelatore}{77}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Modi di operazione}{78}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Informazioni dai segnali}{80}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}Analisi delle ampiezze}{81}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Calibrazione di uno spettro}{84}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Risoluzione in energia}{86}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Efficienza di un rivelatore}{90}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Efficienza intrinseca di rivelazione}{90}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Accettanza geometrica}{91}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Efficienza complessiva}{93}{subsection.6.4.3}%
+\contentsline {section}{\numberline {6.5}Tempo di risposta}{94}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Tempo morto}{95}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Modelli per il comportamento del tempo morto}{95}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Correzioni per il tempo morto}{96}{subsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.6.3}Come stimare il tempo morto?}{99}{subsection.6.6.3}%
+\contentsline {section}{\numberline {6.7}Funzioni di un rivelatore}{100}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Misura dell'energia}{100}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}Misura dell'impulso}{101}{subsection.6.7.2}%
+\contentsline {subsection}{\numberline {6.7.3}Misura della carica/massa}{101}{subsection.6.7.3}%
+\contentsline {chapter}{\numberline {7}Rivelatori a gas}{103}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Principio di funzionamento}{103}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Ionizzazione}{104}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Meccanismi di ionizzazione}{104}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}W-values}{105}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Fluttuazioni e risoluzione}{108}{subsection.7.2.3}%
+\contentsline {section}{\numberline {7.3}Fenomeni di trasporto nei gas}{109}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Diffusione}{109}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Ricombinazione}{111}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Migrazione}{112}{subsection.7.3.3}%
+\contentsline {section}{\numberline {7.4}Struttura base di un rivelatore a gas}{114}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Formazione dell'impulso}{114}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Il problema della posizione}{117}{subsection.7.4.2}%
+\contentsline {section}{\numberline {7.5}La moltiplicazione}{122}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Moltiplicazione a valanga}{122}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}Sviluppo della valanga}{123}{subsection.7.5.2}%
+\contentsline {section}{\numberline {7.6}Regimi di lavoro dei rivelatori a gas}{123}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Geometrie dei rivelatori a gas}{125}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}Geometria piana}{125}{subsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.7.2}La geometrica cilindrica}{126}{subsection.7.7.2}%
+\contentsline {subsection}{\numberline {7.7.3}Il contatore Geiger}{127}{subsection.7.7.3}%
+\contentsline {section}{\numberline {7.8}Rivelatori a gas moderni}{129}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}MWPC (Multiwire Proportional Chambers)}{129}{subsection.7.8.1}%
+\contentsline {subsection}{\numberline {7.8.2}Drift Chambers}{133}{subsection.7.8.2}%
+\contentsline {subsection}{\numberline {7.8.3}TPC (Time Projection Chambers)}{134}{subsection.7.8.3}%
+\contentsline {subsection}{\numberline {7.8.4}MRPC (Multigap Resistive Plate Chambers)}{136}{subsection.7.8.4}%
+\contentsline {chapter}{\numberline {8}Scintillatori}{139}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Caratteristiche di uno scintillatore}{139}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Proprietà ideali di uno scintillatore}{141}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Tipologie di scintillatori}{142}{subsection.8.1.2}%
+\contentsline {section}{\numberline {8.2}La luminescenza}{142}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Cause di luminescenza}{142}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Il processo di scintillazione}{143}{subsection.8.2.2}%
+\contentsline {section}{\numberline {8.3}Scintillatori organici}{144}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Processo di scintillazione negli scintillatori organici}{144}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Emissione e assorbimento}{146}{subsection.8.3.2}%
+\contentsline {section}{\numberline {8.4}Scintillatori inorganici}{147}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Meccanismo di scintillazione nei cristalli inorganici}{147}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}Vantaggi degli scintillatori inorganici rispetto a quelli inorganici}{149}{subsection.8.4.2}%
+\contentsline {section}{\numberline {8.5}Risposta in luce}{151}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Relazione di Birks}{152}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}Risposta temporale}{153}{subsection.8.5.2}%
+\contentsline {section}{\numberline {8.6}La raccolta della luce}{153}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}Un esercizio di simulazione}{155}{subsection.8.6.1}%
+\contentsline {subsection}{\numberline {8.6.2}Guide di luce}{157}{subsection.8.6.2}%
+\contentsline {subsection}{\numberline {8.6.3}Fibre WLS}{158}{subsection.8.6.3}%
+\contentsline {section}{\numberline {8.7}Rivelatori basati su scintillatori}{160}{section.8.7}%
+\contentsline {subsection}{\numberline {8.7.1}Un esempio di applicazione: la PET}{160}{subsection.8.7.1}%
+\contentsline {chapter}{\numberline {9}Fotosensori}{163}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Fotomoltiplicatori}{163}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Schema di funzionamento}{163}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Fotocatodo}{164}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.3}Elettrodi di focalizzazione}{166}{subsection.9.1.3}%
+\contentsline {subsection}{\numberline {9.1.4}Emissione secondaria e processo di moltiplicazione}{167}{subsection.9.1.4}%
+\contentsline {subsection}{\numberline {9.1.5}Configurazione dinodi}{168}{subsection.9.1.5}%
+\contentsline {subsection}{\numberline {9.1.6}Alimentazione}{169}{subsection.9.1.6}%
+\contentsline {subsection}{\numberline {9.1.7}Guadagno VS tensione}{170}{subsection.9.1.7}%
+\contentsline {subsection}{\numberline {9.1.8}Risposta temporale}{171}{subsection.9.1.8}%
+\contentsline {subsection}{\numberline {9.1.9}Schermo magnetico}{171}{subsection.9.1.9}%
+\contentsline {subsection}{\numberline {9.1.10}Il rumore (noise)}{172}{subsection.9.1.10}%
+\contentsline {subsection}{\numberline {9.1.11}Forma e dimensioni}{173}{subsection.9.1.11}%
+\contentsline {section}{\numberline {9.2}Avalanche PhotoDiodes (APD)}{174}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Principio di funzionamento}{174}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Parametri operativi}{175}{subsection.9.2.2}%
+\contentsline {section}{\numberline {9.3}Silicon PhotoMultipliers (SiPM)}{176}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Principio di funzionamento}{177}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}Vantaggi e svantaggi}{177}{subsection.9.3.2}%
+\contentsline {subsection}{\numberline {9.3.3}Analisi del segnale}{177}{subsection.9.3.3}%
+\contentsline {subsection}{\numberline {9.3.4}Photon Detection Efficiency (PDE)}{179}{subsection.9.3.4}%
+\contentsline {subsection}{\numberline {9.3.5}Possibili strutture}{180}{subsection.9.3.5}%
+\contentsline {subsection}{\numberline {9.3.6}Possibili applicazioni}{181}{subsection.9.3.6}%
+\contentsline {subsection}{\numberline {9.3.7}Confronto tra fotosensori}{181}{subsection.9.3.7}%
+\contentsline {section}{\numberline {9.4}L'occhio umano}{181}{section.9.4}%
+\contentsline {chapter}{\numberline {10}Rivelatori a semiconduttore}{183}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Semiconduttori puri}{183}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Vantaggi e svantaggi}{183}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Banda di valenza e banda di conduzione}{185}{subsection.10.1.2}%
+\contentsline {subsection}{\numberline {10.1.3}Creazione di coppie}{186}{subsection.10.1.3}%
+\contentsline {subsection}{\numberline {10.1.4}mobilità}{187}{subsection.10.1.4}%
+\contentsline {subsection}{\numberline {10.1.5}Ricombinazione e trapping}{188}{subsection.10.1.5}%
+\contentsline {section}{\numberline {10.2}Semiconduttori drogati}{189}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Semiconduttori di tipo n}{190}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Semiconduttori di tipo p}{190}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.2.3}Concentrazione di elettroni e lacune}{191}{subsection.10.2.3}%
+\contentsline {subsection}{\numberline {10.2.4}Semiconduttori di tipo $\rm p+$, $\rm p-$, i (compensati)}{192}{subsection.10.2.4}%
+\contentsline {subsection}{\numberline {10.2.5}Giunzioni n-p}{192}{subsection.10.2.5}%
+\contentsline {section}{\numberline {10.3}Rivelatori a semiconduttore}{196}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Rivelatori a diffusione}{197}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Rivelatori a barriera superficiale (SSB)}{197}{subsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.3.3}Ion-Implanted Diodes}{199}{subsection.10.3.3}%
+\contentsline {subsection}{\numberline {10.3.4}Rivelatori a deriva di litio Si(Li)}{199}{subsection.10.3.4}%
+\contentsline {subsection}{\numberline {10.3.5}Realizzazione contatti}{200}{subsection.10.3.5}%
+\contentsline {section}{\numberline {10.4}Caratteristiche dei rivelatori a semiconduttore}{200}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}Linearità}{200}{subsection.10.4.1}%
+\contentsline {subsection}{\numberline {10.4.2}Risoluzione in energia}{201}{subsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.4.3}Sensibilità ed efficienza intrinseca}{203}{subsection.10.4.3}%
+\contentsline {subsection}{\numberline {10.4.4}Densità}{203}{subsection.10.4.4}%
+\contentsline {subsection}{\numberline {10.4.5}Tempo di risposta}{204}{subsection.10.4.5}%
+\contentsline {subsection}{\numberline {10.4.6}Danneggiamento da radiazione}{204}{subsection.10.4.6}%
+\contentsline {section}{\numberline {10.5}Tipologie moderne di rivelatori al silicio}{205}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}Rivelatori a strip}{205}{subsection.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.2}Rivelatori a drift}{207}{subsection.10.5.2}%
+\contentsline {subsection}{\numberline {10.5.3}CCD (Charged-Coupled-Device)}{207}{subsection.10.5.3}%
+\contentsline {subsection}{\numberline {10.5.4}Rivelatori a pixel}{208}{subsection.10.5.4}%
+\contentsline {chapter}{\numberline {11}La tecnologia del vuoto}{213}{chapter.11}%
