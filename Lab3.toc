@@ -167,7 +167,7 @@
 \contentsline {subsection}{\numberline {10.1.1}Vantaggi e svantaggi}{183}{subsection.10.1.1}%
 \contentsline {subsection}{\numberline {10.1.2}Banda di valenza e banda di conduzione}{185}{subsection.10.1.2}%
 \contentsline {subsection}{\numberline {10.1.3}Creazione di coppie}{186}{subsection.10.1.3}%
-\contentsline {subsection}{\numberline {10.1.4}mobilità}{187}{subsection.10.1.4}%
+\contentsline {subsection}{\numberline {10.1.4}Mobilità}{187}{subsection.10.1.4}%
 \contentsline {subsection}{\numberline {10.1.5}Ricombinazione e trapping}{188}{subsection.10.1.5}%
 \contentsline {section}{\numberline {10.2}Semiconduttori drogati}{189}{section.10.2}%
 \contentsline {subsection}{\numberline {10.2.1}Semiconduttori di tipo n}{190}{subsection.10.2.1}%
@@ -193,4 +193,3 @@
 \contentsline {subsection}{\numberline {10.5.2}Rivelatori a drift}{207}{subsection.10.5.2}%
 \contentsline {subsection}{\numberline {10.5.3}CCD (Charged-Coupled-Device)}{207}{subsection.10.5.3}%
 \contentsline {subsection}{\numberline {10.5.4}Rivelatori a pixel}{208}{subsection.10.5.4}%
-\contentsline {chapter}{\numberline {11}La tecnologia del vuoto}{213}{chapter.11}%

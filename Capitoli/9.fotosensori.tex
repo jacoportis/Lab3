@@ -1,4 +1,4 @@
-La luce di scintillazione prodotta in un mezzo dal passaggio di una radiazione può essere raccolta da opportuni fotosensori, per produrre un segnale elettrico e dare informazioni sulla radiazione originaria. I fotosensori che devono essere accoppiati a uno scintillatore devono essere estremamente sensibili, quindi in grado di produrre un segnale elettrico anche quando vengono colpiti da pochi fotoni. Addirittura certe volte si parla di rivelatori a singolo fotone, quindi anche il singolo fotone può dar luogo a un segnale elettrico rivelabile. In questo capitolo andremo a vedere diverse tipologie di fotosensori, quali i fotomoltiplicatori ma anche rivelatori di più recente produzione come i diodi a valanga e i fotomoltiplicatori realizzati in silicio.
+La luce di scintillazione prodotta in un mezzo dal passaggio di una radiazione può essere raccolta da opportuni fotosensori per produrre un segnale elettrico e dare informazioni sulla radiazione originaria. I fotosensori che devono essere accoppiati a uno scintillatore devono essere estremamente sensibili, quindi in grado di produrre un segnale elettrico anche quando vengono colpiti da pochi fotoni. Addirittura certe volte si parla di rivelatori a singolo fotone, quindi anche il singolo fotone può dar luogo a un segnale elettrico rivelabile. In questo capitolo andremo a vedere diverse tipologie di fotosensori, quali i fotomoltiplicatori ma anche rivelatori di più recente produzione come i diodi a valanga e i fotomoltiplicatori realizzati in silicio.
 
 \section{Fotomoltiplicatori}
 
@@ -6,7 +6,7 @@ La prima tipologia di fotosensori che studieremo sono i fotomoltiplicatori.
 
 \subsection{Schema di funzionamento}
 
-Osserviamo come funzione un fotomoltiplicatore:
+Osserviamo come funziona un fotomoltiplicatore:
 
 \begin{figure}[H]
    \centering
@@ -24,11 +24,11 @@ A causa di tale schema di funzionamento, il fotomoltiplicatore è un oggetto abb
 \subsection{Fotocatodo}
 Guardiamo un po' più nel dettaglio i diversi componenti del fotomoltiplicatore, partendo dal fotocatodo.
 
-Il fotocatodo rappresenta sostanzialmente la finestra di ingresso al fotomoltiplicatore, quindi è la zona dove devono incidere i fotoni di scintillazione. Normalmente è realizzato su un materiale vetroso\footnote{Il motivo è che così si assicura un indice di rifrazione simile a quello dello scintillatore o delle eventuali guide di luce che si utilizzano per accoppiare lo scintillatore col fotosensore, in maniera tale da evitare fenomeni di rifrazione.} che viene rivestito di un materiale caratterizzato da un un basso lavoro di estrazione. Normalmente vengono utilizzati dei materiali semi-conduttori per il semplice fatto che gli elettroni che vengono emessi per effetto fotoelettrico riescono più facilmente a lasciare il fotocatodo e a fuoriuscire. Come sappiamo, l'energia cinetica con cui l'elettrone fuoriesce dipende dall'energia del fotone incidente e dal potenziale di estrazione, essendo data dalla differenza tra queste: poiché i fotoni di scintillazione, ricadendo nell'ultravioletto, hanno energie di circa 3 eV mentre i materiali che si adoperano hanno un potenziale di circa $1.5-2$ eV, l'elettrone che viene emesso ha un'energia abbastanza bassa, di pochi elettronVolt.
+Il fotocatodo rappresenta sostanzialmente la finestra di ingresso al fotomoltiplicatore, quindi è la zona dove devono incidere i fotoni di scintillazione. Normalmente è realizzato su un materiale vetroso\footnote{Il motivo è che così si assicura un indice di rifrazione simile a quello dello scintillatore o delle eventuali guide di luce che si utilizzano per accoppiare lo scintillatore col fotosensore, in maniera tale da evitare fenomeni di rifrazione.} che viene rivestito di un materiale caratterizzato da un un basso lavoro di estrazione. Normalmente vengono utilizzati dei materiali semiconduttori per il semplice fatto che gli elettroni che vengono emessi per effetto fotoelettrico riescono più facilmente a lasciare il fotocatodo e a fuoriuscire. Come sappiamo, l'energia cinetica con cui l'elettrone fuoriesce dipende dall'energia del fotone incidente e dal potenziale di estrazione, essendo data dalla differenza tra queste: poiché i fotoni di scintillazione, ricadendo nell'ultravioletto, hanno energie di circa 3 eV mentre i materiali che si adoperano hanno un potenziale di circa $1.5-2$ eV, l'elettrone che viene emesso ha un'energia abbastanza bassa, di pochi elettronVolt.
 
 Bisogna inoltre ricordare che, essendo un materiale con così basso lavoro di estrazione, potrebbe verificarsi anche un'emissione spontanea per effetto termico. Ad esempio a temperatura ambiente gli elettroni hanno un'energia media di $0,025$ eV, quindi alcuni elettroni potrebbero effettivamente essere emessi per effetto termico. Siccome noi non avvertiamo alcuna differenza tra l'elettrone che viene emesso perché ha inciso un fotone e l'elettrone che viene emesso per effetto termico in quanto entrambi daranno luogo a tutti i processi che abbiamo appena visto, ciò rappresenta un problema perché rappresentano una fonte di rumore che si va a sommare al reale segnale fisico dovuto alla rivelazione di fotoni di scintillazione. Una soluzione banale a tale problema è quella di operare a temperature più basse per ridurre la probabilità di emissione di elettroni per effetto termico.
 
-Come abbiamo detto, l'effetto termico non è del tutto trascurabile. Infatti a temperatura ambiente gli elettroni hanno un'energia media di $0.025$ eV, dunque una certa frazione di elettroni può avere un'energia superiore a questo valore di energia media che risulta sufficiente quindi per poter sfuggire dal materiale. In generale, a temperatura ambiente la frequenza di emissione, cioè il numero di elettroni che vengono emessi al secondo, nei metalli corrisponde a circa 100 elettroni al secondo per ogni metro quadro mentre nei materiali semi-conduttori arriva fino a $10^6-10^8$ elettroni al secondo per metro quadro. Capiamo quindi che tale processo non è per niente trascurabile e l'effetto di questa emissione provoca quindi una corrente di elettroni che prende il nome di dark current, perché è una corrente che è sempre presente anche quando non incide luce sul fotosensore, quindi in condizioni di oscurità e purtroppo questo è uno dei parametri di cui si deve tener conto in un fotomoltiplicatore perché rappresenta qualcosa che si somma al segnale.
+Come abbiamo detto, l'effetto termico non è del tutto trascurabile. Infatti a temperatura ambiente gli elettroni hanno un'energia media di $0.025$ eV, dunque una certa frazione di elettroni può avere un'energia superiore a questo valore di energia media che risulta sufficiente quindi per poter sfuggire dal materiale. In generale, a temperatura ambiente la frequenza di emissione, cioè il numero di elettroni che vengono emessi al secondo, nei metalli corrisponde a circa 100 elettroni al secondo per ogni metro quadro mentre nei materiali semiconduttori arriva fino a $10^6-10^8$ elettroni al secondo per metro quadro. Capiamo quindi che tale processo non è per niente trascurabile e l'effetto di questa emissione provoca quindi una corrente di elettroni che prende il nome di dark current, perché è una corrente che è sempre presente anche quando non incide luce sul fotosensore, quindi in condizioni di oscurità e purtroppo questo è uno dei parametri di cui si deve tener conto in un fotomoltiplicatore perché rappresenta qualcosa che si somma al segnale.
 
 Un altro aspetto che si deve tenere in conto quando si sceglie il fotocatodo riguarda l'efficienza di rivelazione. Finora infatti abbiamo schematizzato il processo dicendo che la radiazione incide e produce effetto fotoelettrico, ma in realtà la probabilità con cui avviene questo effetto dipende dalla lunghezza d'onda della radiazione incidente. Possiamo quindi andare a definire, in base al tipo di materiale adoperato, quanto vale la quantum efficiency cioè l'efficienza quantica, che rappresenta il numero di fotoelettroni emessi sul numero di fotoni incidenti:
 \begin{equation*}
@@ -144,7 +144,7 @@ Certe volte tuttavia si ha l'esigenza di posizionare i fotomoltiplicatori all'in
 \subsection{Il rumore (noise)}
 Un aspetto importante riguarda il noise, cioè il rumore. Come abbiamo già visto, la principale fonte di rumore in un fotomoltiplicatore è l'emissione termoionica di elettroni da parte del fotocatodo, ma anche da parte di altri materiali che costituiscono il fotomoltiplicatore. Tipicamente viene emesso un solo fotoelettrone alla volta, per cui il segnale spurio (cioè dovuto a rumore) che si produce è di bassa ampiezza, dunque è importante avere dei segnali fisici più elevati in maniera tale da poterli discriminare dal rumore.
 
-Il rumore può essere diminuito abbassando la temperatura, sebbene ciò non si faccia quasi mai. 
+Il rumore può essere diminuito abbassando la temperatura, sebbene ciò non si faccia quasi mai.
 
 Un altro aspetto importante sempre in termini di rumore è quello di evitare di esporre il fotomoltiplicatore alla luce anche quando non si sta lavorando col fotomoltiplicatore, quindi persino quando trasportiamo un fotomoltiplicatore da un luogo ad un altro dobbiamo avere l'accortezza di evitare l'esposizione alla luce. Il motivo è che i materiali vetrosi che vengono adoperati soprattutto nel catodo possono emettere luce di fosforescenza anche per tempi molto lunghi dell'ordine delle ore, quindi se per caso il fotomoltiplicatore viene esposto alla luce bisogna poi attendere un tempo che può essere anche dell'ordine delle ore prima di poterlo adoperare nuovamente, altrimenti potremmo avere effetti indesiderati dovuti a questi fenomeni di fosforescenza del vetro. 
 
@@ -168,7 +168,7 @@ Abbiamo un segnale molto veloce, con un tempo di discesa molto rapido dell'ordin
 Gli afterpulses possono avere diverse origini: essi possono provenire da
 \begin{itemize}[leftmargin=0.5cm]
    \item reazioni luminose: i dinodi colpiti dagli elettroni possono emettere fotoni che, se arrivano al fotocatodo, danno origine ad un effetto fotoelettrico e quindi ad afterpulses, che sono ovviamente ritardati rispetto all'impulso principale perché dobbiamo considerare il tempo che impiega la luce a tornare indietro verso il fotocatodo. Ritardi tipici in questo caso sono dell'ordine di $20-100$ ns;
-   \item ionizzazione gas residui nel fototubo: infatti il fototubo, cioè il tubo in cui sono inseriti i dinodi, lavora in condizioni di vuoto, però per quanto il vuoto realizzato all'interno del fototubo possa essere spinto sono sempre presenti degli atomi di gas residuo, per cui può succedere che gli elettroni ionizzino questo gas residuo e gli ioni positivi migrino verso il fotocatodo (perché questo si trova a un potenziale negativo) liberando elettroni, producendo quindi dei segnali ritardati con ritardi tipici di 100 nanosecondi o anche microsecondi, perché questo impulso viene prodotto da un ione che ha dovuto viaggiare verso il fotocatodo, il quale ha una mobilità ridotta rispetto a quella degli elettroni.
+   \item ionizzazione di gas residui nel fototubo: infatti il fototubo, cioè il tubo in cui sono inseriti i dinodi, lavora in condizioni di vuoto, però per quanto il vuoto realizzato all'interno del fototubo possa essere spinto sono sempre presenti degli atomi di gas residuo, per cui può succedere che gli elettroni ionizzino questo gas residuo e gli ioni positivi migrino verso il fotocatodo (perché questo si trova a un potenziale negativo) liberando elettroni, producendo quindi dei segnali ritardati con ritardi tipici di 100 nanosecondi o anche microsecondi, perché questo impulso viene prodotto da un ione che ha dovuto viaggiare verso il fotocatodo, il quale ha una mobilità ridotta rispetto a quella degli elettroni.
    \item backscattering degli elettroni: durante il processo di amplificazione, alcuni elettroni possono essere rimandati indietro dall'urto, ritornando al primo dinodo e generando un altro segnale ritardato rispetto al primo.
 \end{itemize}
 
@@ -196,7 +196,7 @@ Per tutti questi motivi, nel corso degli anni sono stati sviluppati dei fotosens
 Infine gli APD hanno l'enorme vantaggio di lavorare con tensioni più basse rispetto a quelle dei fotomoltiplicatori. Proprio per questo motivo vengono utilizzati in diverse applicazioni dove sono presenti gli scintillatori.
 
 \subsection{Principio di funzionamento}
-L'idea alla base degli APD è quella di adoperare dei materiali semi-conduttori drogati, cioè vuol dire che sono stati introdotti alcuni atomi di un elemento diverso che possono essere elementi donori, quindi con un eccesso di elettroni rispetto a un atomo che costituisce il cristallo oppure accettori, cioè con un difetto di elettroni. A seconda del tipo di elemento che abbiamo utilizzato per drogare i semi-conduttori si parla di materiali drogati di tipo P o di tipo N. Andando a realizzare delle particolari giunzioni con i semi-conduttori, è possibile creare dei rivelatori di particelle, ma anche rivelatori di luce. 
+L'idea alla base degli APD è quella di adoperare dei materiali semiconduttori drogati, cioè vuol dire che sono stati introdotti alcuni atomi di un elemento diverso che possono essere elementi donori, quindi con un eccesso di elettroni rispetto a un atomo che costituisce il cristallo oppure accettori, cioè con un difetto di elettroni. A seconda del tipo di elemento che abbiamo utilizzato per drogare i semiconduttori si parla di materiali drogati di tipo p o di tipo n. Andando a realizzare delle particolari giunzioni con i semiconduttori, è possibile creare dei rivelatori di particelle, ma anche rivelatori di luce.
 
 Tipicamente un APD ha una struttura come quella che vediamo schematizzata nelle figure seguenti:
 
@@ -215,14 +215,14 @@ Tipicamente un APD ha una struttura come quella che vediamo schematizzata nelle 
 
 \vspace{0.2cm}In sequenza abbiamo le seguenti zone:
 \begin{itemize}
-   \item un primo strato drogato di tipo P;
-   \item uno strato detto parte intrinseca e indicata con I, dove con intrinseco intendiamo un materiale che è stato drogato con la stessa concentrazione di donori e accettori;
-   \item un altro strato drogato di tipo P;
-   \item un ultimo strato drogato di tipo N.
+   \item un primo strato drogato di tipo p;
+   \item uno strato detto parte intrinseca e indicata con i, dove con intrinseco intendiamo un materiale che è stato drogato con la stessa concentrazione di donori e accettori;
+   \item un altro strato drogato di tipo p;
+   \item un ultimo strato drogato di tipo n.
 \end{itemize}
 Tale sequenza di strati fa sì che si venga a realizzare una regione ottimale per la rivelazione.
 
-Entriamo più nel dettaglio su ciò che avviene fisicamente guardando la figura a destra: quando incide un fotone con energia $h \nu$, esso entra attraverso lo strato sottile $\rm p^{+}$ e interagisce da qualche parte all'interno della regione intrinseca, producendo una coppia elettrone-lacuna. A questo punto, grazie all'utilizzo di elettrodi viene creata una differenza di potenziale tra anodo e catodo, per cui l'elettrone viene accelerato e migra verso la regione di moltiplicazione (costituita dalle regioni P ed N), dove può dare luogo a processi di moltiplicazione a valanga, in quanto l'elettrone può arrivare ad avere un'energia sufficiente per produrre nuove coppie elettrone lacuna, con un guadagno che non supera il valore di 100, quindi a partire da un fotone incidente, dunque da un elettrone prodotto, possiamo al massimo ottenere un centinaio di elettroni raccolti nell'elettrodo finale. I segnali quindi non vengono amplificati di molto, solo quanto serve per la rivelazione di questi fotoni.
+Entriamo più nel dettaglio su ciò che avviene fisicamente guardando la figura a destra: quando incide un fotone con energia $h \nu$, esso entra attraverso lo strato sottile $\rm p^{+}$ e interagisce da qualche parte all'interno della regione intrinseca, producendo una coppia elettrone-lacuna. A questo punto, grazie all'utilizzo di elettrodi viene creata una differenza di potenziale tra anodo e catodo, per cui l'elettrone viene accelerato e migra verso la regione di moltiplicazione (costituita dalle regioni p ed n), dove può dare luogo a processi di moltiplicazione a valanga, in quanto l'elettrone può arrivare ad avere un'energia sufficiente per produrre nuove coppie elettrone lacuna, con un guadagno che non supera il valore di 100, quindi a partire da un fotone incidente, dunque da un elettrone prodotto, possiamo al massimo ottenere un centinaio di elettroni raccolti nell'elettrodo finale. I segnali quindi non vengono amplificati di molto, solo quanto serve per la rivelazione di questi fotoni.
 
 \subsection{Parametri operativi}
 Andiamo a guardare alcune caratteristiche di un APD.
@@ -310,12 +310,12 @@ La risposta è probabilità di triggerare una valanga dipende dalla posizione in
 In figura possiamo vedere due curve dell'andamento della probabilità (una relativa agli elettroni e l'altra alle lacune) al variare del campo elettrico applicato, quindi della tensione. Notiamo come questa cresce con la tensione applicata.
 
 \subsection{Possibili strutture}
-Ci sono diverse strutture per i SiPM, ma in generale si dividono in due tipologie: P su N o N su P, a seconda che la regione sensibile sia rispettivamente di tipo N o P.
+Ci sono diverse strutture per i SiPM, ma in generale si dividono in due tipologie: p su n o n su p, a seconda che la regione sensibile sia rispettivamente di tipo n o p.
 
 \begin{figure}[H]
    \centering
    \includegraphics[width=0.9\textwidth]{immagini/strutture_SiPM.png}
-   \caption*{(a): tipo P su N, (b): tipo N su P.}
+   \caption*{(a): tipo p su n, (b): tipo n su p.}
 \end{figure}
 
 \subsection{Possibili applicazioni}
@@ -350,7 +350,7 @@ Facciamo in conclusione un confronto tra i fotosensori visti:
       \hline
    \end{tabular}
 \end{center}
-Da un lato abbiamo il PMT che si caratterizza per avere degli ottimi guadagni ma ha una tensione di lavoro molto elevata con un dark count rate abbastanza basso e ha efficienza quantica bassa, ma in compenso ha un'area sensibile abbastanza elevata. Abbiamo poi i materiali semi-conduttori ossia APD e SiPM che si caratterizzano soprattutto per le basse tensioni di lavoro, le efficienze tipicamente più elevate, guadagni che possono anche essere confrontabili con quelli del fotomoltiplicatore tradizionale ma hanno lo svantaggio di avere delle superfici abbastanza ridotte.
+Da un lato abbiamo il PMT che si caratterizza per avere degli ottimi guadagni ma ha una tensione di lavoro molto elevata con un dark count rate abbastanza basso e ha efficienza quantica bassa, ma in compenso ha un'area sensibile abbastanza elevata. Abbiamo poi i materiali semiconduttori ossia APD e SiPM che si caratterizzano soprattutto per le basse tensioni di lavoro, le efficienze tipicamente più elevate, guadagni che possono anche essere confrontabili con quelli del fotomoltiplicatore tradizionale ma hanno lo svantaggio di avere delle superfici abbastanza ridotte.
 
 \section{L'occhio umano}
 
