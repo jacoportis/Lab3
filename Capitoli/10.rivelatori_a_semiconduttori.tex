@@ -399,14 +399,16 @@ La risoluzione di questi rivelatori è tipicamente abbastanza buona. Infatti ser
 
 Prima di proseguire, facciamo alcune considerazioni. Quando vogliamo misurare l'energia, quest'ultima la misuriamo in termini del numero $n$ di coppie che si generano. Tale numero è dato dal rapporto tra l'energia $E$ che viene depositata nel rivelatore diviso $w$, che è l'energia media per creare una coppia. Ciò vale sia per i rivelatori a gas che per i rivelatori a semiconduttore, con l'unica differenza che nei rivelatori a gas $w$ è dell'ordine all'incirca di 30 eV mentre nel rivelatore a semiconduttore $w$ è dell'ordine di circa 3 eV, quindi circa un decimo. Più precisamente il numero di coppie a cui facciamo riferimento è un valore medio $\bar{n}$, perché sebbene sia vero che si produce un certo numero di coppie quelle che poi danno luogo al segnale sono una parte poiché avvengono diversi fenomeni di fluttuazioni statistiche. Ne segue che il numero $\bar{n}$ che misuriamo e che è indice dell'energia in realtà può variare da evento a evento. Immaginiamo ad esempio, come facciamo in un'esperienza di laboratorio, di inviare in un rivelatore al silicio delle particelle $\alpha$ di 5 MeV. Tale energia viene totalmente depositata nel rivelatore, dando luogo a un certo numero di coppie che produrranno il segnale, e questo numero di coppie fluttuerà a seguito di fenomeni di natura statistica.
 
-Se andiamo a misurare lo spettro in energia delle particelle $\alpha$, dato che l'energia è legata al numero di coppie generate, a tale picco ne corrisponderà uno relativo al numero di queste:
+Osserviamo lo spettro in energia delle particelle $\alpha$. Dato che l'energia è legata al numero di coppie generate, a tale picco ne corrisponderà uno relativo al numero di queste:
+
+\vspace{-0.2cm}
 
 \begin{figure}[H]
    \centering
    \begin{tikzpicture}
       %assi
-      \draw[->] (-3,0) -- (3.5,0) node[right] {$n$};
-      \draw[->] (-3,0) -- (-3,4.5) node[above] {$N_{\alpha}$};
+      \draw[->] (-3,0) -- (3.2,0) node[right] {$n$};
+      \draw[->] (-3,0) -- (-3,4.5) node[left] {$N_{\alpha}$};
       %grafico
       \draw[red!60!black,thick] plot[domain=-3:3, smooth] (\x,{4*exp(-3*(\x)^2)});
       \draw (0,0.1) -- (0,-0.1) node[below] {$\bar{n}$};
@@ -414,8 +416,8 @@ Se andiamo a misurare lo spettro in energia delle particelle $\alpha$, dato che 
       \draw[<->] (-0.4806,2) -- (0.4806,2);
       \begin{scope}[shift={(-8cm, 0cm)}]
          %assi
-         \draw[->] (-3,0) -- (3.5,0) node[right] {$E$};
-         \draw[->] (-3,0) -- (-3,4.5) node[above] {$N_{\alpha}$};
+         \draw[->] (-3,0) -- (3.2,0) node[right] {$E$};
+         \draw[->] (-3,0) -- (-3,4.5) node[left] {$N_{\alpha}$};
          %grafico
          \draw[red!60!black,thick] plot[domain=-3:3, smooth] (\x,{4*exp(-(\x)^2)});
          %FWHM
@@ -424,7 +426,7 @@ Se andiamo a misurare lo spettro in energia delle particelle $\alpha$, dato che 
     \end{tikzpicture}
 \end{figure}
 
-Quello che osserviamo è un picco molto stretto, il quale rappresenta il numero di particelle $\alpha$ che hanno una certa energia. Il fatto di non avere una delta di Dirac come ci aspetteremmo, dato che stiamo inviando particelle di 5 MeV e quindi in teoria dovremmo trovare sempre lo stesso valore, è dovuto al fatto che ci sono delle fluttuazioni nel numero di coppie che creano il segnale, quindi quello che osserviamo nello spettro in energia è una conseguenza del numero di coppie $n$ che ogni volta si producono e che vengono raccolte, il quale non è sempre lo stesso. In sintesi abbiamo un valore medio $\bar{n}$ dato $\bar{n}=E/w$ e rispetto a questo ogni volta abbiamo delle fluttuazioni.
+\vspace{-0.4cm}Quello che osserviamo è un picco molto stretto, il quale rappresenta il numero di particelle $\alpha$ che hanno una certa energia. Il fatto di non avere una delta di Dirac come ci aspetteremmo, dato che stiamo inviando particelle di 5 MeV e quindi in teoria dovremmo trovare sempre lo stesso valore, è dovuto al fatto che ci sono delle fluttuazioni nel numero di coppie che creano il segnale, quindi quello che osserviamo nello spettro in energia è una conseguenza del numero di coppie $n$ che ogni volta si producono e che vengono raccolte, il quale non è sempre lo stesso. In sintesi abbiamo un valore medio $\bar{n}$ dato $\bar{n}=E/w$ e rispetto a questo ogni volta abbiamo delle fluttuazioni.
 
 La risoluzione in energia $R$ viene valutata andando a guardare il picco e studiandone la larghezza, in particolare ci concentriamo sulla larghezza a metà altezza FWHM, a cui la risoluzione è legata mediante la relazione
 \begin{equation*}
@@ -442,14 +444,17 @@ In definitiva la risoluzione sarà dato dalla larghezza della distribuzione del 
 \begin{equation*}
    R=\frac{2.35}{\sqrt{n}}
 \end{equation*}
-Per quanto detto prima, a parità di energia in un rivelatore a silicio si producono un numero di coppie pari a 10 volte il numero che se ne producono in un rivelatore a gas, per cui avremo che $R_{\rm Si}=R_{\rm gas}/\sqrt{10}$, per cui è circa un terzo più piccola e dunque migliore.
-Nei rivelatori al silicio si possono raggiungere anche risoluzioni dell'1\%.
+Per quanto detto prima, a parità di energia in un rivelatore a silicio si producono un numero di coppie pari a 10 volte il numero che se ne producono in un rivelatore a gas, per cui avremo che $R_{\rm Si}=R_{\rm gas}/\sqrt{10}$, per cui è circa un terzo più piccola e dunque migliore. Nei rivelatori al silicio si possono raggiungere anche risoluzioni dell'1\%. Inoltre il fattore di Fano vale circa $0.12$.
+
+\vspace{-0.15cm}
 
 \subsection{Sensibilità ed efficienza intrinseca}
 
 L'efficienza intrinseca di un rivelatore a semiconduttore è dell'ordine del 100\%. Ricordiamo che l'efficienza intrinseca rappresenta il rapporto tra il numero di particelle che hanno dato luogo a un segnale diviso il numero di particelle incidenti, in quanto in generale non è detto che una particella che incide sul rivelatore perdendo energia sia in grado di produrre un segnale rivelabile, mentre in questo caso sì.
 
 Tali rivelatori presentano dei limiti. Uno di questi è la presenza di una soglia minima necessaria sul segnale da rivelare, legata al fatto che ci sono delle correnti di dispersione e che l'elettronica introduce un minimo di rumore. Tali fattori possono infatti creare dei segnali di rumore, i quali hanno bassa ampiezza, dunque per non confonderli con segnali fisici dobbiamo in qualche modo discriminarli, cioè eliminarli dell'acquisizione. Questo può essere fatto imponendo una soglia minima al di sotto della quale non acquisire nulla. Tale soglia da un lato ci aiuta a eliminare il rumore, dall'altro però potrebbe far perdere qualche segnale fisico di interesse, facendo quindi abbassare leggermente l'efficienza intrinseca. Allo stesso modo, la presenza di una zona morta potrebbe imporre una certa perdita nell'efficienza perché magari particelle di bassa energia non riescono ad attraversare tale zona e quindi non vengono misurate, quindi hanno inciso sul rivelatore ma non sono state misurate.
+
+\vspace{-0.15cm}
 
 \subsection{Densità}
 L'elevata densità di tali rivelatori costituisce un vantaggio perché permette di avere un elevato stopping power, il che ci permette di avere rivelatori compatti ma comunque capaci di misurare l'energia di particelle anche molto energetiche.

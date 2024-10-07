@@ -13,11 +13,11 @@ Osserviamo come funziona un fotomoltiplicatore:
    \includegraphics[width=0.8\textwidth]{immagini/fotomoltiplicatore.png}
 \end{figure}
 
-Quando arriva una radiazione che interagisce con lo scintillatore in un punto, viene emessa della luce e i fotoni, o attraverso delle riflessioni multiple o perché vengono emessi con la direzione giusta, arrivano alla finestra di ingresso del fotomoltiplicatore che prende il nome di fotocatodo, il quale non è altro che una superficie tipicamente vetrosa che viene rivestita di un materiale con un basso potenziale di estrazione in cui pertanto può facilmente avvenire effetto fotoelettrico, In questo modo, un fotone che incide darà luogo ad effetto fotoelettrico e verrà emesso un elettrone. Quest'ultimo viene guidato verso una zona dove sono presenti degli elettrodi che prendono il nome di dinodi. \E chiaro che l'elettrone viene guidato attraverso un campo elettrico, quindi questi dinodi vengono posizionati ad un potenziale via via crescente, cioè ogni dinodo ha un potenziale maggiore rispetto al precedente, in maniera tale che gli elettroni vengono guidati attraverso questa catena di dinodi.
+Quando arriva una radiazione che interagisce con lo scintillatore in un punto, viene emessa della luce e i fotoni, o attraverso delle riflessioni multiple o perché vengono emessi con la direzione giusta, arrivano alla finestra di ingresso del fotomoltiplicatore che prende il nome di fotocatodo, il quale non è altro che una superficie tipicamente vetrosa che viene rivestita di un materiale con un basso potenziale di estrazione in cui pertanto può facilmente avvenire effetto fotoelettrico, In questo modo, un fotone che incide darà luogo ad effetto fotoelettrico e verrà emesso un elettrone. Quest'ultimo viene guidato verso una zona dove sono presenti degli elettrodi che prendono il nome di dinodi. \E chiaro che l'elettrone viene guidato attraverso un campo elettrico, quindi questi dinodi vengono posizionati ad un potenziale via via crescente, cioè ogni dinodo ha un potenziale maggiore rispetto al precedente, in maniera tale che gli elettroni vengano guidati attraverso questa catena di dinodi.
 
 L'elettrone che viene generato per effetto fotoelettrico, non appena incide sul primo dinodo, permette l'emissione di un certo numero di elettroni, in quanto viene ceduta dell'energia che serve ad estrarre altri elettroni dal primo dinodo; a questo punto tali elettroni vengono accelerati verso il secondo dinodo e ognuno di questi elettroni darà luogo, allo stesso modo, ad altri elettroni. Parliamo quindi di un meccanismo di moltiplicazione, in quanto per ogni dinodo un elettrone incidente può estrarre un certo numero di elettroni.
 
-Tale processo avviene lungo tutta la struttura, quindi man mano il numero di elettroni emessi che viaggia attraverso la catena di dinodi aumenta attraverso una legge di potenza fino a quando arriva all'ultimo dinodo, che non è altro che l'anodo, da cui viene poi prelevato il segnale il quale è un segnale in carica, cioè una corrente, per cui si adopera una resistenza in modo da produrre un segnale in tensione che è quello che poi adoperiamo e che possiamo visualizzare all'oscilloscopio. Si tratta quindi di un segnale che in linea di principio dovrebbe essere proporzionale al numero di elettroni che sono stati generati da questo fotomoltiplicatore e questo numero di elettroni dipende da quanti fotoni hanno inciso sul fotomoltiplicatore, quindi da quanti fotoni sono stati prodotti durante il processo di scintillazione. In altre parole, si tratta di una catena che permette di mantenere una certa proporzionalità e quindi di avere in uscita un segnale che dà indicazioni sull'energia depositata all'interno dello scintillatore.
+Tale processo avviene lungo tutta la struttura, quindi man mano il numero di elettroni emessi che viaggia attraverso la catena di dinodi aumenta attraverso una legge di potenza fino a quando arriva all'ultimo dinodo, che non è altro che l'anodo, da cui viene poi prelevato il segnale il quale è un segnale in carica, cioè una corrente, per cui si utilizza una resistenza in modo da produrre un segnale in tensione che è quello che poi adoperiamo e che possiamo visualizzare all'oscilloscopio. Si tratta quindi di un segnale che in linea di principio dovrebbe essere proporzionale al numero di elettroni che sono stati generati da questo fotomoltiplicatore e questo numero di elettroni dipende da quanti fotoni hanno inciso sul fotomoltiplicatore, quindi da quanti fotoni sono stati prodotti durante il processo di scintillazione. In altre parole, si tratta di una catena che permette di mantenere una certa proporzionalità e quindi di avere in uscita un segnale che dà indicazioni sull'energia depositata all'interno dello scintillatore.
 
 A causa di tale schema di funzionamento, il fotomoltiplicatore è un oggetto abbastanza esteso, in quanto dobbiamo avere una catena di dinodi che presenta delle geometrie particolari tali da poter guidare gli elettroni attraverso i dinodi ed inoltre questi devono avere delle forme caratteristiche. Ecco perché si chiama fotomoltiplicatore, perché non solo è un rivelatore di fotoni ma in più è un moltiplicatore, quindi da un singolo elettrone che corrisponde alla rivelazione di un fotone si produce una cascata di elettroni verso l'anodo con un certo fattore di moltiplicazione.
 
@@ -35,14 +35,14 @@ Un altro aspetto che si deve tenere in conto quando si sceglie il fotocatodo rig
    \text{Quantum Efficiency }(QE)
    =\frac{\text{n° fotoelettroni emessi}}{\text{n° fotoni incidenti}}
 \end{equation*}
-Per fare un esempio, se incidessero 100 fotoni di scintillazione e in corrispondenza ad ogni fotone di scintillazione ottenessimo un fotoelettrone, allora l'efficienza sarebbe del 100\%. \E chiaro che nella realtà non abbiamo efficienze così elevate: tipicamente ci aggiriamo intorno al 20-30\%, quindi in media $20-30$ fotoni su 100 riescono a produrre effetto fotoelettrico.
+Per fare un esempio, se incidessero 100 fotoni di scintillazione e in corrispondenza ad ogni fotone di scintillazione ottenessimo un fotoelettrone, allora l'efficienza sarebbe del 100\%. \E chiaro che nella realtà non abbiamo efficienze così elevate: tipicamente ci aggiriamo intorno al $20-30\%$, quindi in media $20-30$ fotoni su 100 riescono a produrre effetto fotoelettrico.
 
 Vediamo adesso le risposte in funzione della lunghezza d'onda per alcuni materiali utilizzati per i fotocatodi:
 \begin{figure}[H]
    \centering
    \includegraphics[width=0.65\textwidth]{immagini/efficienza_quantica.png}
 \end{figure}
-Vediamo come la quantum efficiency è fortemente dipendente dalla lunghezza d'onda, ad esempio ci sono fotocatodi che sono particolarmente ottimizzati per lavorare nel profondo UV e altri invece che lavorano a lunghezza d'onda più elevate. La scelta del fotocatodo dipende fortemente dallo scintillatore che adoperiamo e dallo spettro di emissione di questo, quindi bisogna cercare di far corrispondere queste due finestre di lavoro, cioè l'emissione dello scintillatore e l'assorbimento del fotocatodo.
+Vediamo come la quantum efficiency è fortemente dipendente dalla lunghezza d'onda, ad esempio ci sono fotocatodi che sono particolarmente ottimizzati per lavorare nel profondo UV e altri invece che lavorano a lunghezza d'onda più elevate. La scelta del fotocatodo dipende dunque fortemente dallo scintillatore che adoperiamo e dallo spettro di emissione di questo, quindi bisogna cercare di far corrispondere queste due finestre di lavoro, cioè l'emissione dello scintillatore e l'assorbimento del fotocatodo.
 
 \subsection{Elettrodi di focalizzazione}
 Una volta che sono stati emessi questi elettroni, dobbiamo cercare di convogliarli verso il primo dinodo.
@@ -64,7 +64,7 @@ Una volta che sono stati emessi questi elettroni, dobbiamo cercare di convogliar
 \subsection{Emissione secondaria e processo di moltiplicazione}
 A questo punto cerchiamo di capire cosa avviene nei vari dinodi. L'abbiamo accennato prima: ogni elettrone è in grado di emettere ulteriori elettroni, i quali vengono emessi con energia molto basse di circa 1 eV e ogni dinodo è posto a una differenza di potenziale di circa 100 V rispetto al precedente, in maniera tale che gli elettroni vengano guidati verso i dinodi successivi.
 
-Poiché l'elettrone viene accelerato e quindi acquisisce una certa energia, quando incide sul primo dinodo può estrarre da questo un certo numero di elettroni; in particolare ne estrae all'incirca una trentina, quindi ogni volta che incide un elettrone vengono emessi per effetti secondari una trentina di elettroni, i quali devono essere accelerati verso il secondo dinodo. Tuttavia non tutti questi elettroni riescono ad arrivare al secondo dinodo a causa dell'efficienza di raccolta, per cui solamente una frazione di questi elettroni riesce ad arrivare al secondo dinodo. Tipicamente questa frazione è all'incirca di 5 elettroni su 30. Considerata questa efficienza, possiamo dire che il primo elettrone dà luogo in media a 5 elettroni in grado di arrivare al secondo dinodo. Questo numero, che abbiamo detto aggirarsi normalmente intorno a 5, lo chiamiamo $\delta$ e ora vedremo che importanza ha in termini di formazione del segnale. Dobbiamo quindi immaginare che arrivano $\delta$ elettroni sul secondo dinodo e ognuno di questi darà luogo nel terzo dinodo ad altri $\delta$ elettroni e così via. \E allora evidente che ci sia un meccanismo di moltiplicazione (rappresentato nello schema di funzionamento dalle linee che diventano via via sempre più numerose man mano che si passa da un dinodo al successivo), per cui ci chiediamo quanto vale il \textit{fattore di guadagno}, cioè quanto vale il rapporto tra il numero di elettroni raccolti all'anodo rispetto al numero di elettroni prodotti dal catodo. Questo rapporto si indica con $G$ (talvolta con $M$) e, se nel fotomoltiplicatore ci sono $n$ dinodi (detti anche stadi di moltiplicazione), esso sarà dato da
+Poiché l'elettrone viene accelerato e quindi acquisisce una certa energia, quando incide sul primo dinodo può estrarre da questo un certo numero di elettroni; in particolare ne estrae all'incirca una trentina, quindi ogni volta che incide un elettrone vengono emessi per effetti secondari una trentina di elettroni, i quali devono essere accelerati verso il secondo dinodo. Tuttavia non tutti questi elettroni riescono ad arrivare al secondo dinodo a causa dell'efficienza di raccolta, per cui solamente una frazione di questi elettroni riesce ad arrivare al secondo dinodo. Tipicamente questa frazione è all'incirca di 5 elettroni su 30. Considerata questa efficienza, possiamo dire che il primo elettrone dà luogo in media a 5 elettroni in grado di arrivare al secondo dinodo. Questo numero, che abbiamo detto aggirarsi normalmente intorno a 5, lo chiamiamo $\delta$ e ora vedremo che importanza ha in termini di formazione del segnale. Dobbiamo quindi immaginare che arrivano $\delta$ elettroni sul secondo dinodo e ognuno di questi darà luogo nel terzo dinodo ad altri $\delta$ elettroni e così via. \E allora evidente che ci sia un meccanismo di moltiplicazione (rappresentato nello schema di funzionamento dalle linee che diventano via via sempre più numerose man mano che si passa da un dinodo al successivo), per cui ci chiediamo quanto valga il \textit{fattore di guadagno}, cioè quanto valga il rapporto tra il numero di elettroni raccolti all'anodo rispetto al numero di elettroni prodotti dal catodo. Questo rapporto si indica con $G$ (talvolta con $M$) e, se nel fotomoltiplicatore ci sono $n$ dinodi (detti anche stadi di moltiplicazione), esso sarà dato da
 \begin{equation*}
    G=\alpha \delta^n
 \end{equation*}
@@ -90,7 +90,7 @@ Le configurazioni sono in ordine
    \item focalizzati linearmente;
    \item focalizzati circolarmente.
 \end{enumerate}
-Quella che abbiamo visto fino adesso è di tipo $\rm (c)$ cioè focalizzati linearmente.
+Quella che abbiamo visto fino ad ora è di tipo $\rm (c)$, cioè focalizzati linearmente.
 
 Andiamo a guardare quali sono le deviazioni dalla linearità in base alla configurazione scelta:
 \begin{figure}[H]
@@ -108,7 +108,7 @@ Per quanto riguarda l'alimentazione, si applica un'alta tensione al fotomoltipli
 In genere tra fotocatodo e primo dinodo è applicata una tensione maggiore, allo scopo di focalizzare meglio gli elettroni emessi dal fotocatodo.
 
 Ci sono due modalità di lavoro: o si lavora con un fotocatodo a potenziale negativo e l'anodo a zero oppure viceversa si pone il fotocatodo a zero e l'anodo a una tensione positiva (in figura è riportata soltanto la prima di queste due configurazioni). Questi due diversi modi di lavorare sono equivalenti poiché ciò che conta è la differenza di potenziale, in quanto si deve passare da un potenziale più basso ad un potenziale più alto.
-\subsection{Guadagno VS tensione}
+\subsection{Guadagno vs tensione}
 La tensione di alimentazione del fotomoltiplicatore ha un'influenza sul segnale finale. Infatti il fattore $\delta$ può cambiare a seconda della tensione di lavoro: più questa è alta, più gli elettroni verranno accelerati tra un dinodo e l'altro raggiungendo quindi energie più alte, dunque sarà maggiore il numero di elettroni emessi e di conseguenza il numero di elettroni che riescono a raggiungere il dinodo successivo.
 
 Se indichiamo con $V_d$ la differenza di potenziale tra due dinodi consecutivi, $\delta$ sarà dato da
@@ -131,7 +131,7 @@ e che viene espresso in \%/V.\footnote{Tutta questa parte è poco chiara ma non 
 \subsection{Risposta temporale}
 Tipicamente gli elettroni vengono emessi con tempi molto rapidi, minori del decimo di nanosecondo. Tuttavia il fattore preponderante nella produzione del segnale in termini temporali è il tempo che impiegano questi elettroni per passare dal catodo fino all'anodo. Questo è un tempo dell'ordine delle decine di nanosecondi, dunque non è trascurabile.
 
-Se questo tempo fosse fisso, cioè se fosse sempre lo stesso ogni volta che viene emesso un elettrone dal catodo, non avremmo alcun problema in quanto costituirebbe un ritardo noto presente ogni qualvolta si effettua una misura di timing. Tuttavia, per diverse ragioni esiste una dispersione di questo tempo di transito (detto transit time) che prende il nome di TTS (Transit Time Spread). Tali fluttuazioni possono essere anche dell'ordine di alcuni nanosecondi, e ciò limita l'utilizzo del fotomoltiplicatore per applicazioni di timing spinto, dove vogliamo risoluzioni temporali particolarmente ottimali, dell'ordine del nanosecondo o e anche inferiori. Alcuni fotomoltiplicatori migliorano questo aspetto con un'opportuna geometria dei dinodi oppure diminuendo il numero di fotoelettroni, quindi lavorando in condizione di illuminazione del fotomoltiplicatore un po' più basse, però non sempre è possibile. 
+Se questo tempo fosse fisso, cioè se fosse sempre lo stesso ogni volta che viene emesso un elettrone dal catodo, non avremmo alcun problema in quanto costituirebbe un ritardo noto presente ogni qualvolta si effettua una misura di timing. Tuttavia, per diverse ragioni esiste una dispersione di questo tempo di transito (detto transit time) che prende il nome di TTS (Transit Time Spread). Tali fluttuazioni possono essere anche dell'ordine di alcuni nanosecondi, e ciò limita l'utilizzo del fotomoltiplicatore per applicazioni di timing spinto, dove vogliamo risoluzioni temporali particolarmente ottimali, dell'ordine del nanosecondo o anche inferiori. Alcuni fotomoltiplicatori migliorano questo aspetto con un'opportuna geometria dei dinodi oppure diminuendo il numero di fotoelettroni, quindi lavorando in condizione di illuminazione del fotomoltiplicatore un po' più basse, però non sempre è possibile.
 
 \subsection{Schermo magnetico}
 
@@ -151,7 +151,7 @@ Un altro aspetto importante sempre in termini di rumore è quello di evitare di 
 Altre fonti di rumore in un fotomoltiplicatore possono essere:
 
 \begin{itemize}[leftmargin=0.5cm]
-   \item La radioattività del vetro, in quanto nel vetro possono essere presenti degli isotopi radioattivi come il potassio-40 $\rm ^{40}K$ o il Torio Th che emettono radiazione che viene amplificata nel fotomoltiplicatore;
+   \item La radioattività del vetro, in quanto nel vetro possono essere presenti degli isotopi radioattivi come il potassio-40 $\rm ^{40}K$ o il torio Th che emettono radiazione che viene amplificata nel fotomoltiplicatore;
    \item La radiazione cosmica che incide non solo sul rivelatore ma anche all'interno del tubo;
    \item Correnti di fuga nei supporti degli elettrodi, per cui ci vuole particolare cura nel cercare di isolare gli elettrodi presenti in un fotomoltiplicatore.
 \end{itemize}
@@ -168,7 +168,7 @@ Abbiamo un segnale molto veloce, con un tempo di discesa molto rapido dell'ordin
 Gli afterpulses possono avere diverse origini: essi possono provenire da
 \begin{itemize}[leftmargin=0.5cm]
    \item reazioni luminose: i dinodi colpiti dagli elettroni possono emettere fotoni che, se arrivano al fotocatodo, danno origine ad un effetto fotoelettrico e quindi ad afterpulses, che sono ovviamente ritardati rispetto all'impulso principale perché dobbiamo considerare il tempo che impiega la luce a tornare indietro verso il fotocatodo. Ritardi tipici in questo caso sono dell'ordine di $20-100$ ns;
-   \item ionizzazione di gas residui nel fototubo: infatti il fototubo, cioè il tubo in cui sono inseriti i dinodi, lavora in condizioni di vuoto, però per quanto il vuoto realizzato all'interno del fototubo possa essere spinto sono sempre presenti degli atomi di gas residuo, per cui può succedere che gli elettroni ionizzino questo gas residuo e gli ioni positivi migrino verso il fotocatodo (perché questo si trova a un potenziale negativo) liberando elettroni, producendo quindi dei segnali ritardati con ritardi tipici di 100 nanosecondi o anche microsecondi, perché questo impulso viene prodotto da un ione che ha dovuto viaggiare verso il fotocatodo, il quale ha una mobilità ridotta rispetto a quella degli elettroni.
+   \item ionizzazione di gas residui nel fototubo: infatti il fototubo, cioè il tubo in cui sono inseriti i dinodi, lavora in condizioni di vuoto, però per quanto il vuoto realizzato all'interno del fototubo possa essere spinto sono sempre presenti degli atomi di gas residuo, per cui può succedere che gli elettroni ionizzino questo gas residuo e gli ioni positivi migrino verso il fotocatodo (perché questo si trova a un potenziale negativo) liberando elettroni, producendo quindi dei segnali ritardati con ritardi tipici di 100 nanosecondi o anche microsecondi, perché questo impulso viene prodotto da uno ione che ha dovuto viaggiare verso il fotocatodo, il quale ha una mobilità ridotta rispetto a quella degli elettroni.
    \item backscattering degli elettroni: durante il processo di amplificazione, alcuni elettroni possono essere rimandati indietro dall'urto, ritornando al primo dinodo e generando un altro segnale ritardato rispetto al primo.
 \end{itemize}
 
@@ -182,7 +182,7 @@ fotomoltiplicatori questo esperimento diceva ha preso dati per tantissimi anni d
 }
 
 \section{Avalanche PhotoDiodes (APD)}
-In moltre applicazioni, i fotomoltiplicatori presentano delle problematiche:
+In molte applicazioni, i fotomoltiplicatori presentano delle problematiche:
 \begin{itemize}
    \item a volte hanno delle dimensioni troppo grandi rispetto all'area sensibile;
    \item sono influenzati dai campi magnetici;
@@ -196,7 +196,7 @@ Per tutti questi motivi, nel corso degli anni sono stati sviluppati dei fotosens
 Infine gli APD hanno l'enorme vantaggio di lavorare con tensioni più basse rispetto a quelle dei fotomoltiplicatori. Proprio per questo motivo vengono utilizzati in diverse applicazioni dove sono presenti gli scintillatori.
 
 \subsection{Principio di funzionamento}
-L'idea alla base degli APD è quella di adoperare dei materiali semiconduttori drogati, cioè vuol dire che sono stati introdotti alcuni atomi di un elemento diverso che possono essere elementi donori, quindi con un eccesso di elettroni rispetto a un atomo che costituisce il cristallo oppure accettori, cioè con un difetto di elettroni. A seconda del tipo di elemento che abbiamo utilizzato per drogare i semiconduttori si parla di materiali drogati di tipo p o di tipo n. Andando a realizzare delle particolari giunzioni con i semiconduttori, è possibile creare dei rivelatori di particelle, ma anche rivelatori di luce.
+L'idea alla base degli APD è quella di adoperare dei materiali semiconduttori drogati. Ciò vuol dire che sono stati introdotti alcuni atomi di un elemento diverso che possono essere elementi donori, quindi con un eccesso di elettroni rispetto a un atomo che costituisce il cristallo oppure accettori, cioè con un difetto di elettroni. A seconda del tipo di elemento che abbiamo utilizzato per drogare i semiconduttori si parla di materiali drogati di tipo p o di tipo n. Andando a realizzare delle particolari giunzioni con i semiconduttori, è possibile creare dei rivelatori di particelle, ma anche rivelatori di luce.
 
 Tipicamente un APD ha una struttura come quella che vediamo schematizzata nelle figure seguenti:
 
@@ -213,7 +213,7 @@ Tipicamente un APD ha una struttura come quella che vediamo schematizzata nelle 
    \end{figure}
 \end{minipage}
 
-\vspace{0.2cm}In sequenza abbiamo le seguenti zone:
+\vspace{0.4cm}In sequenza abbiamo le seguenti zone:
 \begin{itemize}
    \item un primo strato drogato di tipo p;
    \item uno strato detto parte intrinseca e indicata con i, dove con intrinseco intendiamo un materiale che è stato drogato con la stessa concentrazione di donori e accettori;
@@ -234,7 +234,7 @@ Andiamo a guardare alcune caratteristiche di un APD.
    \item Sono particolarmente adatti per convertire la luce proveniente o da Fibre WLS perché queste hanno sezioni piccole, o da piccoli scintillatori, in quanto è chiaro che uno scintillatore di dimensioni grandi non può essere accoppiato con un singolo APD non avendo una superficie sufficiente ad assicurare la rivelazione dei fotoni di scintillazione;
    \item Hanno delle proprietà temporali di timing abbastanza buone;
    \item Hanno dimensioni che possono arrivare anche a $5 \times 5 \; \rm mm^2$ e oltre\footnote{Per dare un'idea, hanno le dimensioni di una monetina da 5 centesimi.};
-   \item Il segnale è proporzionale al numero di fotoni incidenti, quindi manteniamo l'informazione sull'energia depositata o comunque sul numero di fotoni incidenti
+   \item Il segnale è proporzionale al numero di fotoni incidenti, quindi manteniamo l'informazione sull'energia depositata o comunque sul numero di fotoni incidenti.
 \end{itemize}
 %Gli APD sono stati adoperati all'interno dell'esperimento ALICE per andare a leggere la luce raccolta da fibre WLS, le quali scorrevano all'interno di un modulo che è costituito da strati alternati di piombo e scintillatore che veniva adoperato proprio per un calorimetro. In questo caso quindi la luce prodotta nello scintillatore veniva raccolta da queste fibre e le fibre venivano convogliate sulla superficie dell'APD. 
 
@@ -285,7 +285,7 @@ Anche qui abbiamo una efficienza di rivelazione, detta photon detection efficien
 
 \textbf{Fill factor}
 
-Tale fattore dipende dal fatto che abbiamo una matrice, quindi l'area sensibile è soltanto la parte centrale, in quanto abbiamo inevitabilmente dei bordi che rappresentano un'area morta, quindi se il fotone dovesse incidere su questi bordi verrebbe perso. Quantitativamente tale contributo è dato dal rapporto tra l'area attiva di rivelazione e l'area complessiva, quindi più siamo in grado di realizzare bordi sottili, maggiore sarà l'efficienza dovuta al fill factor. \E altresì chiaro che, a parità di spessore, l'effetto del bordo è tanto più importante quanto più è piccola la dimensione del pixel.Ad esempio con celle delle dimensioni di $20 \; \rm \mu m$ abbiamo un fill factor intorno al 30\%, mentre con celle di $100 \; \rm \mu m$ arriva fino all'80\%.
+Tale fattore dipende dal fatto che abbiamo una matrice, quindi l'area sensibile è soltanto la parte centrale, in quanto abbiamo inevitabilmente dei bordi che rappresentano un'area morta, quindi se il fotone dovesse incidere su questi bordi verrebbe perso. Quantitativamente tale contributo è dato dal rapporto tra l'area attiva di rivelazione e l'area complessiva, quindi più siamo in grado di realizzare bordi sottili, maggiore sarà l'efficienza dovuta al fill factor. \E altresì chiaro che, a parità di spessore, l'effetto del bordo è tanto più importante quanto più è piccola la dimensione del pixel. Ad esempio con celle delle dimensioni di $20 \; \rm \mu m$ abbiamo un fill factor intorno al 30\%, mentre con celle di $100 \; \rm \mu m$ arriva fino all'80\%.
 
 \vspace{0.2cm}\textbf{Quantum Efficiency}
 
@@ -300,7 +300,7 @@ L'efficienza quantica è più elevata rispetto a quella che abbiamo visto nel ca
 
 Una volta che la radiazione ha inciso e ha prodotto una coppia, quest'ultima riesce a produrre un segnale sufficientemente elevato, quindi a dare luogo a un trigger e dunque a una rivelazione?
 
-La risposta è probabilità di triggerare una valanga dipende dalla posizione in cui è stata creata la carica, dal tipo di carica (elettrone/lacuna) e dalla tensione di alimentazione.
+La risposta è che la  probabilità di triggerare una valanga dipende dalla posizione in cui è stata creata la carica, dal tipo di carica (elettrone/lacuna) e dalla tensione di alimentazione.
 
 \begin{figure}[H]
    \centering
@@ -354,7 +354,7 @@ Da un lato abbiamo il PMT che si caratterizza per avere degli ottimi guadagni ma
 
 \section{L'occhio umano}
 
-\textit{Questa sezione verrà completata in seguito (forse)}
+\textit{Questa sezione verrà completata in seguito}.
 
 \comment{Possiamo immaginare anche il nostro occhio come un fotosensore. Dopo aver attraversato diversi strati di materiale diverso, la luce arriva a incidere sulla retina, che possiamo immaginare come se fosse un vero e proprio rivelatore costituita da delle sorta di pixel che sono i nostri fotorecettori. In particolare la retina è costituita da due tipi di fotorecettori:
 \begin{itemize}[leftmargin=0.5cm]

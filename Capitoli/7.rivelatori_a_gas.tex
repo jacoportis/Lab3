@@ -39,14 +39,14 @@ Il principio di funzionamento dei rivelatori a gas si basa sul fenomeno della io
 \end{figure}
 
 %L'idea alla base è quella di sfruttare il fatto che le particelle che attraversano un contenitore pieno di gas cedono energia e la possono cedere andando a produrre fenomeni di ionizzazione. Quindi sostanzialmente l'energia ricevuta da uno degli elettroni degli atomi che compongono il gas permette all'elettrone di essere espulso e quindi alla fine il risultato è la produzione di una coppia ione positivo-elettrone.
-Il concetto di base è sfruttare il fatto che le particelle che attraversano un contenitore pieno di gas trasferiscono energia, che può essere utilizzata per produrre fenomeni di ionizzazione. In pratica, l'energia assorbita da uno degli elettroni degli atomi del gas permette ad esso di essere espulso, generando così una coppia composta da un ione positivo e un elettrone libero.
+Il concetto di base è sfruttare il fatto che le particelle che attraversano un contenitore pieno di gas trasferiscono energia, che può essere utilizzata per produrre fenomeni di ionizzazione. In pratica, l'energia assorbita da uno degli elettroni degli atomi del gas permette ad esso di essere espulso, generando così una coppia composta da uno ione positivo e un elettrone libero.
 
 \begin{minipage}{0.395\textwidth}
    \begin{figure}[H]
       \centering
       \begin{tikzpicture}
          %gas
-         \draw[fill=teal!50!cyan!] (0,-1) -- (0,1) -- (4,1) -- (4,-1) -- cycle;
+         \draw[fill=cyan!50!white!] (0,-1) -- (0,1) -- (4,1) -- (4,-1) -- cycle;
          \draw[-stealth,thick] (2.5,1.8) -- (1.5,-1.6);
          %particelle
          %prima fila
@@ -132,7 +132,7 @@ Ingenuamente potremmo pensare che il numero medio di coppie che si formano siano
    \includegraphics[width=\textwidth]{immagini/potenziali_ionizzazione.png}
 \end{figure}
 
-In questa tabella possiamo vedere, per diverse tipologie di gas, i valori del potenziale di eccitazione e di prima ionizzazione, indicati rispettivamente con $E_{\rm ex}$ e $E_{\rm i}$, e l'energia media per creare una coppia ione-elettrone, indicata con $W$. Notiamo che per eccitare gli atomi sono necessarie energie dell'ordine della decina di eV, mentre, per ionizzare, il potenziale di prima ionizzazione assume valori un po' più alti, tra i 10 e i 20 eV. Se invece consideriamo l'energia media per creare una coppia ione-elettrone, questa risulta essere un po' più grande rispetto al potenziale di prima ionizzazione, in quanto tiene conto dei fenomeni di eccitazione. Se ad esempio utilizzassimo dell'idrogeno $\rm H_2$, l'energia media per creare una coppia è pari a 37 eV.
+In questa tabella possiamo vedere, per diverse tipologie di gas, i valori del potenziale di eccitazione e di prima ionizzazione, indicati rispettivamente con $E_{\rm ex}$ e $E_{\rm i}$, e l'energia media per creare una coppia ione-elettrone, indicata con $W$. Notiamo che per eccitare gli atomi sono necessarie energie dell'ordine della decina di elettronVolt, mentre, per ionizzare, il potenziale di prima ionizzazione assume valori un po' più alti, tra i 10 e i 20 eV. Se invece consideriamo l'energia media per creare una coppia ione-elettrone, questa risulta essere un po' più grande rispetto al potenziale di prima ionizzazione, in quanto tiene conto dei fenomeni di eccitazione. Se ad esempio utilizzassimo dell'idrogeno $\rm H_2$, l'energia media per creare una coppia è pari a 37 eV.
 
 \vspace{0.4cm}
 
@@ -478,7 +478,7 @@ Se fosse $RC=\infty$, cioè se adoperassimo una resistenza eccessivamente grande
 
 Chiaramente questa non è una situazione che vogliamo, in quanto vogliamo che a un certo punto si ripristinino le condizioni di partenza in modo da poter essere pronti per una nuova rivelazione.
 
-Facciamo allora un passo indietro: ricordiamo che la raccolta della carica avviene attraverso due fasi successive, perché dapprima avviene la raccolta degli elettroni che sono molto veloci e quindi arrivano subito all'anodo, ma poi abbiamo la migrazione degli ioni che è molto più lenta e quindi comporterà un'ulteriore parte di segnale che corrisponderà a tempi più lunghi. Siccome questo comporterebbe avere un rivelatore molto lento (cioè se volessimo raccogliere tutte le cariche, sia elettroni che ioni, dovremmo aspettare tempi lunghi proprio perché dobbiamo aspettare che gli ioni giungano al catodo), potremmo pensare di accontentarci del segnale prodotto dagli elettroni e quindi potremmo scegliere una costante di tempo tale che il segnale risalga dopo aver raccolto gli elettroni. In altre parole, il valore di $RC$ deve essere compreso tra il tempo minimo necessario a raccogliere il segnale dovuto agli elettroni, $t_{-}$ e il tempo minimo necessario a raccogliere gli ioni, $t_{+}$, cioè $t_{-} < RC < t_{+}$.
+Facciamo allora un passo indietro: ricordiamo che la raccolta della carica avviene attraverso due fasi successive, perché dapprima avviene la raccolta degli elettroni che sono molto veloci e quindi arrivano subito all'anodo, ma poi abbiamo la migrazione degli ioni che è molto più lenta e quindi comporterà un'ulteriore parte di segnale che corrisponderà a tempi più lunghi. Siccome questo comporterebbe avere un rivelatore molto lento (cioè se volessimo raccogliere tutte le cariche, sia elettroni che ioni, dovremmo aspettare tempi lunghi proprio perché dobbiamo aspettare che gli ioni giungano al catodo), potremmo pensare di accontentarci del segnale prodotto dagli elettroni e quindi potremmo scegliere una costante di tempo tale che il segnale risalga dopo aver raccolto gli elettroni. In altre parole, il valore di $RC$ deve essere compreso tra il tempo minimo necessario a raccogliere il segnale dovuto agli elettroni, $t_{-}$, e il tempo minimo necessario a raccogliere gli ioni, $t_{+}$, cioè $t_{-} < RC < t_{+}$.
 
 Il motivo per cui si trascura quello che fanno gli ioni è che altrimenti si avrebbero dei rivelatori particolarmente lenti. Infatti, nell'ambito della rivelazione parliamo di rivelatori lenti già quando abbiamo tempi dell'ordine dei microsecondi, che sono i tempi necessari per raccogliere gli elettroni, quindi se dovessimo arrivare ai millisecondi la situazione sarebbe ancora peggiore.
 
@@ -493,10 +493,11 @@ Il motivo per cui si trascura quello che fanno gli ioni è che altrimenti si avr
       %grafico
       \draw[thick,teal!60!black,join=round] plot[domain=0:0.69314,smooth] (\x, {-3*(1 - exp(-\x) )}) -- plot[domain=0:4,smooth] (\x+0.69314, {3*(1 - 0.5*exp(-\x)) - 3});
       \draw[thick,teal!60!black,dashed] plot[domain=0.69314:6,smooth] (\x, {-3*(1 - exp(-\x) )}) node[above=0.2cm, black] {$RC=\infty$};
+      \node at (3.1,-0.75) {$t_{-} < RC < t_{+}$};
     \end{tikzpicture}
 \end{figure}
 
-Poiché consideriamo soltanto il segnale che viene generato dalla raccolta degli elettroni, è chiaro che si avranno dei segnali ancora più piccoli in ampiezza, in quanto viene raccolta soltanto metà della carica disponibile; tuttavia i accontentiamo di ciò perché tali segnali risultano più veloci.
+Poiché consideriamo soltanto il segnale che viene generato dalla raccolta degli elettroni, è chiaro che si avranno dei segnali ancora più piccoli in ampiezza, in quanto viene raccolta soltanto metà della carica disponibile; tuttavia ci accontentiamo di ciò perché tali segnali risultano più veloci.
 
 \subsection{Il problema della posizione}
 Un problema che può sorgere è legato al punto in cui si generano le cariche. Infatti il volume del rivelatore è un volume esteso e in base alla traiettoria che segue la particella queste cariche di ionizzazione potrebbero prodursi in diversi punti della camera.
@@ -568,7 +569,7 @@ Se scegliamo una costante di tempo che assicura la raccolta completa degli elett
    \begin{gather*}
       \frac{1}{2}C(2V_0)V_R=n_0 e \qty( \frac{V_0}{d} ) \bigl( v_{+} + v_{-} \bigr) t
       \implies
-      V_R=\frac{n_0 e}{d C} \bigl( v_{+} + v_{-} \bigr) t
+      V_R=\frac{n_0 e}{C d} \bigl( v_{+} + v_{-} \bigr) t
    \end{gather*}
    Questo risultato descrive la porzione iniziale dell'impulso del segnale e prevede una crescita lineare con il tempo. È valido solo per il periodo in cui sia gli ioni che gli elettroni si stanno ancora muovendo all'interno della camera.\\
    Dopo un tempo $t_{-}=\frac{x}{v_{-}}$, gli elettroni raggiungono l'anodo. La loro deriva ha allora contribuito al massimo possibile alla tensione del segnale, e il secondo termine nell'espressione di $V_R$ diventa una costante pari al suo valore in $t_{-}$. Questo valore costante è $\frac{n_0 e v_{-} t_{-}}{Cd}$ o $\frac{n_0 e x}{Cd}$. Per il successivo periodo di tempo solo gli ioni si stanno ancora muovendo e $V_R$ assume la forma:
@@ -657,7 +658,7 @@ L'elettrone liberato da questo processo di ionizzazione secondaria verrà anch'e
    \includegraphics[width=0.6\textwidth]{immagini/valanga_ionizzazione_secondaria.png}
 \end{figure}}
 
-Se $\lambda$ è il cammino libero medio dell'elettrone per una collisione ionizzante secondaria, allora $\alpha=\frac{1}{\lambda}$ rappresenta il numero medio di coppie create per unità di percorso\footnote{Il Leo dice che tale costante corrisponde alla probabilità di ionizzazione per unità di lunghezza del cammino. Non capendo chi abbia ragione, riporto quanto detto dalla professoressa, che è anche ciò che si trova nella maggior parte dei testi.}. Questo è meglio conosciuto come il primo coefficiente di Townsend.
+Se $\lambda$ è il libero cammino medio dell'elettrone per una collisione ionizzante secondaria, allora $\alpha=\frac{1}{\lambda}$ rappresenta il numero medio di coppie create per unità di percorso\footnote{Il Leo dice che tale costante corrisponde alla probabilità di ionizzazione per unità di lunghezza del cammino. Non capendo chi abbia ragione, riporto quanto detto dalla professoressa, che è anche ciò che si trova nella maggior parte dei testi.}. Questo è meglio conosciuto come il primo coefficiente di Townsend.
 
 Se ci sono $n$ elettroni, allora in un cammino $\dd{x}$ verrà creato un numero di nuovi elettroni dato da
 \begin{equation*}
@@ -717,20 +718,20 @@ A seconda del valore di tensione applicata, dunque in base all'intensità del ca
    \item \textit{Regione proporzionale}: Continuando ad aumentare la tensione cominciano ad innescarsi i processi di produzione a valanga, quindi i campi elettrici diventano così intensi che gli elettroni prodotti dalla ionizzazione primaria possono innescare delle ionizzazioni secondarie e così via. Ci aspettiamo allora che il segnale cominci ad aumentare e quindi il numero di cariche raccolte; in particolare queste aumenteranno seguendo la legge esponenziale vista poc'anzi. In questa regione la ionizzazione secondaria è ancora strettamente dipendente
    da quella primaria. Infatti, anche se abbiamo una produzione a valanga di cariche, il numero di cariche prodotte rimane proporzionale all'energia depositata, quindi se siamo in grado di misurare quante cariche sono prodotte possiamo ancora avere l'informazione sull'energia che è stata depositata nel rivelatore. In tale regione funzionano i cosiddetti contatori proporzionali;
    \item \textit{Regione di proporzionalità limitata}: Se andiamo oltre incontriamo una prima regione di proporzionalità limitata in cui la carica prodotta è così grande che gli ioni vanno a modificare il campo elettrico generato dagli elettrodi. Viene dunque perturbata la proporzionalità che caratterizzava la zona precedente, per cui tale regione non viene normalmente adoperata per la rivelazione;
-   \item \textit{Regione Geiger-Mueller}: Se aumentiamo ancora la tensione arriviamo a un secondo pianerottolo, che è il cosiddetto pianerottolo Geiger, in cui nuovamente abbiamo un segnale che è indipendente dalla tensione di lavoro. Il motivo è che siamo arrivati in una regione in cui comincia a innescarsi delle valanghe in maniera incontrollata. A differenza della regione proporzionale dove ogni elettrone può innescare una nuova valanghe, qui comincianono a innescarsi delle valanghe lungo l'anodo che vengono generate da fotoni emessi dalla diseccitazione degli atomi che compongono il gas, quindi incominciano a generarsi delle cariche in modo incontrollato e soprattutto il segnale che si ha in uscita, dunque il numero di cariche che misuriamo alla fine, diventa indipendente da quante cariche sono state prodotte dalla prima ionizzazione, quindi dall'energia che è stata depositata. In altre parole, il segnale in uscita non dà più alcuna informazione sull'energia depositata nel rivelatore. Nonostante sembri una regione meno interessante perché il segnale non ci fornisce informazioni sull'energia depositata, possiamo comunque sapere se è passato meno una particella. Ecco perché in questa regione funzionano i contatori, rivelatori che permettono solamente di contare quante particelle sono passate senza fornire indicazioni sull'energia. Tra questi contatori abbiamo il contatore Geiger;
+   \item \textit{Regione Geiger-Mueller}: Se aumentiamo ancora la tensione arriviamo a un secondo pianerottolo, che è il cosiddetto pianerottolo Geiger, in cui nuovamente abbiamo un segnale che è indipendente dalla tensione di lavoro. Il motivo è che siamo arrivati in una regione in cui cominciano a innescarsi delle valanghe in maniera incontrollata. A differenza della regione proporzionale dove ogni elettrone può innescare una nuova valanga, qui comincianono a innescarsi delle valanghe lungo l'anodo che vengono generate da fotoni emessi dalla diseccitazione degli atomi che compongono il gas, quindi incominciano a generarsi delle cariche in modo incontrollato e soprattutto il segnale che si ha in uscita, dunque il numero di cariche che misuriamo alla fine, diventa indipendente da quante cariche sono state prodotte dalla prima ionizzazione, quindi dall'energia che è stata depositata. In altre parole, il segnale in uscita non dà più alcuna informazione sull'energia depositata nel rivelatore. Nonostante sembri una regione meno interessante perché il segnale non ci fornisce informazioni sull'energia depositata, possiamo comunque sapere se è passata o meno una particella. Ecco perché in questa regione funzionano i contatori, rivelatori che permettono solamente di contare quante particelle sono passate senza fornire indicazioni sull'energia. Tra questi contatori abbiamo il contatore Geiger;
    \item \textit{Regione di scarica continua}: Oltre il secondo pianerottolo si va incontro ad una regione da evitare, perché a causa delle continue scariche si potrebbero verificare dei danneggiamenti del rivelatore.
 \end{itemize}
 
 Dall'analisi di questo grafico individuiamo tre tipologie di rivelatore a gas: camere a ionizzazione, camere proporzionali e rivelatori Geiger.
 
-Inoltre il grafico presenta diverse curve al variare del tipo di particella all'interno del rivelatore al gas: una è relativa alle particella $\alpha$, una alle particelle $\beta$ e una ai $\gamma$. Tali curve mostrano qual è il segnale rilasciato a parità di tensione in base al tipo di radiazione. Notiamo che per i $\gamma$ la carica prodotta è più bassa in generale, mentre per le $alpha$ e le $\beta$ le differenze dipendono dallo stopping power di queste particelle all'interno del gas. Al di là dell dell'ordine con cui si presentano queste curve, la cosa che ci interessa di più è osservare che le curve sono ben distanziate finché lavoriamo nella regione delle camera a ionizzazione o in quella dei contatori proporzionali, ma poi si unificano. In particolare, in corrispondenza del contatore Geiger non c'è più alcuna distinzione, quindi indipendentemente dal tipo di particella e dall'energia che è stata depositata all'interno del rivelatore il segnale in uscita è sempre lo stesso. Ciò mostra come i contatori sono dei rivelatori basilari, che non danno altre informazioni se non il fatto che è passata una particella.
+Inoltre il grafico presenta tre diverse curve al variare del tipo di particella all'interno del rivelatore al gas: una è relativa alle particella $\alpha$, una alle particelle $\beta$ e una ai $\gamma$. Tali curve mostrano qual è il segnale rilasciato a parità di tensione in base al tipo di radiazione. Notiamo che per i $\gamma$ la carica prodotta è più bassa in generale, mentre per le $alpha$ e le $\beta$ le differenze dipendono dallo stopping power di queste particelle all'interno del gas. Al di là dell dell'ordine con cui si presentano queste curve, la cosa che ci interessa di più è osservare che le curve sono ben distanziate finché lavoriamo nella regione delle camera a ionizzazione o in quella dei contatori proporzionali, ma poi si unificano. In particolare, in corrispondenza del contatore Geiger non c'è più alcuna distinzione, quindi indipendentemente dal tipo di particella e dall'energia che è stata depositata all'interno del rivelatore il segnale in uscita è sempre lo stesso. Ciò mostra come i contatori sono dei rivelatori basilari, che non danno altre informazioni se non il fatto che è passata una particella.
 
 \section{Geometrie dei rivelatori a gas}
 
 Il campo elettrico che si genera all'interno del rivelatore dipende dalla geometria del rivelatore. Sono possibili diverse configurazioni geometriche, a seconda delle dimensioni, del regime in cui i rivelatori devono operare e delle performance richieste.
 
 \subsection{Geometria piana}
-Una geometria molto semplice è quella costituita da due elettrodi a facce piano e parallele. Un rivelatore di questo tipo è equivalente ad un condensatore a facce piane e parallele distanti $d$ tra loro. Il campo elettrico che si genera nella regione compresa tra i due elettrodi è uniforme e vale
+Una geometria molto semplice è quella costituita da due elettrodi a facce piane e parallele. Un rivelatore di questo tipo è equivalente ad un condensatore a facce piane e parallele distanti $d$ tra loro. Il campo elettrico che si genera nella regione compresa tra i due elettrodi è uniforme e vale
 
 \begin{equation*}
    E=\frac{V}{d}
@@ -755,7 +756,7 @@ Il principio di funzionamento è esattamente lo stesso: quando passa una partice
 \begin{esempio}[Il campo elettrico della geometria cilindrica]
    Il motivo per cui il campo elettrico relativo a tale geometria è molto intenso deriva dalla forma funzionale di questo. Richiamiamo brevemente i passaggi necessari per giungere a tale espressione.
 
-   Dal teorema di Gauss si ha che, su una superficie Gaussiana cilindrica di raggio $r$ il flusso del campo elettrico è dato da
+   Dal teorema di Gauss si ha che su una superficie Gaussiana cilindrica di raggio $r$ il flusso del campo elettrico è dato da
    \begin{equation*}
       \Phi
       =\int_{S} \vb{E} \vdot \dd{\vb{S}}
@@ -788,14 +789,14 @@ Il principio di funzionamento è esattamente lo stesso: quando passa una partice
    \end{equation*}
    Il fatto che abbia un andamento del tipo $\frac{1}{r}$ fa sì che in prossimità dell'anodo si possano raggiungere valori di campo elettrico particolarmente intensi, addirittura per $r=0$ diventerebbe infinito. Inoltre esso dipende dalle caratteristiche geometriche del cilindro, in particolare dal raggio interno e da quello esterno.\\
    Vediamo un esempio numerico. Supponiamo che l'anodo abbia un raggio $a=0,01 \; \rm cm$ e il cilindro esterno abbia raggio $b=1 \; \rm cm$; applicando una differenza di potenziale $V=1 \; \rm kV$, in prossimità dell'anodo il campo elettrico raggiunge il valore di circa $21 \; \rm kV/cm$, che è molto più elevato rispetto ai valori che possiamo ottenere con la geometria a facce piane parallele, dove per ottenere lo stesso valore di campo elettrico dovremmo applicare, supponendo che le piastre siano distanti tra loro $d=1 \; \rm cm$, una differenza di potenziale di ben $21 \; \rm kV$.\\
-   Il segnale che si genera è di conseguenza molto elevato, anche dell'ordine del volt. Ricordiamo che questo va confrontato con la differenza di potenziale che si adopera tra gli elettrodi.
+   Il segnale che si genera è di conseguenza molto elevato, anche dell'ordine del Volt. Ricordiamo che questo va confrontato con la differenza di potenziale che si adopera tra gli elettrodi.
 \end{esempio}
 
 \subsection{Il contatore Geiger}
 
 La geometria cilindrica è tipicamente adoperata in un contatore Geiger.
 
-In questo tipo di rivelatori, al passaggio di una particella si producono delle scariche a valanga, con il risultato di un impulso molto elevato (dell'ordine dei V). Il segnale è indipendente dalla ionizzazione primaria, dunque dal tipo di particella e dall'energia di questa. Fornisce quindi solo un conteggio delle particelle.
+In questo tipo di rivelatori, al passaggio di una particella si producono delle scariche a valanga, con il risultato di un impulso molto elevato (dell'ordine dei Volt). Il segnale è indipendente dalla ionizzazione primaria, dunque dal tipo di particella e dall'energia di questa. Fornisce quindi solo un conteggio delle particelle.
 
 Vediamo schematicamente cosa avviene:
 \begin{figure}[H]
@@ -832,7 +833,7 @@ Affrontiamo adesso brevemente alcuni rivelatori a gas un po' più moderni. Infat
 
 \subsection{MWPC (Multiwire Proportional Chambers)}
 
-Una prima tipologia di rivelatori a gas più moderno sono le cosiddette Multiwire Proportional Chambers, anche dette camere a fili. Queste sono state sviluppate intorno agli anni '70 e, sostanzialmente, si comportano come un insieme di contatori proporzionali. In camere di questo tipo abbiamo due superfici piane, una sopra e una sotto, costituenti dei catodi; al centro della camera invece abbiamo diversi fili che rappresentano gli anodi:
+Una prima tipologia di rivelatori a gas più moderna sono le cosiddette Multiwire Proportional Chambers, anche dette camere a fili. Queste sono state sviluppate intorno agli anni '70 e, sostanzialmente, si comportano come un insieme di contatori proporzionali. In camere di questo tipo abbiamo due superfici piane, una sopra e una sotto, costituenti dei catodi; al centro della camera invece abbiamo diversi fili che rappresentano gli anodi:
 
 \begin{minipage}{0.49\textwidth}
    \begin{figure}[H]
@@ -893,7 +894,7 @@ Consideriamo adesso un rivelatore segmentato:
       \node at (9,-0.3) {\ttfamily 5};
    \end{tikzpicture}
 \end{figure}
-Consideriamo tutte le particelle che cadono nell'intervallo 2, le quali verranno tutte associate all'omonimo filo. Come abbiamo detto, ci aspettiamo che queste particelle si distribuiscono in maniera uniforme, quindi la loro distribuzione di probabilità deve essere piatta. In virtù di ciò, essa si può esprimere tramite la funzione
+Consideriamo tutte le particelle che cadono nell'intervallo 2, le quali verranno tutte associate all'omonimo filo. Come abbiamo detto, ci aspettiamo che queste particelle si distribuiscano in maniera uniforme, quindi la loro distribuzione di probabilità deve essere piatta. In virtù di ciò, essa si può esprimere tramite la funzione
 \begin{equation*}
    D(x)=
    \begin{dcases}
@@ -981,7 +982,7 @@ Le camere a fili possono essere migliorate. Un esempio sono le Drift Chambers, n
    \centering
    \includegraphics[width=0.65\textwidth]{immagini/drift_chambers.png}
 \end{figure}
-La situazione è rappresentata schematicamente nella figura sopra: una particella entra nella camera, produce la ionizzazione e quindi gli elettroni i quali cominciano a migrare per poi arrivare all'anodo, dando luogo a un segnale che funge da start. La particella tuttavia prosegue, incontra un altro rivelatore che produce un segnale e questo rappresenta lo stop. Il modulo indicato in figura con "TDC" (che prende il nome di Time to Digital Converter, come vedremo in dettaglio nel capitolo \ref{chap:elettronica}) non fa altro che misurare la differenza di tempo tra il segnale di start e quello di stop. \E chiaro che il segnale di start cambia a seconda di quanto tempo impiegano gli elettroni ad arrivare all'anodo, quindi questo sistema permette di stabilire la distanza dall'anodo, permettendoci di avere una risoluzione spaziale migliore rispetto a quella che abbiamo con le camera fili tradizionali.
+La situazione è rappresentata schematicamente nella figura sopra: una particella entra nella camera, produce la ionizzazione e quindi gli elettroni, i quali cominciano a migrare per poi arrivare all'anodo, dando luogo a un segnale che funge da start. La particella tuttavia prosegue, incontra un altro rivelatore che produce un segnale e questo rappresenta lo stop. Il modulo indicato in figura con "TDC" (che prende il nome di Time to Digital Converter, come vedremo in dettaglio nel capitolo \ref{chap:elettronica}) non fa altro che misurare la differenza di tempo tra il segnale di start e quello di stop. \E chiaro che il segnale di start cambia a seconda di quanto tempo impiegano gli elettroni ad arrivare all'anodo, quindi questo sistema permette di stabilire la distanza dall'anodo, permettendoci di avere una risoluzione spaziale migliore rispetto a quella che abbiamo con le camera fili tradizionali.
 
 Lo svantaggio di tale sistema è che si complica sia il rivelatore, perché dobbiamo avere dei rivelatori esterni di riferimento, sia l'elettronica, in quanto dobbiamo misurare tempi abbastanza piccoli, che è un'operazione non banale.
 
@@ -994,9 +995,9 @@ Altri tipi di rivelatore molto utilizzati sono le TPC, ossia le Time Projection 
 \end{figure}
 \E da notare che il cilindro interno non necessariamente deve essere presente, in questo caso è presente a causa del fatto che in ALICE all'interno ci sono altri rivelatori, ma in realtà la TPC potrebbe essere un unico volume.
 
-Analizziamo il campo elettrico. Esso ha verso opposto tra un lato e l'altro: il motivo è che in tale rivelatore abbiamo un elettrodo centrale costituito dal piano giallo e poi altri due elettrodi costituiti dalle le basi del cilindro, per cui si genera un campo elettrico che è diretto verso l'elettrodo centrale e quindi ha verso opposto nelle due regioni. 
+Analizziamo il campo elettrico. Esso ha verso opposto tra un lato e l'altro: il motivo è che in tale rivelatore abbiamo un elettrodo centrale costituito dal piano giallo e poi altri due elettrodi costituiti dalle basi del cilindro, per cui si genera un campo elettrico che è diretto verso l'elettrodo centrale e quindi ha verso opposto nelle due regioni. 
 
-Quando passa una particella, questa ionizza il gas e gli elettroni prodotti cominciano a migrare verso le basi del cilindro, dove sono posizionati dei rivelatori di posizione. Quello che avviene sostanzialmente è che la traccia viene proiettata sul rivelatore di posizione che c'è alla base del cilindro e quindi ricostruiamo tridimensionale il passaggio della carica, perché sul piano $xy$ (quello che include la base del cilindro) la posizione viene ricostruita grazie ai rivelatori di posizione, mentre lungo l'asse $z$ (che coincide con l'asse del cilindro) la posizione viene ricostruita andando a misurare il tempo di deriva.
+Quando passa una particella, questa ionizza il gas e gli elettroni prodotti cominciano a migrare verso le basi del cilindro, dove sono posizionati dei rivelatori di posizione. Quello che avviene sostanzialmente è che la traccia viene proiettata sul rivelatore di posizione che c'è alla base del cilindro e quindi ricostruiamo tridimensionalmente il passaggio della carica, perché sul piano $xy$ (quello che include la base del cilindro) la posizione viene ricostruita grazie ai rivelatori di posizione, mentre lungo l'asse $z$ (che coincide con l'asse del cilindro) la posizione viene ricostruita andando a misurare il tempo di deriva.
 %, cioè quanto tempo impiegano ad arrivare gli elettroni dal punto in cui sono sossa di prodotti fino all'anodo.
 
 Vediamo più nel dettaglio ciò che avviene concentrandoci su metà del rivelatore:

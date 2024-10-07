@@ -17,5 +17,9 @@
     ],
     "cSpell.words": [
         "eccitone"
-    ]
+    ],
+    "files.associations": {
+        "Temperatura (1).C": "cpp",
+        "bethebloch (1).C": "cpp"
+    }
 }

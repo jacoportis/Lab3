@@ -71,7 +71,7 @@
 \uppercase{\sc{ \Large{\textbf{Laboratorio di fisica III}}}}\\
 
 \vfill
-\large{A cura di J. Butchers}
+\large{A cura di Joey Butchers}
 
 \vfill
 \vfill
@@ -100,17 +100,27 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[LE]{\nouppercase{\textbf{\thepage}\hfill\leftmark}}
-\fancyhead[RO]{\nouppercase{\rightmark\hfill\textbf{\thepage}}}
+\fancyhead[RO]{\nouppercase{\rightmark\hfill \textbf{\thepage}}}
 \fancypagestyle{plain}{%
 \fancyhf{} % cancella tutti i campi di intestazione e pi\‘e di pagina
 %\fancyfoot[C]{\bfseries \thepage} % tranne il centro
 \renewcommand{\headrulewidth}{0pt}
 }
 
-%\comment{
+\comment{
+
+\part{Tecniche e strumenti di laboratorio}
 
 \chapter{Arduino}
 \import{./Capitoli}{1.arduino}
+
+\chapter{La tecnologia del vuoto}
+\import{./Capitoli}{11.tecnologie_vuoto}
+\textit{Ho necessità di skippare questo capitolo al momento. Scusate per il disagio.}
+
+}
+
+\part{Interazione radiazione-materia}
 
 \chapter{Sorgenti di radiazione}
 \import{./Capitoli}{2.sorgenti_radiazione}
@@ -124,6 +134,8 @@
 \chapter[Interazione dei \texorpdfstring{$\gamma$}{\textgamma} con la materia]
 {Interazione dei $\boldsymbol{\gamma}$ con la materia}
 \import{./Capitoli}{5.interazione_gamma_materia}
+
+\part{Rivelatori di particelle}
 
 \chapter{Proprietà generali dei rivelatori}\label{chap:caratteristiche_rivelatori}
 \import{./Capitoli}{6.caratteristiche_rivelatori}
@@ -140,15 +152,14 @@
 \chapter{Rivelatori a semiconduttore}
 \import{./Capitoli}{10.rivelatori_a_semiconduttori}
 
-%}%fine commento
+%}
+
+\part{Elementi di elettronica}
+
+\chapter{Segnali dai rivelatori ed elettronica associata}\label{chap:elettronica}
+\import{./Capitoli}{12.elettronica}
 
 \comment{%inizio commento
-
-\chapter{La tecnologia del vuoto}
-\import{./Capitoli}{11.tecnologie_vuoto}
-
-\chapter{Elettronica}\label{chap:elettronica}
-\import{./Capitoli}{12.elettronica}
 
 \chapter{Metodo Monte Carlo}
 \import{./Capitoli}{13.montecarlo}

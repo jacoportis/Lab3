@@ -27,7 +27,7 @@ Concentriamoci sui rivelatori che segnalano il passaggio di una particella attra
     \end{tikzpicture}
 \end{figure}
 
-Ogni segnale avrà caratteristiche specifiche. Innanzitutto, si manifesteranno a intervalli temporali variabili, cioè, a meno che non si tratti di un fenomeno periodico, i tempi tra un evento e il successivo saranno casuali. Ciè è dovuto al fatto che l'arrivo e la rivelazione di particelle emesse da una sorgente radioattiva sono fenomeni casuali governati dalla statistica di Poisson, il che implica che l'intervallo temporale tra due eventi consecutivi non è fisso, ma cambia di volta in volta. Ciononostante, questa variazione segue una distribuzione che ha un andamento esponenziale decrescente.
+Ogni segnale avrà caratteristiche specifiche. Innanzitutto, si manifesteranno a intervalli temporali variabili, cioè, a meno che non si tratti di un fenomeno periodico, i tempi tra un evento e il successivo saranno casuali. Ciò è dovuto al fatto che l'arrivo e la rivelazione di particelle emesse da una sorgente radioattiva sono fenomeni casuali governati dalla statistica di Poisson, il che implica che l'intervallo temporale tra due eventi consecutivi non è fisso, ma cambia di volta in volta. Ciononostante, questa variazione segue una distribuzione che ha un andamento esponenziale decrescente.
 
 La distanza tra due eventi consecutivi può variare notevolmente a seconda del fenomeno che si sta studiando e del tipo di radiazione rivelata. Ad esempio, se si dispone di una sorgente quasi esaurita con un'attività molto bassa, i segnali potrebbero verificarsi con una frequenza molto bassa; al contrario, in altri tipi di fenomeni, la frequenza di conteggio potrebbe essere molto più elevata. Per questo motivo i modi in cui un rivelatore può operare sono principalmente due:
 
@@ -61,7 +61,7 @@ Esistono diversi tipi di rivelatori che generano segnali differenti. Alcuni prod
 
 Per ampiezza dei segnali intendiamo il valore massimo di tensione raggiunto dal segnale rispetto alla baseline. Essa può essere diversa a seconda dell'energia della particella incidente. Esistono infatti rivelatori che generano segnali la cui ampiezza è proporzionale all'energia depositata nel rivelatore stesso, risultando in un segnale più ampio quanto maggiore è l'energia depositata all'interno del rivelatore.
 
-\E da notare che l'ampiezza del segnale puà variare anche per effetto delle fluttuazioni statistiche derivanti da altri fenomeni o a causa del rumore, per cui si ottiene un segnale di ampiezza leggermente diversa per motivi non fisici, nel senso che non è stata realmente depositata un'energia di valore diverso.
+\E da notare che l'ampiezza del segnale può variare anche per effetto delle fluttuazioni statistiche derivanti da altri fenomeni o a causa del rumore, per cui si ottiene un segnale di ampiezza leggermente diversa per motivi non fisici, nel senso che non è stata realmente depositata un'energia di valore diverso.
 
 \vspace{0.2cm}\textbf{Tempo di arrivo}
 
@@ -79,7 +79,7 @@ Nella maggior parte dei rivelatori che tratteremo, l'ampiezza ci darà informazi
 
 \begin{approfondimento}[Lo spettro degli impulsi]
    \footnotesize
-   Questo approfondimento è dovuto al fatto che secondo me è spiegato molto male il concetto di distribuzione delle ampiezze, per cui riporto quanto detto dal Knoll in \S4.2 "Pulse height spectra".
+   Diamo un'occhiata più nel dettaglio al concetto di distribuzione delle ampiezze. Per tale scopo riportiamo quanto detto dal Knoll in \S4.2 "Pulse height spectra".
 
    \vspace{0.2cm}La distribuzione delle ampiezze degli impulsi è una caratteristica del segnale in uscita di un rivelatore che viene comunemente utilizzata per dedurre informazioni sulla radiazione incidente o sul funzionamento del rivelatore stesso.
 
@@ -116,7 +116,7 @@ Nella maggior parte dei rivelatori che tratteremo, l'ampiezza ci darà informazi
 
 Quello che succede ad ogni interazione è che un $\gamma$ interagisce con il rivelatore, deposita una certa quantità della sua energia (che può essere tutta o anche solo una parte) e quindi in corrispondenza di ogni $\gamma$ si ottiene un segnale con una data ampiezza. Analizziamo allora questa distribuzione di ampiezze.
 
-Se il $\gamma$ lasciasse ogni volta nel rivelatore tutta la sua energia, ci aspetteremmo di trovare sempre la stessa ampiezza, corrispondente nell'esempio a 662 keV. In realtà otteniamo uno spettro con una forma abbastanza complessa che ci dice che oltre a un valore di energia molto probabile e rappresentato dal picco in corrispondenza del canale 289, si presentano anche tanti eventi, quindi tanti $\gamma$, che rilasciano parte della loro energia, perché corrispondono a segnali di ampiezza più bassa. Il picco che vediamo è il cosiddetto picco fotoelettrico, cioè il picco che si ottiene quando il $\gamma$ interagisce per effetto fotoelettrico con lo scintillatore. Infatti in quel caso come prodotto dell'effetto fotoelettrico si ha un elettrone che ha assorbito tutta l'energia del fotone, il quale può percorrere pochi millimetri all'interno dell'elettrone prima di perdere tutta la sua energia. Quindi essenzialmente questi sono degli eventi in cui il gamma ha perso la sua energia per effetto fotoelettrico e l'ha trasferita all'elettrone e l'elettrone a sua volta rimane intrappolato all'interno del rivelatore perdendo tutta la sua energia attraverso i processi collisionali che abbiamo descritto in precedenza. In conclusione sono eventi in cui viene ricostruita tutta l'energia del $\gamma$ incidente. Ovviamente teoricamente dovremmo avere un delta di Dirac\footnotemark, ma nella realtà abbiamo un picco un po' più largo dovuto a effetti del rivelatore, che non è in grado esattamente di ricostruire l'energia con una precisione infinita, quindi abbiamo una sorta di risoluzione dettata dal rivelatore.
+Se il $\gamma$ lasciasse ogni volta nel rivelatore tutta la sua energia, ci aspetteremmo di trovare sempre la stessa ampiezza, corrispondente nell'esempio a 662 keV. In realtà otteniamo uno spettro con una forma abbastanza complessa che ci dice che oltre a un valore di energia molto probabile e rappresentato dal picco in corrispondenza del canale 289, si presentano anche tanti eventi, quindi tanti $\gamma$, che rilasciano parte della loro energia, perché corrispondono a segnali di ampiezza più bassa. Il picco che vediamo è il cosiddetto picco fotoelettrico, cioè il picco che si ottiene quando il $\gamma$ interagisce per effetto fotoelettrico con lo scintillatore. Infatti in quel caso come prodotto dell'effetto fotoelettrico si ha un elettrone che ha assorbito tutta l'energia del fotone, il quale può percorrere pochi millimetri all'interno del rivelatore prima di perdere tutta la sua energia. Quindi essenzialmente questi sono degli eventi in cui il gamma ha perso la sua energia per effetto fotoelettrico e l'ha trasferita all'elettrone e l'elettrone a sua volta rimane intrappolato all'interno del rivelatore perdendo tutta la sua energia attraverso i processi collisionali che abbiamo descritto in precedenza. In conclusione sono eventi in cui viene ricostruita tutta l'energia del $\gamma$ incidente. Ovviamente teoricamente dovremmo avere un delta di Dirac\footnotemark, ma nella realtà abbiamo un picco un po' più largo dovuto a effetti del rivelatore, che non è in grado esattamente di ricostruire l'energia con una precisione infinita, quindi abbiamo una sorta di risoluzione dettata dal rivelatore.
 
 Tutti gli altri eventi che troviamo alla sinistra del picco, che prendono il nome di spalla Compton, corrispondono a dei casi in cui l'energia che viene rilasciata e depositata nello scintillatore è solamente una parte dell'energia del $\gamma$ incidente perché evidentemente sono avvenuti altri meccanismi\footnotemark. Si tratta infatti di effetti di scattering Compton, dove come prodotto finale si produce non solo un elettrone che chiaramente perderà la sua energia nello scintillatore, ma anche un fotone diffuso. Questo fotone ha una probabilità più bassa di interagire, quindi potrebbe fuggire dal rivelatore e non depositare la sua energia, ecco perché in questi eventi viene ricostruita solamente parte dell'energia che è quella dovuta all'elettrone scatterato durante l'effetto Compton. Abbiamo tanti valori di energia perché l'energia che viene assegnata al fotone diffuso e all'elettrone cambia a seconda dell'angolo di diffusione, quindi abbiamo uno spettro continuo di valori.
 
@@ -190,15 +190,13 @@ Nella maggior parte dei casi, una buona approssimazione dei picchi che si otteng
 \begin{equation*}
    \rm FWHM=2.35\sigma
 \end{equation*}
-\footnote{Questa parte l'ho presa dal Leo, \S5.3, \textit{"Energy Resolution. The Fano Factor"}.}La risoluzione in energia in realtà non è costante per un dato rivelatore. In generale, essa è una funzione dell'energia depositata nel rivelatore, in maniera tale che $R$ migliora con l'aumentare dell'energia. Cio è dovuto al fatto che i processi di ionizzazione ed eccitazione seguono delle statistiche di tipo Poissoniano o simile. Infatti, si scopre che l'energia media necessaria per produrre una ionizzazione è un valore fisso, $w$, dipendente solo dal materiale. Per una data energia depositata $E$, quindi, ci si aspetterebbe in media un numero di ionizzazioni $J$ pari a
+\footnote{Questa parte è stata presa dal Leo, \S5.3, \textit{"Energy Resolution. The Fano Factor"}.}La risoluzione in energia in realtà non è costante per un dato rivelatore. In generale, essa è una funzione dell'energia depositata nel rivelatore, in maniera tale che $R$ migliora con l'aumentare dell'energia. Cio è dovuto al fatto che i processi di ionizzazione ed eccitazione seguono delle statistiche di tipo Poissoniano o simile. Infatti, si scopre che l'energia media necessaria per produrre una ionizzazione è un valore fisso, $w$, dipendente solo dal materiale. Per una data energia depositata $E$, quindi, ci si aspetterebbe in media un numero di ionizzazioni $J$ pari a
 \begin{equation*}
    J=\frac{E}{w} 
 \end{equation*}
 Pertanto, con l'aumentare dell'energia, aumenta anche il numero di eventi di ionizzazione, risultando in fluttuazioni relative minori.
 
-Per calcolare le fluttuazioni è necessario considerare due casi.
-
-\newpage
+Per calcolare le fluttuazioni è necessario considerare due casi.\footnote{Precisiamo che il ragionamento che segue è inerente alle distribuzioni delle particelle che si producono, altrimenti dimensionalmente non tornerebbero i conti.}
 
 \textbf{Primo caso: la radiazione ha depositato parte della sua energia nel rivelatore}
 
@@ -313,7 +311,7 @@ Questi esempi ci mostrano come ci siano dei casi in cui il rivelatore risulta es
    =\frac{\text{n° particelle rivelate}}{\text{n° particelle incidenti}}
 \end{equation*}
 
-cioè come il numero di particelle che vengono rivelate, dunque che producono un segnale che viene in qualche modo acquisito, rispetto al numero di particelle che incidono di sul rivelatore.
+cioè come il numero di particelle che vengono rivelate, dunque che producono un segnale che viene in qualche modo acquisito, rispetto al numero di particelle che incidono sul rivelatore.
 
 Anche se concettualmente semplice, non è facile valutare l'efficienza intrinseca, perché questa dipende da tanti aspetti. In generale essa dipende
 \begin{itemize}
@@ -322,17 +320,17 @@ Anche se concettualmente semplice, non è facile valutare l'efficienza intrinsec
    \item dal tipo di rivelatore;
    \item dal volume del rivelatore, in quanto in base alla sua grandezza la radiazione può fuoriuscire, non venendo quindi misurata.
 \end{itemize}
-  Tutti questi fattori rendono la valutazione dell'efficienza intrinseca un compito non semplicissimo, che spesso viene fatto infatti con dei codici di simulazione professionali che tengono conto di tutti i meccanismi di interazione.
-  \subsection{Accettanza geometrica}
-  Un altro fattore da considerare è la cosiddetta accettanza geometrica o efficienza geometrica. Questo è un concetto un po' diverso dal precedente, in quanto prima ci siamo posti il problema di capire se una particella che arriva a colpire il rivelatore viene rivelata o meno, adesso invece ci poniamo il problema di capire se una particella emessa da una sorgente arrivi a colpire o meno il rivelatore, indipendentemente dal fatto che poi, una volta intercettato il rivelatore, si formi un segnale.
-  
-  L'accettanza geometrica $\varepsilon_{\rm geo}$ è definita come il rapporto tra il numero di particelle incidenti sul rivelatore rispetto al numero di particelle emesse dalla sorgente:
-  \begin{equation*}
+Tutti questi fattori rendono la valutazione dell'efficienza intrinseca un compito non semplicissimo, che spesso viene fatto infatti con dei codici di simulazione professionali che tengono conto di tutti i meccanismi di interazione.
+\subsection{Accettanza geometrica}
+Un altro fattore da considerare è la cosiddetta accettanza geometrica o efficienza geometrica. Questo è un concetto un po' diverso dal precedente, in quanto prima ci siamo posti il problema di capire se una particella che colpisce il rivelatore venga rivelata o meno, adesso invece ci poniamo il problema di capire se una particella emessa da una sorgente arrivi a colpire o meno il rivelatore, indipendentemente dal fatto che poi, una volta intercettato il rivelatore, si formi un segnale.
+
+L'accettanza geometrica $\varepsilon_{\rm geo}$ è definita come il rapporto tra il numero di particelle incidenti sul rivelatore rispetto al numero di particelle emesse dalla sorgente:
+\begin{equation*}
    \varepsilon_{\rm geo}
    =\frac{\text{n° particelle incidenti}}{\text{n° particelle emesse dalla sorgente}}
-  \end{equation*}
-  \begin{esempio}[Sorgente puntiforme che emette particelle isotropicamente in tutto l'angolo solido]
-      Immaginiamo di avere una sorgente puntiforme, posta ad una distanza $r$ da un rivelatore avente superficie $S$, che emette particelle in maniera isotropa, ossia con la stessa probabilità in tutte le direzioni dello spazio.
+\end{equation*}
+\begin{esempio}[Sorgente puntiforme che emette particelle isotropicamente in tutto l'angolo solido]
+   Immaginiamo di avere una sorgente puntiforme, posta ad una distanza $r$ da un rivelatore avente superficie $S$, che emette particelle in maniera isotropa, ossia con la stessa probabilità in tutte le direzioni dello spazio.
    \begin{figure}[H]
       \centering
       \begin{tikzpicture}
@@ -367,7 +365,7 @@ Anche se concettualmente semplice, non è facile valutare l'efficienza intrinsec
       \Omega=\int_S \frac{\cos{\alpha}}{r^2} \dd{S}
    \end{equation*}
    dove $r$ rappresenta la distanza tra la sorgente e un elemento di superficie $\dd{S}$ e $\alpha$ è l'angolo tra la normale all'elemento di superficie e la direzione della sorgente.
-   
+
    Consideriamo il caso in cui il rivelatore abbia forma cilindrica e la sorgente puntiforme sia posta sull'asse del cilindro
    \begin{figure}[H]
       \centering
@@ -411,9 +409,7 @@ In definitiva, l'efficienza complessiva è data semplicemente dal prodotto tra e
 Da tale definizione segue che l'efficienza complessiva sia più piccola di entrambi i fattori.
 
 \begin{esempio}[L'attività di una sorgente]
-   Conoscendo l'efficienza complessiva, è possibile correggere i dati misurati per valutare le quantità originali. Cosa intendiamo con questa frase? Supponiamo di avere una sorgente in laboratorio di cui vogliamo misurare l'attività, cioè il numero di particelle emesse al secondo.
-
-   Chiaramente per tale misura dovremo adoperare un rivelatore, ma il numero di particelle al secondo misurate da questo non coinciderà con l'attività della sorgente, perché noi misuriamo solo una porzione di tutte le particelle emesse, soltanto quelle che entrano nell'angolo solido sotteso dal rivelatore; inoltre non è detto che tutte le particelle che entrano nel rivelatore diano luogo ad un segnale e quindi vengano rivelate. Se tuttavia conosciamo l'efficienza complessiva, possiamo risalire all'attività andando a correggere la frequenza di conteggio ottenuta sperimentalmente dividendola per l'efficienza:
+   Conoscendo l'efficienza complessiva, è possibile correggere i dati misurati per valutare le quantità originali. Cosa intendiamo con questa frase? Supponiamo di avere una sorgente in laboratorio di cui vogliamo misurare l'attività, cioè il numero di particelle emesse al secondo. Chiaramente per tale misura dovremo adoperare un rivelatore, ma il numero di particelle al secondo misurate da questo non coinciderà con l'attività della sorgente, perché noi misuriamo solo una porzione di tutte le particelle emesse, soltanto quelle che entrano nell'angolo solido sotteso dal rivelatore; inoltre non è detto che tutte le particelle che entrano nel rivelatore diano luogo ad un segnale e quindi vengano rivelate. Se tuttavia conosciamo l'efficienza complessiva, possiamo risalire all'attività andando a correggere la frequenza di conteggio ottenuta sperimentalmente dividendola per l'efficienza:
    \begin{equation*}
       \text{Attività}=\frac{\text{n° particelle/s misurate}}{\varepsilon}
    \end{equation*}
@@ -462,7 +458,7 @@ In molti casi è importante avere una buona risoluzione temporale, in quanto i t
 \end{itemize}
 
 \section{Tempo morto}
-L'ultimo aspetto che affrontiamo dei rivelatori riguarda il cosiddetto tempo morto. Infatti, ciascun sistema di rivelazione ha bisogno di un certo tempo per processare il segnale, e se durante questo tempo arriva un secondo evento quest'ultimo non verrà rivelato, venendo quindi perso. In altre parole, in una successione di eventi misurati da un rivelatore, esiste un tempo minimo tra due eventi successivi, al di sotto del quale il rivelatore non può separarli. Questo tempo è il tempo morto del sistema.
+L'ultimo aspetto che affrontiamo dei rivelatori riguarda il cosiddetto tempo morto. Infatti, ciascun sistema di rivelazione ha bisogno di un certo tempo per processare il segnale, e se durante questo tempo arriva un secondo evento quest'ultimo non verrà rivelato, venendo quindi perso. In altre parole, in una successione di eventi misurati da un rivelatore, esiste un tempo minimo tra due eventi successivi al di sotto del quale il rivelatore non può separarli. Questo tempo è il tempo morto del sistema.
 
 Se l'arrivo degli eventi è casuale, dunque segue la statistica di Poisson, poiché questa ha un andamento esponenziale decrescente è molto probabile che la differenza temporale tra due eventi sia piccola, dunque la probabilità che due eventi arrivino separati meno del tempo morto non è mai nulla. Una volta che però si conosce il tempo morto del sistema, si può andare a misurare soltanto quei fenomeni che hanno una frequenza di conteggio compatibile con il tempo morto del sistema, altrimenti perderemmo tanti eventi. Quindi, in base al tempo morto, si stabilisce il limite della frequenza di conteggio misurabile. Chiaramente l'ideale è avere una risposta veloce da parte dei rivelatori.
 
@@ -483,7 +479,7 @@ Ci sono due modelli per descrivere il comportamento di un rivelatore dal punto d
          \draw (1,0) rectangle ++ (2.6cm, -0.6cm);
       \end{tikzpicture}
    \end{figure}
-    Se durante la finestra temporale del tempo morto (rappresentato dal rettangolo bianco) si verifica un secondo evento, questo non verrà rivelato ma non influenzerà la durata del tempo morto, nel senso che non la estenderà ulteriormente: una volta completata questa finestra, il rivelatore sarà pronto per la rivelazione e se si verifica un nuovo evento sarà pronto a misurarlo.
+    Se durante la finestra temporale del tempo morto (rappresentata dal rettangolo bianco) si verifica un secondo evento, questo non verrà rivelato ma non influenzerà la durata del tempo morto, nel senso che non la estenderà ulteriormente: una volta completata questa finestra, il rivelatore sarà pronto per la rivelazione e se si verifica un nuovo evento sarà pronto a misurarlo.
 
    \item \textit{Rivelatori paralizzabili}, in cui invece un evento che accade durante il tempo morto non viene comunque conteggiato ma influenza ulteriormente il tempo morto.\\
    Il comportamento di questi rivelatori si può dedurre guardando il seguente schema:
@@ -504,13 +500,13 @@ Nel momento in cui si verifica il primo evento inizia la finestra di tempo morto
 
 \subsection{Correzioni per il tempo morto}
 
-Ci chiediamo adesso come fare per valutare qual è l'effetto del tempo morto in un sistema sul numero di conteggi. In altre parole, ci chiediamo come facciamo a capire se, dato che il sistema ha un suo tempo morto, il numero di conteggi che abbiamo misurato corrisponde alla frequenza di conteggio vera o se abbiamo perso degli eventi.
+Ci chiediamo adesso come fare per valutare qual è l'effetto del tempo morto in un sistema sul numero di conteggi. In altre parole, ci chiediamo come facciamo a capire se, dato che il sistema ha un suo tempo morto, il numero di conteggi che abbiamo misurato corrisponda alla frequenza di conteggio vera o se abbiamo perso degli eventi.
 
-Sia $R_{\rm mis}$ il rate misurato cioè la frequenza di conteggio misurati, $R_{\rm vero}$ il rate vero e $\tau$ il tempo morto. Si può dimostrare che
+Sia $R_{\rm mis}$ il rate misurato, cioè la frequenza dei conteggi misurati, $R_{\rm vero}$ il rate vero e $\tau$ il tempo morto. Si può dimostrare che
 \begin{itemize}[leftmargin=0.5cm]
    \item Nel caso di un rivelatore non paralizzabile la frequenza di conteggio vera è legata alla frequenza di conteggio misurata attraverso la relazione
    \begin{equation*}
-      R_{\rm vero}=\frac{R_{\rm mis}}{1 + R_{\rm mis} \tau}
+      R_{\rm vero}=\frac{R_{\rm mis}}{1 - R_{\rm mis} \tau}
    \end{equation*}
    Attraverso questa, conoscendo il tempo morto e avendo misurato una certa frequenza di conteggio, possiamo calcolare il rate vero. Chiaramente, man mano che aumenta il tempo morto, $R_{\rm vero}$ e $R_{\rm mis}$ si discosteranno sempre più;
    \item nel caso di un rivelatore paralizzabile la relazione è più complessa, ed è la seguente:

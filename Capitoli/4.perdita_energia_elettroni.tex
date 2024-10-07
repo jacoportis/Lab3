@@ -1,4 +1,4 @@
-Come le particelle cariche pesanti, anche gli elettroni e i positroni subiscono una perdita di energia quando attraversano la materia; tuttavia, il fatto che la loro massa sia molto più piccola (basti pensare che la massa di un elettrone è $511 \; \rm keV$ mentre quella del protone è di circa 1 GeV), fa sì che alcune interazioni non siano più trascurabili. In conseguenza a ciò gli elettroni all'interno della materia seguono percorsi molto più irregolari di quelli delle particelle pesanti, quindi il percorso non può più essere considerato pressoché rettilineo, bensì l'elettrone può cambiare direzione ad ogni interazione importante.
+Come le particelle cariche pesanti, anche gli elettroni e i positroni subiscono una perdita di energia quando attraversano la materia; tuttavia, il fatto che la loro massa sia molto più piccola (basti pensare che la massa di un elettrone è $511 \; \rm keV$ mentre quella del protone è di circa 1 GeV), fa sì che alcune interazioni non siano più trascurabili. In conseguenza a ciò, all'interno della materia gli elettroni seguono percorsi molto più irregolari di quelli delle particelle pesanti, quindi il percorso non può più essere considerato pressoché rettilineo, bensì l'elettrone può cambiare direzione ad ogni interazione importante.
 
 \section{Interazione degli elettroni con la materia}
 
@@ -17,7 +17,7 @@ Quando dobbiamo tenere in considerazione questo ulteriore termine?
 
 Per particelle incidenti aventi basse energie prevale il processo collisionale, similmente alle particelle cariche pesanti, mentre ad alte energie prevale il processo radiativo, cioè di bremsstrahlung (viene detto radiativo perché viene emessa radiazione), quindi l'energia viene persa attraverso l'emissione di fotoni $X$.
 
-Osserviamo il seguente grafico: in esso è riportata la perdita di energia specifica in funzione dell'energia della particella, e in particolare troviamo gli andamenti di ciascun termine singolarmente: in blu è riportato l'andamento della perdita di energia per processo collisionale (da notare che ci sono due curve: una per gli elettroni e una per i positroni, che si differenziano leggermente a bassa energia ma poi si unificano), il quale diminuisce rapidamente con l'energia stessa; in rosso è riportato l'andamento dovuto al processo radiativo, il quale va a crescere con l'energia.
+Osserviamo il seguente grafico: in esso è riportata la perdita di energia specifica in funzione dell'energia della particella, e in particolare troviamo gli andamenti di ciascun termine singolarmente: in blu è riportato l'andamento della perdita di energia per processo collisionale\footnote{\E da notare che ci sono due curve: una per gli elettroni e una per i positroni, che si differenziano leggermente a bassa energia ma poi si unificano.}, il quale diminuisce rapidamente con l'energia stessa; in rosso è riportato l'andamento dovuto al processo radiativo, il quale va a crescere con l'energia.
 
 La scala è logaritmica rispetto alle ascisse e lineare rispetto alle ordinate; in particolare su quest'ultime è riportata la perdita di energia specifica divisa per l'energia, la quale è espressa in unità di lunghezza di radiazione, che è una grandezza che esprime una quantità proporzionale alla perdita di energia per un dato processo:
 
@@ -40,7 +40,6 @@ Il valore di tale energia dipende dal materiale adoperato (ad esempio nel grafic
 Da quanto visto deduciamo che se vogliamo calcolare la perdita di energia di un elettrone in un dato spessore di materiale dobbiamo considerare l'energia dell'elettrone, così da capire se è più incisivo il contributo collisionale (basse energie), quello radiativo (alte energie) o se sono confrontabili (intorno al punto critico). Ci potremmo poi chiedere cosa succede quando, per alta energia, vengono emessi fotoni $X$, cioè a cosa danno luogo questi nel materiale, oppure ci potremmo chiedere se a bassa energia intervengono altri fenomeni. Tutto ciò rende il calcolo della perdita di energia difficile da calcolare.
 
 \vspace{0.2cm}Andiamo a vedere i diversi contributi. Si può innanzitutto dire che la perdita di energia specifica per unità di percorso è data dalla somma del contributo collisionale più quello radiativo:
-
 \begin{equation*}
     \left(\dv{E}{x}\right)_{\rm tot}
     =\left(\dv{E}{x}\right)_{\rm coll} + \left(\dv{E}{x}\right)_{\rm rad}
@@ -79,7 +78,7 @@ Prima di affrontare il contributo dovuto alla radiazione, cerchiamo di capire pe
     \dv{\sigma}{E} \propto \frac{Z^2}{m_i^2} \frac{\ln{E}}{E}
 \end{equation*}
 
-dove $Z$ è relativo al materiale. Tale proporzionalità è dovuta al fatto che, trattandosi di un processo di interazione tra la particella è il nucleo, se quest'ultimo ha una nuvola di elettroni questa darà un effetto di schermaggio.
+dove $Z$ è relativo al materiale. Tale proporzionalità è dovuta al fatto che, trattandosi di un processo di interazione tra la particella e il nucleo, se quest'ultimo ha una nuvola di elettroni questa darà un effetto di schermaggio.
 
 Ciò che è più importante però è la dipendenza dall'inverno del quadrato della massa della particella incidente, che è il motivo per cui non consideriamo tale contributo per le particelle cariche pesanti: la sezione d'urto diminuisce all'aumentare della massa.
 
@@ -374,9 +373,7 @@ La lunghezza di radiazione di un materiale si può definire come:
     \item $7/9$ del libero cammino medio per produzione di coppie da parte di un fotone di alta energia. Ricordiamo che i fotoni interagiscono con la materia attraverso tre meccanismi principali: effetto fotoelettrico, effetto Compton e la produzione di coppie elettrone-positrone. In particolare quest'ultimo effetto avviene ad alte energie.
 \end{itemize}
 
-Tale grandezza esprime quindi quali sono le capacità di elettroni e fotoni ad alta energia di interagire con la materia. Essa è particolarmente importante per lo studio dei processi elettromagnetici in un materiale
-
-Essa si può valutare con formule semi empiriche che dipendono da $A$ e $Z$ del materiale:
+Tale grandezza esprime quindi quali sono le capacità di elettroni e fotoni ad alta energia di interagire con la materia. Essa è particolarmente importante per lo studio dei processi elettromagnetici in un materiale e si può valutare con formule semi-empiriche che dipendono da $A$ e $Z$ del materiale:
 
 \begin{equation*}
     L_r=\frac{716.4 \; A}{Z(Z+1)\ln \bigl( 287/\sqrt{Z} \bigr)}
@@ -407,7 +404,7 @@ Vediamo dei valori tipici per alcuni materiali:
 
 Notiamo come nel caso di materiali molto pesanti la lunghezza di radiazione è particolarmente piccola perché questi frenano parecchio sia elettroni che fotoni, quindi secondo le definizioni appena viste un fotone percorrerà pochissimo spazio prima di interagire e produrre una coppia oppure un elettrone percorrerà pochissimo spazio prima di ridurre la sua energia di un fattore $1/e$. I valori di $L_r$ variano drasticamente quando passiamo da un mezzo solido/liquido ad uno gassoso, ad esempio nel piombo vale 5 mm mentre nell'aria vale 300 m.
 
-Tale lunghezza di radiazione in particolare fu fondamentale quando furono scoperti i raggi cosmici: infatti ciò che si osservava era che elettroscopi carichi si scaricavano da soli entro un certo; ciò indicava il fatto che evidentemente c'era una radiazione ionizzante che ionizzava l'aria ed in conseguenza faceva scaricare l'elettroscopio nel tempo. Bisognava quindi capire l'origine di questa radiazione. Inizialmente si pensò alla radioattività ambientale, per cui si pensò di effettuare misure allontanandosi dal suolo per evitare il contributo della radiazione emessa dal suolo: per fare ciò si portò un elettroscopio sulla cima della Torre Eiffel (a 300 m)\footnote{Non era tanto una questione di altitudine, il problema era distanziarsi dal suolo.}. Ciò che si misurò fu di fatto una diminuzione della radiazione, ma questa non era consistente con quanto atteso dall'emissione del suolo. Si cercò quindi di capire tramite dei calcoli, conoscendo la lunghezza di radiazione dei gamma in aria (perché certamente elettroni o alpha messi dal suolo non riescono ad arrivare a 300 m di altezza), se si fosse interamente schermati. Poiché i calcoli diedero conferma di ciò, si capì che c'era un ulteriore contributo, proveniente dallo spazio, che erano i raggi cosmici. In seguito con palloni aerostatici si arrivò ad altezze superiori in cui il contributo del suolo era trascurabile e si osservò un aumento di radiazioni nella componente cosmica.
+Tale lunghezza di radiazione in particolare fu fondamentale quando furono scoperti i raggi cosmici: infatti ciò che si osservava era che elettroscopi carichi si scaricavano da soli dopo un certo tempo; ciò indicava il fatto che evidentemente c'era una radiazione ionizzante che ionizzava l'aria ed in conseguenza faceva scaricare l'elettroscopio nel tempo. Bisognava quindi capire l'origine di questa radiazione. Inizialmente si pensò alla radioattività ambientale, per cui si pensò di effettuare misure allontanandosi dal suolo per evitare il contributo della radiazione emessa dal suolo: per fare ciò si portò un elettroscopio sulla cima della Torre Eiffel (a 300 m)\footnote{Non era tanto una questione di altitudine, il problema era distanziarsi dal suolo.}. Ciò che si misurò fu di fatto una diminuzione della radiazione, ma questa non era consistente con quanto atteso dall'emissione del suolo. Si cercò quindi di capire tramite dei calcoli, conoscendo la lunghezza di radiazione dei gamma in aria (perché certamente elettroni o alpha messi dal suolo non riescono ad arrivare a 300 m di altezza), se si fosse interamente schermati. Poiché i calcoli diedero conferma di ciò, si capì che c'era un ulteriore contributo, proveniente dallo spazio, che erano i raggi cosmici. In seguito con palloni aerostatici si arrivò ad altezze superiori in cui il contributo del suolo era trascurabile e si osservò un aumento di radiazioni nella componente cosmica.
 
 \subsection{Distribuzione angolare di scattering}
 La distribuzione degli angoli in uscita può essere approssimata con una distribuzione gaussiana centrata in zero e con una larghezza $\vartheta_0$ che dipende dalle caratteristiche del materiale.
@@ -448,7 +445,7 @@ Talvolta lo scattering multiplo è utile per valutare le caratteristiche del mat
     \end{figure}
 \end{minipage}
 \begin{minipage}{0.6\textwidth}
-    \vspace{0.5cm}Se è presente provocherà sui muoni uno scattering multiplo considerevole, mentre dove non è presente le tracce passano quasi in deflesse. Andando quindi a ricostruire le direzioni in arrivo e quelle in uscita possiamo realizzare la tomografia. Si usano degli scintillatori per realizzare dei piani di tracciamento, in modo da ricostruire il punto di passaggio dei muoni così da trovare la direzione incidente e quella uscente (saranno date dalle rette passanti dai due punti) e quindi l'angolo di scattering. Le dimensioni sono considerevoli: per un container di $3 \times 6$ m l'altezza è di 7 m.
+    \vspace{0.5cm}Se è presente provocherà sui muoni uno scattering multiplo considerevole, mentre dove non è presente le tracce passano quasi indeflesse. Andando quindi a ricostruire le direzioni in arrivo e quelle in uscita possiamo realizzare la tomografia. Si usano degli scintillatori per realizzare dei piani di tracciamento, in modo da ricostruire il punto di passaggio dei muoni così da trovare la direzione incidente e quella uscente (saranno date dalle rette passanti dai due punti) e quindi l'angolo di scattering. Le dimensioni sono considerevoli: per un container di $3 \times 6$ m l'altezza è di 7 m.
 \end{minipage}
 
 \vspace{0.4cm}Il limite di questa tecnica è il tempo, perché tale metodo usa solo il flusso naturale dei muoni e l'efficienza dei rivelatori non è il 100\% (non sempre riesce a misurare il passaggio di una particella), per cui serve più tempo di acquisizione.
