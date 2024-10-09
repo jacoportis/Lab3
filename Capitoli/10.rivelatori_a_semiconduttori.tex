@@ -2,8 +2,8 @@ L'ultima tipologia di rivelatori che trattiamo sono i rivelatori a semiconduttor
 
 Sono anche detti rivelatori a stato solido perché hanno una densità che è circa mille volte maggiore rispetto a quella dei gas. Ciò costituisce una notevole differenza rispetto ai rivelatori a gas, i quali si basano sull'utilizzo di un gas a densità molto basse, mentre qui abbiamo un materiale solido e questo comporta delle differenze nelle caratteristiche che andremo ad approfondire.
 
-\section{Semiconduttori puri}
-I primi prototipi di rivelatori a semiconduttore sono stati sviluppati negli anni '60, da allora ci sono stati enormi sviluppi e oggi abbiamo rivelatori al silicio particolarmente performanti pensati per diversi tipi di applicazione, per cui in questo capitolo introdurremo il concetto di base di rivelazione basata sul semiconduttore, cioè come è stato inventato il rivelatore dal semiconduttore, per poi vedere alla fine alcune applicazioni e alcuni esempi di come i rivelatori al semiconduttore sono stati sviluppati e migliorati nel corso degli anni.
+\section{Una breve introduzione}
+I primi prototipi di rivelatori a semiconduttore sono stati sviluppati negli anni '60. Da allora ci sono stati enormi sviluppi e oggi abbiamo rivelatori al silicio particolarmente performanti pensati per diversi tipi di applicazione, per cui in questo capitolo introdurremo il concetto di base di rivelazione basata sui semiconduttori, cioè come è stato inventato il rivelatore a semiconduttore, per poi vedere alla fine alcune applicazioni e alcuni esempi di come i rivelatori a semiconduttore sono stati sviluppati e migliorati nel corso degli anni.
 
 \subsection{Vantaggi e svantaggi}
 
@@ -25,15 +25,18 @@ Tuttavia ci sono anche degli svantaggi:
    \item Dimensioni compatte. Tale aspetto può costituire uno svantaggio, in quanto dover rivestire una superficie molte estesa con un rivelatore a semiconduttore è estremamente costoso e anche impegnativo dal punto di vista di elettronica e del consumo, per cui quando si deve realizzare un rivelatore a semiconduttore di dimensioni estese nascono altre problematiche e può essere non facile affrontarle.
 \end{itemize}
 
-\subsection{Banda di valenza e banda di conduzione}
+\section{Semiconduttori puri}
+
 Richiamiamo velocemente le proprietà dei semiconduttori.
+
+\subsection{Banda di valenza e banda di conduzione}
 
 I materiali solidi si distinguono in tre categorie diverse a seconda della struttura a bande dei livelli di energia:
 \begin{figure}[H]
    \centering
-   \includegraphics[width=0.9\textwidth]{immagini/bande_valenza_e_conduzione.png}
+   \includegraphics[width=0.8\textwidth]{immagini/bande_valenza_e_conduzione.png}
 \end{figure}
-In generale se banda di valenza e banda di conduzione sono separate da un gap abbastanza esteso in cui non possono essere presenti dei livelli energetici, cioè da un gap di energia proibita, abbiamo un materiale isolante; se invece il gap è inesistente abbiamo un materiale conduttore. Una situazione intermedia è quella dei materiali semiconduttori, dove tale gap è presente ma ha dimensione abbastanza piccole, dell'ordine di alcuni elettronVolt.
+In generale se banda di valenza e banda di conduzione sono separate da un gap abbastanza esteso in cui non possono essere presenti dei livelli energetici, cioè da un gap di energia proibita, abbiamo un materiale isolante; se invece il gap è inesistente abbiamo un materiale conduttore. Una situazione intermedia è quella dei materiali semiconduttori, dove tale gap è presente ma ha dimensioni abbastanza piccole, dell'ordine di alcuni elettronVolt.
 
 Vediamo che succede se applichiamo un campo elettrico a queste tre tipologie di materiale:
 \begin{itemize}[leftmargin=0.5cm]
@@ -46,9 +49,7 @@ Nei semiconduttori abbiamo un'altra caratteristica fondamentale, cioè il fatto 
    \centering
    \includegraphics[width=0.9\textwidth]{immagini/elettroni_e_lacune_semiconduttori.png}
 \end{figure}
-Le lacune sono delle vacanze di elettroni e anch'esse concorrono al valore della corrente in un semiconduttore, quindi ogni volta che noi andremo a parlare di questi effetti di corrente, faremo riferimento sia elettroni che lacune.
-
-\subsection{Creazione di coppie}
+Le lacune sono delle vacanze di elettroni e anch'esse concorrono al valore della corrente in un semiconduttore, quindi ogni volta che parleremo di questi effetti di corrente faremo riferimento sia agli elettroni che alle lacune.
 
 Normalmente, in un semiconduttore esistono due fenomeni che sono in competizione l'uno con l'altro:
 
@@ -57,7 +58,9 @@ Normalmente, in un semiconduttore esistono due fenomeni che sono in competizione
    \item Ricombinazione, cioè un elettrone potrebbe ricombinarsi con una lacuna, purché i valori di energia e di impulso lo consentano.
 \end{enumerate}
 
-Analizziamo il primo fenomeno. \E chiaro che in generale, in un semiconduttore puro, detto anche intrinseco\footnote{Da non confondere con il semiconduttore intrinseco visto negli APD.}, il numero di elettroni che si trova nella banda di conduzione è esattamente uguale al numero delle lacune in banda di valenza, perché ogni volta che un elettrone viene promosso salta dalla banda di valenza alla banda di conduzione e crea la sua lacuna corrispondente. Sia gli elettroni che le lacune contribuiscono alla conducibilità elettrica del semiconduttore. 
+\subsection{Creazione di coppie}
+
+Analizziamo il primo fenomeno. \E chiaro che in generale, in un semiconduttore puro, detto anche intrinseco\footnote{Da non confondere con il semiconduttore intrinseco visto negli APD.}, il numero di elettroni che si trova nella banda di conduzione è esattamente uguale al numero delle lacune in banda di valenza, perché ogni volta che un elettrone viene promosso esso salta dalla banda di valenza alla banda di conduzione e crea la sua lacuna corrispondente. Sia gli elettroni che le lacune contribuiscono alla conducibilità elettrica del semiconduttore. 
 
 Cerchiamo allora di capire quanto vale la concentrazione di elettroni e di lacune. Dal momento che stiamo considerando un semiconduttore puro, il numero di elettroni corrisponde al numero di lacune, dunque indichiamo la concentrazione in generale con $n_i$, che sarà data da
 \begin{equation*}
@@ -74,9 +77,9 @@ dove
    \item $A$ è una costante indipendente dalla temperatura
 \end{itemize}
 
-Le dipendenze dall'energia del gap e dalla temperatura nell'esponenziale decrescente sono abbastanza intuitive: per quanto riguarda $E_g$, se il gap è piccolo per un elettrone sarà più facile lasciare la banda di valenza e andare verso la banda di conduzione, viceversa più è elevata la temperatura più sarà probabile che un elettrone possa passare alla banda di conduzione per effetto termico, ecco perché lo si trova al denominatore. Utilizzando la statistica di Fermi-Dirac, è possibile inoltre valutare il numero di stati nella banda di conduzione e nella banda di valenza. Si trova che il loro prodotto è pari a $N_C N_V=AT^3$. In definitiva, la concentrazione di elettroni e lacune libere dovuto soltanto all'effetto termico dipende dalle caratteristiche del semiconduttore (in particolare da $E_g$) e dalla temperatura $T$.
+Le dipendenze dall'energia del gap e dalla temperatura nell'esponenziale decrescente sono abbastanza intuitive: per quanto riguarda $E_g$, se il gap è piccolo per un elettrone sarà più facile lasciare la banda di valenza e andare verso la banda di conduzione, viceversa più è elevata la temperatura più sarà probabile che un elettrone possa passare alla banda di conduzione per effetto termico, ecco perché lo si trova al denominatore. Utilizzando la statistica di Fermi-Dirac, è possibile inoltre valutare il numero di stati nella banda di conduzione e nella banda di valenza. Si trova che il loro prodotto è pari a $N_C N_V=AT^3$. In definitiva, la concentrazione di elettroni e lacune libere dovuti soltanto all'effetto termico dipende dalle caratteristiche del semiconduttore (in particolare da $E_g$) e dalla temperatura $T$.
 
-Vediamo quanti elettroni e lacune abbiamo a temperatura ambiente per due semiconduttori, silicio e germanio, i quali si differiscono per le dimensioni del gap. Supposto di avere una temperatura di 300 K, troviamo una concentrazione di $2.5 \cdot 10^{13}/\rm cm^3$ per il germanio e $1.5 \cdot 10^{10}/\rm cm^3$ per il silicio. Se consideriamo che in media abbiamo $10^{22} \text{ atomi/cm}^3$, tali valori corrispondono rispettivamente a dire che soltanto un elettrone su $10^9$ atomi per il germanio un elettrone su $10^{12}$ atomi per il silicio si trova nella banda di conduzione, quindi effettivamente non sono tantissimi. Ciò ha una corrispondenza con quanto affermato prima, ossia che se applichiamo un campo elettrico a un materiale semiconduttore si genera una corrente molto piccola, ed effettivamente è così perché troviamo poche coppie elettrone-lacune dovute ad effetti termici.
+Vediamo quanti elettroni e lacune abbiamo a temperatura ambiente per due semiconduttori, silicio e germanio, i quali si differenziano per le dimensioni del gap. Supposto di avere una temperatura di 300 K, troviamo una concentrazione di $2.5 \cdot 10^{13}/\rm cm^3$ per il germanio e $1.5 \cdot 10^{10}/\rm cm^3$ per il silicio. Se consideriamo che in media abbiamo $10^{22} \text{ atomi/cm}^3$, tali valori corrispondono rispettivamente a dire che soltanto un elettrone su $10^9$ atomi per il germanio e un elettrone su $10^{12}$ atomi per il silicio si trova nella banda di conduzione, quindi effettivamente non sono tantissimi. Ciò ha una corrispondenza con quanto affermato prima, ossia che se applichiamo un campo elettrico a un materiale semiconduttore si genera una corrente molto piccola, ed effettivamente è così perché troviamo poche coppie elettrone-lacuna dovute ad effetti termici.
 \subsection{Mobilità}
 Sotto l'azione di un campo elettrico $E$, elettroni e lacune cominciano a muoversi, cioè subiscono un moto di deriva. Possiamo valutare le velocità con cui avviene questa deriva: esse sono date da\footnote{Il pedice $h$ sta per "hole", cioè lacuna in inglese.}
 \begin{equation*}
@@ -87,8 +90,8 @@ Sotto l'azione di un campo elettrico $E$, elettroni e lacune cominciano a muover
 Come possiamo vedere, le velocità di elettroni e lacune sono proporzionali al valore del campo elettrico e alla mobilità, che sono diverse per elettroni e lacune. Queste mobilità non sono costanti, dipendono dal valore del campo elettrico e della temperatura, ad esempio per il silicio a temperature normali troviamo che le mobilità $\mu_e$ e $\mu_h$:
 \begin{itemize}[leftmargin=0.5cm]
    \item risultano essere costanti per valori di campo elettrico inferiori a $10^3 \; \rm V/cm$;
-   \item hanno una dipende del tipo $E^{-\frac{1}{2}}$ per valori di campo elettrico compresi tra $10^3-10^4 \; \rm V/cm$;
-   \item hanno una dipende del tipo $E^{-1}$ per valori di campo maggiori di $10^4 \; \rm V/cm$.
+   \item hanno una dipendenza del tipo $E^{-\frac{1}{2}}$ per valori di campo elettrico compresi tra $10^3-10^4 \; \rm V/cm$;
+   \item hanno una dipendenza del tipo $E^{-1}$ per valori di campo maggiori di $10^4 \; \rm V/cm$.
 \end{itemize}
 Tale andamento ha come conseguenza il fatto che arrivati a un certo punto si giunge ad una saturazione della velocità a un valore massimo di $10^7$ cm/s, legata al fatto che l'energia che viene acquisita da questi elettroni e queste lacune viene poi persa per gli urti con il reticolo.
 
@@ -107,7 +110,7 @@ Tuttavia quello che si osserva sperimentalmente è che la vita media di una copp
    \includegraphics[width=0.55\textwidth]{immagini/centri_di_ricombinazione.png}
 \end{figure}
 
-Infatti, a causa di difetti della struttura cristallina si possono presentare dei livelli nella zona proibita che vengono definiti "profondi", nel senso che sono abbastanza distanziati sia dalla banda di conduzione che dalla banda di valenza (li possiamo vedere tratteggiati in figura). In questi livelli si può verificare una ricombinazione perché sono livelli che possono attrarre elettroni dalla banda di conduzione e lacune della banda di valenza permettendo quindi una ricombinazione. Ecco perché vengono definiti come centri di ricombinazione.
+Infatti, a causa di difetti della struttura cristallina si possono presentare dei livelli nella zona proibita che vengono definiti "profondi", nel senso che sono abbastanza distanziati sia dalla banda di conduzione che dalla banda di valenza (li possiamo vedere tratteggiati in figura). In questi livelli si può verificare una ricombinazione perché sono livelli che possono attrarre elettroni dalla banda di conduzione e lacune della banda di valenza, permettendo quindi una ricombinazione. Ecco perché vengono definiti come centri di ricombinazione.
 
 La presenza di tali centri di ricombinazione comporta una durata minore per la vita media di una coppia.
 
@@ -125,7 +128,7 @@ In questa figura sono rappresentate i principali difetti di un reticolo:
    \item Potremmo avere una vacanza, cioè l'assenza di un atomo che era previsto nel reticolo;
    \item Potremmo avere un difetto autointerstiziale, che è l'opposto della vacanza, in quanto si ha un atomo dello stesso tipo del cristallo in più rispetto a quanto previsto dello schema del reticolo;
    \item Potremmo avere un difetto interstiziale, che si differenze dal precedente per il fatto che abbiamo sempre un atomo in più rispetto a quanto previsto però è un atomo di natura diversa;
-   \item Potremmo infine avere dei difetti sostituzionali, cioè un atomo del semiconduttore viene sostituito con un atomo di tipologia diversa, però affinché ciò avvenga le dimensioni devono essere abbastanza simili, dunque i raggi dei due automi devono essere similari.
+   \item Potremmo infine avere dei difetti sostituzionali, cioè un atomo del semiconduttore viene sostituito con un atomo di tipologia diversa, però affinché ciò avvenga le dimensioni devono essere abbastanza simili, dunque i raggi dei due atomi devono essere similari.
 \end{itemize}
 Ogni difetto del reticolo comporta una modifica nello schema dei livelli energetici. Scegliendo però in maniera opportuna degli elementi da aggiungere al reticolo cristallino, ossia con opportuni drogaggi, possiamo generare degli ulteriori livelli energetici superficiali, ossia livelli che sono vicini o alla banda di conduzione o alla banda di valenza. Per questo motivo nella pratica si utilizzano semiconduttori drogati.
 
@@ -144,7 +147,7 @@ Questo atomo avrà 5 elettroni di cui 4 vanno a legarsi con i quattro atomi di s
 
 Con valori di drogaggio tipici si può raggiungere un numero di elettroni di conduzione di $10^{17}\text{ elettroni/cm}^3$, mentre il numero di lacune si riduce a $10^3\text{ lacune/cm}^3$. Ecco perché nei semiconduttori drogati di tipo n i portatori di carica maggioritari sono gli elettroni mentre le lacune rappresentano i portatori di carica minoritari.
 \subsection{Semiconduttori di tipo p}
-La situazione è diametralmente opposta in semiconduttore drogato di tipo p. In questo caso si va a sostituire un atomo del reticolo con un atomo trivalente come il gallio, il boro o l'indio e quello che stavolta rimane in eccesso è una lacuna.
+La situazione è diametralmente opposta in un semiconduttore drogato di tipo p. In questo caso si va a sostituire un atomo del reticolo con un atomo trivalente come il gallio, il boro o l'indio e quello che stavolta rimane in eccesso è una lacuna.
 \begin{figure}[H]
    \centering
    \includegraphics[width=0.8\textwidth]{immagini/semiconduttori_drogati_tipo_p.png}
@@ -152,7 +155,7 @@ La situazione è diametralmente opposta in semiconduttore drogato di tipo p. In 
 
 Questa lacuna si troverà in un livello discreto situato nel gap di energia probita, a una distanza molto piccola dalla banda di valenza. In questo caso le lacune rappresentano i portatori di carica maggioritari e gli elettroni quelli minoritari.
 
-Va precisato che anche se introduciamo un'impurezza ossia un atomo di tipo diverso, il materiale rimane comunque neutro. Infatti nel caso in cui ad esempio introduciamo un'impurità di tipo n cioè un donore, sebbene ci sia un elettrone in eccesso ciò non vuol dire che il materiale è carico negativamente, perché abbiamo la carica del nucleo che compensa l'elettrone libero. Ne segue che complessivamente abbiamo un materiale neutro. Analoghi ragionamenti valgono nel caso in cui introduciamo un atomo accettore.
+Va precisato che anche se introduciamo un'impurezza ossia un atomo di tipo diverso, il materiale rimane comunque neutro. Infatti nel caso in cui ad esempio introduciamo un'impurità di tipo n cioè un donore, sebbene ci sia un elettrone in eccesso ciò non vuol dire che il materiale sia carico negativamente, perché abbiamo la carica del nucleo che compensa l'elettrone libero. Ne segue che complessivamente abbiamo un materiale neutro. Analoghi ragionamenti valgono nel caso in cui introduciamo un atomo accettore.
 
 \subsection{Concentrazione di elettroni e lacune}
 Si può dimostrare che, indipendentemente del tipo di drogaggio, il prodotto della concentrazione di elettroni $n$ per la concentrazione di lacune $p$ è sempre data da
@@ -163,13 +166,13 @@ dove $n_i$ è la concentrazione nel caso del semiconduttore intrinseco.
 
 Da tale relazione segue che se aumentano gli elettroni per effetto di un drogaggio, la quantità delle lacune che si formano nel semiconduttore non rimane costante ma diminuisce e viceversa nel caso opposto. 
 
-La legge appena enunciata prende il nome di legge dell'azione di massa. Partendo da tale legge, in un semiconduttore di tipo n, dove ci aspettiamo che il numero di atomi accettori $N_A$ sia pari a zero mentre il numero di atomi donori $N_D$ comporti la formazione di un medesimo numero di elettroni\footnote{Gli atomi accettori sono elementi che accettano elettroni dal semiconduttore, mentre i donori donano elettroni al semiconduttore.}, possiamo esprimere la concentrazione di lacune e la conducibilità del materiale come segue:
+La legge appena enunciata prende il nome di \textit{legge dell'azione di massa}. Partendo da tale legge, in un semiconduttore di tipo n, dove ci aspettiamo che la concentrazione di atomi accettori $N_A$ sia pari a zero mentre quella di atomi donori $N_D$ comporti la presenza di un'uguale concentrazione di elettroni\footnote{Gli atomi accettori sono elementi che accettano elettroni dal semiconduttore, mentre i donori donano elettroni al semiconduttore.}, possiamo esprimere la concentrazione di lacune e la conducibilità del materiale come segue:
 \begin{equation*}
    p \approx \frac{n_i^2}{N_D}
    \qq{e}
    \sigma \approx e N_D \mu_e
 \end{equation*}
-Analogamente, per un semiconduttore drogato di tipo p, dove stavolta abbiamo $N_D=0$ e $N_A$ lacune, abbiamo 
+Analogamente, per un semiconduttore drogato di tipo p, dove stavolta abbiamo $N_D=0$ e una concentrazione di lacune pari a $N_A$, abbiamo 
 \begin{equation*}
    n \approx \frac{n_i^2}{N_A}
    \qq{e}
@@ -189,7 +192,7 @@ Il principio di base di un rivelatore a semiconduttore sono le giunzioni p-n o n
    \centering
    \includegraphics[width=0.9\textwidth]{immagini/giunzione_p-n.png}
 \end{figure}
-Poiché stiamo mettendo a contatto dei materiali che hanno concentrazione di carica diverse l'uno dall'altro (nel materiale di tipo n c'è un'elevata concentrazione di elettroni liberi, mentre nel materiale di tipo p c'è un'elevata concentrazione di lacune), si verifica una diffusione di elettroni verso il materiale di tipo p e di lacune verso il materiale di tipo n, proprio a causa di questa differente concentrazione. Gli elettroni che si diffondono nella zona di tipo p incontrano le lacune e si ricombinano con queste; lo stesso avviene nel materiale di tipo n, dove le lacune che si sono diffuse in esso si ricombinano con gli elettroni. Essendo entrambe le zone n e p inizialmente neutre, nella giunzione la zona n avrà una concentrazione di cariche positive mentre la zona p di cariche negative. Come possiamo infatti vedere dalla figura a), inizialmente in n erano presenti gli elettroni liberi mentre in n le lacune, e una volta realizzata la giunzione gli elettroni sono passati da n a p e si sono ricombinati con le lacune. In conseguenza a ciò, nella regione p sono rimasti degli ioni negativi, fissi nel reticolo; viceversa nella zona di tipo n le lacune si sono ricombinate con gli elettroni e quindi sono rimasti fissi nel reticolo gli ioni positivi. Ciò comporta la formazione di un campo elettrico e dunque di un potenziale $V_0$, detto potenziale di contatto, che come possiamo vedere nella figura b), dove sull'asse verticale sono riportati i livelli in energia mentre l'asse orizzontale la posizione in corrispondenza con la figura a), ha deformato i livelli energetici. In altri termini, a causa della presenza di queste cariche fisse nel reticolo dei materiali di tipo p e di tipo n, si è creata una differenza di potenziale che impedisce l'ulteriore passaggio e diffusione di cariche libere. Si è allora creata una regione che dal punto di vista della rivelazione è ottimale, perché è una regione in cui non sta circolando carica libera e quindi se per caso dovesse passare una particella, la quale comporta la formazione di nuove cariche, quest'ultime possono essere spazzate via da questo potenziale e raccolte.
+Poiché stiamo mettendo a contatto dei materiali che hanno concentrazione di carica diverse l'uno dall'altro (nel materiale di tipo n c'è un'elevata concentrazione di elettroni liberi, mentre nel materiale di tipo p c'è un'elevata concentrazione di lacune), si verifica una diffusione di elettroni verso il materiale di tipo p e di lacune verso il materiale di tipo n, proprio a causa di questa differente concentrazione. Gli elettroni che si diffondono nella zona di tipo p incontrano le lacune e si ricombinano con queste; lo stesso avviene nel materiale di tipo n, dove le lacune che si sono diffuse in esso si ricombinano con gli elettroni. Essendo entrambe le zone n e p inizialmente neutre, nella giunzione la zona n avrà una concentrazione di cariche positive mentre la zona p di cariche negative. Come possiamo infatti vedere dalla figura a), inizialmente in n erano presenti gli elettroni liberi mentre in n le lacune, e una volta realizzata la giunzione gli elettroni sono passati da n a p e si sono ricombinati con le lacune. In conseguenza a ciò, nella regione p sono rimasti degli ioni negativi, fissi nel reticolo; viceversa nella zona di tipo n le lacune si sono ricombinate con gli elettroni e quindi sono rimasti fissi nel reticolo gli ioni positivi. Ciò comporta la formazione di un campo elettrico e dunque di un potenziale $V_0$, detto potenziale di contatto, che come possiamo vedere nella figura b), dove sull'asse verticale sono riportati i livelli in energia mentre sull'asse orizzontale la posizione in corrispondenza con la figura a), ha deformato i livelli energetici. In altri termini, a causa della presenza di queste cariche fisse nel reticolo dei materiali di tipo p e di tipo n, si è creata una differenza di potenziale che impedisce l'ulteriore passaggio e diffusione di cariche libere. Si è allora creata una regione che dal punto di vista della rivelazione è ottimale, perché è una regione in cui non sta circolando carica libera e quindi se per caso dovesse passare una particella, la quale comporta la formazione di nuove cariche, quest'ultime possono essere spazzate via da questo potenziale e raccolte.
 
 Il potenziale di contatto $V_0$ è abbastanza piccolo, circa $1 \; \rm V$. Inoltre la zona che si è venuta a creare prende il nome di zona di svuotamento, perché è una zona dove abbiamo eliminato tutte le cariche libere. Sono quindi presenti delle cariche fisse, che determinano un campo elettrico, ma non sono presenti cariche libere che potrebbero rappresentare rumore per i nostri scopi, in quanto sono cariche che non sono dettate dal passaggio di una radiazione, ma sono cariche che erano presenti nel materiale semiconduttore. Non essendo presenti in questa regione, essa risulta essere una regione utile per la rivelazione.
 
@@ -277,7 +280,7 @@ Riassumendo, i rivelatori a semiconduttore si basano su una giunzione p-n polari
    \centering
    \includegraphics[width=0.4\textwidth]{immagini/rivelatore_a_semiconduttore.png}
 \end{figure}
-In tale schema la zona n rappresenta la parte principale della giunzione. Abbiamo poi dei contatti realizzati sopra con un $\rm p+$, e con un $\rm n+$ dall'altro lato.
+In tale schema la zona n rappresenta la parte principale della giunzione. Abbiamo poi dei contatti realizzati sopra con un $\rm p+$ e con un $\rm n+$ dall'altro lato.
 
 Quando passa una particella all'interno della regione di svuotamento, essa deposita energia. Tale energia viene utilizzata per produrre coppie elettrone-lacuna, e queste coppie cominciano a migrare verso gli elettrodi per poi essere raccolte, in modo da indurre il segnale che andiamo poi a misurare. Lo schema è molto simile a quello che abbiamo visto per un rivelatore a gas, ciò che cambia è il mezzo in cui avviene il processo ed anche il tipo di processo, in quanto in tal caso produciamo coppie elettrone-lacuna mentre nel caso di un rivelatore a ionizzazione si producono coppie elettrone-ione. Ne approfittiamo per fare uno schema riassuntivo di quello che abbiamo visto finora nel campo della rivelazione:
 \begin{figure}[H]
@@ -355,14 +358,14 @@ Altre tipologie di rivelatori si basano invece sull'utilizzo dell'impiantazione 
 Per quanto riguarda i vantaggi, essi sono dei rivelatori molto stabili e con finestre di ingresso molto sottili, quindi con zona morta di poche decine di nanometri, ma lo svantaggio è che sono parecchio costosi, soprattutto per i processi di produzione che richiedono l'utilizzo di un acceleratore. 
 
 \subsection{Rivelatori a deriva di litio Si(Li)}
-L'ultima categoria di rivelatori che introduciamo sono i rivelatori a deriva di Litio, i quali cercano di risolvere il problema delle piccole dimensioni della regione di svuotamento, infatti abbiamo detto che c'è sempre un limite alle dimensioni di questa regione, perché poi il diodo va in rottura. Per risolvere questo problema si utilizza una cosiddetta aggiunzione p-i-n, dove al materiale di tipo p e al materiale di tipo n si frappone un materiale di tipo compensato. In questo modo è possibile ampliare la zona in cui può avvenire la rivelazione, potendo arrivare anche a spessori di $10-15$ mm, il che è molto utile laddove abbiamo bisogno di range elevati per poter fermare una particella e misurarne l'energia.
+L'ultima categoria di rivelatori che introduciamo sono i rivelatori a deriva di Litio, i quali cercano di risolvere il problema delle piccole dimensioni della regione di svuotamento, infatti abbiamo detto che c'è sempre un limite alle dimensioni di questa regione, perché poi il diodo va in rottura. Per risolvere questo problema si utilizza una giunzione p-i-n, dove al materiale di tipo p e al materiale di tipo n si frappone un materiale di tipo compensato. In questo modo è possibile ampliare la zona in cui può avvenire la rivelazione, potendo arrivare anche a spessori di $10-15$ mm, il che è molto utile laddove abbiamo bisogno di range elevati per poter fermare una particella e misurarne l'energia.
 
 Vediamo il processo con cui avviene la realizzazione di questi rivelatori:
 \begin{figure}[H]
    \centering
    \includegraphics[width=\textwidth]{immagini/rivelatore_a_deriva_di_litio.png}
 \end{figure}
-Il litio viene posizionato sulla superficie di un materiale drogato di tipo p, viene fatto diffondere attraverso l'applicazione di un campo elettrico e alla fine quello che si ottiene è un'aggiunzione di tipo p-i-n, in quanto a sinistra rimane la zona p perché il litio non è arrivato fino a questa estremità, la regione centrale diventa di tipo compensato, perché era drogata di tipo p e ad essa aggiungiamo il litio che è di tipo n e infine a destra rimane la zona di tipo n dovuta essenzialmente a un'alta concentrazione di litio.
+Il litio viene posizionato sulla superficie di un materiale drogato di tipo p, viene fatto diffondere attraverso l'applicazione di un campo elettrico e alla fine quello che si ottiene è una giunzione di tipo p-i-n, in quanto a sinistra rimane la zona p perché il litio non è arrivato fino a questa estremità, la regione centrale diventa di tipo compensato, perché era drogata di tipo p e ad essa aggiungiamo il litio che è di tipo n e infine a destra rimane la zona di tipo n dovuta essenzialmente a un'alta concentrazione di litio.
 
 I vantaggi sono dovuti a questi spessori elevati, che fanno sì che vengano utilizzati per la spettroscopia beta o per i raggi X a bassa energia. Gli svantaggi sono invece il fatto che si debbano adoperare a temperature basse a causa dell'elevato rumore termico, inoltre anche la conservazione dovrebbe avvenire a temperatura basse per mantenere inalterata la zona intrinseca.
 
@@ -397,7 +400,7 @@ La risoluzione di questi rivelatori è tipicamente abbastanza buona. Infatti ser
 
 \E chiaro che l'energia necessaria a creare una coppia dipende dal gap di energia proibita. Ad esempio, alla temperatura di 77 K per il silicio sono necessarie energie dell'ordine di $3-4$ eV, mentre per il germanio poco meno di 3 eV. Precisiamo che queste sono in realtà le energie per produrre una coppia, mentre le energie del gap sono in realtà più piccole. Ciò è legato al fatto che due terzi dell'energia vengono spesi per creare delle vibrazioni reticolari.
 
-Prima di proseguire, facciamo alcune considerazioni. Quando vogliamo misurare l'energia, quest'ultima la misuriamo in termini del numero $n$ di coppie che si generano. Tale numero è dato dal rapporto tra l'energia $E$ che viene depositata nel rivelatore diviso $w$, che è l'energia media per creare una coppia. Ciò vale sia per i rivelatori a gas che per i rivelatori a semiconduttore, con l'unica differenza che nei rivelatori a gas $w$ è dell'ordine all'incirca di 30 eV mentre nel rivelatore a semiconduttore $w$ è dell'ordine di circa 3 eV, quindi circa un decimo. Più precisamente il numero di coppie a cui facciamo riferimento è un valore medio $\bar{n}$, perché sebbene sia vero che si produce un certo numero di coppie quelle che poi danno luogo al segnale sono una parte poiché avvengono diversi fenomeni di fluttuazioni statistiche. Ne segue che il numero $\bar{n}$ che misuriamo e che è indice dell'energia in realtà può variare da evento a evento. Immaginiamo ad esempio, come facciamo in un'esperienza di laboratorio, di inviare in un rivelatore al silicio delle particelle $\alpha$ di 5 MeV. Tale energia viene totalmente depositata nel rivelatore, dando luogo a un certo numero di coppie che produrranno il segnale, e questo numero di coppie fluttuerà a seguito di fenomeni di natura statistica.
+Prima di proseguire, facciamo alcune considerazioni. Quando vogliamo misurare l'energia, quest'ultima la misuriamo in termini del numero $n$ di coppie che si generano. Tale numero è dato dal rapporto tra l'energia $E$ che viene depositata nel rivelatore diviso $w$, che è l'energia media per creare una coppia. Ciò vale sia per i rivelatori a gas che per i rivelatori a semiconduttore, con l'unica differenza che nei rivelatori a gas $w$ è dell'ordine di circa 30 eV mentre nel rivelatore a semiconduttore $w$ è dell'ordine di circa 3 eV, quindi all'incirca un decimo. Più precisamente il numero di coppie a cui facciamo riferimento è un valore medio $\bar{n}$, perché sebbene sia vero che si produce un certo numero di coppie quelle che poi danno luogo al segnale sono una parte poiché avvengono diversi fenomeni di fluttuazioni statistiche. Ne segue che il numero $\bar{n}$ che misuriamo e che è indice dell'energia in realtà può variare da evento a evento. Immaginiamo ad esempio, come facciamo in un'esperienza di laboratorio, di inviare in un rivelatore al silicio delle particelle $\alpha$ di 5 MeV. Tale energia viene totalmente depositata nel rivelatore, dando luogo a un certo numero di coppie che produrranno il segnale, e questo numero di coppie fluttuerà a seguito di fenomeni di natura statistica.
 
 Osserviamo lo spettro in energia delle particelle $\alpha$. Dato che l'energia è legata al numero di coppie generate, a tale picco ne corrisponderà uno relativo al numero di queste:
 
@@ -460,6 +463,9 @@ Tali rivelatori presentano dei limiti. Uno di questi è la presenza di una sogli
 L'elevata densità di tali rivelatori costituisce un vantaggio perché permette di avere un elevato stopping power, il che ci permette di avere rivelatori compatti ma comunque capaci di misurare l'energia di particelle anche molto energetiche.
 
 \begin{esempio}
+
+   \vspace{-0.4cm}
+
    \begin{minipage}{0.36\textwidth}
       \begin{figure}[H]
          \centering
@@ -467,7 +473,7 @@ L'elevata densità di tali rivelatori costituisce un vantaggio perché permette 
       \end{figure}
    \end{minipage}
    \begin{minipage}{0.63\textwidth}
-      Nel grafico a fianco è riportata l'energia della particella nell'intervallo tra 1 e 100 MeV e sulle ordinate il range in micron. Le varie linee corrispondono a diverse tipologie di particelle che incidono sul silicio.
+      \vspace{0.3cm}Nel grafico a fianco è riportata in ascisse l'energia delle particelle nell'intervallo tra 1 e 100 MeV e sulle ordinate il range in micron. Le varie linee corrispondono a diverse tipologie di particelle che incidono sul silicio.
 
       A partire da tale grafico possiamo capire che spessore deve avere il rivelatore per assicurarci che tutta l'energia venga persa all'interno del rivelatore. Ad esempio, per particelle $\alpha$ da 5 MeV come quelle che adoperiamo in laboratorio servono range dell'ordine della ventina di micron, quindi è sufficiente un rivelatore di questo spessore per far sì che le particelle $\alpha$ perdano tutta la loro energia.
    \end{minipage}
@@ -484,7 +490,7 @@ Un problema di questi rivelatori è il cosiddetto danneggiamento da radiazione, 
 
 In generale i danni che si possono creare sono di due diversi tipi:
 \begin{itemize}
-   \item Danni del Bulk, cioè danni della massa che costituisce il semiconduttore;
+   \item Danni del bulk, cioè danni della massa che costituisce il semiconduttore;
    \item Danni sulla superficie, quindi sull'ossido che normalmente riveste questi rivelatori.
 \end{itemize}
 
@@ -545,7 +551,7 @@ Tale tecnica può però portare a dei casi di ambiguità: se passa una sola part
 
 Guardando la figura dei due strati di strip, vediamo che è raffigurata la situazione in cui sono passate due particelle simultaneamente. Ciascuno strato avrà due strip interessate (una per particella), quindi nel momento in cui vogliamo risalire alla posizione dovremo considerare quattro possibili combinazioni di queste coppie di strip. I due punti verdi rappresentano le combinazioni corrette, cioè i punti reali attraverso cui sono passate le particelle, mentre i punti rossi rappresentano delle combinazioni spurie, in quanto non collegate al reale passaggio di particelle. 
 
-La risoluzione spaziale, cioè la precisione con cui si ricostruisce la posizione dipende dalla distanza tra le strip: più queste sono vicino tra di loro, migliore sarà la risoluzione spaziale. Similmente alle camere a fili, data la distanza tra due elettrodi la risoluzione è data da tale distanza diviso $\sqrt{12}$, che è una conseguenza del teorema del limite centrale. Si tratta quindi di una risoluzione molto spinta, potendo arrivare anche a 5 micron.
+La risoluzione spaziale, cioè la precisione con cui si ricostruisce la posizione dipende dalla distanza tra le strip: più queste sono vicine tra di loro, migliore sarà la risoluzione spaziale. Similmente alle camere a fili, data la distanza tra due elettrodi la risoluzione è data da tale distanza diviso $\sqrt{12}$, che è una conseguenza del teorema del limite centrale. Si tratta quindi di una risoluzione molto spinta, potendo arrivare anche a 5 micron.
 
 I tempi di raccolta delle cariche sono molto veloci, anche decine di nanosecondi.
 
@@ -593,7 +599,7 @@ Uno degli svantaggi di tali rivelatori è che abbiamo un numero di canali enorme
 \end{figure}
 In figura possiamo vedere un ingrandimento di quello che è un rivelatore a pixel. Guardando attentamente, vediamo che ci sono dei fili microscopici che sono detti bonding, cioè delle connessioni che vengono realizzate con delle opportune macchine chiamate bondatrici, le quali collegano il rivelatore con l'elettronica.
 
-Inoltre questi rivelatori sono molto fragili e richiedono tecnologia all'avanguardia. Vediamo il motivo di quest'ultimo fatto. Innanzitutto il primo problema è quello di trasportare questo segnale fuori da ciascun pixel che è un rivelatore a sé stante, quindi se il segnale che fuoriesce da questo rivelatore ha bisogno di un'opportuna catena elettronica, questa dovrà essere replicata per tutti i pixel. Quello che si faceva tempo addietro (ora questa è una tecnologia che si sta superando) era realizzare l'elettronica miniaturizzata e delle stesse dimensioni dei pixel.
+Inoltre questi rivelatori sono molto fragili e richiedono tecnologia all'avanguardia. Vediamo il motivo di quest'ultimo fatto. Innanzitutto il primo problema è quello di trasportare questo segnale fuori da ciascun pixel che è un rivelatore a sé stante, quindi se il segnale che fuoriesce da questo rivelatore ha bisogno di un'opportuna catena elettronica, e questa dovrà essere replicata per tutti i pixel. Quello che si faceva tempo addietro (ora questa è una tecnologia che si sta superando) era realizzare l'elettronica miniaturizzata delle stesse dimensioni dei pixel.
 
 \begin{figure}[H]
    \centering
@@ -602,9 +608,9 @@ Inoltre questi rivelatori sono molto fragili e richiedono tecnologia all'avangua
 
 Si aveva quindi una matrice di pixel che erano i rivelatori e sotto una matrice con la corrispondente elettronica. La connessione si realizzava attraverso una tecnica che prende il nome di bump bonding, cioè un bonding non realizzato con un filo, bensì con una pallina di materiale conduttore, come possiamo vedere in figura a destra. Chiaramente la corrispondenza tra pixel di sensore e pixel di elettronica deve essere esatta. Il tutto avviene a temperatura controllata, perché la pallina si deve sciogliere per realizzare un contatto stabile.
 
-Tuttavia questa tecnica aveva dei difetti enormi, in particolare un'efficienza estremamente bassa e presentavano frequentemente dei difetti, quindi spesso si buttavano tanti wafer di silicio perché il bonding non era stato realizzato bene. Inoltre era un processo molto costoso e che limita la dimensione del pixel, quindi anche se la tecnologia ci permetteva di ridurre le dimensioni del pixel, l'elettronica non si riusciva a compattare al di sotto di un certo limite e anche il bonding non poteva essere effettuato su pixel di dimensioni troppo piccole. Inoltre, sempre nell'ottica di rendere il rivelatore il più possibile trasparente, inserire una pallina di un qualsiasi materiale introduce ovviamente una perdita di energia dato che la particella dovrà attraversare anche questa, la quale può rappresentare anche un problema di multiple scattering. 
+Tuttavia questa tecnica aveva dei difetti enormi, in particolare un'efficienza estremamente bassa e presentavano frequentemente dei difetti, quindi spesso si buttavano tanti wafer di silicio perché il bonding non era stato realizzato bene. Inoltre era un processo molto costoso e che limitava la dimensione del pixel, quindi anche se la tecnologia ci permetteva di ridurre le dimensioni del pixel l'elettronica non si riusciva a compattare al di sotto di un certo limite e anche il bonding non poteva essere effettuato su pixel di dimensioni troppo piccole. Inoltre, sempre nell'ottica di rendere il rivelatore il più possibile trasparente, inserire una pallina di un qualsiasi materiale introduce ovviamente una perdita di energia dato che la particella dovrà attraversare anche questa, la quale può rappresentare anche un problema di multiple scattering.
 
-Adesso la tecnologia ci permette di realizzare i così detti MAPS (Monolithic Active Pixel Sensors), cioè rivelatori monolitici. Con tale termine si intende il fatto che nello stesso substrato di silicio si realizza sia il sensore che l'elettronica.
+Adesso la tecnologia ci permette di realizzare i cosiddetti MAPS (Monolithic Active Pixel Sensors), cioè rivelatori monolitici. Con tale termine si intende il fatto che nello stesso substrato di silicio si realizza sia il sensore che l'elettronica.
 \begin{figure}[H]
    \centering
    \includegraphics[width=0.7\textwidth]{immagini/rivelatore_monolitico.png}

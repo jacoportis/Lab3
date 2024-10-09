@@ -1,9 +1,10 @@
-\documentclass[12pt]{book}
+\documentclass[12pt,openany]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 \usepackage{wrapfig}
 \usepackage[psdextra, colorlinks=true, allcolors=black]{hyperref}
 \usepackage[italian]{babel}
+\usepackage{epigraph}
 \usepackage{afterpage}
 \newcommand\blankpage{%
     \null
@@ -23,6 +24,7 @@
 \usepackage{tikz,pgf}
 \usetikzlibrary{snakes}
 \usetikzlibrary{shapes}
+\usepackage{lipsum}
 
 %servono a mettere i simboli greci nei titoli
 \usepackage[open]{bookmark}
@@ -31,6 +33,7 @@
 
 \usepackage{float}
 \setlength\parindent{0pt}%e si gode, toglie lo spostmento a destra di una nuova riga
+\setlength{\epigraphwidth}{0.5\textwidth}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{fancyhdr}
@@ -107,6 +110,27 @@
 \renewcommand{\headrulewidth}{0pt}
 }
 
+\chapter*{Guida al lettore}
+
+\epigraph{There's a thin line between being a hero and being a memory.}{\textit{Optimus Prime}}
+
+Questi appunti costituiscono una raccolta non esaustiva delle lezioni svolte dalla professoressa Paola La Rocca per il corso di Laboratorio di Fisica III del c.d.l. triennale in Fisica dell'università di Catania. Non costituiscono tuttavia un'alternativa alle lezioni e non sono pertanto sufficienti a prepararsi per sostenere l'esame. All'interno di tale testo appariranno spesso esempi e approfondimenti. Gli esempi, che appaiono così
+
+\begin{esempio}[L'esperimento ALICE]
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+\end{esempio}
+
+riportano argomenti trattati a lezione e messi in evidenza solo per questione di ordine. Viceversa, gli approfondimenti appaiono così
+
+\begin{approfondimento}[L'esperimento PLR]
+  \footnotesize
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\end{approfondimento}
+
+e sono stati aggiunti in maniera autonoma dall'autore, pertanto non costituiscono parte degli argomenti trattati e il lettore può tranquillamente decidere di trascurarli senza per questo incappare in una comprensione incompleta.
+
+\thispagestyle{empty}
+
 \comment{
 
 \part{Tecniche e strumenti di laboratorio}
@@ -120,6 +144,8 @@
 
 }
 
+\thispagestyle{empty}
+
 \part{Interazione radiazione-materia}
 
 \chapter{Sorgenti di radiazione}
@@ -128,12 +154,21 @@
 \chapter{Perdita di energia per particelle cariche pesanti}
 \import{./Capitoli}{3.perdita_energia_particelle_cariche}
 
+\afterpage{\blankpage}
+\newpage
+
 \chapter{Perdita di energia per elettroni}
 \import{./Capitoli}{4.perdita_energia_elettroni}
+
+\afterpage{\blankpage}
+\newpage
 
 \chapter[Interazione dei \texorpdfstring{$\gamma$}{\textgamma} con la materia]
 {Interazione dei $\boldsymbol{\gamma}$ con la materia}
 \import{./Capitoli}{5.interazione_gamma_materia}
+
+\afterpage{\blankpage}
+\newpage
 
 \part{Rivelatori di particelle}
 
@@ -143,11 +178,20 @@
 \chapter{Rivelatori a gas}
 \import{./Capitoli}{7.rivelatori_a_gas}
 
+\afterpage{\blankpage}
+\newpage
+
 \chapter{Scintillatori}
 \import{./Capitoli}{8.scintillatori}
 
+\afterpage{\blankpage}
+\newpage
+
 \chapter{Fotosensori}
 \import{./Capitoli}{9.fotosensori}
+
+\afterpage{\blankpage}
+\newpage
 
 \chapter{Rivelatori a semiconduttore}
 \import{./Capitoli}{10.rivelatori_a_semiconduttori}
@@ -156,16 +200,19 @@
 
 \part{Elementi di elettronica}
 
-\chapter{Segnali dai rivelatori ed elettronica associata}\label{chap:elettronica}
+\chapter{Segnali dai rivelatori ed elettronica associata}
 \import{./Capitoli}{12.elettronica}
+
+%\chapter{Modulistica elettronica}\label{chap:modulistica_elettronica}
+%\import{./Capitoli}{13.modulistica_elettronica}
 
 \comment{%inizio commento
 
 \chapter{Metodo Monte Carlo}
-\import{./Capitoli}{13.montecarlo}
+\import{./Capitoli}{15.montecarlo}
 
 \chapter{Esperienze di laboratorio}
-\import{./Capitoli}{14.esperienze}
+\import{./Capitoli}{16.esperienze}
 
 \appendix
 

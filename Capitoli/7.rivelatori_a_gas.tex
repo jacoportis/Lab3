@@ -41,7 +41,7 @@ Il principio di funzionamento dei rivelatori a gas si basa sul fenomeno della io
 %L'idea alla base è quella di sfruttare il fatto che le particelle che attraversano un contenitore pieno di gas cedono energia e la possono cedere andando a produrre fenomeni di ionizzazione. Quindi sostanzialmente l'energia ricevuta da uno degli elettroni degli atomi che compongono il gas permette all'elettrone di essere espulso e quindi alla fine il risultato è la produzione di una coppia ione positivo-elettrone.
 Il concetto di base è sfruttare il fatto che le particelle che attraversano un contenitore pieno di gas trasferiscono energia, che può essere utilizzata per produrre fenomeni di ionizzazione. In pratica, l'energia assorbita da uno degli elettroni degli atomi del gas permette ad esso di essere espulso, generando così una coppia composta da uno ione positivo e un elettrone libero.
 
-\begin{minipage}{0.395\textwidth}
+\begin{minipage}{0.35\textwidth}
    \begin{figure}[H]
       \centering
       \begin{tikzpicture}
@@ -64,8 +64,8 @@ Il concetto di base è sfruttare il fatto che le particelle che attraversano un 
        \end{tikzpicture}
    \end{figure}
 \end{minipage}
-\begin{minipage}{0.6\textwidth}
-   \vspace{0.5cm}Possiamo schematizzare un rivelatore al gas come un contenitore riempito di gas. Nel momento in cui passa una particella carica, questa particella produce coppie elettrone-ione, i quali hanno dimensioni e masse notevolmente differenti, fatto che comporta delle conseguenze soprattutto per quello che riguarda la raccolta del segnale. 
+\begin{minipage}{0.64\textwidth}
+   \vspace{0.7cm}Possiamo schematizzare un rivelatore al gas come un contenitore riempito di gas. Nel momento in cui passa una particella carica, questa particella produce coppie elettrone-ione, i quali hanno dimensioni e masse notevolmente differenti, fatto che comporta delle conseguenze soprattutto per quello che riguarda la raccolta del segnale. 
 \end{minipage}
 
 Chiaramente, nel momento in cui una particella attraversa un volume pieno di gas non viene prodotta una sola coppia: ne vengono prodotte un certo numero che dipende da quanta energia la particella deposita all'interno del gas.
@@ -76,7 +76,7 @@ Questi rivelatori a gas possono essere adoperati sia in current mode che in puls
 
 \section{Ionizzazione}
 
-\subsection{Meccanismi di ionizzazione}
+\subsection{Meccanismi di interazione}
 
 I processi di interazione di una particella carica in un gas si dividono essenzialmente in due tipi di reazione:
 \begin{enumerate}
@@ -89,7 +89,7 @@ L'eccitazione di un atomo $X$ ad opera di una particella carica $p$ è
 \end{equation*}
 ed è una reazione risonante, che richiede il trasferimento di un corretto valore di energia, in quato il valore di energia fornito deve corrispondere al salto energetico dell'elettrone.
 
-Le sezioni d'urto tipiche nei gas nobili in risonanza sono dell'ordine di $\sigma \approx 10^{-17} \, \text{cm}^2$. Sebbene non vengano creati elettroni o ioni liberi, le molecole o gli atomi eccitati possono partecipare a ulteriori reazioni che portano alla ionizzazione.
+Le sezioni d'urto tipiche nei gas nobili in risonanza sono dell'ordine di $\sigma \approx 10^{-17} \; \text{cm}^2$. Sebbene non vengano creati elettroni o ioni liberi, le molecole o gli atomi eccitati possono partecipare a ulteriori reazioni che portano alla ionizzazione.
 
 %\comment{
 \begin{approfondimento}[Le reazioni risonanti]
@@ -114,13 +114,13 @@ Per una ionizzazione, che è
 \begin{equation*}
    X + p \ce{->} X^+ + e^- + p
 \end{equation*}
-non esiste, naturalmente, un requisito energetico esatto e, in effetti, la sua sezione d'urto è leggermente superiore con $\sigma \approx 10^{-16} \, \text{cm}^2$. Tuttavia, il processo di ionizzazione avviene solamente se l'energia fornita supera una certa soglia, perché è necessario che l'elettrone venga strappato, quindi bisogna almeno fornire un'energia pari all'energia di prima ionizzazione del gas che stiamo adoperando.
+non esiste, naturalmente, un requisito energetico esatto e, in effetti, la sua sezione d'urto è leggermente superiore con $\sigma \approx 10^{-16} \; \text{cm}^2$. Tuttavia, il processo di ionizzazione avviene solamente se l'energia fornita supera una certa soglia, perché è necessario che l'elettrone venga strappato, quindi bisogna almeno fornire un'energia pari all'energia di prima ionizzazione del gas che stiamo adoperando.
 
 Possiamo quindi dire che nella maggior parte dei casi avviene ionizzazione e ciò è probabilmente legato al fatto che l'energia per eccitare un elettrone non può assumere qualsiasi valore ma deve assumere dei valori ben precisi\footnote{Il Leo la pensa in maniera diametralmente opposta: dice che "La ionizzazione ha una soglia di energia relativamente alta e, poiché i trasferimenti di energia a basso valore sono più probabili, le reazioni di eccitazione generalmente prevalgono.", quindi non so a chi credere.}.
 
 Gli elettroni e gli ioni creati dalla radiazione incidente stessa sono noti come ionizzazione primaria. In alcuni di questi casi di ionizzazione, tuttavia, viene trasferita una quantità di energia sufficientemente grande all'elettrone (raggi delta), tale che questo elettrone crea a sua volta coppie ione-elettrone. Quest'ultima ionizzazione è nota come ionizzazione secondaria. Se la loro energia è sufficientemente alta, gli elettroni di ionizzazione secondaria possono ionizzare ulteriormente, e così via fino a raggiungere la soglia per le reazioni di ionizzazione.
 
-\comment{Se guardiamo i meccanismi di interazione delle particelle in un gas, scopriamo in realtà non sono possibili soltanto processi di ionizzazione degli atomi e delle molecole che compongono il gas, ma è possibile anche che si verifichi un fenomeno di eccitazione. Quindi andando a guardare alle tipologie di interazioni che possono avvenire, possiamo avere o che la particella X cede una porzione della sua energia che è in grado di eccitare l'elettrone e quindi portarlo a un livello eccitato (e oppure è possibile, come abbiamo detto prima, andare a ionizzare la molecola o l'atomo del gas e quindi produrre una coppia $\text{X}^+ - e^+$. Questo . In termini di sezione d'urto possiamo dire che i processi di ionizzazione sono processi più frequenti, più probabili, perché abbiamo una sezione d'urto dell'ordine di $10^{-16}\; \rm cm^2$, in confronto ai processi di eccitazione che hanno una sezione d'urto dell'ordine di $10^{-17}\; \rm cm^2$.  Quindi, a seguito del processo di ionizzazione si producono delle particelle, in particolare elettroni e ioni, che a loro volta in determinate condizioni potrebbero innurre e nascare dei fenomeni di ionizzazioni secondarie. Quindi abbiamo sia dei prodotti diretti di prima ionizzazione sia eventualmente dei prodotti secondari. Ora vedremo in che condizioni si innescano questi processi secondari.}
+\comment{Se guardiamo i meccanismi di interazione delle particelle in un gas, scopriamo in realtà non sono possibili soltanto processi di ionizzazione degli atomi e delle molecole che compongono il gas, ma è possibile anche che si verifichi un fenomeno di eccitazione. Quindi andando a guardare alle tipologie di interazioni che possono avvenire, possiamo avere o che la particella X cede una porzione della sua energia che è in grado di eccitare l'elettrone e quindi portarlo a un livello eccitato (e oppure è possibile, come abbiamo detto prima, andare a ionizzare la molecola o l'atomo del gas e quindi produrre una coppia $\text{X}^+ - e^+$. Questo . In termini di sezione d'urto possiamo dire che i processi di ionizzazione sono processi più frequenti, più probabili, perché abbiamo una sezione d'urto dell'ordine di $10^{-16} \; \rm cm^2$, in confronto ai processi di eccitazione che hanno una sezione d'urto dell'ordine di $10^{-17} \; \rm cm^2$. Quindi, a seguito del processo di ionizzazione si producono delle particelle, in particolare elettroni e ioni, che a loro volta in determinate condizioni potrebbero innurre e nascare dei fenomeni di ionizzazioni secondarie. Quindi abbiamo sia dei prodotti diretti di prima ionizzazione sia eventualmente dei prodotti secondari. Ora vedremo in che condizioni si innescano questi processi secondari.}
 
 \subsection{W-values}
 Ci chiediamo adesso quante coppie di ioni ed elettroni si formano. Siamo particolarmente interessati a questa informazione perché il numero di coppie ci potrebbe dare un'informazione sull'energia depositata.
@@ -160,7 +160,7 @@ In questa tabella possiamo vedere, per diverse tipologie di gas, i valori del po
    \end{center}
 \end{minipage}
 \begin{minipage}{0.75\textwidth}
-   L'energia media per creare una coppia $W$ è quella che ci permette di stimare quante coppie elettrone-ione si formano all'interno di un gas. Il valore di $W$ dipende dal tipo di gas, ad esempio nella tabella a fianco possiamo vedere i valori per dei gas nobili, in quanto spesso nei rivelatori a gas si utilizzano gas nobili, ma si utilizzano tante volte anche delle miscele come il $\rm P10$, che è una composizione di argon al 90\% e di metano ($\rm CH_4$) al 10\%.
+   \vspace{0.1cm}L'energia media per creare una coppia $W$ è quella che ci permette di stimare quante coppie elettrone-ione si formano all'interno di un gas. Il valore di $W$ dipende dal tipo di gas, ad esempio nella tabella a fianco possiamo vedere i valori per dei gas nobili, in quanto spesso nei rivelatori a gas si utilizzano gas nobili, ma si utilizzano tante volte anche delle miscele come il $\rm P10$, che è una composizione di argon al 90\% e di metano ($\rm CH_4$) al 10\%.
 \end{minipage}
 
 \vspace{0.4cm}
@@ -982,7 +982,7 @@ Le camere a fili possono essere migliorate. Un esempio sono le Drift Chambers, n
    \centering
    \includegraphics[width=0.65\textwidth]{immagini/drift_chambers.png}
 \end{figure}
-La situazione è rappresentata schematicamente nella figura sopra: una particella entra nella camera, produce la ionizzazione e quindi gli elettroni, i quali cominciano a migrare per poi arrivare all'anodo, dando luogo a un segnale che funge da start. La particella tuttavia prosegue, incontra un altro rivelatore che produce un segnale e questo rappresenta lo stop. Il modulo indicato in figura con "TDC" (che prende il nome di Time to Digital Converter, come vedremo in dettaglio nel capitolo \ref{chap:elettronica}) non fa altro che misurare la differenza di tempo tra il segnale di start e quello di stop. \E chiaro che il segnale di start cambia a seconda di quanto tempo impiegano gli elettroni ad arrivare all'anodo, quindi questo sistema permette di stabilire la distanza dall'anodo, permettendoci di avere una risoluzione spaziale migliore rispetto a quella che abbiamo con le camera fili tradizionali.
+La situazione è rappresentata schematicamente nella figura sopra: una particella entra nella camera, produce la ionizzazione e quindi gli elettroni, i quali cominciano a migrare per poi arrivare all'anodo, dando luogo a un segnale che funge da start. La particella tuttavia prosegue, incontra un altro rivelatore che produce un segnale e questo rappresenta lo stop. Il modulo indicato in figura con "TDC" (che prende il nome di Time to Digital Converter, come vedremo in dettaglio nel capitolo \ref{chap:modulistica_elettronica}) non fa altro che misurare la differenza di tempo tra il segnale di start e quello di stop. \E chiaro che il segnale di start cambia a seconda di quanto tempo impiegano gli elettroni ad arrivare all'anodo, quindi questo sistema permette di stabilire la distanza dall'anodo, permettendoci di avere una risoluzione spaziale migliore rispetto a quella che abbiamo con le camera fili tradizionali.
 
 Lo svantaggio di tale sistema è che si complica sia il rivelatore, perché dobbiamo avere dei rivelatori esterni di riferimento, sia l'elettronica, in quanto dobbiamo misurare tempi abbastanza piccoli, che è un'operazione non banale.
 

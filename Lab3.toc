@@ -1,6 +1,6 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
-\contentsline {part}{I\hspace {1em}Interazione radiazione-materia}{9}{part.1}%
+\contentsline {part}{I\hspace {1em}Interazione radiazione-materia}{10}{part.1}%
 \contentsline {chapter}{\numberline {1}Sorgenti di radiazione}{11}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Tipi di radiazione}{11}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Radiazioni ionizzanti}{11}{subsection.1.1.1}%
@@ -25,9 +25,9 @@
 \contentsline {subsection}{\numberline {1.10.2}Concetto di dose}{25}{subsection.1.10.2}%
 \contentsline {subsection}{\numberline {1.10.3}Concetto di dose equivalente}{25}{subsection.1.10.3}%
 \contentsline {subsection}{\numberline {1.10.4}Dosi tipiche}{25}{subsection.1.10.4}%
-\contentsline {subsubsection}{Sorgenti naturali}{25}{section*.21}%
-\contentsline {subsubsection}{Sorgenti artificiali}{26}{section*.22}%
-\contentsline {subsubsection}{Trivia: il caso della banana}{26}{section*.23}%
+\contentsline {subsubsection}{Sorgenti naturali}{25}{section*.22}%
+\contentsline {subsubsection}{Sorgenti artificiali}{26}{section*.23}%
+\contentsline {subsubsection}{Trivia: il caso della banana}{26}{section*.24}%
 \contentsline {chapter}{\numberline {2}Perdita di energia per particelle cariche pesanti}{27}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Principali meccanismi}{27}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Interazione coulombiana (inelastica) con gli elettroni atomici}{27}{subsection.2.1.1}%
@@ -69,7 +69,7 @@
 \contentsline {subsection}{\numberline {4.2.3}Numero di particelle in uno sciame e.m.}{72}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Sviluppo longitudinale di uno sciame e.m.}{73}{subsection.4.2.4}%
 \contentsline {subsection}{\numberline {4.2.5}Sviluppo laterale di uno sciame e.m.}{74}{subsection.4.2.5}%
-\contentsline {part}{II\hspace {1em}Rivelatori di particelle}{77}{part.2}%
+\contentsline {part}{II\hspace {1em}Rivelatori di particelle}{78}{part.2}%
 \contentsline {chapter}{\numberline {5}Proprietà generali dei rivelatori}{79}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Che cos'è un rivelatore}{79}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Modi di operazione}{80}{section.5.2}%
@@ -93,7 +93,7 @@
 \contentsline {chapter}{\numberline {6}Rivelatori a gas}{105}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Principio di funzionamento}{105}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Ionizzazione}{106}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Meccanismi di ionizzazione}{106}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.1}Meccanismi di interazione}{106}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}W-values}{107}{subsection.6.2.2}%
 \contentsline {subsection}{\numberline {6.2.3}Fluttuazioni e risoluzione}{110}{subsection.6.2.3}%
 \contentsline {section}{\numberline {6.3}Fenomeni di trasporto nei gas}{111}{section.6.3}%
@@ -164,45 +164,58 @@
 \contentsline {subsection}{\numberline {8.3.7}Confronto tra fotosensori}{183}{subsection.8.3.7}%
 \contentsline {section}{\numberline {8.4}L'occhio umano}{183}{section.8.4}%
 \contentsline {chapter}{\numberline {9}Rivelatori a semiconduttore}{185}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Semiconduttori puri}{185}{section.9.1}%
+\contentsline {section}{\numberline {9.1}Una breve introduzione}{185}{section.9.1}%
 \contentsline {subsection}{\numberline {9.1.1}Vantaggi e svantaggi}{185}{subsection.9.1.1}%
-\contentsline {subsection}{\numberline {9.1.2}Banda di valenza e banda di conduzione}{187}{subsection.9.1.2}%
-\contentsline {subsection}{\numberline {9.1.3}Creazione di coppie}{188}{subsection.9.1.3}%
-\contentsline {subsection}{\numberline {9.1.4}Mobilità}{189}{subsection.9.1.4}%
-\contentsline {subsection}{\numberline {9.1.5}Ricombinazione e trapping}{190}{subsection.9.1.5}%
-\contentsline {section}{\numberline {9.2}Semiconduttori drogati}{191}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}Semiconduttori di tipo n}{192}{subsection.9.2.1}%
-\contentsline {subsection}{\numberline {9.2.2}Semiconduttori di tipo p}{192}{subsection.9.2.2}%
-\contentsline {subsection}{\numberline {9.2.3}Concentrazione di elettroni e lacune}{193}{subsection.9.2.3}%
-\contentsline {subsection}{\numberline {9.2.4}Semiconduttori di tipo $\rm p+$, $\rm p-$, i (compensati)}{194}{subsection.9.2.4}%
-\contentsline {subsection}{\numberline {9.2.5}Giunzioni n-p}{194}{subsection.9.2.5}%
-\contentsline {section}{\numberline {9.3}Rivelatori a semiconduttore}{198}{section.9.3}%
-\contentsline {subsection}{\numberline {9.3.1}Rivelatori a diffusione}{199}{subsection.9.3.1}%
-\contentsline {subsection}{\numberline {9.3.2}Rivelatori a barriera superficiale (SSB)}{199}{subsection.9.3.2}%
-\contentsline {subsection}{\numberline {9.3.3}Ion-Implanted Diodes}{201}{subsection.9.3.3}%
-\contentsline {subsection}{\numberline {9.3.4}Rivelatori a deriva di litio Si(Li)}{201}{subsection.9.3.4}%
-\contentsline {subsection}{\numberline {9.3.5}Realizzazione contatti}{202}{subsection.9.3.5}%
-\contentsline {section}{\numberline {9.4}Caratteristiche dei rivelatori a semiconduttore}{202}{section.9.4}%
-\contentsline {subsection}{\numberline {9.4.1}Linearità}{202}{subsection.9.4.1}%
-\contentsline {subsection}{\numberline {9.4.2}Risoluzione in energia}{203}{subsection.9.4.2}%
-\contentsline {subsection}{\numberline {9.4.3}Sensibilità ed efficienza intrinseca}{205}{subsection.9.4.3}%
-\contentsline {subsection}{\numberline {9.4.4}Densità}{205}{subsection.9.4.4}%
-\contentsline {subsection}{\numberline {9.4.5}Tempo di risposta}{206}{subsection.9.4.5}%
-\contentsline {subsection}{\numberline {9.4.6}Danneggiamento da radiazione}{206}{subsection.9.4.6}%
-\contentsline {section}{\numberline {9.5}Tipologie moderne di rivelatori al silicio}{207}{section.9.5}%
-\contentsline {subsection}{\numberline {9.5.1}Rivelatori a strip}{207}{subsection.9.5.1}%
-\contentsline {subsection}{\numberline {9.5.2}Rivelatori a drift}{209}{subsection.9.5.2}%
-\contentsline {subsection}{\numberline {9.5.3}CCD (Charged-Coupled-Device)}{209}{subsection.9.5.3}%
-\contentsline {subsection}{\numberline {9.5.4}Rivelatori a pixel}{210}{subsection.9.5.4}%
-\contentsline {part}{III\hspace {1em}Elementi di elettronica}{215}{part.3}%
-\contentsline {chapter}{\numberline {10}Segnali dai rivelatori ed elettronica associata}{217}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Rivelatori visuali}{217}{section.10.1}%
-\contentsline {subsection}{\numberline {10.1.1}Emulsioni nucleari}{217}{subsection.10.1.1}%
-\contentsline {subsection}{\numberline {10.1.2}Camere a nebbia}{218}{subsection.10.1.2}%
-\contentsline {subsection}{\numberline {10.1.3}La camera a bolle}{219}{subsection.10.1.3}%
-\contentsline {section}{\numberline {10.2}Rivelatori moderni}{219}{section.10.2}%
-\contentsline {subsection}{\numberline {10.2.1}Trapsorto dei segnali}{220}{subsection.10.2.1}%
-\contentsline {section}{\numberline {10.3}Segnali impulsivi}{221}{section.10.3}%
-\contentsline {subsection}{\numberline {10.3.1}Terminologia}{221}{subsection.10.3.1}%
-\contentsline {subsection}{\numberline {10.3.2}Banda passante}{224}{subsection.10.3.2}%
-\contentsline {subsection}{\numberline {10.3.3}Da segnali analogici a segnali logici}{227}{subsection.10.3.3}%
+\contentsline {section}{\numberline {9.2}Semiconduttori puri}{187}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Banda di valenza e banda di conduzione}{187}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Creazione di coppie}{188}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Mobilità}{189}{subsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.2.4}Ricombinazione e trapping}{190}{subsection.9.2.4}%
+\contentsline {section}{\numberline {9.3}Semiconduttori drogati}{191}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Semiconduttori di tipo n}{192}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}Semiconduttori di tipo p}{192}{subsection.9.3.2}%
+\contentsline {subsection}{\numberline {9.3.3}Concentrazione di elettroni e lacune}{193}{subsection.9.3.3}%
+\contentsline {subsection}{\numberline {9.3.4}Semiconduttori di tipo $\rm p+$, $\rm p-$, i (compensati)}{193}{subsection.9.3.4}%
+\contentsline {subsection}{\numberline {9.3.5}Giunzioni n-p}{194}{subsection.9.3.5}%
+\contentsline {section}{\numberline {9.4}Rivelatori a semiconduttore}{198}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Rivelatori a diffusione}{199}{subsection.9.4.1}%
+\contentsline {subsection}{\numberline {9.4.2}Rivelatori a barriera superficiale (SSB)}{199}{subsection.9.4.2}%
+\contentsline {subsection}{\numberline {9.4.3}Ion-Implanted Diodes}{201}{subsection.9.4.3}%
+\contentsline {subsection}{\numberline {9.4.4}Rivelatori a deriva di litio Si(Li)}{201}{subsection.9.4.4}%
+\contentsline {subsection}{\numberline {9.4.5}Realizzazione contatti}{202}{subsection.9.4.5}%
+\contentsline {section}{\numberline {9.5}Caratteristiche dei rivelatori a semiconduttore}{202}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}Linearità}{202}{subsection.9.5.1}%
+\contentsline {subsection}{\numberline {9.5.2}Risoluzione in energia}{203}{subsection.9.5.2}%
+\contentsline {subsection}{\numberline {9.5.3}Sensibilità ed efficienza intrinseca}{205}{subsection.9.5.3}%
+\contentsline {subsection}{\numberline {9.5.4}Densità}{205}{subsection.9.5.4}%
+\contentsline {subsection}{\numberline {9.5.5}Tempo di risposta}{206}{subsection.9.5.5}%
+\contentsline {subsection}{\numberline {9.5.6}Danneggiamento da radiazione}{206}{subsection.9.5.6}%
+\contentsline {section}{\numberline {9.6}Tipologie moderne di rivelatori al silicio}{207}{section.9.6}%
+\contentsline {subsection}{\numberline {9.6.1}Rivelatori a strip}{207}{subsection.9.6.1}%
+\contentsline {subsection}{\numberline {9.6.2}Rivelatori a drift}{209}{subsection.9.6.2}%
+\contentsline {subsection}{\numberline {9.6.3}CCD (Charged-Coupled-Device)}{209}{subsection.9.6.3}%
+\contentsline {subsection}{\numberline {9.6.4}Rivelatori a pixel}{210}{subsection.9.6.4}%
+\contentsline {part}{III\hspace {1em}Elementi di elettronica}{214}{part.3}%
+\contentsline {chapter}{\numberline {10}Segnali dai rivelatori ed elettronica associata}{215}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Rivelatori visuali}{215}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Emulsioni nucleari}{215}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Camere a nebbia}{216}{subsection.10.1.2}%
+\contentsline {subsection}{\numberline {10.1.3}La camera a bolle}{217}{subsection.10.1.3}%
+\contentsline {section}{\numberline {10.2}Rivelatori moderni}{217}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Trapsorto dei segnali}{218}{subsection.10.2.1}%
+\contentsline {section}{\numberline {10.3}Segnali impulsivi}{219}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Terminologia}{219}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Banda passante}{222}{subsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.3.3}Da segnali analogici a segnali logici}{225}{subsection.10.3.3}%
+\contentsline {subsection}{\numberline {10.3.4}Trasmissione dei segnali}{227}{subsection.10.3.4}%
+\contentsline {section}{\numberline {10.4}Cavi}{227}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}Cavi coassiali}{227}{subsection.10.4.1}%
+\contentsline {subsection}{\numberline {10.4.2}Riflessione di un cavo}{228}{subsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.4.3}Scelta del cavo}{229}{subsection.10.4.3}%
+\contentsline {subsection}{\numberline {10.4.4}I connettori}{230}{subsection.10.4.4}%
+\contentsline {section}{\numberline {10.5}Come visualizzare i segnali: l'oscilloscopio}{230}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}Oscilloscopio analogico}{230}{subsection.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.2}Banda passante}{231}{subsection.10.5.2}%
+\contentsline {subsection}{\numberline {10.5.3}Stadio di input}{232}{subsection.10.5.3}%
+\contentsline {subsection}{\numberline {10.5.4}Trigger}{232}{subsection.10.5.4}%
+\contentsline {subsection}{\numberline {10.5.5}Oscilloscopio digitale vs oscilloscopio analogico}{233}{subsection.10.5.5}%
