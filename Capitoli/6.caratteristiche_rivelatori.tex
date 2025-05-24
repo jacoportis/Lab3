@@ -178,7 +178,7 @@ Immaginiamo di avere due radiazioni (sia radiazione elettro-magnetica che partic
 \end{figure}
 Quello che si osserva non è una delta di Dirac, dunque un istogramma che si costruisce solamente su un bin, bensì vediamo che gli eventi si suddividono su diversi bin, su diversi canali, proprio a causa di questo effetto di risoluzione energetica, quindi l'energia viene ricostruita con una certa precisione rispetto al valore vero.
 
-Possiamo valutare la qualità nella ricostruzione dell'energia osservando la larghezza di questo picco. \E chiaro che più stretto è il picco, più il rivelatore sta lavorando bene in termini di misura dell'energia, cioè la misura dell'energia è più precisa. Il parametro che si valuta è la cosiddetta \textit{larghezza a metà altezza} del picco, che in inglese viene abbreviata con la sigla FWHM (Full Width Half Maximum). Questa rappresenta la larghezza del picco alla metà della sua altezza, per cui per trovarla bisogna vedere dove il picco raggiunge il valore massimo, dopodiché consideriamo la metà della sua altezza e andiamo a guardare che valori di ascisse si raggiunge in corrispondenza di questo. Questi due estremi individueranno la larghezza del picco metà altezza.
+Possiamo valutare la qualità nella ricostruzione dell'energia osservando la larghezza di questo picco. \E chiaro che più stretto è il picco, più il rivelatore sta lavorando bene in termini di misura dell'energia, cioè la misura dell'energia è più precisa. Il parametro che si valuta è la cosiddetta \textit{larghezza a metà altezza} del picco, che in inglese viene abbreviata con la sigla FWHM (Full Width at Half Maximum). Questa rappresenta la larghezza del picco alla metà della sua altezza, per cui per trovarla bisogna vedere dove il picco raggiunge il valore massimo, dopodiché consideriamo la metà della sua altezza e andiamo a guardare che valori di ascisse si raggiunge in corrispondenza di questo. Questi due estremi individueranno la larghezza del picco metà altezza.
 
 La risoluzione $R$ viene definita come la FWHM del picco divisa per il valore centrale di questo:
 \begin{equation*}
@@ -543,7 +543,7 @@ Vediamo alcuni esempi numerici, in modo da quantificare l'effetto del tempo mort
    \E chiaro che se il tempo morto è più grande, le perdite nel conteggio saranno maggiori. Guardiamo i valori ottenuti nel caso di $\tau=100 \; \rm \mu s$:
    \begin{center}
       \begin{tabular}{p{2cm}p{3cm}p{2.5cm}}
-         $R_{\rm mis}$ (Hz) & $R_{\rm vero}$ (Hz) & Perdite (\%)\\
+         $R_{\rm mis}$ [Hz] & $R_{\rm vero}$ [Hz] & Perdite (\%)\\
          10 & 10,01001 & 0,1\\
          100 & 101,0101 & 1\\
          1000 & 1111.111 & 10\\
