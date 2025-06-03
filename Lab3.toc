@@ -134,10 +134,10 @@
 \contentsline {subsection}{\numberline {7.5.2}Risposta temporale}{155}{subsection.7.5.2}%
 \contentsline {section}{\numberline {7.6}La raccolta della luce}{155}{section.7.6}%
 \contentsline {subsection}{\numberline {7.6.1}Un esercizio di simulazione}{157}{subsection.7.6.1}%
-\contentsline {subsection}{\numberline {7.6.2}Guide di luce}{160}{subsection.7.6.2}%
-\contentsline {subsection}{\numberline {7.6.3}Fibre WLS}{161}{subsection.7.6.3}%
+\contentsline {subsection}{\numberline {7.6.2}Guide di luce}{159}{subsection.7.6.2}%
+\contentsline {subsection}{\numberline {7.6.3}Fibre WLS}{160}{subsection.7.6.3}%
 \contentsline {section}{\numberline {7.7}Rivelatori basati su scintillatori}{162}{section.7.7}%
-\contentsline {subsection}{\numberline {7.7.1}Un esempio di applicazione: la PET}{163}{subsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.7.1}Un esempio di applicazione: la PET}{162}{subsection.7.7.1}%
 \contentsline {chapter}{\numberline {8}Fotosensori}{165}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Fotomoltiplicatori}{165}{section.8.1}%
 \contentsline {subsection}{\numberline {8.1.1}Schema di funzionamento}{165}{subsection.8.1.1}%
@@ -230,3 +230,7 @@
 \contentsline {subsection}{\numberline {12.2.3}Discriminatori}{239}{subsection.12.2.3}%
 \contentsline {subsection}{\numberline {12.2.4}Scale di conteggio (Scaler)}{242}{subsection.12.2.4}%
 \contentsline {subsection}{\numberline {12.2.5}Coincidenze (AND)}{243}{subsection.12.2.5}%
+\contentsline {subsection}{\numberline {12.2.6}Moduli di alimentazione}{246}{subsection.12.2.6}%
+\contentsline {subsection}{\numberline {12.2.7}Pre-amplificatori}{246}{subsection.12.2.7}%
+\contentsline {subsection}{\numberline {12.2.8}Amplificatori}{247}{subsection.12.2.8}%
+\contentsline {subsection}{\numberline {12.2.9}Sistemi di trigger}{248}{subsection.12.2.9}%
