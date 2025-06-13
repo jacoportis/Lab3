@@ -234,3 +234,6 @@
 \contentsline {subsection}{\numberline {12.2.7}Pre-amplificatori}{246}{subsection.12.2.7}%
 \contentsline {subsection}{\numberline {12.2.8}Amplificatori}{247}{subsection.12.2.8}%
 \contentsline {subsection}{\numberline {12.2.9}Sistemi di trigger}{248}{subsection.12.2.9}%
+\contentsline {subsection}{\numberline {12.2.10}Convertitore ADC (Analog to Digital Converter)}{250}{subsection.12.2.10}%
+\contentsline {subsection}{\numberline {12.2.11}Convertitore TAC (Time to Amplitude Converter)}{251}{subsection.12.2.11}%
+\contentsline {subsection}{\numberline {12.2.12}Convertitore TDC (Time to Digital Converter)}{252}{subsection.12.2.12}%
