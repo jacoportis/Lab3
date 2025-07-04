@@ -80,7 +80,7 @@ Prima di affrontare il contributo dovuto alla radiazione, cerchiamo di capire pe
 
 dove $Z$ è relativo al materiale. Tale proporzionalità è dovuta al fatto che, trattandosi di un processo di interazione tra la particella e il nucleo, se quest'ultimo ha una nuvola di elettroni questa darà un effetto di schermaggio.
 
-Ciò che è più importante però è la dipendenza dall'inverno del quadrato della massa della particella incidente, che è il motivo per cui non consideriamo tale contributo per le particelle cariche pesanti: la sezione d'urto diminuisce all'aumentare della massa.
+Ciò che è più importante però è la dipendenza dall'inverso del quadrato della massa della particella incidente, che è il motivo per cui non consideriamo tale contributo per le particelle cariche pesanti: la sezione d'urto diminuisce all'aumentare della massa.
 
 Per quantificare facciamo un confronto tra la sezione d'urto dovuta a tale processo per elettroni e muoni, i quali hanno una massa di 207 volte quella degli elettroni. A parità di energia e se consideriamo lo stesso materiale tale rapporto si riduce al rapporto tra i quadrati delle masse, che risulta valere
 
@@ -112,7 +112,7 @@ Concentriamoci ora sull'energia critica.
 \begin{minipage}{0.5\textwidth}
     \vspace{0.3cm}Siccome la sezione d'urto è complessa, non è facile avere una formula teorica per calcolare l'energia critica, per cui si fanno diverse parametrizzazioni.
     
-    Nel grafico è riportato il valore di energia critica espresso in MeV e in funzione di $Z$, quindi man mano passiamo da elementi più leggeri a elementi più pesanti. Ci sono due parametrizzazioni: una per i solidi e una per il gas.
+    Nel grafico è riportato il valore di energia critica espresso in MeV e in funzione di $Z$, quindi man mano passiamo da elementi più leggeri a elementi più pesanti. Ci sono due parametrizzazioni: una per i solidi e una per i gas.
 \end{minipage}
 
 \vspace{0.3cm}In base al valore di energia critica possiamo capire se bisogna tenere conto del contributo radiativo oppure no. Ad esempio, in laboratorio, per studiare la perdita di energia degli elettroni attraverso spessori di vari materiali come ad esempio l'alluminio, adoperiamo delle sorgenti $\beta$ di stronzio e ittrio poco energetiche, che hanno un endpoint dello spettro intorno a $2.3$ MeV; dal grafico però si evince che l'energia critica per l'alluminio ($Z=13$) è di circa 40 MeV, per cui la perdita di energia è imputabile totalmente al processo collisionale.
@@ -370,7 +370,7 @@ La lunghezza di radiazione di un materiale si può definire come:
 
 \begin{itemize}[leftmargin=0.5cm]
     \item la distanza media entro cui un elettrone ad alta energia riduce la sua energia ad $1/e$ del valore iniziale mediante processi di radiazione (bremsstrahlung). Da tale definizione capiamo che più il materiale assorbe l'energia dell'elettrone, più la lunghezza di radiazione è piccola;
-    \item $7/9$ del libero cammino medio per produzione di coppie da parte di un fotone di alta energia. Ricordiamo che i fotoni interagiscono con la materia attraverso tre meccanismi principali: effetto fotoelettrico, effetto Compton e la produzione di coppie elettrone-positrone. In particolare quest'ultimo effetto avviene ad alte energie.
+    \item $7/9$ del libero cammino medio per produzione di coppie\footnote{Con "produzione di coppie" si fa riferimento alle coppie elettrone--positrone che vengono generate dai fotoni ad alta energia quando questi interagiscono con il campo elettrico nucleare.} da parte di un fotone di alta energia. Ricordiamo che i fotoni interagiscono con la materia attraverso tre meccanismi principali: effetto fotoelettrico, effetto Compton e la produzione di coppie elettrone-positrone. In particolare quest'ultimo effetto avviene ad alte energie.
 \end{itemize}
 
 Tale grandezza esprime quindi quali sono le capacità di elettroni e fotoni ad alta energia di interagire con la materia. Essa è particolarmente importante per lo studio dei processi elettromagnetici in un materiale e si può valutare con formule semi-empiriche che dipendono da $A$ e $Z$ del materiale:
@@ -379,15 +379,13 @@ Tale grandezza esprime quindi quali sono le capacità di elettroni e fotoni ad a
     L_r=\frac{716.4 \; A}{Z(Z+1)\ln \bigl( 287/\sqrt{Z} \bigr)}
 \end{equation*}
 
-Essendo una lunghezza, si esprimerà in metri o, in termini di unità di densità superficiale, come $\rm g/cm^2$.
-
-Vediamo dei valori tipici per alcuni materiali:
+Essendo una lunghezza, si esprimerà in metri o, in termini di unità di densità superficiale, come $\rm g/cm^2$. Vediamo dei valori tipici per alcuni materiali:
 
 \begin{center}
     \begin{tabular}{|l|c|c|c|}
       \hline
       Materiale & Energia critica & Lunghezza di & Densità $\times$ lunghezza di\\
-      & $E_c$ (MeV) & radiazione $L_r$ (m) & radiazione $\rho L_r$ $(\rm kg \cdot m^{-2})$\\
+      & $E_c$ [MeV] & radiazione $L_r$ [m] & radiazione $\rho L_r$ $[\rm kg \cdot m^{-2}]$\\
       \hline
       Aria & 102 & 300 & 362\\
       \hline

@@ -128,7 +128,7 @@
 \contentsline {subsection}{\numberline {7.3.2}Emissione e assorbimento}{148}{subsection.7.3.2}%
 \contentsline {section}{\numberline {7.4}Scintillatori inorganici}{149}{section.7.4}%
 \contentsline {subsection}{\numberline {7.4.1}Meccanismo di scintillazione nei cristalli inorganici}{149}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Vantaggi degli scintillatori inorganici rispetto a quelli inorganici}{151}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.2}Vantaggi degli scintillatori organici rispetto a quelli inorganici}{151}{subsection.7.4.2}%
 \contentsline {section}{\numberline {7.5}Risposta in luce}{153}{section.7.5}%
 \contentsline {subsection}{\numberline {7.5.1}Relazione di Birks}{154}{subsection.7.5.1}%
 \contentsline {subsection}{\numberline {7.5.2}Risposta temporale}{155}{subsection.7.5.2}%

@@ -132,13 +132,13 @@ Vediamo che tipo di informazioni si possono estrarre da uno spettro:
 
 \begin{itemize}[leftmargin=0.5cm]
    \item Potremmo essere interessati a sapere quanti segnali sono arrivati complessivamente nel tempo di misura, in modo da valutare quante particelle siamo riusciti a misurare. Ovviamente questo numero è legato all'attività della sorgente, quindi più questa è attiva, maggiore sarà il numero di eventi che riusciamo ad accumulare in un dato intervallo di tempo, e questo si può valutare realizzando l'integrale dello spettro, quindi sommando sostanzialmente quanti eventi si trovano in ciascuno dei bin dell'istogramma;
-   \item Potremmo essere interessati solamente a una pozione dello spettro, ad esempio potremmo voler analizzare soltanto gli eventi fotoelettrici, in modo da capire qual è la percentuale di eventi associati a tale fenomeno. Per fare ciò scegliamo degli estremi dello spettro e calcoliamo l'integrale dello spettro esteso solamente a tale regione;
+   \item Potremmo essere interessati solamente a una porzione dello spettro, ad esempio potremmo voler analizzare soltanto gli eventi fotoelettrici, in modo da capire qual è la percentuale di eventi associati a tale fenomeno. Per fare ciò scegliamo degli estremi dello spettro e calcoliamo l'integrale dello spettro esteso solamente a tale regione;
    \item In base alla forma dello spettro possiamo individuare diverse regioni relative a particolari fenomeni, come nel caso della spalla Compton o del picco fotoelettrico. Inoltre possiamo andare a guardare il valore massimo delle ampiezze, quindi qual è la massima energia che viene misurata in questa tipologia di eventi.
 \end{itemize}
 
 \subsection{Calibrazione di uno spettro}
 
-In laboratorio, un grafico del genere viene realizzato tramite un ADC, il quale traduce l'ampiezza del segnale in un numero che varia in un intervallo che dipende dal numero di bit a disposizione. Notiamo infatti come la distribuzione dell'\esref{es:distr_ampiezze_cesio} sia espressa in termini di canali, ossia in termini del numero prodotto dall'ADC. In particolare, nell'esperienza di laboratorio in cui adoperiamo uno scintillatore per misurare i $\gamma$ avremo a disposizione un ADC a 11 bit, il che vuol dire $2048$ numeri (da $0$ a $2047$). Nasce quindi la necessità di capire a che valore di energia corrisponde ciascun canale, e per fare ciò bisogna effettuare una calibrazione.
+In laboratorio, un grafico del genere viene realizzato tramite un ADC (Analog to Digital Converter), il quale traduce l'ampiezza del segnale in un numero che varia in un intervallo che dipende dal numero di bit a disposizione. Notiamo infatti come la distribuzione dell'\esref{es:distr_ampiezze_cesio} sia espressa in termini di canali, ossia in termini del numero prodotto dall'ADC. In particolare, nell'esperienza di laboratorio in cui adoperiamo uno scintillatore per misurare i $\gamma$ avremo a disposizione un ADC a 11 bit, il che vuol dire $2048$ numeri (da $0$ a $2047$). Nasce quindi la necessità di capire a che valore di energia corrisponde ciascun canale, e per fare ciò bisogna effettuare una calibrazione.
 
 Per fare una calibrazione bisogna saper associare ciascun canale ad un valore di energia, quindi si utilizzano delle sorgenti note di cui conosciamo i valori di energia. Possiamo utilizzarne anche solamente due, come il cesio-137 che emette a 662 keV e il cobalto-60 che invece emette due $\gamma$ a due energie diverse, uno a 1117 keV e l'altro 1332 keV. La vicinanza di questi due valori fa sì che i due picchi fotoelettrici siano parzialmente sovrapposti, ma ciò è irrilevante in quanto ci interessa la possibilità di individuare il centroide del picco e di associarlo alla corretta energia.
 \begin{figure}[H]
@@ -250,7 +250,7 @@ Se $F=1$, la varianza è la stessa di quella per una distribuzione di Poisson e 
       \begin{equation*}
          \ce{^7Li + ^3 He -> {\alpha} + ^6Li}
       \end{equation*}
-      misurate com un rivelatore di silicio.
+      misurate con un rivelatore di silicio.
    
       Il picco indicato con $B$ ha larghezza a metà altezza pari 150 keV ed ha il suo centroide in corrispondenza di 10.9 MeV. La risoluzione risulta essere
       \begin{equation*}
@@ -509,7 +509,7 @@ Sia $R_{\rm mis}$ il rate misurato, cioè la frequenza dei conteggi misurati, $R
       R_{\rm vero}=\frac{R_{\rm mis}}{1 - R_{\rm mis} \tau}
    \end{equation*}
    Attraverso questa, conoscendo il tempo morto e avendo misurato una certa frequenza di conteggio, possiamo calcolare il rate vero. Chiaramente, man mano che aumenta il tempo morto, $R_{\rm vero}$ e $R_{\rm mis}$ si discosteranno sempre più;
-   \item nel caso di un rivelatore paralizzabile la relazione è più complessa, ed è la seguente:
+   \item Nel caso di un rivelatore paralizzabile la relazione è più complessa, ed è la seguente:
    \begin{equation*}
       R_{\rm mis}=R_{\rm vero}e^{-R_{\rm vero} \tau}
    \end{equation*}
@@ -618,7 +618,7 @@ Oltre ad informazioni su energia e tempo di volo, a seconda della tipologia di r
 
 In generale, per avere accesso a tutte le informazioni, poiché è impossibile che un unico rivelatore fornisca tutte le informazioni si adoperano grandi sistemi di rivelazione, costituiti da diversi sotto-rivelatori che sfruttano tecnologiche diverse. I grandi rivelatori per la fisica nucleare/particellare comprendono diverse componenti (sotto-rivelatori) per il tracciamento e l'identificazione delle numerose (anche decine di migliaia) particelle prodotte in una singola collisione.
 
-Ad esempio, quando si esplorano regimi di energia molto elevati come le collisioni tra fasci di particelle a energia molto elevata, quello che succede è che da queste collisioni vengono emesse tantissime particelle e di conseguenza i rivelatori che bisogna adoperare sono estremamente complessi, in quanto devono essere in grado di misurare tutte le particelle emesse dal punto di interazione, e in tal caso è necessario una geometria a $4\pi$ che normalmente viene assicurata con geometrie cilindriche che avvolgono il punto di interazione più degli end-tap, cioè dei rivelatori che vanno a fare da ``tappo" alle estremità. Quindi non serve solo un'efficienza il più possibile prossima 100\%, ma anche delle tecnologie che permettono di capire le diverse tipologie di particelle che sono state prodotte per andare a studiare diversi segnali. 
+Ad esempio, quando si esplorano regimi di energia molto elevati come le collisioni tra fasci di particelle a energia molto elevata, quello che succede è che da queste collisioni vengono emesse tantissime particelle e di conseguenza i rivelatori che bisogna adoperare sono estremamente complessi, in quanto devono essere in grado di misurare tutte le particelle emesse dal punto di interazione, e in tal caso è necessario una geometria a $4\pi$ che normalmente viene assicurata con geometrie cilindriche che avvolgono il punto di interazione più degli end-tap, cioè dei rivelatori che vanno a fare da ``tappo" alle estremità. Quindi non serve solo un'efficienza il più possibile prossima al 100\%, ma anche delle tecnologie che permettono di capire le diverse tipologie di particelle che sono state prodotte per andare a studiare diversi segnali. 
 
 Come questi sistemi di rivelazione effettuano queste operazioni è un punto abbastanza complesso, in quanto essi devono saper ricostruire le tracce delle particelle, quindi alcuni di questi devono essere dei rivelatori di tracciamento, cioè in grado di andare a visualizzare in qualche modo il passaggio delle particelle e andare a tracciare delle linee che rappresentano il percorso seguito da diverse particelle;inoltre essi devono essere in grado di identificare le particelle oppure essere in grado di rivelare fotoni di alta energia.
 
