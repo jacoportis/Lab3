@@ -32,7 +32,7 @@
 \contentsline {section}{\numberline {2.1}Principali meccanismi}{27}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Interazione coulombiana (inelastica) con gli elettroni atomici}{27}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Interazione (elastica) con i nuclei}{28}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Relazione di Bethe-Bloch}{29}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Relazione di Bethe--Bloch}{29}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Perdita di energia per composti}{32}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Picco di Bragg}{33}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Fluttuazioni statistiche nella perdita di energia}{34}{section.2.3}%

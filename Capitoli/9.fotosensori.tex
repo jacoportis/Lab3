@@ -122,7 +122,7 @@ dove $K$ è una costante di proporzionalità. Possiamo allora riscrivere il guad
 \end{equation*}
 dove $n$ è il numero di dinodi. In definitiva il guadagno dipende dalla tensione tramite una legge di potenza, da cui segue che basta anche una leggera variazione nella tensione di lavoro per avere una variazione nel guadagno notevole. Ecco perché gli alimentatori che si adoperano per alimentare i fotomoltiplicatori devono essere degli alimentatori abbastanza stabili, che mantengono il valore di tensione il più stabile possibile.
 
-\vspace{0.2cm}Cerchiamo adesso di capire quanto varia il guadagno quando variamo la tensione di 1 V. Questa variazione, che normalmente si esprime in termini percentuali, prende il nome di coefficiente di guadagno ed è qualcosa che misuriamo in laboratorio. Infatti misurare il guadagno del fotomoltiplicatore non è un'operazione facile, perché per misurarlo dovremmo lavorare in condizioni di singolo fotoelettrone, quindi dovremmo metterci nelle condizioni di far produrre al fotocatodo un solo elettrone e vedere cosa si ottiene all'anodo, la quale non è un'operazione semplice. Ciò che invece possiamo fare è studiare l'andamento del guadagno in funzione della tensione e quindi valutare queste variazioni percentuali del guadagno al variare della tensione. Questa seconda operazione è quella che svolgiamo in laboratorio, ossia effettuiamo delle misure con un fotomoltiplicatore aumentando di volta in volta la tensione, esplorando un certo intervallo di tensioni e andando a cercare di capire quanto cambia il segnale in uscita. Infatti aumentando la tensione aumenta il guadagno, quindi aumenta il numero di elettroni che arrivano all'anodo e pertanto il segnale aumenterà in ampiezza, quindi possiamo studiare di quanto aumenta o diminuisce il segnale quando cambiamo la tensione di un certo valore. Possiamo allora studiare la derivata dell'ampiezza del segnale in funzione della tensione e valutare il coefficiente di guadagno, che sarà dato dalla rivelazione
+\vspace{0.2cm}Cerchiamo adesso di capire quanto varia il guadagno quando variamo la tensione di 1 V. Questa variazione, che normalmente si esprime in termini percentuali, prende il nome di coefficiente di guadagno ed è qualcosa che misuriamo in laboratorio. Infatti misurare il guadagno del fotomoltiplicatore non è un'operazione facile, perché per misurarlo dovremmo lavorare in condizioni di singolo fotoelettrone, quindi dovremmo metterci nelle condizioni di far produrre al fotocatodo un solo elettrone e vedere cosa si ottiene all'anodo, la quale non è un'operazione semplice. Ciò che invece possiamo fare è studiare l'andamento del guadagno in funzione della tensione e quindi valutare queste variazioni percentuali del guadagno al variare della tensione. Questa seconda operazione è quella che svolgiamo in laboratorio, ossia effettuiamo delle misure con un fotomoltiplicatore aumentando di volta in volta la tensione, esplorando un certo intervallo di tensioni e andando a cercare di capire quanto cambia il segnale in uscita. Infatti aumentando la tensione aumenta il guadagno, quindi aumenta il numero di elettroni che arrivano all'anodo e pertanto il segnale aumenterà in ampiezza, quindi possiamo studiare di quanto aumenta o diminuisce il segnale quando cambiamo la tensione di un certo valore. Possiamo allora studiare la derivata dell'ampiezza del segnale in funzione della tensione e valutare il coefficiente di guadagno, che sarà dato dalla relazione
 \begin{equation*}
    \frac{1}{G}\dv{G}{V}
 \end{equation*}
@@ -229,7 +229,7 @@ Andiamo a guardare alcune caratteristiche di un APD.
 
 \begin{itemize}[leftmargin=0.5cm]
    \item Abbiamo uno strato anti-riflesso in superficie, grazie al quale abbiamo un'elevata efficienza di rivelazione perché la maggior parte dei fotoni che incide riesce effettivamente a essere rivelata;
-   \item La tensione di alimentazione è di alcune centinaia di Volt, però i guadagni non sono elevatissime, dell'ordine di $50-100$;
+   \item La tensione di alimentazione è di alcune centinaia di Volt, però i guadagni non sono elevatissimi, dell'ordine di $50-100$;
    \item Come tutti i rivelatori a semiconduttore, purtroppo hanno una dipendenza dalla temperatura, quindi variare la temperatura di lavoro comporta delle variazioni nel segnale in uscita, avendo anche qualche \% di variazione per ogni grado di temperatura, quindi è importante lavorare ad una temperatura stabile, e ciò in generale vale per tutti i rivelatori a semiconduttore;
    \item Sono particolarmente adatti per convertire la luce proveniente o da Fibre WLS perché queste hanno sezioni piccole, o da piccoli scintillatori, in quanto è chiaro che uno scintillatore di dimensioni grandi non può essere accoppiato con un singolo APD non avendo una superficie sufficiente ad assicurare la rivelazione dei fotoni di scintillazione;
    \item Hanno delle proprietà temporali di timing abbastanza buone;
@@ -256,15 +256,17 @@ Vediamo che vantaggi ha:
    \item Ha una risoluzione temporale molto buona ($\ll 1 \; \rm ns$);
    \item \E indipendente dal campo magnetico.
 \end{itemize}
-Tuttavia ancora si deve lavorare un po' sulle dimensioni le quali sono ancora piccole e sul dark count rate, cioè quel rumore che è sempre presente nei fotosensori anche in assenza di radiazione, che in questo caso può essere anche molto elevato (100 kHz 1 MHz/mm 2), dipende dal produttore.
+Tuttavia ancora si deve lavorare un po' sulle dimensioni le quali sono ancora piccole e sul dark count rate, cioè quel rumore che è sempre presente nei fotosensori anche in assenza di radiazione, che in questo caso può essere anche molto elevato (tra $\rm 100 \; kHz/mm^2$ e $\rm 1 \; MHz/mm^2$), dipende dal produttore.
 
 \subsection{Analisi del segnale}
 Come abbiamo detto le celle lavorano in parallelo, pertanto se guardiamo all'oscilloscopio un tipico segnale prodotto da un SiPM messo in persistenza\footnote{Mettere in persistenza un segnale significa non fare aggiornare il display dell'oscilloscopio, facendo accumulare tutti i segnali che vi arrivano nel tempo, quindi quello che è stato visualizzato non si cancella ma rimane nello schermo e il nuovo segnale viene sovrapposto a quello che abbiamo visto prima.} osserveremo una distribuzione dei segnali come quella in figura:
+
 \begin{figure}[H]
    \centering
-   \includegraphics[width=0.6\textwidth]{immagini/segnale_persistenza_SiPM.png}
+   \includegraphics[width=0.58\textwidth]{immagini/segnale_persistenza_SiPM.png}
 \end{figure}
-Quelli che vediamo sono segnali che non hanno ampiezza qualunque, bensì hanno ampiezze quantizzate, ossia assumono dei valori discreti pari a multipli di un certo livello. I segnali che stiamo vedendo sono relativi alla rivelazione dei singoli fotoelettroni, quindi l'ampiezza del segnale è proporzionale al numero di fotoelettroni emessi, dunque al numero di celle colpite (ricordiamo che stiamo supponendo che incida un fotone per cella). Ecco perché avviene questa discretizzazione del segnale, perché ogni cella lavora come se fosse un Geiger, ossia un rivelatore on/off.
+
+\vspace{-0.2cm}Quelli che vediamo sono segnali che non hanno ampiezza qualunque, bensì hanno ampiezze quantizzate, ossia assumono dei valori discreti pari a multipli di un certo livello. I segnali che stiamo vedendo sono relativi alla rivelazione dei singoli fotoelettroni, quindi l'ampiezza del segnale è proporzionale al numero di fotoelettroni emessi, dunque al numero di celle colpite (ricordiamo che stiamo supponendo che incida un fotone per cella). Ecco perché avviene questa discretizzazione del segnale, perché ogni cella lavora come se fosse un Geiger, ossia un rivelatore on/off.
 
 Se andiamo a realizzare uno spettro delle ampiezze di questi segnali, chiaramente troveremo una distribuzione a picchi, che corrisponde al fatto che le ampiezze non possono essere qualunque, ma assumono dei valori ben precisi:
 
@@ -273,7 +275,7 @@ Se andiamo a realizzare uno spettro delle ampiezze di questi segnali, chiarament
    \includegraphics[width=0.6\textwidth]{immagini/spettro_SiPM.png}
 \end{figure}
 
-Avremo quindi che il primo picco è quello corrispondente al primo fotoelettrone, il secondo picco è quello corrispondente a due fotoelettroni e così via.
+\vspace{-0.1cm}Avremo quindi che il primo picco è quello corrispondente al primo fotoelettrone, il secondo picco è quello corrispondente a due fotoelettroni e così via.
 
 \subsection{Photon Detection Efficiency (PDE)}
 Anche qui abbiamo una efficienza di rivelazione, detta photon detection efficiency e che dipende da diversi parametri:
@@ -289,7 +291,7 @@ Tale fattore dipende dal fatto che abbiamo una matrice, quindi l'area sensibile 
 
 \vspace{0.2cm}\textbf{Quantum Efficiency}
 
-L'efficienza quantica è più elevata rispetto a quella che abbiamo visto nel caso dei fotomoltiplicatori tradizionali, potendo anche assumere valori superiori all'80\%, a seconda del tipo di sensore e dalla lunghezza d'onda che andiamo a rivelare.
+L'efficienza quantica intrinseca è più elevata rispetto a quella che abbiamo visto nel caso dei fotomoltiplicatori tradizionali, potendo anche assumere valori superiori all'80\%,\footnote{L'efficienza quantica intrinseca si riferisce solo alla probabilità che un fotone assorbito generi effettivamente una coppia elettrone--lacuna (o un elettrone libero). Con essa non si considerano le perdite ottiche (ad esempio, riflessione superficiale o trasmissione attraverso il dispositivo).\comment{È una misura della qualità del materiale nel convertire energia luminosa in portatori di carica utili, una volta che il fotone è stato assorbito.}} a seconda del tipo di sensore e dalla lunghezza d'onda che andiamo a rivelare.
 
 \begin{figure}[H]
    \centering
